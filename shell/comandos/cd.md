@@ -24,7 +24,11 @@
 
 * **Função**: ir para o diretório `/home`
 
-* **Sintaxe**: `$ cd ~`
+* **Sintaxe**:
+
+  * `$ cd ~`
+
+  * `$ cd`
 
 * **Exemplo**
 
