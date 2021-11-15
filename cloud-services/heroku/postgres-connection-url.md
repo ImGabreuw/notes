@@ -1,4 +1,4 @@
-# URL de conexão do Postgres 
+# URL de conexão do Postgres fornecida pelo Heroku
 
 ### Importante
 
