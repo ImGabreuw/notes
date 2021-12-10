@@ -1,4 +1,4 @@
-# Referências sobre Clear Linux Project
+# Referências sobre a distribuição Clear Linux Project
 
 ### A Intel fez um Linux!?! (TECNOLOGIA INCRÍVEL!) - Clear Linux Project
 
