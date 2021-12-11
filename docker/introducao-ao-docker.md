@@ -1,6 +1,6 @@
 # Introdução ao Docker
 
-### Definição
+### **Definição**
 
 * Ferramenta para **facilitar o gerenciamento de containers**
 
@@ -14,11 +14,9 @@
 
   * containerd
 
-### Utilização
-
 * É necessário ter 2 objetos básicos: **imagem** e **container**
 
-### Conceitos
+### **Conceitos**
 
 * [**Imagem**](conceito-imagem.md)
 
