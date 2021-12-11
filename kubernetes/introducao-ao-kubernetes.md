@@ -2,7 +2,9 @@
 
 ![](./assets/kubernetes-aka-k8s.png)
 
-### Definição
+> ## Kubernetes
+
+### **Definição**
 
 > "Kubernetes é uma plataforma de código aberto, portável e extensiva para gerenciamento de cargas de trabalho e serviços distribuídos em containers, que facilita tanto a configuração declarativa quanto automação." - [Mantenedores](https://kubernetes.io/pt-br/docs/concepts/overview/what-is-kubernetes/)
 
@@ -12,7 +14,15 @@
 
 * É um framework de infraestrutura **para containers**, [**declarativo**](./imperativo-declarativo.md) (arquivos `.yaml`) e operado de maneira **autónoma** por meio dos *controllers*
 
-### Vantagens
+### **Objetos principais**
+
+* Pods
+
+* Services
+
+* Deployments
+
+### **Vantagens**
 
 * Economia de recursos com a capacidade de escalar a aplicação de acordo com a demanda
 
@@ -20,19 +30,53 @@
 
 * Facilidade na realização de *rollbacks*
 
-### Cluster
+* **Interface agradável para desenvolvedores**
+
+  > "É uma framework **declarativo** para **containers** operado de maneira autónoma por ***containers*** que viabiliza a **interface** entre as equipes de **desenvolvimento** e da **infraestrutura** que hospedará suas aplicações"
+
+* **Alta disponibilidade**
+
+  ![](./assets/representacao-alta-disponibilidade.png)
+
+  ![](./assets/representacao-alta-disponibilidade-agendamento.png)
+
+  ![](./assets/representacao-alta-disponibilidade-self-healing.png)
+
+  > Auto diagnóstico
+  ![](./assets/representacao-alta-disponibilidade-auto-diagnostico.png)
+
+  > Load Balancer
+  ![](./assets/representacao-alta-disponibilidade-balanceamento-interno.png)
+
+* **Escalabilidade**
+  
+  ![](./assets/escalabilidade-horizontal-pod-autoscaling.png)
+
+  ![](./assets/escalabilidade-vertical-pod-autoscaling.png)
+
+  ![](./assets/escalabilidade-cluster-auto-scaler.png)
+
+---
+
+> ## Cluster
+
+### **Definição**
 
 * É um conjunto de *nodes*
 
 * *Node* = Virtual Machine (VM) ou máquina física
 
-* **Exemplos**
+### **Exemplos**
 
-  * AWS, Azure, Google Cloud
+* AWS
 
-  * Ambientes *On-promises*
+* Azure
 
-### Cluster Kubernetes
+* Google Cloud Platform
+
+* Ambientes *On-promises* (máquinas físicas com Kubernetes)
+
+### **Cluster Kubernetes**
 
 * **Master**: responsável pelas tomadas de decisões
 
@@ -42,15 +86,9 @@
 
 * *Master* e *node(s)* se comunicam entre si
 
-### Objetos
+---
 
-* Pods
-
-* Services
-
-* Deployments
-
-### Ferramentas
+> ## Ferramentas
 
 * **Minikube**
 
