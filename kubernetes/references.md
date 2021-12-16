@@ -11,3 +11,7 @@ https://youtu.be/vqEL1MfP14U
 ### Orquestrando containers Kubernetes
 
 https://youtu.be/tlqWYH13nOg
+
+### Descomplicando o Kubernetes
+
+https://github.com/badtuxx/DescomplicandoKubernetes
