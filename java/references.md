@@ -11,3 +11,7 @@ https://thedeveloperstory.com/2021/08/02/5-superb-github-repos-that-every-java-d
 ### O que é *function currying* em Java
 
 https://techwithmaddy.com/what-is-function-currying-in-java
+
+### Java: Migrating From Java 8 to Java 17
+
+https://dzone.com/articles/java-migrating-from-java-8-to-java-17
