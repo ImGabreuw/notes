@@ -15,3 +15,7 @@ https://techwithmaddy.com/what-is-function-currying-in-java
 ### Java: Migrating From Java 8 to Java 17
 
 https://dzone.com/articles/java-migrating-from-java-8-to-java-17
+
+### SpringBoot: Standardized API Exception Handling
+
+https://medium.com/@georgeberar.contact/springboot-standardized-api-exception-handling-f31510861350
