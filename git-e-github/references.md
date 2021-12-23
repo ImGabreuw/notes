@@ -9,3 +9,7 @@ https://www.c-sharpcorner.com/article/top-15-git-commands-with-examples-for-ever
 ### AUTOMATED Release Notes - GitHub Checkout
 
 https://youtu.be/88FWrfHCIqo
+
+### 10 useful Git tips to improve your workflow
+
+https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1
