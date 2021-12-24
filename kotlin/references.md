@@ -23,3 +23,7 @@ https://youtu.be/F9UC9DY-vIU
 ### Kotlin Crash Course
 
 https://youtu.be/5flXf8nuq60
+
+### Kotlin Tutorial For Beginners [Full Course] Learn Kotlin For Android Development
+
+https://youtu.be/SXLmr4Qp4OM
