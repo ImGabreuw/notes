@@ -11,3 +11,7 @@ https://youtu.be/mOgtAWEkwXA
 ### Webinar: New Java I/O API (NIO.2) - Parte 2/2
 
 https://youtu.be/0-lvRoM5yIs
+
+### Como ler arquivo texto CSV em Java (aplicação real)
+
+https://youtu.be/xLDViuYlqGM
