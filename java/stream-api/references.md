@@ -15,3 +15,7 @@ https://youtu.be/ntC2MosmIk8
 ### Common mistakes made in Functional Java by Brian Vermeer
  
 https://youtu.be/vuFCTdywMtE
+
+### Design Patterns in the Light of Lambda Expressions. Venkat Subramaniam, Agile developer, inc.
+
+https://youtu.be/WN9kgdSVhDo
