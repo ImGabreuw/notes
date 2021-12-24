@@ -23,3 +23,7 @@ https://youtu.be/F3DF6bQo6jk
 ### 7 Things Your Mom Never Told You About Gradle
 
 https://youtu.be/5v92GbC9cqo
+
+### Building your Docker projects in Gradle with proper versioning (advanced)
+
+https://youtu.be/LGSYlOvc8ug
