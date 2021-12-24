@@ -15,3 +15,7 @@ https://youtu.be/BvXjlxJg2II
 ### How to do a Maven to Gradle migration on a Java Spring Boot project
 
 https://youtu.be/izZ5_plW6tY
+
+### Introduction to writing Gradle plugins
+
+https://youtu.be/F3DF6bQo6jk
