@@ -19,3 +19,7 @@ https://youtu.be/vuFCTdywMtE
 ### Design Patterns in the Light of Lambda Expressions. Venkat Subramaniam, Agile developer, inc.
 
 https://youtu.be/WN9kgdSVhDo
+
+### Java 8 best practices by Stephen Colebourne
+
+https://youtu.be/wOks4LW6I24
