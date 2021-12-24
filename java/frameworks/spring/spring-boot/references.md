@@ -19,3 +19,7 @@ https://youtube.com/playlist?list=PLWYE7MtUzTMriTsUbyZUY1-4eKLhMClrH
 ### SPRING FRAMEWORK
 
 https://youtube.com/playlist?list=PLZTjHbp2Y783-vNLT6v9jmRR4MPZZfhJA
+
+### Java Web Development
+
+https://youtube.com/playlist?list=PLs5n5nYB22fIVO1nSiNoUTHIbQujdHYuC
