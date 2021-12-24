@@ -11,3 +11,7 @@ https://hyperskill.org/tracks/25?utm_medium=referral&utm_source=linkedin&utm_cam
 ### Aprenda Go 🇧🇷
 
 https://youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg
+
+### GOLANG
+
+https://youtube.com/playlist?list=PLbUTdIoS5vt_zP6rcKxpKJFWGgP9UXyiO
