@@ -7,3 +7,7 @@ https://youtu.be/NcetKbGayZY
 ### Lambdas and Streams Master Class Part 1 José Paumard, Stuart Marks voxxed
 
 https://youtu.be/ePXnCezwRuw
+
+### Webinar: Expressões Lambda & Stream API
+
+https://youtu.be/ntC2MosmIk8
