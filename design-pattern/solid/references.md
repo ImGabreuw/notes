@@ -7,3 +7,7 @@ https://youtu.be/GZtmznAKXEs
 ### Será que o Design Pattern mais Popular quebra o SOLID? (Facade na Prática) // Mão no Código #42
 
 https://youtu.be/8tyNCznvgW8
+
+### SOLID Design Principles (Code Walks)
+
+https://youtube.com/playlist?list=PLrhzvIcii6GMQceffIgKCRK98yTm0oolm
