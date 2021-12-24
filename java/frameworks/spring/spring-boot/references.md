@@ -23,3 +23,7 @@ https://youtube.com/playlist?list=PLZTjHbp2Y783-vNLT6v9jmRR4MPZZfhJA
 ### Java Web Development
 
 https://youtube.com/playlist?list=PLs5n5nYB22fIVO1nSiNoUTHIbQujdHYuC
+
+### Spring Boot Essentials 2
+
+https://youtube.com/playlist?list=PL62G310vn6nFBIxp6ZwGnm8xMcGE3VA5H
