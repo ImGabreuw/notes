@@ -2,11 +2,15 @@
 
 > ## **Conteúdo**
 
+### GitHub
+
+* [Aba Issues do Github](./issues.md)
+
 ### GitHub Actions
 
-1. Heroku
+* Heroku
 
-   1.1 [Implantação de uma aplicação no Heroku](./github-actions/heroku/deploy-application-in-heroku.md)
+   * [Implantação de uma aplicação no Heroku](./github-actions/heroku/deploy-application-in-heroku.md)
 
 > ## **Referências**
 
