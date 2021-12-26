@@ -19,3 +19,7 @@ https://dzone.com/articles/java-migrating-from-java-8-to-java-17
 ### SpringBoot: Standardized API Exception Handling
 
 https://medium.com/@georgeberar.contact/springboot-standardized-api-exception-handling-f31510861350
+
+### awesome-for-beginners
+
+https://github.com/MunGell/awesome-for-beginners#java
