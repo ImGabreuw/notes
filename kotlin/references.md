@@ -27,3 +27,7 @@ https://youtu.be/5flXf8nuq60
 ### Kotlin Tutorial For Beginners [Full Course] Learn Kotlin For Android Development
 
 https://youtu.be/SXLmr4Qp4OM
+
+### awesome-for-beginners
+
+https://github.com/MunGell/awesome-for-beginners#kotlin

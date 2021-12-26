@@ -11,3 +11,7 @@ https://youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc
 ### Victor Rentea - Evolving a Clean, Pragmatic Architecture – A Software Crafter’s Guide
 
 https://youtu.be/tMHO7_RLxgQ
+
+### java-design-patterns
+
+https://github.com/iluwatar/java-design-patterns

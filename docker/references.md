@@ -11,3 +11,7 @@ https://www.cloudsavvyit.com/14578/what-are-docker-storage-drivers-and-which-sho
 ### Docker
 
 https://youtube.com/playlist?list=PLZTjHbp2Y78013IcGa-vCAcqQUwGt_MW6
+
+### awesome-compose
+
+https://github.com/docker/awesome-compose
