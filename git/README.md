@@ -4,7 +4,9 @@
 
 ### Git
 
-1. [Branches](./branches.md)
+* [Branches](./branches.md)
+
+* [Lista de comandos do Git](./comandos.md)
 
 > ## **Referências**
 
