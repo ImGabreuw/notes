@@ -1,27 +1,31 @@
-# 📝 Anotações sobre Make e Makefile
+# Make
 
-### 🧾 Índice
+> ## **Conteúdo**
 
-1. [Introdução](introducao-ao-make.md)
+### Make
 
-2. [Comando silencioso](comando-silencioso.md)
+* [Introdução](introducao-ao-make.md)
 
-3. [Sintaxe básica do arquivo Makefile](sintaxe-makefile.md)
+* [Comando silencioso](comando-silencioso.md)
 
-4. [Comandos Make](comandos.md)
+* [Sintaxe básica do arquivo Makefile](sintaxe-makefile.md)
 
-5. [Comando: `make clean`](make-clean.md)
+* [Comandos Make](comandos.md)
 
-6. [Opções de compilação do Makefile](opcoes-de-compilacao.md)
+* [Comando: `make clean`](make-clean.md)
 
-7. [Variáveis](variaveis.md)
+* [Opções de compilação do Makefile](opcoes-de-compilacao.md)
 
-8. [Máscaras](mascaras.md)
+* [Variáveis](variaveis.md)
 
-9. [Wildcard](wildcard.md)
+* [Máscaras](mascaras.md)
 
-10. [Funções: `addprefix` e `addsuffix`](funcoes-addprefix-e-addsufix.md)
+* [Wildcard](wildcard.md)
 
-11. [Estrutura condicional](estrutura-condicional.md)
+* [Funções: `addprefix` e `addsuffix`](funcoes-addprefix-e-addsufix.md)
 
-12. [Funções](funcao.md)
+* [Estrutura condicional](estrutura-condicional.md)
+
+* [Funções](funcao.md)
+
+> ## **Referências**

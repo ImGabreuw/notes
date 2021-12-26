@@ -1,15 +1,35 @@
-# 🧾 Índice
+# Kubernetes
 
-1. [**Introdução ao Kubernetes**](./introducao-ao-kubernetes.md)
+> ## **Conteúdo**
 
-2. [**Pods**](./pods.md)
+### Kubernetes
 
-3. [**Deployment**](./deployment.md)
+* [Introdução](./introducao-ao-kubernetes.md)
 
-4. **Minikube**
+* [Pods](./pods.md)
 
-    4.1 [**Comandos**](./minikube/comandos.md)
+* [Deployment](./deployment.md)
 
-5. **Kubectl**
+* [Controller](./controller.md)
 
-    5.1 [**Comandos**](./kubectl/comandos.md)
+* [Declaração imperativa e declarativa](./imperativo-declarativo.md)
+
+* [Recursos](./recursos.md)
+
+* [Papel do IT](./papel-do-it.md)
+
+### Minikube
+
+* [Introdução](./minikube/introducao.md)
+
+* [Comandos](./minikube/comandos.md)
+
+### Kubectl
+
+* [Introdução](./kubectl/introducao.md)
+
+* [**Comandos**](./kubectl/comandos.md)
+
+> ## **Referências**
+
+* [Kubernetes](./references.md)

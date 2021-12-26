@@ -1,23 +1,59 @@
 # notes
 
-### 🧾 Índice
+<p align="center">
+    <img src="./.github/icon.webp" width="80%">
+</p>
 
-1. [**Docker**](./docker/README.md)
-    
-2. [**Go**](./go/README.md)
+> ## **Conteúdo**
 
-3. **Java**
+* [Android](./android/README.md)
 
-    3.1 [**Spring**](./java/spring/README.md)
+* [Carreira](./career/README.md)
 
-4. [**Kotlin**](./kotlin/README.md)
+* [Banco de dados](./database/README.md)
 
-    4.1 [**Android**](./kotlin/android/README.md)
+* [Serviços de implantação](./deployment-services/README.md)
 
-5. [**Kubernetes**](./kubernetes/README.md)
+* [Padrões de projeto](./design-pattern/README.md)
 
-6. [**linux**](./linux/README.md)
+* [DevOps](./devops/README.md)
 
-7. [**Python**](./python/README.md)
+* [Docker](./docker/README.md)
 
-8. [**UML**](./uml/diagrama-de-classes.md)
+* [Git](./git/README.md)
+
+* [GitHub](./gitHub/README.md)
+
+* [Go](./go/README.md)
+
+* [Gradle](./gradle/README.md)
+
+* [Java](./java/README.md)
+
+* [JavaScript](./javaScript/README.md)
+
+* [Kotlin](./kotlin/README.md)
+
+* [Kubernetes](./kubernetes/README.md)
+
+* [Linux](./linux/README.md)
+
+* [Make](./make/README.md)
+
+* [Maven](./maven/README.md)
+
+* [Protocolos](./protocols/README.md)
+
+* [Python](./python/README.md)
+
+* [Rabbit MQ](./rabbit-mq/README.md)
+
+* [Shell](./shell/README.md)
+
+* [Arquitetura de software](./software-architecture/README.md)
+
+* [Ferramentas](./tools/README.md)
+
+* [Diagrama UML](./uml-diagram/README.md)
+
+* [Web 3.0](./web-3/README.md)

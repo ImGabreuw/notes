@@ -1,32 +1,43 @@
-# 🧾 Índice
+# Kotlin
 
-1. [Introdução ao Kotlin](./introducao-ao-kotlin.md)
+> ## **Conteúdo**
 
-2. [Tipos de dados](./tipos-de-dados.md)
+### Kotlin
 
-3. [Variáveis](./variaveis.md)
+* [Introdução](./introducao.md)
 
-4. [Operações aritméticas](./operadores-aritmeticos.md)
+* [Tipos de dados](./tipos-de-dados.md)
 
-5. [Null safety](./null-safety.md)
+* [Variáveis](./variaveis.md)
 
-6. [Operadores comparativos](./operadores-comparativos.md)
+* [Operadores aritméticos](./operadores-aritmeticos.md)
 
-7. [Operadores lógicas](./operadores-logicos.md)
+* [Ordem de precedência dos operadores aritméticos](./odem-de-precedencia-operadores-aritmeticos.md)
 
-8. [Operador in e range](./ranges-e-progressoes.md)
+* [Operações de incremento e decremento](./operacoes-incremento-e-decremento.md)
 
-9. [Manipulação de Strings](./manipulacao-de-strings.md)
+* [Null safety](./null-safety.md)
 
-10. [Empty VS Blank](./empty-vs-blank.md)
+* [Operadores comparativos](./operadores-comparativos.md)
 
-11. [Funções](./funcoes.md)
+* [Operadores lógicas](./operadores-logicos.md)
 
-12. [Estrutura de controle](./estrutura-de-controle.md)
+* [Operador "in" e "range"](./ranges-e-progressoes.md)
 
-13. [Estrutura de repetição](./estrutura-de-repeticao.md)
+* [Manipulação de Strings](./manipulacao-de-strings.md)
 
-14. [Classes](./classes.md)
+* [Empty VS Blank](./empty-vs-blank.md)
 
-    14.1 [Data classes](./classes-e-objetos/classes.md)
+* [Funções](./funcoes.md)
 
+* [Estrutura de controle](./estrutura-de-controle.md)
+
+* [Estrutura de repetição](./estrutura-de-repeticao.md)
+
+* [Classes](./poo/classes.md)
+
+* [Data classes](./poo/data-classes.md)
+
+> ## **Referências**
+
+* [Kotlin](./references.md)

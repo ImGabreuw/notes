@@ -1,4 +1,8 @@
-# 🧾 Índice
+# Docker
+
+> ## **Conteúdo**
+
+### Docker
 
 1. [Introdução ao Docker](./introducao-ao-docker.md)
 
@@ -16,4 +20,14 @@
 
 8. [Docker registry](conceitos-docker-registry.md)
 
-9.  [Comandos](./comandos.md)
+9. [Comandos](./comandos.md)
+
+10. [Boas práticas no Dockerfile](./good-practice/boas-praticas-dockerfile.md)
+
+> ## **Referências**
+
+* [Docker](./references.md)
+
+* [Boas práticas](./good-practice/references.md)
+
+* [Java](./java/references.md)

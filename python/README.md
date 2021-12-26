@@ -1,9 +1,15 @@
-# 🧾 Índice
+# Python
 
-1. [Introdução ao Python](./introducao.md)
+> ## **Conteúdo**
+
+### **Python**
+
+* [Introdução](./introducao.md)
     
-2. [Python no terminal](./python-no-terminal.md)
+* [Python no terminal](./python-no-terminal.md)
 
-3. [Sintaxe básico](./sintaxe-basica.md)
+* [Sintaxe básico](./sintaxe-basica.md)
 
-4. [Manipulação de Strings](./manipulacao-de-strings.md)
+* [Manipulação de Strings](./manipulacao-de-strings.md)
+
+> ## **Referências**

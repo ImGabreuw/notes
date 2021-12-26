@@ -1,4 +1,8 @@
-# 🧾 Índice
+# Go
+
+> ## **Conteúdo**
+
+### Go
 
 1. [Introdução à linguagem Go](./introducao-a-linguagem.md)
 
@@ -17,3 +21,7 @@
 8. [Sintaxe: ponteiros](./sintaxe/ponteiros.md)
 
 9. [Sintaxe: types](./sintaxe/types.md)
+
+> ## **Referências**
+
+* [Go](./references.md)
