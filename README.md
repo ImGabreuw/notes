@@ -30,7 +30,7 @@
 
 * [Java](./java/README.md)
 
-* [JavaScript](./javaScript/README.md)
+* [JavaScript](./javascript/README.md)
 
 * [Kotlin](./kotlin/README.md)
 
