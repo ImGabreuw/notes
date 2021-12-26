@@ -13,3 +13,5 @@
 * [Manipulação de Strings](./manipulacao-de-strings.md)
 
 > ## **Referências**
+
+* [Python](./references.md)
