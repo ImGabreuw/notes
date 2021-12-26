@@ -15,3 +15,5 @@
 * [Tipo de dados "string"](./core/string.md)
 
 > ## **Referências**
+
+* [JavaScript](./references.md)
