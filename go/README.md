@@ -4,23 +4,23 @@
 
 ### Go
 
-1. [Introdução à linguagem Go](./introducao-a-linguagem.md)
+* [Introdução](./introducao.md)
 
-2. [Comandos](./comandos.md)
+* [Lista de comandos](./comandos.md)
 
-3. [Sintaxe: imports](./sintaxe/imports.md)
+* [Imports](./sintaxe/imports.md)
 
-4. [Sintaxe: variáveis](./sintaxe/variaveis.md)
+* [Variáveis](./sintaxe/variaveis.md)
 
-5. [Sintaxe: funções](./sintaxe/funcoes.md)
+* [Funções](./sintaxe/funcoes.md)
 
-6. [Sintaxe: visibilidade](./sintaxe/visibilidade.md)
+* [Visibilidade de funções e variáveis](./sintaxe/visibilidade.md)
 
-7. [Sintaxe: erros](./sintaxe/erros.md)
+* [Erros e Tratamento de erros](./sintaxe/erros.md)
 
-8. [Sintaxe: ponteiros](./sintaxe/ponteiros.md)
+* [Ponteiros](./sintaxe/ponteiros.md)
 
-9. [Sintaxe: types](./sintaxe/types.md)
+* [Tipos de dados](./sintaxe/types.md)
 
 > ## **Referências**
 
