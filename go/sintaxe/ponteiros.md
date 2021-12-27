@@ -1,149 +1,155 @@
-# Ponteiros no Go
+# Ponteiros
+
+> ## **Definição**
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20190705160332/Pointers-in-Golang.jpg)
 
-* **Variável = armazena um valor**
+**Variável**: armazena um valor
 
-* **Ponteiro = armazena o endereço de memória** de um valor
+**Ponteiro**: armazena o endereço de memória de um valor
 
-### Operador `&`
+> ## **Operador `&`**
 
-* É utilizado antes do nome da variável
+### **Definição**
 
-* Obter o endereço de memória de uma variável
+É utilizado antes do nome da variável.
 
-* **Exemplo**
+Tem a função de obter o endereço de memória de uma variável.
 
-  ```go
+### **Exemplo**
+
+```go
+a := 10
+fmt.Println(&a) // 0xc00018c000
+```
+
+> `0xc00018c000` é o **endereço de memória** onde o valor 10 está **alocado**
+
+> ## **Operador `*`**
+
+### **Definição**
+
+É utilizado antes do nome da **variável que armazena um endereço de memória** (ponteiro).
+
+Tem a função de obter o valor do apontamento do ponteiro.
+
+### **Exemplo**
+
+```go
+a := 10
+fmt.Println(&a) // 0xc00018c000
+
+var b *int = &a
+fmt.Println(b) // 0xc0000b6010
+```
+
+> A variável `b` armazena um **endereço de memória** de um valor do **tipo `int`**.
+
+```go
+a := 10
+var b *int = &a
+fmt.Println(*b) // 10
+
+*b = 50
+fmt.Println(*b) // 50
+```
+
+> `*b = 50`: atribuir 50 como novo valor do apontamento do ponteiro `b`
+
+```go
+a := 10
+
+var b *int = &a
+*b = 50
+
+c := &a
+*c = 60
+
+fmt.Println(a)
+fmt.Println(*b)
+fmt.Println(*c)
+```
+
+> Como `a`, `b` e `c` estão apontando para o mesmo endereço de memória (`0xc0000b6010`) logo, se o valor armazenado nesse endereço for alterado, todas as variáveis que apontam para ela também serão alteradas.
+
+> ## **Operador `*` antes de um `type`**
+
+### **Definição**
+
+É utilizado para definir o tipo do valor que o ponteiro aponta.
+
+### **Exemplo**
+
+```go
+a := 10
+var b *int = &a
+fmt.Println(*b) // 10
+```
+
+> Ao colocar o `*` na frente de um ponteiro, é **recuperado o valor do apontamento** da variável `b`  que armazena o **endereço de memória do valor 10**.
+
+```go
+func main() {
   a := 10
-  fmt.Println(&a) // 0xc00018c000
-  ```
 
-  > `0xc00018c000` é o **endereço de memória** onde o valor 10 está **alocado**
+  fmt.Println(a) // 10
+  alterarValor(&a)
+  fmt.Println(a) // 15
+}
 
-### Operador `*`
+func alterarValor(a *int) {
+  *a = 15
+}
+```
 
-* É utilizado antes do nome da variável que armazena um endereço de memória
+> ## **Operador `*` e `struct`**
 
-* Obter o valor do apontamento do ponteiro
+### **Problema**
 
-* **Exemplo**
+Alteração de um atributo apenas no escopo local.
 
-  ```go
-  a := 10
-  fmt.Println(&a) // 0xc00018c000
+```go
+type Carro struct {
+  Name string
+}
 
-  var b *int = &a
-  fmt.Println(b) // 0xc0000b6010
-  ```
+func (c Carro) andar() {
+  c.Name = "BMW" // O atributo "Name" só foi alterado no escopo local (função "andar()")
+  fmt.Println(c.Name, "andou!")
+}
 
-  > A variável `b` armazena um **endereço de memória** de um valor do **tipo `int`**
+func main() {
 
-  <br>
-
-  ```go
-  a := 10
-  var b *int = &a
-  fmt.Println(*b) // 10
-
-  *b = 50
-  fmt.Println(*b) // 50
-  ```
-
-  > `*b = 50` = atribuir 50 como novo valor do apontamento do ponteiro `b`
-
-  <br>
-
-  ```go
-  a := 10
-
-  var b *int = &a
-  *b = 50
-
-  c := &a
-  *c = 60
-
-  fmt.Println(a)
-  fmt.Println(*b)
-  fmt.Println(*c)
-  ```
-
-  > Como `a`, `b` e `c` estão apontando para o mesmo endereço de memória (`0xc0000b6010`) logo, se o valor armazenado nesse endereço for alterado, todas as variáveis que apontam para ela também serão alteradas
-
-### Operador `*` antes de um `type`
-
-* É utilizado para definir o tipo do valor que o ponteiro faz referência
-
-* **Exemplo**
-
-  ```go
-  a := 10
-  var b *int = &a
-  fmt.Println(*b) // 10
-  ```
-
-  > Ao colocar o `*` na frente de um ponteiro, é **recuperado o valor do apontamento** da variável `b`  que armazena o **endereço de memória do valor 10**
-
-  <br>
-
-  ```go
-  func main() {
-    a := 10
-
-    fmt.Println(a) // 10
-    alterarValor(&a)
-    fmt.Println(a) // 15
+  carro := Carro{
+    Name: "Ford Ka",
   }
 
-  func alterarValor(a *int) {
-    *a = 15
-  }
+  carro.andar() // BMW andou!
+  fmt.Println(carro.Name) // BMW andou!
+}
   ```
 
-### Operador `*` e `struct`
+### **Solução**
 
-* **Problema**: alteração de um atributo apenas no escopo local
+Alteração do valor no endereço de memória.
 
-  ```go
-  type Carro struct {
-    Name string
+```go
+type Carro struct {
+  Name string
+}
+
+func (c *Carro) andar() {
+  c.Name = "BMW" // a alteração do atributo se torna global, pois foi alterado o valor na memória
+  fmt.Println(c.Name, "andou!")
+}
+
+func main() {
+
+  carro := Carro{
+    Name: "Ford Ka",
   }
 
-  func (c Carro) andar() {
-    c.Name = "BMW" // O atributo "Name" só foi alterado no escopo local (função "andar()")
-    fmt.Println(c.Name, "andou!")
-  }
-
-  func main() {
-
-    carro := Carro{
-      Name: "Ford Ka",
-    }
-
-    carro.andar() // BMW andou!
-    fmt.Println(carro.Name) // BMW andou!
-  }
-  ```
-
-* **Solução**: alteração do valor no endereço de memória
-
-  ```go
-  type Carro struct {
-    Name string
-  }
-
-  func (c *Carro) andar() {
-    c.Name = "BMW" // a alteração do atributo se torna global, pois foi alterado o valor na memória
-    fmt.Println(c.Name, "andou!")
-  }
-
-  func main() {
-
-    carro := Carro{
-      Name: "Ford Ka",
-    }
-
-    carro.andar()
-    fmt.Println(carro.Name)
-  }
-  ```
+  carro.andar()
+  fmt.Println(carro.Name)
+}
+```

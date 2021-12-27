@@ -1,50 +1,82 @@
-# Tipos no Go
+# Tipos de dados no Go
 
-### Type
+> ## **Type**
+
+### **Sintaxe**
+
+```go
+type [nome] [tipo]
+```
+
+### **Exemplo**
+
+```go
+type CarName string
+type CarYear int
+
+func main() {
+    var carName CarName
+    carName = "Fusion"
+    fmt.Println(carName)
+
+    var carYear CarYear
+    carYear = 2020
+    fmt.Println(carYear)
+}
+```
+
+> ## **Struct**
+
+### Definição
+
+Uma `struct` pode ser comparada a uma classes, mas **CUIDADO** com essa comparação, pois o Go não é orientado a objetos.
+
+### **Sintaxe**
+
+```go
+type [nome] struct {
+    // Campos...
+}
+```
+
+> Para acessar um campo da `struct`: `[nome da variável].[nome do campo]`.
+
+### **Exemplo**
+
+```go
+type Car struct {
+  CarName string
+  CarYear int
+}
+
+func main() {
+  car := Car{
+      CarName: "Fusion",
+      CarYear: 2020,
+  }
+  fmt.Println(car.CarYear)
+  fmt.Println(car.CarName)
+}
+```
+
+### **Métodos**
+
+* **Definição**: são funções que estão ligadas a uma `struct`
 
 * **Sintaxe**
 
   ```go
-  type <nome> <tipo>
+  func ([nome da variável] [nome da struct]) [nome do método[([parâmetros...) ([tipos de retorno...]) {
+    // Código ...
+  }
   ```
 
 * **Exemplo**
 
   ```go
-  type CarName string
-  type CarYear int
-
-  func main() {
-      var carName CarName
-      carName = "Fusion"
-      fmt.Println(carName)
-
-      var carYear CarYear
-      carYear = 2020
-      fmt.Println(carYear)
-  }
-  ```
-
-### Struct
-
-* Uma `struct` pode ser comparada a uma classes, mas **CUIDADO** com essa comparação, pois o Go não é orientado a objetos
-
-* **Sintaxe**
-
-  ```go
-  type <nome> struct {
-      // Campos
-  }
-  ```
-
-  > Para acessar um campo da `struct`: `<nome da variável>.<campo>`
-
-* **Exemplo**
-
-  ```go
-  type Car struct {
-    CarName string
-    CarYear int
+  func (car *Car) changeCarName()  {
+    car.CarName = "Fusion2"
+    fmt.Println(car.CarName)
   }
 
   func main() {
@@ -52,42 +84,12 @@
         CarName: "Fusion",
         CarYear: 2020,
     }
-    fmt.Println(car.CarYear)
-    fmt.Println(car.CarName)
+
+    car.changeCarName() // Fusion2
   }
   ```
 
-* **Métodos**
-
-  * São funções que estão ligadas (**binding**) a uma struct
-
-  * **Sintaxe**
-
-    ```go
-    func (<nome> <struct>) <nome do método>(...) {
-      // Código
-    }
-    ```
-
-  * **Exemplo**
-
-    ```go
-    func (car *Car) changeCarName()  {
-      car.CarName = "Fusion2"
-      fmt.Println(car.CarName)
-    }
-
-    func main() {
-      car := Car{
-          CarName: "Fusion",
-          CarYear: 2020,
-      }
-
-      car.changeCarName() // Fusion2
-    }
-    ```
-
-* **Composição de `struct`**
+### **Composição de `struct`**
 
   ```go
   type Cliente struct {
@@ -155,48 +157,47 @@
     cliente3.Exibe() // Exibindo cliente pelo método:  Davi
   ```
 
-### Interfaces
+> ## **Interfaces**
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  type <nome> interface {
-      <nome>(...) <tipo(s) retorno(s)>
-      // funções e/ou métodos ...
+```go
+type [nome] interface {
+    [nome da função]([parâmetros...]) [tipos retorno...]
+}
+```
+
+### **Exemplo**
+
+> **Declaração de uma `interface`**:
+
+```go
+type vehicle interface {
+  start() string
+}
+```
+
+> **Implementação da `interface` em uma `struct` vehicle**:
+
+```go
+func (car Car) start() string {
+  return "Iniciou"
+}
+```
+
+> Como a `Car` implementou a função `start()`, logo `Car` é um `Vehicle`.
+
+```go
+func acceptOnlyVehicleImplementation(car vehicle) {
+  fmt.Println("É um veículo")
+}
+
+func main() {
+  car := Car{
+      CarName: "Fusion",
+      CarYear: 2020,
   }
-  ```
 
-* **Exemplo**
-
-  * **Declaração de uma `interface`**
-
-    ```go
-    type vehicle interface {
-      start() string
-    }
-    ```
-
-  * **Implementação da `interface` em uma `struct` vehicle**
-
-    ```go
-    func (car Car) start() string {
-        return "Iniciou"
-    }
-    ```
-
-    > Como `struct Car` implementou a função `start()`, logo `Car` é um `vehicle`
-
-  ```go
-  func acceptOnlyVehicleImplementation(car vehicle) {
-    fmt.Println("É um veículo")
-  }
-
-  func main() {
-    car := Car{
-        CarName: "Fusion",
-        CarYear: 2020,
-    }
-
-    acceptOnlyVehicleImplementation(car) // car é um veículo
-  }
+  acceptOnlyVehicleImplementation(car) // car é um veículo
+}
   ```

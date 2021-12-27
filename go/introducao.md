@@ -1,6 +1,6 @@
 # Introdução à linguagem Go
 
-### Características
+> ## **Características da linguagem**
 
 * Linguagem de programação *open source*
 
@@ -24,7 +24,7 @@
 
 * Possui ***garbage collection***
 
-### Curiosidades
+> ## **Curiosidades**
 
 * Criada pelo Google
 
@@ -36,7 +36,7 @@
 
 * Criadores: Robert Griesemar, Rob Pike, Ken Thompson
 
-* **Empresas que utilizam Golang**
+* **Empresas que utilizam Go**
 
   * Google
   * Docker
@@ -51,21 +51,21 @@
   * BBC
   * SendGrip
 
-### Motivos para a criação do Go
+> ## Motivações
 
-* **Limitações das principais linguagens utilizadas na Google** (Python, Java, C++)
+#### **Limitações das principais linguagens utilizadas na Google** (Python, Java, C++)
 
-  * Python: problemas com **lentidão**
+* **Python**: problemas com **lentidão**
 
-  * C/C++: muita **complexidade** e **lentidão na compilação**
+* **C/C++**: muita **complexidade** e **lentidão na compilação**
 
-  * Java: problemas gerados ao longo do tempo, por exemplo na **manutenção**, devido a **verbosidade da linguagem**
+* **Java**: problemas gerados ao longo do tempo, por exemplo na **manutenção**, devido a **verbosidade da linguagem**
 
-* **Necessidades**
+### **Necessidades**
 
-  * **Multithreading** e **concorrência**: Python, Java e C++ não foram criadas, nativamente, com esse propósito
+* **Multithreading** e **concorrência**: Python, Java e C++ não foram criadas, nativamente, com esse propósito
 
-### Vantagens na utilização do Go
+> ## Vantagens na utilização da linguagem
 
 * Simplicidade
 

@@ -1,44 +1,46 @@
-# Visibilidade no Go
+# Visibilidade de funções e variáveis
 
-> Pelo Go ser uma linguagem case-sensitive, a nomenclatura é muito importante
+> Pelo Go ser uma linguagem case-sensitive, a nomenclatura é muito importante.
 
-### Função exportada
+> ## **Função exportada (funções públicas)**
 
-* 1º letra do nome da função em **maiúsculo**
+### **Definição**
 
-* **Exemplo**
+A 1º letra do nome da função em **maiúsculo**.
 
-  ```go
-  func Soma(a int, b int) int {
-    return a + b
-  }
-  ```
+### **Exemplo**
 
-* **OBS**
+```go
+func Soma(a int, b int) int {
+  return a + b
+}
+```
 
-  É uma boa prática **documentar as função exportadas**
+### **OBS**
 
-  ```go
-  // Soma <descrição sucinta sobre o que ela faz>
-  func Soma(a int, b int) int {
-    return a + b
-  }
-  ```
+É uma boa prática **documentar as função exportadas**.
 
-### Função não exportada
+```go
+// Soma <descrição sucinta sobre o que ela faz>
+func Soma(a int, b int) int {
+  return a + b
+}
+```
 
-* 1º letra do nome da função em **minúsculo**
+> ## **Função não exportada (funções privadas)**
 
-* **Exemplo**
+### **Definição**
 
-  ```go
-  func soma(a int, b int) int {
-    return a + b
-  }
-  ```
+A 1º letra do nome da função em **minúsculo**.
 
----
+### **Exemplo**
 
-### Variável / atributo / `type`
+```go
+func soma(a int, b int) int {
+  return a + b
+}
+```
 
-* A regra de nomenclatura de função é valida, também para métodos, `type`, variáveis e atributos
+> ## Variável / atributo / `type`
+
+A regra de nomenclatura das funções é valida também para os **métodos** (funções de objeto), **`type`**, **variáveis** e **atributos**.

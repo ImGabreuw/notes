@@ -1,62 +1,64 @@
 # Função no Go
 
-### Função com 1 tipo de retorno
+> ## **Função com 1 tipo de retorno**
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  func <nome da função>(<parâmetro(s)>) <tipo de retorno> {
-    // Código
+```go
+func [nome da função]([parâmetros...]) [tipo de retorno] {
+  // Código ...
 
-    return <retorno>
+  return [retorno]
+}
+```
+
+### **Exemplo**
+
+```go
+func Soma(a int, b int) int {
+  return a + b
+}
+```
+
+> ## **Função com múltiplos tipos de retorno**
+
+### **Sintaxe**
+
+```go
+func [nome da função]([parâmetros...]) ([tipos de retorno... (separados por vírgula)]) {
+  // Código ...
+
+  return [retornos...]
+}
+```
+
+> Geralmente, esse tipo função retorno 1 ou + valor(es) e 1 possível erro
+
+### **Exemplo**
+
+```go
+func Soma(a int, b int) (int, error) {
+  if a < 0 && b < 0 {
+    return 0, errors.New("Número negativo")
   }
-  ```
 
-* **Exemplo**
+  return a + b, nil
+}
+```
 
-  ```go
-  func Soma(a int, b int) int {
-    return a + b
-  }
-  ```
+> ## **Funções anônimas**
 
-### Função com múltiplos tipos de retorno
+### **Sintaxe**
 
-* **Sintaxe**
+```go
+func ([parâmetros...]) [tipo de retorno] {
+  // Código ...
 
-  ```go
-  func <nome da função>(<parâmetro(s)>) <tipos de retorno> {
-    // Código
+  return [retorno]
+}
+```
 
-    return <retorno(s)>
-  }
-  ```
-
-  > Geralmente, esse tipo função retorno 1 ou + valor(es) e 1 possível erro
-
-* **Exemplo**
-
-  ```go
-  func Soma(a int, b int) (int, error) {
-    if a < 0 && b < 0 {
-      return 0, errors.New("Número negativo")
-    }
-
-    return a + b, nil
-  }
-  ```
-
-### Funções anônimas
-
-* **Sintaxe**
-
-  ```go
-  func(<parâmetro(s)>) <tipo de retorno> {
-      // Código
-  }
-  ```
-
-* **Exemplo**
+### **Exemplo**
 
   ```go
   anonymousFunction := func() int {
@@ -66,7 +68,9 @@
   fmt.Println(anonymousFunction()) // 1
   ```
 
-### Função anônima encadeada
+> ## **Funções anônimas encadeadas**
+
+### **Sintaxe**
 
 ```go
 resultado := func(x ...int) func() int {
@@ -83,53 +87,45 @@ resultado := func(x ...int) func() int {
 
 ```
 
-> No caso acima, a função anônima retorna uma outra função anônima (`func() int {..}`)
-
-<br>
+> No caso acima, a função anônima retora uma outra função (`func() int`).
 
 ```go
 fmt.Println(resultado(10, 10, 10)) // 0x497860
 ```
 
-> Ao chamar apenas a 1º função (`(...)`), será impresso a referência dela
-
-<br>
+> Ao chamar apenas a 1º função (1º par de parênteses), será impresso a referência dela.
 
 ```go
 fmt.Println(resultado(10, 10, 10)()) // 900
 ```
 
-> Para imprimir o resultado da 2º função é necessário também encadear os chamamentos das funções (`(...)(...)`)
+> Para imprimir o resultado da 2º função é necessário também encadear as invocações de cada função (`(...)(...)`).
 
-* **Conclusão**
+```go
+resultado(10, 10, 10)()
+```
 
-  ```go
-  resultado(10, 10, 10)()
-  ```
-  
-  **A sintaxe acima, pode parecer estranho, mas ela é comporta pelos seguintes passos:**
+### **A sintaxe acima, pode parecer estranho, mas ela é composta pelos seguintes passos**
 
-  ```go
-  <variável>(<argumentos da 1º função>)(<argumentos da 2º função>)
-  ```
+```go
+[nome da variável]([argumentos da 1º função])([argumentos da 2º função])
+```
 
-  > `<variável>` é o nome da variável que armazena a função a função anônima
+> `[nome da variável]` é a variável que armazena a função anônima encadeada.
 
+> ## **Função *variadic* (`...`)**
 
+### **Definição**
 
-* **Imprimir a o resultado da função anônima**
+Aceita infinitos argumentos.
 
-### Função *variadic* (`...`)
+Em outras linguagens de programação é dado o nome de *varargs*.
 
-* Uma função *variadic* aceita infinitos argumentos
+### **IMPORTANTE**
 
-* Em outras linguagens de programação é dado o nome de *varargs*
+O operador `...` deve ser o último parâmetro da função/método
 
-* **IMPORTANTE**
-
-  * `...` deve ser o último parâmetro da função/método
-
-  * **Forma errada**
+* **Forma errada**
 
     ```go
     func main() {
@@ -147,25 +143,25 @@ fmt.Println(resultado(10, 10, 10)()) // 900
     }
     ```
 
-  * **Forma certa**
+* **Forma certa**
 
-    ```go
-    func main() {
-      fmt.Println(Somar("Resultado:", 1, 2, 3, 4, 5, 6, 7, 8))
-    }
+  ```go
+  func main() {
+    fmt.Println(Somar("Resultado:", 1, 2, 3, 4, 5, 6, 7, 8))
+  }
 
-    func Somar(a string, valores ...int) (string, int) {
-        resultado := 0
+  func Somar(a string, valores ...int) (string, int) {
+      resultado := 0
 
-        for _, value := range valores {
-          resultado += value
-        }
+      for _, value := range valores {
+        resultado += value
+      }
 
-        return a, resultado
-    }
-    ```
+      return a, resultado
+  }
+  ```
 
-* **Exemplo**
+### **Exemplo**
 
   ```go
   func main() {
@@ -185,34 +181,34 @@ fmt.Println(resultado(10, 10, 10)()) // 900
   }
   ```
 
-### Importar funções
+> ## **Importar funções**
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  import "nome-da-aplicacao/pacotes/..."
-  ```
+```go
+import "[nome do projeto]/[pacotes]/..."
+```
 
-* **Exemplo**
+### **Exemplo**
 
-  ```go
-  package math
+```go
+package math
 
-  func Soma(a int, b int) int {
-      return a + b
-  }
-  ```
+func Soma(a int, b int) int {
+    return a + b
+}
+```
 
-  ```go
-  package main
+```go
+package main
 
-  import (
-    "fmt"
-    "variaveis-tipos-e-pacotes/math"
-  )
+import (
+  "fmt"
+  "variaveis-tipos-e-pacotes/math"
+)
 
-  func main() {
-    resultado := math.Soma(1, 1)
-    fmt.Printf(resultado) // 2
-  }
-    ```
+func main() {
+  resultado := math.Soma(1, 1)
+  fmt.Printf(resultado) // 2
+}
+```

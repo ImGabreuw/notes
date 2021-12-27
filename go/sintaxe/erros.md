@@ -1,42 +1,48 @@
-# Erros no Go
+# Erros e Tratamento de erros
 
-### Erro
+> ## **Erros**
 
-* Não existe `try-catch`
+### **Definição**
 
-* O error é tratado logo após a chamada de um método. caso o mesmo tenha como retorno um `error`
+Não existe o bloco `try-catch`.
 
-* Por convenção, o nome dado a uma variável que recebe um erro é `err`
+O error é tratado logo após a chamada de um método/função, caso o mesmo tenha como retorno um `error`.
 
-* **Exemplo**
+**OBS**: Por convenção, o nome dado a uma variável que armazena um erro é  `err`
 
-  ```go
-  func main() {
+### **Exemplo**
 
-    result, err := soma(7, 2)
+```go
+func main() {
 
-    if err != nil {
-      log.Fatal(err.Error())
-    }
+  result, err := soma(7, 2)
 
-    fmt.Println(result)
-
+  if err != nil {
+    log.Fatal(err.Error())
   }
 
-  func soma(x int, y int) (int, error) {
-    result := x + y
+  fmt.Println(result)
 
-    if result > 10 {
-      return 0, errors.New("total maior que 10")
-    }
+}
 
-    return result, nil
+func soma(x int, y int) (int, error) {
+  result := x + y
+
+  if result > 10 {
+    return 0, errors.New("total maior que 10")
   }
-  ```
 
-### Tratamento de um erro
+  return result, nil
+}
+```
 
-* O tratamento de um erro é feita a partir da verificação da variável `err`. Caso `err` não esteja vazia (`nil`) é porque foi retornado um erro de uma função ou método
+> ## **Tratamento de um erro**
+
+### **Definição**
+
+O tratamento de um erro é feita a partir da verificação da variável `err`. Caso `err` não esteja vazia (`nil`) é porque foi retornado um erro de uma função/método.
+
+### **Exemplo**
 
 ```go
 if err != nil {
@@ -44,28 +50,30 @@ if err != nil {
 }
 ```
 
-### Ignorar o tratamento de um erro
+> ## **Ignorar um erro**
 
-* Usa-se o *blank identifier* (`_`) para ignorar um erro
+### **Definição**
 
-* **Exemplo**
+Usa-se o *blank identifier* (`_`, *underline*) para ignorar um erro, ou seja, não tratá-lo.
 
-  ```go
-  func main() {
+### **Exemplo**
 
-    result, _ := soma(7, 2)
+```go
+func main() {
 
-    fmt.Println(result)
+  result, _ := soma(7, 2)
 
+  fmt.Println(result)
+
+}
+
+func soma(x int, y int) (int, error) {
+  result := x + y
+
+  if result > 10 {
+    return 0, errors.New("total maior que 10")
   }
 
-  func soma(x int, y int) (int, error) {
-    result := x + y
-
-    if result > 10 {
-      return 0, errors.New("total maior que 10")
-    }
-
-    return result, nil
-  }
-  ```
+  return result, nil
+}
+```

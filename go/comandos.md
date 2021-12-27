@@ -1,4 +1,4 @@
-# Comandos
+# Lista de comandos do Go
 
 Comando | Função | Exemplo
 :-----: | :----: | :-----:

@@ -1,21 +1,33 @@
 # Imports no Go
 
-> **IMPORTANTE**: no Go, *imports* desnecessários geram erros
+> **IMPORTANTE**: *imports* desnecessários são considerados erro
 
-### Import único
+> ## **Import único**
+
+### **Sintaxe**
+
+```go
+import [nome do pacote]
+```
+
+### **Exemplo**
 
 ```go
 import "fmt"
 ```
 
-### Imports múltiplos
+> ## **Imports múltiplos**
 
-```go
+### **Sintaxe**
+
+```js
 import (
-  "fmt"
-  "..."
+	[nome do pacote],
+	// ...
 )
 ```
+
+### **Exemplo**
 
 ```go
 import (

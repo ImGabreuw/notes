@@ -1,47 +1,47 @@
 # Variáveis no Go
 
-### Declaração de uma variável
+> ## **Declaração de uma variável**
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  var <nome da variável> <tipo>
-  ```
+```go
+var [nome da variável] [tipo]
+```
 
-* **Exemplo**
+### **Exemplo**
 
-  ```go
-  var lang string
-  ```
+```go
+var lang string
+```
 
-### Atribuição de uma valor a uma variável
+> ## Atribuição de uma valor a uma variável
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  <nome da variável> = <valor>
-  ```
+```go
+[nome da variável] = [valor]
+```
 
-* **Exemplo**
+### **Exemplo**
 
-  ```go
-  var lang string
-  lang = "Go"
-  ```
+```go
+var lang string
+lang = "Go"
+```
 
-### Declarações de variáveis curtas (ou shorthand)
+> ## **Declarações de variáveis curtas (ou shorthand)**
 
-* **Sintaxe**
+### **Sintaxe**
 
-  ```go
-  <nome da variável> := <valor>
-  ```
+```go
+[nome da variável] := [valor]
+```
 
-  > Ao usar `:=`, o Go já infere o tipo da variável com base no valor que a foi atribuída
+> Ao usar `:=`, o Go já infere o tipo da variável com base no valor atribuído a ela.
 
-* **Exemplo**
+### **Exemplo**
 
-  ```go
-  lang := "Go" // tipo = string
-  lang = "JavaScript"
-  ```
+```go
+lang := "Go" // tipo = string
+lang = "JavaScript"
+```
