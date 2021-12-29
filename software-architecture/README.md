@@ -22,6 +22,8 @@
 
 * [Monolito VS Microsserviços](./microservices-architecture/monolito-vs-microsservico.md)
 
+* [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](./microservices-architecture/conceitos.md)
+
 ### Monolito
 
 * [Introdução](./monolith/introducao.md)

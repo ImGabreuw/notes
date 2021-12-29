@@ -1,10 +1,22 @@
 # Introdução à arquitetura monolítica
 
-### Vantagens
+> ## **Monolito**
+
+### **Representação**
+
+![](./assets/representacao-monolito.png)
+
+### **Definição**
+
+Serviços aglomerados em uma única aplicação.
+
+Único banco de dados (único ponto de falha).
+
+### **Vantagens**
 
 * Desenvolvimento simplificado
 
-### Desvantagens
+### **Desvantagens**
 
 * Alto acoplamento
 
