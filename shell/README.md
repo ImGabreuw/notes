@@ -32,6 +32,8 @@
 
   * [Comando "pwd"](./commands/pwd.md)
 
+  * [Comando "base64"](./commands/base64.md)
+
 * [Estrutura de diretórios](./estrutura-de-diretorios.md)
 
 > ## **Referências**

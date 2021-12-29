@@ -56,4 +56,6 @@
 
 * [Diagrama UML](./uml-diagram/README.md)
 
-* [Web 3.0](./web-3/README.md)
+* [Web](./web/README.md)
+
+* [Apache Kafka](./apache-kafka/README.md)

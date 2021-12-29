@@ -1,12 +1,20 @@
 # Pods no Kubernetes
 
+> ## **Pods**
+
+### **Representação**
+
 ![](./assets/representacao-pods.png)
 
 ### Definição
 
 * É a menor unidade de *deploy* no Kubernetes
 
-* 1 pod pode ter vários *containers*
+* Unidade que contém os containers provisionados
+
+* Cada *Pod* representa um processo (um container) rodando no *Cluster*
+
+  > **OBS**: é possível colocar vários containers em um único *Pod*, porém não é recomendado, exceto se os serviços rodando dentro desses containers sejam extremante dependentes entre si
 
 ### Tipos de *containers* dentro do *Pod*
 

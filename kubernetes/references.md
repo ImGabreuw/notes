@@ -15,3 +15,7 @@ https://youtu.be/tlqWYH13nOg
 ### Descomplicando o Kubernetes
 
 https://github.com/badtuxx/DescomplicandoKubernetes
+
+### imersao-fullcycle-5
+
+https://github.com/ImGabreuw/imersao-fullcycle-5/tree/master/aulas/orquestracao-de-containers-com-kubernetes

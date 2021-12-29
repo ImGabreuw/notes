@@ -2,25 +2,41 @@
 
 ![](./assets/kubernetes-aka-k8s.png)
 
-> ## Kubernetes
+> ## **Kubernetes**
 
 ### **Definição**
 
 > "Kubernetes é uma plataforma de código aberto, portável e extensiva para gerenciamento de cargas de trabalho e serviços distribuídos em containers, que facilita tanto a configuração declarativa quanto automação." - [Mantenedores](https://kubernetes.io/pt-br/docs/concepts/overview/what-is-kubernetes/)
 
-* Orquestrador (gerência e entrega) de aplicações (*containers*)
+Orquestrador (gestão e entrega) de aplicações (*containers*):
 
   ![](./assets/representacao-orquestrador-de-containers.png)
 
-* É um framework de infraestrutura **para containers**, [**declarativo**](./imperativo-declarativo.md) (arquivos `.yaml`) e operado de maneira **autónoma** por meio dos *controllers*
+É um framework de infraestrutura **para containers** [**declarativo**](./imperativo-declarativo.md) (através de arquivos `.yaml`) e operado de maneira **autónoma** por meio dos *controllers*.
 
-### **Objetos principais**
+### **Origens**
 
-* Pods
+* **Borg**: criado pelo Google com a finalidade de rodar processos (*jobs*) em uma grande quantidade de *clusters*
 
-* Services
+* **Omega**: aprimoramento do **Borg**
 
-* Deployments
+> **OBS**: devido à origem do K8S, o GCP (Google Could Platform) é o melhor *Cloud Provider* para Kubernetes
+
+### **Características**
+
+* É disponibilizado através de ua conjunto de APIs
+
+* Normalmente o acesso à API é feito a partir do *CLI* (Command Line Interface): `kubectl`
+
+* É baseado em estados, a configuração do estado é feito a partir de um conjunto de objetos
+
+### **Principais objetos**
+
+* *Pods*
+
+* *Services*
+
+* *Deployments*
 
 ### **Vantagens**
 
@@ -56,15 +72,17 @@
 
   ![](./assets/escalabilidade-cluster-auto-scaler.png)
 
----
-
-> ## Cluster
+> ## **Cluster**
 
 ### **Definição**
 
-* É um conjunto de *nodes*
+É um conjunto de *nodes*.
 
-* *Node* = Virtual Machine (VM) ou máquina física
+***Node***: Virtual Machine (VM) ou máquina física
+
+Cada máquina possui uma quantidade de **vCPU** e **memória**.
+
+  > Os recursos de cada *node* são especificados no arquivo de configuração do Kubernetes
 
 ### **Exemplos**
 
@@ -76,47 +94,61 @@
 
 * Ambientes *On-promises* (máquinas físicas com Kubernetes)
 
-### **Cluster Kubernetes**
+### **Estrutura do Cluster Kubernetes**
 
-* **Master**: responsável pelas tomadas de decisões
+**Master Node**
 
-  * [**Controller**](./controller.md)
+  * **Definição**: responsável por gerenciar os outros nós do *cluster* (tomadas de decisões)
 
-* **Node**: responsável por rodar a aplicação (*container*)
+  * **Serviços disponibilizados pelo Kubernetes**
 
-* *Master* e *node(s)* se comunicam entre si
+    * *Kube-apiserver*
 
----
+    * *Kube-controller-manager*
 
-> ## Ferramentas
+    * *Kube-scheduler*
 
-* **Minikube**
+**Node**
 
-  * **Função**: criar *Kubernetes clusters* localmente (ambiente *On-promises*)
+  * **Definição**: responsável por rodar a aplicação (*container*)
 
-  * **Vantagens**
+  * **Serviços disponibilizados pelo Kubernetes**
 
-    * Boa comunidade
+    * *Kubelet*
 
-    * Várias funcionalidades e add-ons
+    * *Kubeproxy*
 
-    * Boa documentação
+> *Master* e *node(s)* se comunicam entre si.
 
-  * **Instalação**: *Docker* + *Minikube*
+> ## **Ferramentas**
 
-* **Kubectl (Kube control)**
+### **Minikube**
 
-  * **Função**: um ferramenta CLI para gerenciar *Kubernetes clusters*
+* **Definição**: criar *clusters Kubernetes* localmente (ambiente *On-promises*)
 
-  * **Algumas ações com Kubectl**
+* **Vantagens**
 
-    * Deploy
+  * Boa comunidade
 
-    * Inspecionar
+  * Várias funcionalidades e add-ons
 
-    * Editar recursos
+  * Boa documentação
 
-    * Depurar
+* **Instalação**: *Docker* + *Minikube*
 
-    * Ver logs
+### **Kubectl (Kube control)**
+
+* **Definição**: uma ferramenta CLI para gerenciar *clusters Kubernetes*
+
+* **Algumas ações com Kubectl**
+
+  * Deploy
+
+  * Inspecionar
+
+  * Editar recursos
+
+  * Depurar
+
+  * Ver logs
 
