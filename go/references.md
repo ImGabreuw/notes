@@ -19,3 +19,7 @@ https://youtube.com/playlist?list=PLbUTdIoS5vt_zP6rcKxpKJFWGgP9UXyiO
 ### awesome-for-beginners
 
 https://github.com/MunGell/awesome-for-beginners#go
+
+### How to build a blockchain from scratch with Go
+
+https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/
