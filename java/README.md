@@ -142,6 +142,8 @@
 
     * [Spring WebFlux](./frameworks/spring/spring-webflux/references.md)
 
+    * [Spring Data Rest](./frameworks/spring/spring-data-rest/references.md)
+
   * [Test Containers](./frameworks/test-containers/references.md)
 
 * [Boas práticas](./good-practice/references.md)
