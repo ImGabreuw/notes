@@ -8,19 +8,21 @@
 
 * [Lista de comandos](./comandos.md)
 
-* [Imports](./sintaxe/imports.md)
+* [Imports](./imports.md)
 
-* [Variáveis](./sintaxe/variaveis.md)
+* [Variáveis](./variaveis.md)
 
-* [Funções](./sintaxe/funcoes.md)
+* [Funções](./funcoes.md)
 
-* [Visibilidade de funções e variáveis](./sintaxe/visibilidade.md)
+* [Visibilidade de funções e variáveis](./visibilidade.md)
 
-* [Erros e Tratamento de erros](./sintaxe/erros.md)
+* [Erros e Tratamento de erros](./erros.md)
 
-* [Ponteiros](./sintaxe/ponteiros.md)
+* [Ponteiros](./ponteiros.md)
 
-* [Tipos de dados](./sintaxe/types.md)
+* [Tipos de dados](./types.md)
+
+* [Multithreading](./multithreading.md)
 
 > ## **Referências**
 

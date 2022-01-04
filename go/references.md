@@ -23,3 +23,7 @@ https://github.com/MunGell/awesome-for-beginners#go
 ### How to build a blockchain from scratch with Go
 
 https://blog.logrocket.com/how-to-build-blockchain-from-scratch-go/
+
+### esquenta-imersao-fullstack-e-fullcycle
+
+https://github.com/ImGabreuw/esquenta-imersao-fullstack-e-fullcycle/blob/master/live-4/notes.md

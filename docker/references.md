@@ -23,3 +23,7 @@ https://www.cloudsavvyit.com/15158/10-tools-that-complement-docker/
 ### Introduction to Docker for Javascript Developers (feat Node.js and PostgreSQL)
 
 https://dev.to/alexeagleson/docker-for-javascript-developers-41me
+
+### esquenta-imersao-fullstack-e-fullcycle
+
+https://github.com/ImGabreuw/esquenta-imersao-fullstack-e-fullcycle/blob/master/live-2/notes.md

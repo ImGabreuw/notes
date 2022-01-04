@@ -1,25 +1,21 @@
 # Introdução ao Docker
 
-### **Definição**
+> ## **Definição**
 
-* Ferramenta para **facilitar o gerenciamento de containers**
+É uma ferramenta para **facilitar o gerenciamento de containers**.
 
-  > OBS: Docker não criou o container (conceito antigo no Kernel), mas criou um ferramental para facilitar a sua manipulação
+Não é a única ferramenta de gerenciamento de containers, porém é a mais adotada na comunidade de DevOps.
 
-* Não é a única ferramenta de gerenciamento de containers, porém é a mais adotada na comunidade de DevOps
+Os 2 principais conceitos do Docker são: **imagem** e **container**
 
-* **Alternativas do Docker**
+**IMPORTANTE**: Docker não criou o container (conceito antigo no Kernel), mas criou um ferramental para facilitar a sua manipulação
 
-  * Podman
+> ## **Alternativas do Docker**
 
-  * containerd
+* Podman
 
-* É necessário ter 2 objetos básicos: **imagem** e **container**
+* containerd
 
-### **Conceitos**
+> ## Boas práticas no Docker
 
-* [**Imagem**](conceito-imagem.md)
-
-* [**Container**](vm-e-container.md)
-
-* **Arquitetura do Docker**
+* Preferível trabalhar nas imagens com *non-root user*

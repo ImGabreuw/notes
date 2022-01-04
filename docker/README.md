@@ -4,7 +4,7 @@
 
 ### Docker
 
-* [Introdução ao Docker](./introducao-ao-docker.md)
+* [Introdução](./introducao-ao-docker.md)
 
 * [Importância de Container e Kubernetes](./importância-containers-e-kubernetes.md)
     
@@ -14,15 +14,17 @@
 
 * [Arquitetura do Docker](./arquitetura-docker.md)
 
-* [Imagem](./conceito-imagem.md)
+* [Imagem](./imagem.md)
 
-* [Conceitos do Dockerfile](./conceitos-dockerfile.md)
+* [Container](./container.md)
 
-* [Docker registry](conceitos-docker-registry.md)
+* [Dockerfile](./dockerfiles.md)
+
+* [Docker registry](./docker-registry.md)
 
 * [Comandos](./comandos.md)
 
-1* [Boas práticas no Dockerfile](./good-practice/boas-praticas-dockerfile.md)
+* [Boas práticas no Dockerfile](./good-practice/boas-praticas-dockerfile.md)
 
 > ## **Referências**
 

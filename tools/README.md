@@ -6,6 +6,10 @@
 
 ### VS Code
 
+* [Introdução](./vs-code/introducao.md)
+
+* [Extensões](./vs-code/extensoes.md)
+
 ### Webstorm
 
 ### WSL 2

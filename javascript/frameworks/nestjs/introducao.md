@@ -28,9 +28,11 @@ Baseado nas ideais arquiteturais do AngularJS. Benefícios dessa abordagem:
 
 * CoC (*Convention Over Configuration*)
 
+  > Sugestão de padrão de nomenclatura de arquivos/diretórios.
+
 * Typescript
 
-* Arquitetura escalável
+* Arquitetura escalável (baseada no Angular)
 
 * Integração fácil com vários tipos de banco de dados
 
@@ -40,18 +42,18 @@ Baseado nas ideais arquiteturais do AngularJS. Benefícios dessa abordagem:
 
 ### **"O que o Nest.js não é?"**
 
-* Não é Angular
+* Angular
 
-* Não é React
+* React
 
-* Não é Vue.js
+* Vue
 
-* Não é um framework front-end
+* Um framework de front-end
 
-### **"Perigos ao usar o Nest.js"**
+### **"Conselhos ao utilizar o Nest.js"**
 
-* Não ficar preso a um framework
+* Não depender exclusivamente a um framework
 
-* Não pular etapas (estudar e fixar os fundamentos da linguagem)
+* Não pular etapas (estudar e fixar os fundamentos da linguagem, no caso JavaScript)
 
   ![](../../assets/nao-pular-etapas.png)
