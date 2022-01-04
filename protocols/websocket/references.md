@@ -1,8 +1,4 @@
-# Referências sobre Apache Kafka
-
-### imersao-fullcycle-5
-
-https://github.com/ImGabreuw/imersao-fullcycle-5
+# Referências sobre WebSocket
 
 ### imersao-fullstack-fullcycle
 

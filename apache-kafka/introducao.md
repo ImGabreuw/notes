@@ -79,3 +79,15 @@ Cada dia mais precisamos processar mais e mais eventos em diversos tipos de plat
 * Paypal
  
 * Bancos... (**principalmente**)
+
+### **Ecossistema**
+
+* Kafka Connect (**Connectors**)
+
+* Confluent Schema Registry
+
+* Rest Proxy
+
+* ksqlDB
+
+* Kafka Streams (Baixo nível)

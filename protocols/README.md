@@ -15,3 +15,9 @@
 > ## **Referências**
 
 * [gRPC](./grpc/references.md)
+
+> ## **Referências**
+
+* [WebSocket](./websocket/references.md)
+
+* [gRPC](./gRPC/references.md)
