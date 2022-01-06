@@ -12,6 +12,8 @@
 
 * [Introdução](./clean-architecture/introducao.md)
 
+* [Exemplos](./clean-architecture/exemples.md)
+
 ### Arquitetura Hexagonal
 
 * [Conceitos da Arquitetura Hexagonal](./hexagonal-architecture/conceitos.md)
