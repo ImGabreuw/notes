@@ -4,85 +4,85 @@
 
 ### Núcleo
 
-1. Versões
+* Versões
    
-   1.1 [Java 17](./core/versions/java-17.md)
+  * [Java 17](./core/versions/java-17.md)
 
-2. [JVM](./core/jvm.md)
+* [JVM](./core/jvm.md)
 
 ### Concurrency
 
 ### Frameworks
 
-1. Flyway
+* Flyway
 
-2. Google Guava
+* Google Guava
 
-3. Hibernate
+* Hibernate
 
-4. Jackson
+* Jackson
 
-5. JMeter
+* JMeter
 
-6. JUnit
+* JUnit
 
-7. MapStruct
+* MapStruct
 
-8. Mockito
+* Mockito
 
-9. Selenium
+* Selenium
 
-    * [Introdução](./frameworks/selenium/introducao.md)
+  * [Introdução](./frameworks/selenium/introducao.md)
 
-    * [Configurações inciais](./frameworks/selenium/configuracoes-iniciais.md)
+  * [Configurações inciais](./frameworks/selenium/configuracoes-iniciais.md)
 
-    * [Principais métodos](./frameworks/selenium/principais-metodos.md)
-
-
-10. Spring
-
-    * Spring Actuator
-
-      * [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
-
-      * [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
-
-    * Spring Data
-
-      * [Anotações](./frameworks/spring/spring-data/annotations.md)
-
-      * MongoDB
-
-        * [Anotações](./frameworks/spring/spring-data/mongodb/annotations.md)
-
-        * [Configurações do banco de dados](./frameworks/spring/spring-data/mongodb/database-configuration.md)
-
-        * [Repository MongoDB](./frameworks/spring/spring-data/mongodb/repository.md)
-
-    * Spring Fu
-
-      * [Introdução](./frameworks/spring/spring-fu/introducao.md)
-
-    * Spring Native
-
-      * [Introdução](./frameworks/spring/spring-native/introducao.md)
-
-    * Spring Retrosocket
-
-      * [Introdução](./frameworks/spring/spring-retrosocket/introducao.md)
-      
-    * Spring Security
-
-      * [JWT](./frameworks/spring/spring-security/jwt.md)
-
-    * Spring WebFlux
-
-      * [Events Stream](./frameworks/spring/spring-webflux/events-stream.md)
-
-      * [Functional Endpoints](./frameworks/spring/spring-webflux/functional-end-points.md)
+  * [Principais métodos](./frameworks/selenium/principais-metodos.md)
 
 
-11. Test Containers
+* Spring
+
+  * Spring Actuator
+
+    * [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
+
+    * [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
+
+  * Spring Data
+
+    * [Anotações](./frameworks/spring/spring-data/annotations.md)
+
+    * MongoDB
+
+      * [Anotações](./frameworks/spring/spring-data/mongodb/annotations.md)
+
+      * [Configurações do banco de dados](./frameworks/spring/spring-data/mongodb/database-configuration.md)
+
+      * [Repository MongoDB](./frameworks/spring/spring-data/mongodb/repository.md)
+
+  * Spring Fu
+
+    * [Introdução](./frameworks/spring/spring-fu/introducao.md)
+
+  * Spring Native
+
+    * [Introdução](./frameworks/spring/spring-native/introducao.md)
+
+  * Spring Retrosocket
+
+    * [Introdução](./frameworks/spring/spring-retrosocket/introducao.md)
+    
+  * Spring Security
+
+    * [JWT](./frameworks/spring/spring-security/jwt.md)
+
+  * Spring WebFlux
+
+    * [Events Stream](./frameworks/spring/spring-webflux/events-stream.md)
+
+    * [Functional Endpoints](./frameworks/spring/spring-webflux/functional-end-points.md)
+
+
+* Test Containers
 
 ### Boas práticas
 
@@ -97,6 +97,10 @@
 ### Stream API
 
 ### Testing
+
+* [Framework de testes](./testing/framework-de-testes.md)
+
+* [Teste unitário ingênuo](./testing/teste-unitario-ingenuo.md)
 
 > ## **Referências**
 
@@ -158,6 +162,6 @@
 
 * [Stream API](./stream-api/references.md)
 
-* Testing
+* [Testing](./testing/references.md)
 
   * [Spring](./testing/spring/references.md)
