@@ -36,6 +36,8 @@
 
 * Visual Studio IntelliCode (Microsoft)
 
+* EditorConfig for VS Code (EditorConfig)
+
 > ## **Extensões para customização**
 
 * Color highlight (Sergii Naumov)
