@@ -38,6 +38,8 @@
 
 * EditorConfig for VS Code (EditorConfig)
 
+* ESLint (Microsoft)
+
 > ## **Extensões para customização**
 
 * Color highlight (Sergii Naumov)
