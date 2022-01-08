@@ -1,8 +1,10 @@
-# HTTP methods
+# Verbos HTTP
 
-> Termo em português: métodos/verbos HTTP
+> ## **Definição**
 
-### Mais utilizados
+*Verbos HTTP*, também chamados de *métodos HTTP*, servem para indicar qual ação será executada por uma requisição no servidor.
+
+> ## **Lista de métodos HTTP**
 
 Método HTTP | Função
 :---------: | :----:
@@ -11,13 +13,3 @@ Método HTTP | Função
 `PUT` | substituir todas as informações de um recurso
 `DELETE` | remover um recurso específico
 `PATCH` | aplicar modificações parciais em um recurso
-
-### Outros verbos HTTP
-
-* `TRACE`
-
-* `HEAD`
-
-* `OPTIONS`
-
-* `CONNECT`
