@@ -36,11 +36,17 @@
 
 * Visual Studio IntelliCode (Microsoft)
 
+* EditorConfig for VS Code (EditorConfig)
+
+* ESLint (Microsoft)
+
 > ## **Extensões para customização**
 
 * Color highlight (Sergii Naumov)
 
 * Material Icon Theme (Philipp Kief)
+
+* Bracket Pair Colorizer 2 (CoenraadS)
 
 > ## **Extensões para web**
 
