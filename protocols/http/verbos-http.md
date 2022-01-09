@@ -6,10 +6,26 @@
 
 > ## **Lista de métodos HTTP**
 
-Método HTTP | Função
-:---------: | :----:
-`GET` | solicitar uma representação de um recurso específico
-`POST` | submeter um novo recurso
-`PUT` | substituir todas as informações de um recurso
-`DELETE` | remover um recurso específico
-`PATCH` | aplicar modificações parciais em um recurso
+### `GET`
+
+Solicitar uma representação de um recurso específico.
+
+É um **verbo idempotente**, ou seja, requisições repetidas em sequência não geram efeitos colaterais.
+
+**OBS**: o verbo `GET` não serve para modificar um recurso
+
+### `POST`
+
+Submeter um novo recurso.
+
+### `PUT`
+
+Substituir todas as informações de um recurso.
+
+### `DELETE`
+
+Remover um recurso específico.
+
+### `PATCH`
+
+Aplicar modificações parciais em um recurso.

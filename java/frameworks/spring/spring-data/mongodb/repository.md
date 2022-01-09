@@ -1,4 +1,4 @@
-# Repositório MongoDB
+# Repositório JPA do MongoDB
 
 ### ReactiveMongoRepository
 

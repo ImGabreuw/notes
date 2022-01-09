@@ -15,3 +15,5 @@ Essa condição é classificada em 5 grupos:
 * Erros do cliente (4XX)
 
 * Erros do servidor (5XX)
+
+> Lista de todos os códigos HTTP: [HTTP Status Codes](https://httpstatuses.com/) ou [MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)

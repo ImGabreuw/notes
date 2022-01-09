@@ -8,6 +8,8 @@
 
 * [Estrutura da requisição e reposta](./http/estrutura-requisicao-resposta.md)
 
+* [Cabeçalhos HTTP](./http/cabecalhos.md)
+
 * [Verbos HTTP](./http/verbos-http.md)
 
 * [Códigos de status de respostas HTTP](./http/codigos-de-status-de-respostas.md)

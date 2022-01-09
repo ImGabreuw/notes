@@ -6,11 +6,39 @@
 
 > **REST**: *Representational State Transfer* ou Transferência de Estado Representacional
 
-É um **estilo arquitetural** (NÃO é um protocolo) que define um conjunto de restrições e propriedades baseados no protocolo HTTP/HTTPS.
+É um **estilo arquitetural** que define um conjunto de restrições e propriedades baseado no protocolo HTTP/HTTPS para o desenvolvimento de APIs.
+
+**OBS**: REST não é um protocolo, framework ou biblioteca, mas uma especificação que define a forma de comunicação entre componentes de software na web.
 
 ### **Curiosidade**
 
 É uma das formas mais usadas para integrações de sistemas modernos. (utiliza verbos, código, cabeçalhos e URIs para compor uma API web)
+
+### **Vantagens**
+
+* Reparação entre cliente e servidor
+
+* Escalabilidade 
+
+* Independência de linguagem 
+
+* Amplamente adotado em quase todos os sistemas no mercado
+
+### **Regras**
+
+* Conceito de **cliente-servidor**
+
+* **Stateless**: aplicação não dever ter estado, ou seja, na requisição feita à API deve conter todos os dados necessários para que seja devidamente processada.
+
+* **Cache**: API pode armazenar as respostas das requisições  (mais performance e escalabilidade)
+
+* **Interface uniforme**: desacoplamento estrutural da aplicação ("cada parte" possa evoluir de forma independente)
+
+* **Sistema em camadas**
+
+* **Código sob demanda** 
+
+  > **Exemplo**: servidor fornece um código JS para montar um gráfico para o consumidor da API
 
 > ## **API REST**
 
@@ -26,36 +54,8 @@
 
 * Independência de tecnologia
 
-> ## **Recursos**
-
-### **Definição**
-
-São representações dos modelos e/ou coleções de modelos que serão expostos aos clientes.
-
-### **Formas de representar um recurso**
-
-* **JSON (JavaScript Object Notation)**
-
-  > **OBS**: mais utilizada no momento
-
-  ```json
-  {
-    "id": 1,
-    "name": "Han Solo"
-  }
-  ```
-
-* **XML (eXtensible Markup Language)**
-
-  ```xml
-  <character>
-      <id>1</id>
-      <name>Han Solo</name>
-  </character>
-  ```
-
 > ## **Requisição e Resposta**
 
 ### **Estrutura de uma requisição**
 
-![](./assets/representacao-estrutura-requisicao.png)
+![](../assets/representacao-estrutura-requisicao.png)

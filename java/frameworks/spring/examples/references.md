@@ -1,4 +1,4 @@
-# Referência de projetos com Spring
+# Referências de exemplos utilizando Spring
 
 ### Loja Virtual com Spring Boot
 

@@ -1,43 +1,61 @@
 # Introdução ao Protocolo HTTP
 
-> HTTP Protocol = Hypertext Transfer Protocol (Protocolo de Transferência de Hipertexto)
+> ## **Definição**
 
-### Definição
+> **HTTP** HyperText Transfer Protocol (Protocolo de Transferência de Hipertexto)
 
-* É um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos
+É um protocolo de comunicação utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos.
 
-* É a base para a comunicação de dados da Internet
+É a base para a comunicação de dados da Internet.
 
-### Request
+Baseado em requisição-resposta (relação cliente-servidor).
 
-> Termo em português: requisição
+> ## **Requisição (Request)**
 
-* **Exemplo**
+### **Sintaxe**
 
-  ```http
-  GET /hello HTTP/1.1
-  ```
+```http
+[método] [URI] HTTP/[versão] 
+[cabeçalhos]
 
-  * `GET` = método HTTP
+[corpo / payload]
+```
 
-  * `/hello` = caminho
+> método = verbo HTTP (GET / POST / PUT / DELETE / etc)
 
-  * `HTTP/1.1` = versão do HTTP
+### **Exemplo**
 
-### Response
+```http
+GET /hello HTTP/1.1
+```
 
-> Termo em português: resposta
+* `GET` = método HTTP
 
-* **Exemplo**
+* `/hello` = caminho
 
-  ```http
-  HTTP/1.1      200 OK
+* `HTTP/1.1` = versão do HTTP
 
-  Hello, World!
-  ```
+> ## **Resposta (Response)**
 
-  * `HTTP/1.1` = versão do HTTP
+### **Sintaxe**
 
-  * `200 OK` = código de status HTTP
+```http
+HTTP/[versão] [status] 
+[cabeçalhos]
 
-  * `Hello, World!` = corpo da resposta HTTP
+[corpo]
+```
+
+### **Exemplo**
+
+```http
+HTTP/1.1      200 OK
+
+Hello, World!
+```
+
+* `HTTP/1.1` = versão do HTTP
+
+* `200 OK` = código de status HTTP
+
+* `Hello, World!` = corpo da resposta HTTP

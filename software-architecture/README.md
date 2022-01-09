@@ -34,7 +34,9 @@
 
 * [Introdução](./rest/introducao.md)
 
-### 
+* [Sub-recursos](./rest/sub-recursos.md)
+
+* [Boas práticas](./rest/boas-praticas.md)
 
 > ## **Referências**
 
