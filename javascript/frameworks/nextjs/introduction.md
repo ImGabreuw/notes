@@ -1,8 +1,6 @@
 # Introdução ao Next.js
 
-> ## **Next.js**
-
-### **Definição**
+> ## **Definição**
 
 Framework *Server Side Rendering* (SSR) mais famoso do ecossistema React.js.
 
@@ -10,7 +8,7 @@ Mantida pela *Vercel*.
 
 Possui um servidor em *NodeJS* para renderizar a página web com React.js e entrega todo o HTML pronto para o navegador (cliente).
 
-### **Vantages**
+> ## **Vantages**
 
 * Setup zero configuração
 

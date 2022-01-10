@@ -10,7 +10,7 @@
 
 * SEO prejudicado
 
-  > **SEO**: Search Engine Optimization
+  > **SEO**: *Search Engine Optimization*
 
 * Necessidade de muitos recursos no cliente para renderização da página web
 

@@ -2,19 +2,31 @@
 
 > ## **Conteúdo**
 
-### HTTP
+### HTTP/1
 
-* [Introdução](./http/introducao.md)
+* [Introdução](./http-1/introducao.md)
 
-* [Estrutura da requisição e reposta](./http/estrutura-requisicao-resposta.md)
+* [Estrutura da requisição e reposta](./http-1/estrutura-requisicao-resposta.md)
 
-* [Cabeçalhos HTTP](./http/cabecalhos.md)
+* [Cabeçalhos HTTP](./http-1/cabecalhos.md)
 
-* [Verbos HTTP](./http/verbos-http.md)
+* [Verbos HTTP](./http-1/verbos-http.md)
 
-* [Códigos de status de respostas HTTP](./http/codigos-de-status-de-respostas.md)
+* [Códigos de status de respostas HTTP](./http-1/codigos-de-status-de-respostas.md)
+
+### HTTP/2
+
+* [Introdução](./http-2/introduction.md)
 
 ### gRPC
+
+* [Introdução](./grpc/introduction.md)
+
+* [Protocol Buffers](./grpc/protocol-buffers.md)
+
+* [Tipos de comunicação no gRPC](./grpc/grpc-communication-types.md)
+
+* [Diferenças entre REST e gRPC](./grpc/differences-between-reste-grpc.md)
 
 > ## **Referências**
 
@@ -26,4 +38,4 @@
 
 * [gRPC](./gRPC/references.md)
 
-* [HTTP](./http/references.md)
+* [HTTP](./http-1/references.md)

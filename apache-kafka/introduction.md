@@ -1,6 +1,6 @@
 # Introdução ao Apache Kafka
 
-> ### **Contexto**
+> ## **Contexto**
 
 ### **Event-driven (mundo orientado a eventos)**
 
@@ -56,15 +56,15 @@ Cada dia mais precisamos processar mais e mais eventos em diversos tipos de plat
 
 * Alta disponibilidade
 
-* Se conecta com quase todas as linguagens
+* Suporte para quase todas as linguagens de programação
 
 * Bibliotecas prontas para as mais diversas tecnologias
 
-* Ferramentas open-source
+* Ferramentas *open-source*
 
 ### **Empresas usando Apache Kafka**
 
-* Linkedin (criador do Kafka)
+* LinkedIn (criador do Kafka)
 
 * Netflix
 
@@ -78,7 +78,7 @@ Cada dia mais precisamos processar mais e mais eventos em diversos tipos de plat
 
 * Paypal
  
-* Bancos... (**principalmente**)
+* Bancos (**principalmente**)
 
 ### **Ecossistema**
 

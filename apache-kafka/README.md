@@ -4,9 +4,9 @@
 
 ### Apache Kafka
 
-* [Introdução ao Apache Kafka](./introducao.md)
+* [Introdução ao Apache Kafka](./introduction.md)
 
-* [Conceitos e dinâmica básica de funcionamento](./conceitos.md)
+* [Conceitos e dinâmica básica de funcionamento](./concepts.md)
 
 > ## **Referências**
 
