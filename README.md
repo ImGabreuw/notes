@@ -46,7 +46,7 @@
 
 * [Python](./python/README.md)
 
-* [Rabbit MQ](./rabbit-mq/README.md)
+* [RabbitMQ](./rabbitmq/README.md)
 
 * [Shell](./shell/README.md)
 

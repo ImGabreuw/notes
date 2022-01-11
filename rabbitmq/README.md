@@ -1,7 +1,7 @@
-# Rabbit MQ
+# RabbitMQ
 
 > ## **Conteúdo**
 
 > ## **Referências**
 
-* [Rabbit MQ](./references.md)
+* [RabbitMQ](./references.md)

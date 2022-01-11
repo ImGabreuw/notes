@@ -49,6 +49,20 @@
 
   * [Introdução](./frameworks/spring/introducao.md)
 
+  * [Classe SpringUtils](./frameworks/spring/spring-utils.md)
+
+  * Anotações
+
+    * [@Transactional](./frameworks/spring/annotations/transactional-annotation.md)
+
+    * [@RequestParam](./frameworks/spring/annotations/requestparam-annotation.md)
+
+    * [@ExceptionHandler](./frameworks/spring/annotations/exceptionhandler-annotation.md)
+
+    * [@ResponseStatus](./frameworks/spring/annotations/responsestatus-annotation.md)
+
+    * [@ControllerAdvice](./frameworks/spring/annotations/controlleradvice-annotation.md)
+
   * Spring Actuator
 
     * [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
@@ -99,7 +113,15 @@
 
     * [Introdução](./frameworks/spring/spring-bean-validation/introduction.md)
 
-    * [Anotações](./frameworks/spring/spring-bean-validation/annotations.md)
+    * Anotações
+
+      * [@NotBlank](./frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
+
+      * [@Size](./frameworks/spring/spring-bean-validation/annotations/size-annotation.md)
+      
+      * [@Email](./frameworks/spring/spring-bean-validation/annotations/email-annotation.md)
+
+      * [@Valid](./frameworks/spring/spring-bean-validation/annotations/valid-annotation.md)
 
     * [Validação em cascata e Validação de grupos](./frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
 
