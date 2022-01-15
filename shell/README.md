@@ -36,6 +36,14 @@
 
 * [Estrutura de diretórios](./estrutura-de-diretorios.md)
 
+### Zsh
+
+* Customização
+
+  * Temas
+
+    * [powerlevel10k](./zsh/customization/themes/powerlevel10k.sh)
+
 > ## **Referências**
 
 * [Shell](./references.md)
