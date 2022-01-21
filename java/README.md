@@ -113,6 +113,8 @@
 
     * [Introdução](./frameworks/spring/spring-bean-validation/introduction.md)
 
+    * [Criando uma anotação de validação customizada utilizando anotações já existentes](./frameworks/spring/spring-bean-validation/creating-custom-validation-annotation-using-builtin-annotations.md)
+
     * Anotações
 
       * [@NotBlank](./frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
