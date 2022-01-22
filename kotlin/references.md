@@ -31,3 +31,7 @@ https://youtu.be/SXLmr4Qp4OM
 ### awesome-for-beginners
 
 https://github.com/MunGell/awesome-for-beginners#kotlin
+
+### kotlin-notes
+
+https://github.com/ImGabreuw/kotlin-notes
