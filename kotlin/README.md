@@ -34,19 +34,28 @@
 
 * [Estrutura de repetição](./estrutura-de-repeticao.md)
 
-* [Classes](./classes.md)
+* Classes e Objetos
 
-* [Data classes](./data-classes.md)
+  * [Introdução](./classes-and-objects/introduction.md)
 
-* [Métodos acessores customizados](./custom-accessor-methods.md)
+  * [Classes públicas e privadas](./classes-and-objects/public-and-private-classes.md)
 
-* [Membros](./class-members.md)
+  * [*Outer class* e *Inner class*](./classes-and-objects/outer-class-and-inner-class.md)
 
-* [Métodos acessores customizados](./custom-accessor-methods.md)
+  * [Membros](./classes-and-objects/class-members.md)
 
-* [*Outer class* e *Inner class*](./outer-class-and-inner-class.md)
+  * [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
 
-* [Classes públicas e privadas](./public-and-private-classes.md)
+  * [Data classes](./classes-and-objects/data-classes.md)
+
+
+* Coleções
+
+  * [Introdução](./collections/introduction.md)
+
+  * [ArrayList](./collections/arraylist.md)
+
+  * [HashSet](./collections/hashset.md)
 
 > ## **Referências**
 

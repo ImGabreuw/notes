@@ -1,4 +1,4 @@
-# Classes
+# Introdução à "Classes"
 
 > ## **Contexto: Programação Orientada a Objetos**
 
