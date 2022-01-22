@@ -34,9 +34,19 @@
 
 * [Estrutura de repetição](./estrutura-de-repeticao.md)
 
-* [Classes](./poo/classes.md)
+* [Classes](./classes.md)
 
-* [Data classes](./poo/data-classes.md)
+* [Data classes](./data-classes.md)
+
+* [Métodos acessores customizados](./custom-accessor-methods.md)
+
+* [Membros](./class-members.md)
+
+* [Métodos acessores customizados](./custom-accessor-methods.md)
+
+* [*Outer class* e *Inner class*](./outer-class-and-inner-class.md)
+
+* [Classes públicas e privadas](./public-and-private-classes.md)
 
 > ## **Referências**
 
