@@ -36,6 +36,8 @@
 
 * [Funções de Corpo de bloco e Corpo de expressão](./block-body-and-expression-body-function.md)
 
+* [Igualdade](./equality.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
