@@ -57,6 +57,8 @@
   * [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
 
   * [Data classes](./classes-and-objects/data-classes.md)
+  
+  * [Enum](./classes-and-objects/enum.md)
 
 * Coleções
 
