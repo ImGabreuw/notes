@@ -34,6 +34,8 @@
 
 * [Estrutura de repetição](./estrutura-de-repeticao.md)
 
+* [Funções de Corpo de bloco e Corpo de expressão](./block-body-and-expression-body-function.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
@@ -47,7 +49,6 @@
   * [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
 
   * [Data classes](./classes-and-objects/data-classes.md)
-
 
 * Coleções
 
