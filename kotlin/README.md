@@ -32,11 +32,17 @@
 
 * [Estrutura de controle](./estrutura-de-controle.md)
 
-* [Estrutura de repetição](./estrutura-de-repeticao.md)
-
 * [Funções de Corpo de bloco e Corpo de expressão](./block-body-and-expression-body-function.md)
 
 * [Igualdade](./equality.md)
+
+* Loops
+
+  * [Estrutura de repetição `while`](./loops/while.md)
+
+  * [Estrutura de repetição `do-while`](./loops/do-while.md)
+
+  * [Estrutura de repetição `for`](./loops/for.md)
 
 * Classes e Objetos
 
