@@ -1,7 +1,7 @@
 # notes
 
 <p align="center">
-    <img src="./.github/icon.webp" width="80%">
+    <img src="./.github/icon.png" width="80%">
 </p>
 
 > ## **Conteúdo**
@@ -22,7 +22,7 @@
 
 * [Git](./git/README.md)
 
-* [GitHub](./gitHub/README.md)
+* [GitHub](./github/README.md)
 
 * [Go](./go/README.md)
 
