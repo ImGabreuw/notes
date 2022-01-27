@@ -86,6 +86,8 @@
 
   * [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
 
+  * [Tipos de retorno de funções](./functions/function-return-type.md)
+
 > ## **Referências**
 
 * [Kotlin](./references.md)
