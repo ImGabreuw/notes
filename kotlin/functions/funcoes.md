@@ -42,16 +42,6 @@ private fun getFullName(firstName: String, lastName: String): String {
 }
 ```
 
-### Função *single-line*
-
-* **Apenas** na função *single-line*, o tipo de retorno pode ser omitido (inferência de tipos) 
-
-* **Exemplo**
-
-  ```kotlin
-  private fun getFullName(firstName: String, lastName: String) = "$firstName $lastName"
-  ```
-
 ### Função de ordem superior
 
 * Recebem outra função ou lambda como parâmetro

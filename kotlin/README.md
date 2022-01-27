@@ -88,6 +88,10 @@
 
   * [Tipos de retorno de funções](./functions/function-return-type.md)
 
+  * Tipos de funções
+
+    * [Funções *single-line*](./functions/function-types/single-line-function.md)
+
 > ## **Referências**
 
 * [Kotlin](./references.md)
