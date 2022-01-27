@@ -28,15 +28,69 @@
 
 * [Empty VS Blank](./empty-vs-blank.md)
 
-* [Funções](./funcoes.md)
-
 * [Estrutura de controle](./estrutura-de-controle.md)
 
-* [Estrutura de repetição](./estrutura-de-repeticao.md)
+* [Igualdade](./equality.md)
 
-* [Classes](./poo/classes.md)
+* [Expressão e Declaração](./expression-and-declaration.md)
 
-* [Data classes](./poo/data-classes.md)
+* Estrutura de controle de fluxo
+
+  * Loops
+
+    * [Introdução](./control-flow-structure/loops/introduction.md)
+
+    * [Estrutura de repetição `while`](./control-flow-structure/loops/while.md)
+
+    * [Estrutura de repetição `do-while`](./control-flow-structure/loops/do-while.md)
+
+    * [Estrutura de repetição `for`](./control-flow-structure/loops/for.md)
+
+  * Exceções
+
+    * [Introdução](./control-flow-structure/exceptions/introduction.md)
+
+    * [Bloco `try-catch-finally`](./control-flow-structure/exceptions/try-catch-finally.md)
+
+    * [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
+
+* Classes e Objetos
+
+  * [Introdução](./classes-and-objects/introduction.md)
+
+  * [Classes públicas e privadas](./classes-and-objects/public-and-private-classes.md)
+
+  * [*Outer class* e *Inner class*](./classes-and-objects/outer-class-and-inner-class.md)
+
+  * [Membros](./classes-and-objects/class-members.md)
+
+  * [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
+
+  * [Data classes](./classes-and-objects/data-classes.md)
+  
+  * [Enum](./classes-and-objects/enum.md)
+
+* Coleções
+
+  * [Introdução](./collections/introduction.md)
+
+  * [ArrayList](./collections/arraylist.md)
+
+  * [HashSet](./collections/hashset.md)
+
+* Funções
+
+  * [Introdução](./functions/introduction.md)
+  
+  * [Escopo da função](./functions/function-scope.md)
+
+  * [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
+
+  * [Tipos de retorno de funções](./functions/function-return-type.md)
+
+  * Tipos de funções
+
+    * [Funções *single-line*](./functions/function-types/single-line-function.md)
 
 > ## **Referências**
 
