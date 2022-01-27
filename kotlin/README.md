@@ -28,21 +28,31 @@
 
 * [Empty VS Blank](./empty-vs-blank.md)
 
-* [Funções](./funcoes.md)
-
 * [Estrutura de controle](./estrutura-de-controle.md)
-
-* [Funções de Corpo de bloco e Corpo de expressão](./block-body-and-expression-body-function.md)
 
 * [Igualdade](./equality.md)
 
-* Loops
+* [Expressão e Declaração](./expression-and-declaration.md)
 
-  * [Estrutura de repetição `while`](./loops/while.md)
+* Estrutura de controle de fluxo
 
-  * [Estrutura de repetição `do-while`](./loops/do-while.md)
+  * Loops
 
-  * [Estrutura de repetição `for`](./loops/for.md)
+    * [Introdução](./control-flow-structure/loops/introduction.md)
+
+    * [Estrutura de repetição `while`](./control-flow-structure/loops/while.md)
+
+    * [Estrutura de repetição `do-while`](./control-flow-structure/loops/do-while.md)
+
+    * [Estrutura de repetição `for`](./control-flow-structure/loops/for.md)
+
+  * Exceções
+
+    * [Introdução](./control-flow-structure/exceptions/introduction.md)
+
+    * [Bloco `try-catch-finally`](./control-flow-structure/exceptions/try-catch-finally.md)
+
+    * [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
 
 * Classes e Objetos
 
@@ -67,6 +77,14 @@
   * [ArrayList](./collections/arraylist.md)
 
   * [HashSet](./collections/hashset.md)
+
+* Funções
+
+  * [Escopo da função](./functions/function-scope.md)
+
+  * [Funções](./functions/funcoes.md)
+
+  * [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
 
 > ## **Referências**
 
