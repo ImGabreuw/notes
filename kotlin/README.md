@@ -80,9 +80,9 @@
 
 * Funções
 
+  * [Introdução](./functions/introduction.md)
+  
   * [Escopo da função](./functions/function-scope.md)
-
-  * [Funções](./functions/funcoes.md)
 
   * [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
 

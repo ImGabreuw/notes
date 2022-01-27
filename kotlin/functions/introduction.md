@@ -1,16 +1,28 @@
-# Funções no Kotlin
+# Introdução à "Funções"
 
-### Sintaxe básica
+> ## **Definição**
 
-* Para declarar uma função é necessário usar a palavra reservada `fun`
+A declaração de uma função é feita a partir da palavra reservada `fun`.
+
+Por padrão toda função tem como tipo de retorno `Unit`.
+
+O encadeamento de chamadas de função é feita através da notação ponto `.`:
 
 ```kotlin
-fun <nome da função>(<nome do parâmetro>: <tipo do parâmetro>): <tipo do retorno> {
-  // Corpo da função
-}
+"Olá ".plus("Mundo!").length // 10
 ```
 
-> *Unit* (**void**) = basta omitir o tipo de retorno
+**Documentação**: [clique aqui](https://kotlinlang.org/docs/functions.html)
+
+> ## **Exemplo**
+
+```kotlin
+fun double(x: Int): Int {
+    return x * 2
+}
+
+double(2) // 4
+```
 
 ### Tipos de funções
 
