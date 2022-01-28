@@ -1,58 +1,5 @@
 # Estrutura de controle no Kotlin
 
-### Visão geral
-
-* **Operadores**
-
-  * `if-else`
-
-  * `when` (substituto do `switch-case`)
-
-  * `?:` (*elvis operator*)
-
-* **Características**
-
-  * Pode ser utilizado tanto para controle quanto para atribuição, ou seja, como uma expressão
-
-  * Pode ser encadeadas
-
-  * **OBS**: não existem mais o *operador ternário*, pois foi substituído pelo `if-else` e `?:`
-
-### `if-else`
-
-* `if-else` como expressão de única linha: **não** utiliza `return` e chaves
-
-* `if-else` como expressão de múltipla linha: o valor a ser atribuído, deve estar na **última linha do bloco**
-
-* **Exemplo**
-
-  ```kotlin
-  if (expressão) {
-    // Corpo
-  } else if (expressão) {
-    // Corpo
-  } else {
-    // Bloco
-  }
-  ```
-
-  ```kotlin
-  val result = if (expressão) /* Código, caso TRUE */ else /* Código, caso FALSE */
-  ```
-
-  ```kotlin
-  val minValue = if (a > b) {
-    println("b($b) é o menor valor")
-    b // valor a ser atribuído na variável "minValue"
-  } else if (a < b) {
-    println("a($a) é o menor valor")
-    a
-  } else {
-    println("Os valores são iguais")
-    b
-  }
-  ```
-
 ### `when`
 
 * Substituição do encadeamento de `if-else` e do `switch-case`

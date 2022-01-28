@@ -54,6 +54,10 @@
 
     * [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
 
+  * Condicionais
+
+    * [Introdução](./control-flow-structure/conditionals/introduction.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
