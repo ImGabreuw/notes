@@ -58,6 +58,8 @@
 
     * [Introdução](./control-flow-structure/conditionals/introduction.md)
 
+    * [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
