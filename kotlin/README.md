@@ -28,8 +28,6 @@
 
 * [Empty VS Blank](./empty-vs-blank.md)
 
-* [Estrutura de controle](./estrutura-de-controle.md)
-
 * [Igualdade](./equality.md)
 
 * [Expressão e Declaração](./expression-and-declaration.md)
