@@ -14,6 +14,6 @@
 
 * Distribuições
 
-  * [Clean Linux Project](./distributions//references.md)
+  * [Clean Linux Project](./distributions/clear-linux-project/references.md)
 
-  * [NixOS](./distributions/references.md)
+  * [NixOS](./distributions/NixOS/references.md)
