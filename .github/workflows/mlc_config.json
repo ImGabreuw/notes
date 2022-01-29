@@ -1,7 +1,10 @@
 {
   "ignorePatterns": [
-      {
-          "pattern": "^https://www.baeldung.com"
-      }
+    {
+      "pattern": "^https://www.baeldung.com"
+    },
+    {
+      "pattern": "^https://github.com"
+    }
   ]
 }
