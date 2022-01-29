@@ -6,7 +6,7 @@
 
 * Versões
    
-  * [Java 17](./core/versions/java-17.md)
+  * [Java 17](./core/version/java-17.md)
 
 * [JVM](./core/jvm.md)
 
@@ -37,8 +37,6 @@
 * Mockito
 
 * Selenium
-
-  * [Introdução](./frameworks/selenium/introducao.md)
 
   * [Configurações inciais](./frameworks/selenium/configuracoes-iniciais.md)
 
