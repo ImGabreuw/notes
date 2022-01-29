@@ -58,7 +58,9 @@
 
     * [Introdução](./control-flow-structure/conditionals/introduction.md)
 
-    * [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)
+    * [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)    
+    
+    * [Operador `?:`](./control-flow-structure/conditionals/elvis-operator.md)
 
 * Classes e Objetos
 

@@ -30,24 +30,3 @@
     currentYear -> println("Idade Contemporânea")
   }
   ```
-
-### `?:` (*Elvis operator*)
-
-* Muito utilizado para verificação de valores `null`, pois evita a utilização da expressão completa do `if-else`
-
-* Caso a expressão do lado direito do `?:` retornar `null` então será retornado o valor à direita do operador (*valor not null*)
-
-* Pode ser encadeado, mas é necessário ter **CUIDADO** nessa situação, pois pode dificultar a leitura do código
-
-* **Exemplo**
-
-  ```kotlin
-  val a: Int? = null
-  var number = a ?: 0
-  ```
-
-  ```kotlin
-  val a: Int? = null
-  val c: Int? = 9
-  var number = a ?: b ?: 0
-  ```
