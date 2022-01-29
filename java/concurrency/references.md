@@ -10,4 +10,5 @@ https://youtu.be/ImtZgX1nmr8
 
 ### Guide To CompletableFuture
 
+<!-- markdown-link-check-disable-next-line -->
 https://www.baeldung.com/java-completablefuture

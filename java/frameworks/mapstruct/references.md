@@ -10,4 +10,5 @@ https://springframework.guru/using-mapstruct-with-project-lombok/
 
 ### Quick Guide to MapStruct
 
+<!-- markdown-link-check-disable-next-line -->
 https://www.baeldung.com/mapstruct
