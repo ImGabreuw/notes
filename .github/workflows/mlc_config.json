@@ -1,25 +1,13 @@
 {
   "ignorePatterns": [
     {
-      "pattern": "https://www.baeldung.com/java-completablefuture"
+      "pattern": "^http(s)?://www.baeldung.com"
     },
     {
-      "pattern": "^https://github.com"
+      "pattern": "^http(s)?://github.com"
     },
     {
-      "pattern": "https://developer.android.com/docs"
-    },
-    {
-      "pattern": "https://developer.android.com/kotlin/first"
-    },
-    {
-      "pattern": "https://www.baeldung.com/mapstruct"
-    },
-    {
-      "pattern": "https://www.baeldung.com/spring-server-sent-events"
-    },
-    {
-      "pattern": "https://github.com/ImGabreuw/everis-quality-assurance-beginner-3/tree/master/introducao-ao-junit"
+      "pattern": "^http(s)?://developer.android.com/docs"
     }
   ]
 }
