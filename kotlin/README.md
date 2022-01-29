@@ -62,6 +62,8 @@
     
     * [Operador `?:`](./control-flow-structure/conditionals/elvis-operator.md)
 
+    * [Operador `when`](./control-flow-structure/conditionals/when.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
