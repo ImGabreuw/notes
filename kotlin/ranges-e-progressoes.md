@@ -4,14 +4,6 @@
 
 * **Conceitos**
 
-  Função | Expressão
-  :----: | :-------:
-  contém | `in`
-  não contèm | `!in`
-  faixa de valores | `(início)..(fim)`
-
-  * **`in`**: verificar se um valor está contido (*contains*) em uma lista ou uma faixa (**range**) de valores
-
   * **Range**: criar um intervalo de valores que inicia no primeiro parâmetro e termina no segundo
 
 * **Exemplo**

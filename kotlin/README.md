@@ -32,6 +32,8 @@
 
 * [Expressão e Declaração](./expression-and-declaration.md)
 
+* [Operador `in`](./in.md)
+
 * Estrutura de controle de fluxo
 
   * Loops
