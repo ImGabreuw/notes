@@ -1,11 +1,5 @@
 # Events Stream
 
-### Referências
-
-* **Baeldung**: [Spring server sent events](https://www.baeldung.com/spring-server-sent-events)
-
-* **Michelli Brito**: [API REST com Spring Webflux e MongoDB: parte6- Events Stream](https://youtu.be/BH0RAwlslo0)
-
 ### Representação reativa de um fluxo de eventos
 
 * **Função**: tratar de forma diferente com base em uma **requisição e resposta de um *media type* específico**

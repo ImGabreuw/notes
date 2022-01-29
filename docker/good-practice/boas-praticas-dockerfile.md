@@ -70,7 +70,7 @@
 
 * **Exemplo**
 
-  ![](./assets/tags-nas-imagens.png)
+  ![](../assets/tags-nas-imagens.png)
 
 ### Imagens oficiais / Publicadores oficiais
 
@@ -80,15 +80,15 @@
 
 * **Imagem oficial (official image)**
 
-  ![](./assets/imagem-oficial.png)
+  ![](../assets/imagem-oficial.png)
 
 * **Publicador oficial (verified publisher)**
 
-  ![](./assets/publicador-oficial.png)
+  ![](../assets/publicador-oficial.png)
 
 * **Exemplo**
 
-  ![](./assets/imagens-oficiais.png)
+  ![](../assets/imagens-oficiais.png)
 
 ### Arquivo `.dockerignore`
 
@@ -177,7 +177,7 @@
 * **Exemplo**
 
   > De preferência optar por **colocar um serviço por container**, porém em caso de serviços interdependentes, pode-se colocá-los em um único container
-  ![](./assets/um-processo-por-container.png)
+  ![](../assets/um-processo-por-container.png)
 
 ### Aproveitamento das camadas da imagem (overlay filesystem)
 
@@ -185,7 +185,7 @@
 
 * **Exemplo**
 
-  ![](./assets/aproveitamento-das-camandas-de-imagem.png)
+  ![](../assets/aproveitamento-das-camandas-de-imagem.png)
 
 ### Argumentos na construção de imagens
 
@@ -208,7 +208,7 @@
 
   * **Interpretadas**
 
-    ![](./assets/reprentacao-linguagem-interpretada.png)
+    ![](../assets/reprentacao-linguagem-interpretada.png)
 
     * **Definição**: o código fonte é interpretado por um software para então ser executada
 
@@ -216,7 +216,7 @@
 
   * **Compiladas**
 
-    ![](./assets/reprentacao-linguagem-compilada.png)
+    ![](../assets/reprentacao-linguagem-compilada.png)
 
     * **Definição**: o código fonte é convertido em um arquivo binário (executável) no qual será executado em um determinado sistema operacional
 
