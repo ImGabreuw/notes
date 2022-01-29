@@ -52,4 +52,4 @@
 
   * **Função**: **é uma "receita" de criação de imagem**. As instruções especificadas no Dockerfile são executas na ordem, e no final será criado a imagem
 
-> Leitura complementar: [Boas práticas na criação de images](boas-praticas-dockerfile.md)
+> Leitura complementar: [Boas práticas na criação de images](./good-practice/boas-praticas-dockerfile.md)

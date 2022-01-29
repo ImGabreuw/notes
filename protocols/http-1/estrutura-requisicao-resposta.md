@@ -19,4 +19,4 @@
 
 * Conteúdo das requisições e respostas
 
-* Contêm a localização/representação de um [**recurso**](../../arquitetura-de-software/rest/introducao.md)
+* Contêm a localização/representação de um [**recurso**](../../software-architecture/rest/introducao.md)

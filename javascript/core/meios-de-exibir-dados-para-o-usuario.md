@@ -66,7 +66,7 @@ alert([mensagem]);
 
 ### **Exemplo**
 
-![](./assets/representacao-alert.png)
+![](../assets/representacao-alert.png)
 
 ---
 
@@ -88,7 +88,7 @@ confirm([mensagem]);
 
 ### **Exemplo**
 
-![](./assets/representacao-confirm.png)
+![](../assets/representacao-confirm.png)
 
 ---
 
@@ -110,4 +110,4 @@ prompt([mensagem]);
 
 ### **Exemplo**
 
-![](./assets/representacao-prompt.png)
+![](../assets/representacao-prompt.png)

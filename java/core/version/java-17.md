@@ -16,7 +16,7 @@
 
   * **Exemplo**
 
-    ![](./assets/exemplo-sealed-class.png)
+    ![](../../assets/exemplo-sealed-class.png)
 
 * **Pattern Matching for `switch`** (preview)
 
@@ -30,11 +30,11 @@
 
     * **Sem Pattern Matching**
 
-      ![](./assets/exemplo--sem-pattern-matching-em-valores-nulos.png)
+      ![](../../assets/exemplo--sem-pattern-matching-em-valores-nulos.png)
 
     * **Com Pattern Matching**
 
-      ![](./assets/exemplo--com-pattern-matching-em-valores-nulos.png)
+      ![](../../assets/exemplo--com-pattern-matching-em-valores-nulos.png)
 
 ### Mudanças entre as versões LTS: Java 11 e Java 17
 
@@ -44,11 +44,11 @@
 
   * Java 11
 
-    ![](./assets/string-json-java-11.png)
+    ![](../../assets/string-json-java-11.png)
 
   * Java 17
 
-    ![](./assets/string-json-java-17.png)
+    ![](../../assets/string-json-java-17.png)
 
 * **Records**
 
@@ -62,7 +62,7 @@
 
   * Java 17
 
-    ![](./assets/records-java17.png)
+    ![](../../assets/records-java17.png)
 
 * **Stream to List**
 
@@ -70,8 +70,8 @@
 
   * Java 11
 
-    ![](./assets/stream-to-list-java11.png)
+    ![](../../assets/stream-to-list-java11.png)
 
   * Java 17
 
-    ![](./assets/stream-to-list-java17.png)
+    ![](../../assets/stream-to-list-java17.png)

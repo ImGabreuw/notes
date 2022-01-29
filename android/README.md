@@ -11,5 +11,3 @@
 * [Java VS Kotlin](./kotlin/java-vs-kotlin.md)
 
 > ## **Referências**
-
-* [Kotlin](references.md)

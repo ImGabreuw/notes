@@ -12,8 +12,6 @@
 
   * **Saída**
 
-    ![](./assets/exemplo-comando-history.png)
-
     * Informações exibidas na listagem do histórico de comandos
 
       Número do comando | Comando
@@ -52,5 +50,3 @@
     * **Exemplo**: `$ history | tail -5`
 
       * **Saída**
-
-        ![](./assets/exemplo-comando-history-tail.png)

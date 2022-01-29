@@ -36,6 +36,4 @@
 
 * [WebSocket](./websocket/references.md)
 
-* [gRPC](./gRPC/references.md)
-
 * [HTTP](./http-1/references.md)
