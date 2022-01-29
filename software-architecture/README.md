@@ -53,3 +53,5 @@
     * [Java](./microservices-architecture/examples/java/references.md)
 
 * [REST](./rest/references.md)
+
+* [Monolito](./monolith/references.md)
