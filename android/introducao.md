@@ -34,8 +34,4 @@
 
 * Java, Kotlin, Dart, JavaScript (React Native) e C#
 
-* [Documentação](https://developer.android.com/docs)
-
-* [Primeiros passos](https://developer.android.com/kotlin/first)
-
 * _Kotlin First_
