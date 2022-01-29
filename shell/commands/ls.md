@@ -20,8 +20,6 @@
 
   * **Exemplo**
 
-    ![](./assets/exemplo-ls-flag-l.png)
-
     * Informações exibidas na listagem
 
       String de permissão | Proprietário | Grupo | Tamanho do arquivo | Mês/Data/hora de criação | Nome do diretório/arquivo
