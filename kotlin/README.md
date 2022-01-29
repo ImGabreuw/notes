@@ -54,6 +54,16 @@
 
     * [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
 
+  * Condicionais
+
+    * [Introdução](./control-flow-structure/conditionals/introduction.md)
+
+    * [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)    
+    
+    * [Operador `?:`](./control-flow-structure/conditionals/elvis-operator.md)
+
+    * [Operador `when`](./control-flow-structure/conditionals/when.md)
+
 * Classes e Objetos
 
   * [Introdução](./classes-and-objects/introduction.md)
