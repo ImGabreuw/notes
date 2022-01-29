@@ -22,6 +22,7 @@ A partir dele é possível:
 
 * [Azure DevOps Server](https://azure.microsoft.com/pt-br/services/devops/server/)
 
+<!-- markdown-link-check-disable-next-line -->
 * [DBmaestro DevOps Platform](https://www.dbmaestro.com/)
 
 * [Liquibase](https://www.liquibase.org/)
