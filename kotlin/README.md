@@ -34,6 +34,8 @@
 
 - [Operador `in`](./in.md)
 
+- [_String templates_](./string-templates.md)
+
 - Estrutura de controle de fluxo
 
   - Loops
