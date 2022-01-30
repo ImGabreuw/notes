@@ -6,7 +6,7 @@
 
 * [Introdução](./introduction.md)
 
-* [Tipos de dados](./tipos-de-dados.md)
+* [Tipos de dados](./data-types.md)
 
 * [Variáveis](./variaveis.md)
 
@@ -20,7 +20,7 @@
 
 * [Operadores comparativos](./operadores-comparativos.md)
 
-* [Operadores lógicas](./operadores-logicos.md)
+* [Operadores lógicas](./logical-operators.md)
 
 * [Operador "in" e "range"](./ranges-e-progressoes.md)
 
