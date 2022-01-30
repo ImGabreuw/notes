@@ -1,12 +1,14 @@
 # *Null Safety*
 
-> ## _Nullability_
+> ## **_Nullable Types_**
 
 ### **Definição**
 
-Qualquer tipo pode ser `null`, porém isso deve ser explicito na declaração de variável. Dessa forma, no Kotlin, isso é feito através do uso do ponto de interrogação (`?`) após o tipo.
+Kotlin é uma linguagem considerada **null safety**, ou seja, visa eliminar os NPEs (`NullPointerException`). Então como solução foi implementado os `Nullable Types` que tem como indicar explicitamente se uma variável/propriedade aceita `null.`
 
-A inferência de tipo não atribui _nullability_.
+É possível declarar uma variável/propriedade/retorno de função como _Nullable Type_ através do uso do ponto de interrogação (`?`) após o tipo.
+
+A inferência de tipo não é realizada em valores `null`.
 
 > ## **Exemplo**
 
