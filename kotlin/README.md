@@ -4,102 +4,112 @@
 
 ### Kotlin
 
-* [Introdução](./introducao.md)
+- [Introdução](./introduction.md)
 
-* [Tipos de dados](./tipos-de-dados.md)
+- [Tipos de dados](./data-types.md)
 
-* [Variáveis](./variaveis.md)
+- [Variáveis](./variables.md)
 
-* [Operadores aritméticos](./operadores-aritmeticos.md)
+- [Operadores aritméticos](./operadores-aritmeticos.md)
 
-* [Ordem de precedência dos operadores aritméticos](./odem-de-precedencia-operadores-aritmeticos.md)
+- [Ordem de precedência dos operadores aritméticos](./odem-de-precedencia-operadores-aritmeticos.md)
 
-* [Operações de incremento e decremento](./operacoes-incremento-e-decremento.md)
+- [Operações de incremento e decremento](./operacoes-incremento-e-decremento.md)
 
-* [Null safety](./null-safety.md)
+- [Null safety](./null-safety.md)
 
-* [Operadores comparativos](./operadores-comparativos.md)
+- [Operadores comparativos](./operadores-comparativos.md)
 
-* [Operadores lógicas](./operadores-logicos.md)
+- [Operadores lógicas](./logical-operators.md)
 
-* [Operador "in" e "range"](./ranges-e-progressoes.md)
+- [Operador "in" e "range"](./ranges-e-progressoes.md)
 
-* [Manipulação de Strings](./manipulacao-de-strings.md)
+- [_Strings_](./strings.md)
 
-* [Empty VS Blank](./empty-vs-blank.md)
+- [Empty VS Blank](./empty-vs-blank.md)
 
-* [Igualdade](./equality.md)
+- [Igualdade](./equality.md)
 
-* [Expressão e Declaração](./expression-and-declaration.md)
+- [Expressão e Declaração](./expression-and-declaration.md)
 
-* Estrutura de controle de fluxo
+- [Operador `in`](./in.md)
 
-  * Loops
+- [_String templates_](./string-templates.md)
 
-    * [Introdução](./control-flow-structure/loops/introduction.md)
+- [_Tripe quotes_](./triple-quotes.md)
 
-    * [Estrutura de repetição `while`](./control-flow-structure/loops/while.md)
+- Estrutura de controle de fluxo
 
-    * [Estrutura de repetição `do-while`](./control-flow-structure/loops/do-while.md)
+  - Loops
 
-    * [Estrutura de repetição `for`](./control-flow-structure/loops/for.md)
+    - [Introdução](./control-flow-structure/loops/introduction.md)
 
-  * Exceções
+    - [Estrutura de repetição `while`](./control-flow-structure/loops/while.md)
 
-    * [Introdução](./control-flow-structure/exceptions/introduction.md)
+    - [Estrutura de repetição `do-while`](./control-flow-structure/loops/do-while.md)
 
-    * [Bloco `try-catch-finally`](./control-flow-structure/exceptions/try-catch-finally.md)
+    - [Estrutura de repetição `for`](./control-flow-structure/loops/for.md)
 
-    * [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
+  - Exceções
 
-  * Condicionais
+    - [Introdução](./control-flow-structure/exceptions/introduction.md)
 
-    * [Introdução](./control-flow-structure/conditionals/introduction.md)
+    - [Bloco `try-catch-finally`](./control-flow-structure/exceptions/try-catch-finally.md)
 
-    * [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)    
-    
-    * [Operador `?:`](./control-flow-structure/conditionals/elvis-operator.md)
+    - [Palavra reservada `throw`](./control-flow-structure/exceptions/throw.md)
 
-    * [Operador `when`](./control-flow-structure/conditionals/when.md)
+  - Condicionais
 
-* Classes e Objetos
+    - [Introdução](./control-flow-structure/conditionals/introduction.md)
 
-  * [Introdução](./classes-and-objects/introduction.md)
+    - [Operador `if-else`](./control-flow-structure/conditionals/if-else.md)
 
-  * [Classes públicas e privadas](./classes-and-objects/public-and-private-classes.md)
+    - [Operador `?:`](./control-flow-structure/conditionals/elvis-operator.md)
 
-  * [*Outer class* e *Inner class*](./classes-and-objects/outer-class-and-inner-class.md)
+    - [Operador `when`](./control-flow-structure/conditionals/when.md)
 
-  * [Membros](./classes-and-objects/class-members.md)
+- Classes e Objetos
 
-  * [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
+  - [Introdução](./classes-and-objects/introduction.md)
 
-  * [Data classes](./classes-and-objects/data-classes.md)
-  
-  * [Enum](./classes-and-objects/enum.md)
+  - [Classes públicas e privadas](./classes-and-objects/public-and-private-classes.md)
 
-* Coleções
+  - [_Outer class_ e _Inner class_](./classes-and-objects/outer-class-and-inner-class.md)
 
-  * [Introdução](./collections/introduction.md)
+  - [Membros](./classes-and-objects/class-members.md)
 
-  * [ArrayList](./collections/arraylist.md)
+  - [Métodos acessores customizados](./classes-and-objects/custom-accessor-methods.md)
 
-  * [HashSet](./collections/hashset.md)
+  - [Propriedades](./classes-and-objects/properties.md)
 
-* Funções
+  - [Data classes](./classes-and-objects/data-classes.md)
 
-  * [Introdução](./functions/introduction.md)
-  
-  * [Escopo da função](./functions/function-scope.md)
+  - [Enum](./classes-and-objects/enum.md)
 
-  * [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
+  - [_Smart Cast_](./classes-and-objects/smart-cast.md)
 
-  * [Tipos de retorno de funções](./functions/function-return-type.md)
+- Coleções
 
-  * Tipos de funções
+  - [Introdução](./collections/introduction.md)
 
-    * [Funções *single-line*](./functions/function-types/single-line-function.md)
+  - [ArrayList](./collections/arraylist.md)
+
+  - [HashSet](./collections/hashset.md)
+
+- Funções
+
+  - [Introdução](./functions/introduction.md)
+
+  - [Escopo da função](./functions/function-scope.md)
+
+  - [Funções de Corpo de bloco e Corpo de expressão](./functions/block-body-and-expression-body-function.md)
+
+  - [Tipos de retorno de funções](./functions/function-return-type.md)
+
+  - Tipos de funções
+
+    - [Funções _single-line_](./functions/function-types/single-line-function.md)
 
 > ## **Referências**
 
-* [Kotlin](./references.md)
+- [Kotlin](./references.md)

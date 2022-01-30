@@ -6,6 +6,7 @@ https://www.devmedia.com.br/introducao-ao-java-virtual-machine-jvm/27624
 
 ### 5 repositórios GitHub que todos os desenvolvedores de Java devem saber
 
+<!-- markdown-link-check-disable-next-line -->
 https://thedeveloperstory.com/2021/08/02/5-superb-github-repos-that-every-java-developer-must-know-about/
 
 ### O que é *function currying* em Java

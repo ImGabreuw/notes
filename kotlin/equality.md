@@ -6,6 +6,8 @@
 
 A igualdade estrutural é verificada pelo operador `==` e sua negação é `!=`.
 
+A função `.equals()` exerce a mesma função de `==`.
+
 **DOCUMENTAÇÃO**: [clique aqui](https://kotlinlang.org/docs/equality.html#structural-equality)
 
 ### **Sintaxe**
