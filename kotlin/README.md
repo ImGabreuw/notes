@@ -36,6 +36,8 @@
 
 - [_String templates_](./string-templates.md)
 
+- [_Tripe quotes_](./triple-quotes.md)
+
 - Estrutura de controle de fluxo
 
   - Loops
