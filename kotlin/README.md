@@ -8,7 +8,7 @@
 
 - [Tipos de dados](./data-types.md)
 
-- [Variáveis](./variaveis.md)
+- [Variáveis](./variables.md)
 
 - [Operadores aritméticos](./operadores-aritmeticos.md)
 
