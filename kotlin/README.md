@@ -24,7 +24,7 @@
 
 - [Operador "in" e "range"](./ranges-e-progressoes.md)
 
-- [Manipulação de Strings](./manipulacao-de-strings.md)
+- [_Strings_](./strings.md)
 
 - [Empty VS Blank](./empty-vs-blank.md)
 
