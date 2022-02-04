@@ -14,6 +14,14 @@
 
 * [Tipo de dados "string"](./core/string.md)
 
+### TypeScript
+
+* [Introdução](./typescript/introduction.md)
+
+* [Configuração do ambiente](./typescript/environment-configuration.md)
+
+* ["Script mode" e "Module mode"](./typescript/script-mode-e-module-mode.md)
+
 ### Nest.js
 
 * [Introdução](./frameworks/nestjs/introducao.md)
