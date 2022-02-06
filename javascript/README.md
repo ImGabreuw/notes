@@ -22,6 +22,8 @@
 
 * ["Script mode" e "Module mode"](./typescript/script-mode-e-module-mode.md)
 
+* [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
+
 ### Nest.js
 
 * [Introdução](./frameworks/nestjs/introducao.md)
