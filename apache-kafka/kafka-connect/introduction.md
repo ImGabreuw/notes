@@ -12,7 +12,7 @@ Ele exerce uma função parecida com um _hub de dados_ centralizado para integra
 
 ### **Estrutura**
 
-![](./assets/dinamica-de-funcionamento-kafka-connect.png)
+![](../assets/dinamica-de-funcionamento-kafka-connect.png)
 
 Existem 2 clusters (Apache Kafka e Kafka Connect) que se comunicam entre si.
 
@@ -28,13 +28,13 @@ O Kafka Connect possui vários **conectores** (_connectors_). Existem 2 tipos de
 
 > **worker**: geralmente é uma máquina
 
-![](./assets/standalone-workers.png)
+![](../assets/standalone-workers.png)
 
 ### **_Distributed Workers_**
 
 É um _cluster_ que possui vários _workers_, logo as tarefas são distribuídas entre os conectores de cada _worker_.
 
-![](./assets/distributed-workers.png)
+![](../assets/distributed-workers.png)
 
 > ## **Configuração de um conector**
 
