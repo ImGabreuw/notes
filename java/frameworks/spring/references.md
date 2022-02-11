@@ -10,4 +10,5 @@ https://blog.jdriven.com/2018/10/get-your-application-version-with-spring-boot/
 
 ### Spring Boot Autoscaling on Kubernetes
 
+<!-- markdown-link-check-disable-next-line -->
 https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/
