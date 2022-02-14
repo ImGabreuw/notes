@@ -24,6 +24,8 @@
 
 * [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
 
+* [_Type Annotations_](./typescript/type-annotations.md)
+
 ### Nest.js
 
 * [Introdução](./frameworks/nestjs/introducao.md)
