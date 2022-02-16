@@ -88,14 +88,14 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
 
   ```ts
   const objetoA: object = {
-    chaveA: 'Valor A',
-    chaveB: 'Valor B',
+    chaveA: "Valor A",
+    chaveB: "Valor B",
   };
   ```
 
   > Não é recomendado definir explicitamente o tipo de um objeto com `object`.
 
-- **type aliases:** 
+- **type aliases:**
 
   ```ts
                                 // Assinatura da propriedade: (property) adult?: boolean | undefined
@@ -113,8 +113,8 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
 
   ```ts
   const objetoA: {} = {
-    chaveA: 'Valor A',
-    chaveB: 'Valor B',
+    chaveA: "Valor A",
+    chaveB: "Valor B",
   };
   ```
 
@@ -124,9 +124,10 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
 
   ```ts
   const objetoA: Record<string, unknown> = {
-    chaveA: 'Valor A',
-    chaveB: 'Valor B',
+    chaveA: "Valor A",
+    chaveB: "Valor B",
   };
+  ```
 
 - **_Index signature_:**
 
@@ -134,12 +135,11 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
   const objetoA: {
     [key: string]: unknown; // chave opcional
   } = {
-    chaveA: 'Valor A',
+    chaveA: "Valor A",
   };
 
-  objetoA.chaveA = 'Nova chave A';
+  objetoA.chaveA = "Nova chave A";
   ```
-
 
 ### **function**
 
@@ -173,20 +173,48 @@ Indicar que uma função não tem retorno.
 
 ```ts
 function semRetorno(...args: string[]): void {
-  console.log(args.join(' '));
+  console.log(args.join(" "));
 }
 ```
 
 ```ts
 const pessoa = {
-  nome: 'Luiz',
-  sobrenome: 'Otávio',
+  nome: "Luiz",
+  sobrenome: "Otávio",
 
   exibirNome(): void {
-    console.log(this.nome + ' ' + this.sobrenome);
+    console.log(this.nome + " " + this.sobrenome);
   },
 };
 ```
+
+### **`tuple`**
+
+O tipo `tuple` é exclusivo do TypeScript.
+
+Esse tipo é parecido com um array, porém nele é possível armazenar vários tipos de dados. Dessa forma, os métodos do array também funcionam na tupla.
+
+- **Sintaxe básica de uma tupla:**
+
+  ```ts
+  const tuple: [number, string, string?] = [1, "Luiz", "Otávio"];
+
+  console.log(tuple); // [ 1, 'Luiz', 'Otávio' ]
+  ```
+
+- **Tupla imutável:**
+
+  ```ts
+  const tuple: readonly [number, string] = [1, "Luiz"];
+
+  console.log(tuple); // [ 1, 'Luiz' ]
+  ```
+
+  ```ts
+  const tuple: ReadonlyArray<string> = ["Luiz", "Otávio"];
+
+  console.log(tuple); // [ 'Luiz', 'Otávio' ]
+  ```
 
 > ## **Exemplo**
 
