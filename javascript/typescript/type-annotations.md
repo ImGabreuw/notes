@@ -68,7 +68,9 @@ let someSymbol: symbol = Symbol("qualquer-symbol");
 let bigNumber: bigint = 10n;
 ```
 
-### **`Array` (é possível utilizar **generics** ou a notação de array `[]`)**
+### **`array`**
+
+É possível utilizar **generics** ou a notação de array (`[]`).
 
 ```ts
 let arrayOfNumberGeneric: Array<number> = [1, 2, 3];
@@ -78,21 +80,68 @@ let arrayOfStringsGeneric: Array<string> = ["a", "b", "c"];
 let arrayOfStrings: string[] = ["a", "b", "c"];
 ```
 
-### **Objetos (é possível utilizar **type aliases** ou a anotação de objeto `{}`)**
+### **`object`**
 
-```ts
-                              // Assinatura da propriedade: (property) adult?: boolean | undefined
-                                          ^
-                                          |
-let person: {name: string, age: number, adult?: boolean} = {
-  name: 'Luiz',
-  age: 30
-}
-```
+É possível utilizar as seguintes formas para declarar o tipo de um objeto:
 
-> **OBS**: em `adult?: boolean` a `?` indica que um compo de um objeto é opcional
+- **`object`:**
 
-### **Funções**
+  ```ts
+  const objetoA: object = {
+    chaveA: 'Valor A',
+    chaveB: 'Valor B',
+  };
+  ```
+
+  > Não é recomendado definir explicitamente o tipo de um objeto com `object`.
+
+- **type aliases:** 
+
+  ```ts
+                                // Assinatura da propriedade: (property) adult?: boolean | undefined
+                                            ^
+                                            |
+  let person: {name: string, age: number, adult?: boolean} = {
+    name: 'Luiz',
+    age: 30
+  }
+  ```
+
+  > **OBS**: em `adult?: boolean` a `?` indica que um compo de um objeto é opcional
+
+- **Notação de objeto (`{}`):**
+
+  ```ts
+  const objetoA: {} = {
+    chaveA: 'Valor A',
+    chaveB: 'Valor B',
+  };
+  ```
+
+- **`Record`:**
+
+  Ao utilizar o `Record` com o tipo `unknown`, desabilita o intellisense da IDE, uma vez que esse tipo está acima do tipo `any` na hierarquia.
+
+  ```ts
+  const objetoA: Record<string, unknown> = {
+    chaveA: 'Valor A',
+    chaveB: 'Valor B',
+  };
+
+- **_Index signature_:**
+
+  ```ts
+  const objetoA: {
+    [key: string]: unknown; // chave opcional
+  } = {
+    chaveA: 'Valor A',
+  };
+
+  objetoA.chaveA = 'Nova chave A';
+  ```
+
+
+### **function**
 
 ```ts
 function sum(x: number, y: number): number {
@@ -118,7 +167,28 @@ const sumArrowFunction: (x: number, y: number) => number = (x, y) => x + y;
 
 > O tipo de retorno é inferido com base nos parâmetros da função. Caso uma função não tenha o `return`, o TypeScript infere o tipo de retorno como `void` (sem retorno)
 
-### **Exemplo**
+### **`void`**
+
+Indicar que uma função não tem retorno.
+
+```ts
+function semRetorno(...args: string[]): void {
+  console.log(args.join(' '));
+}
+```
+
+```ts
+const pessoa = {
+  nome: 'Luiz',
+  sobrenome: 'Otávio',
+
+  exibirNome(): void {
+    console.log(this.nome + ' ' + this.sobrenome);
+  },
+};
+```
+
+> ## **Exemplo**
 
 ```ts
 let name: string = "Luiz";
