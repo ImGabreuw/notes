@@ -4,40 +4,42 @@
 
 ### JavaScript
 
-* [Introdução](./introducao.md)
+- [Introdução](./introducao.md)
 
-* [Meios de exibir dados para o usuário](./core/meios-de-exibir-dados-para-o-usuario.md)
+- [Meios de exibir dados para o usuário](./core/meios-de-exibir-dados-para-o-usuario.md)
 
-* [Variáveis](./core/variaveis.md)
+- [Variáveis](./core/variaveis.md)
 
-* [Tipo de dados "number"](./core/number.md)
+- [Tipo de dados "number"](./core/number.md)
 
-* [Tipo de dados "string"](./core/string.md)
+- [Tipo de dados "string"](./core/string.md)
 
 ### TypeScript
 
-* [Introdução](./typescript/introduction.md)
+- [Introdução](./typescript/introduction.md)
 
-* [Configuração do ambiente](./typescript/environment-configuration.md)
+- [Configuração do ambiente](./typescript/environment-configuration.md)
 
-* ["Script mode" e "Module mode"](./typescript/script-mode-e-module-mode.md)
+- ["Script mode" e "Module mode"](./typescript/script-mode-e-module-mode.md)
 
-* [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
+- [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
 
-* [_Type Annotations_](./typescript/type-annotations.md)
+- [_Type Annotations_](./typescript/type-annotations.md)
+
+- [Modificadores](./typescript/modifiers.md)
 
 ### Nest.js
 
-* [Introdução](./frameworks/nestjs/introducao.md)
+- [Introdução](./frameworks/nestjs/introducao.md)
 
 ### Next.js
 
-* [Introdução](./frameworks/nextjs/introduction.md)
+- [Introdução](./frameworks/nextjs/introduction.md)
 
 > ## **Referências**
 
-* [JavaScript](./references.md)
+- [JavaScript](./references.md)
 
-* [Nest.js](./frameworks/nestjs/references.md)
+- [Nest.js](./frameworks/nestjs/references.md)
 
-* [Next.js](./frameworks/nextjs/references.md)
+- [Next.js](./frameworks/nextjs/references.md)
