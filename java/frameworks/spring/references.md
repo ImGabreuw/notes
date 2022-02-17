@@ -12,3 +12,8 @@ https://blog.jdriven.com/2018/10/get-your-application-version-with-spring-boot/
 
 <!-- markdown-link-check-disable-next-line -->
 https://piotrminkowski.com/2020/11/05/spring-boot-autoscaling-on-kubernetes/
+
+### Spring Boot Microservices Coding Style Guidelines and Best Practices
+
+<!-- markdown-link-check-disable-next-line -->
+https://medium.com/codex/spring-boot-microservices-coding-style-guidelines-and-best-practices-1dec229161c8#f50f
