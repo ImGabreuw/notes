@@ -65,3 +65,5 @@
 * [CSS](./css/README.md)
 
 * [HTML](./html/README.md)
+
+* [Paradigma de programação](./programming-paradigm/README.md)
