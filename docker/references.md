@@ -27,3 +27,8 @@ https://dev.to/alexeagleson/docker-for-javascript-developers-41me
 ### esquenta-imersao-fullstack-e-fullcycle
 
 https://github.com/ImGabreuw/esquenta-imersao-fullstack-e-fullcycle/blob/master/live-2/notes.md
+
+### Docker optimization guide: the 12 best tips to optimize Docker image security
+
+<!-- markdown-link-check-disable-next-line -->
+https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/
