@@ -35,3 +35,8 @@ https://github.com/MunGell/awesome-for-beginners#kotlin
 ### kotlin-notes
 
 https://github.com/ImGabreuw/kotlin-notes
+
+### Differentiable Programming in Kotlin
+
+<!-- markdown-link-check-disable-next-line -->
+https://www.infoq.com/presentations/differentiable-framework-kotlin/
