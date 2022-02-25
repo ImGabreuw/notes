@@ -12,4 +12,5 @@ https://github.com/xylo/intellij-postfix-templates
 
 ### 10 JetBrains Extensions to Fight Technical Debt
 
+<!-- markdown-link-check-disable-next-line -->
 https://dev.to/alexomeyer/10-jetbrains-extensions-to-fight-technical-debt-5gg6
