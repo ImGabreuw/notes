@@ -27,3 +27,8 @@ https://dev.to/fabianogoes/desvendando-o-spring-application-context-35c2
 
 <!-- markdown-link-check-disable-next-line -->
 https://dev.to/fabianogoes/desvendando-o-spring-application-context-35c2
+
+### WHAT IS SPRING BOOT ?
+
+<!-- markdown-link-check-disable-next-line -->
+https://javatechonline.com/what-is-spring-boot/?fbclid=IwAR1gprkcmS4q0sV1KWhXcXjGlUPmMlqdked_wwzxf61HVN3dooe8VSPKQbA&amp=1
