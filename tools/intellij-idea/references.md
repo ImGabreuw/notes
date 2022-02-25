@@ -9,3 +9,7 @@ https://blog.jetbrains.com/idea/2021/12/one-shortcut-to-run-them-all/
 https://stackoverflow.com/questions/54219671/variable-extraction-to-var-in-intellij-idea
 
 https://github.com/xylo/intellij-postfix-templates
+
+### 10 JetBrains Extensions to Fight Technical Debt
+
+https://dev.to/alexomeyer/10-jetbrains-extensions-to-fight-technical-debt-5gg6
