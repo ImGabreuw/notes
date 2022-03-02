@@ -28,6 +28,8 @@
 
 - [Modificadores](./typescript/modifiers.md)
 
+- [_Union Types_](./typescript/union-types.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
