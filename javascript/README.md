@@ -28,6 +28,8 @@
 
 - [Modificadores](./typescript/modifiers.md)
 
+- [_Type Alias_](./typescript/type-alias.md)
+
 - [_Union Types_](./typescript/union-types.md)
 
 - [_Intersection Types_](./typescript/intersection-types.md)
