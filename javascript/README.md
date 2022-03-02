@@ -30,6 +30,8 @@
 
 - [_Union Types_](./typescript/union-types.md)
 
+- [_Intersection Types_](./typescript/intersection-types.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
