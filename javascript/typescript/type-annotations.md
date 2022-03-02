@@ -251,6 +251,20 @@ const y = 800;
 if (typeof x === 'number') console.log(x + y);
 ```
 
+### **`undefined`**
+
+Serve para indicar que uma propriedade (não) será definida.
+
+```ts
+let x;
+
+if (typeof x === 'undefined') {
+  x = 20;
+}
+
+console.log(x * 2); // 40
+```
+
 > ## **Exemplo**
 
 ```ts
