@@ -38,6 +38,8 @@
 
 - [Funções como tipo](./typescript/function-as-type.md)
 
+- [Tipos literais](./typescript/literal-types.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
