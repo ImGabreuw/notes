@@ -216,6 +216,22 @@ Esse tipo é parecido com um array, porém nele é possível armazenar vários t
   console.log(tuple); // [ 'Luiz', 'Otávio' ]
   ```
 
+### **`never`**
+
+É um type annotation do TypeScript para representar um que uma função nunca retorna nada.
+
+Geralmente, quando uma função retorna `never`, é porque ele lança um erro ou trava a aplicação.
+
+> **IMPORTANTE**: `void` é diferente de `never`
+
+```ts
+export function createError(): never {
+  throw new Error('Error');
+}
+
+createError();
+```
+
 > ## **Exemplo**
 
 ```ts
