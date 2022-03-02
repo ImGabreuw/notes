@@ -26,6 +26,8 @@
 
 - [_Type Annotations_](./typescript/type-annotations.md)
 
+- [Tipo `Enum`](./typescript/enum-type.md)
+
 - [Modificadores](./typescript/modifiers.md)
 
 - [_Type Alias_](./typescript/type-alias.md)
