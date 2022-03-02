@@ -34,6 +34,8 @@
 
 - [_Intersection Types_](./typescript/intersection-types.md)
 
+- [Funções como tipo](./typescript/function-as-type.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
