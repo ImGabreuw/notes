@@ -141,7 +141,7 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
   objetoA.chaveA = "Nova chave A";
   ```
 
-### **function**
+### **`function`**
 
 ```ts
 function sum(x: number, y: number): number {
@@ -215,6 +215,90 @@ Esse tipo é parecido com um array, porém nele é possível armazenar vários t
 
   console.log(tuple); // [ 'Luiz', 'Otávio' ]
   ```
+
+### **`never`**
+
+É um type annotation do TypeScript para representar um que uma função nunca retorna nada.
+
+Geralmente, quando uma função retorna `never`, é porque ele lança um erro ou trava a aplicação.
+
+> **IMPORTANTE**: `void` é diferente de `never`
+
+```ts
+export function createError(): never {
+  throw new Error('Error');
+}
+
+createError();
+```
+
+### **`unknown`**
+
+É a classe "pai" de todos os tipos do TypeScript.
+
+Ao definir uma variável com esse tipo, é necessário verificar o seu tipo antes de utilizá-la.
+
+```ts
+let x: unknown;
+
+x = 100;
+x = 'Luiz';
+x = 900;
+x = 100;
+
+const y = 800;
+
+if (typeof x === 'number') console.log(x + y);
+```
+
+### **`undefined`**
+
+Serve para indicar que uma propriedade (não) será definida.
+
+```ts
+let x;
+
+if (typeof x === 'undefined') {
+  x = 20;
+}
+
+console.log(x * 2); // 40
+```
+
+### **`null`**
+
+É a representação de um valor inexistente ou "vazio".
+
+```ts
+export function squareOf(x: any) {
+  if (typeof x === 'number') {
+    return x + x;
+  }
+
+  return null;
+}
+
+const squareOfNumber = squareOf(2);
+
+if (squareOfNumber === null) {
+  console.log('Conta inválida.');
+} else {
+  console.log(squareOfNumber);
+}
+
+const squareOfString = squareOf('2');
+
+if (squareOfString === null) {
+  console.log('Conta inválida.');
+} else {
+  console.log(squareOfString);
+}
+
+/*
+4
+Conta inválida.
+*/
+```
 
 > ## **Exemplo**
 

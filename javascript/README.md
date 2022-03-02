@@ -26,7 +26,19 @@
 
 - [_Type Annotations_](./typescript/type-annotations.md)
 
+- [Tipo `Enum`](./typescript/enum-type.md)
+
 - [Modificadores](./typescript/modifiers.md)
+
+- [_Type Alias_](./typescript/type-alias.md)
+
+- [_Union Types_](./typescript/union-types.md)
+
+- [_Intersection Types_](./typescript/intersection-types.md)
+
+- [Funções como tipo](./typescript/function-as-type.md)
+
+- [Tipos literais](./typescript/literal-types.md)
 
 ### Nest.js
 
