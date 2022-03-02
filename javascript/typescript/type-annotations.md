@@ -141,7 +141,7 @@ let arrayOfStrings: string[] = ["a", "b", "c"];
   objetoA.chaveA = "Nova chave A";
   ```
 
-### **function**
+### **`function`**
 
 ```ts
 function sum(x: number, y: number): number {
