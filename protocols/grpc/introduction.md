@@ -22,6 +22,7 @@ Faz parte da *CNCF* (*Cloud Native Computing Foundation*).
 
 * Desenvolvimento de *API Contract-first*, com *Protocol Buffer* por padrão
 
+<!-- markdown-link-check-disable-next-line -->
 * Suporte a [várias linguagens](https://grpc.io/)
 
 * Suporte a chamadas *streaming* do cliente para o servidor (vice-versa) e bidirecional.
