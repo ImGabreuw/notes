@@ -24,6 +24,8 @@
 
 - [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
 
+- [Configuração do Webpack](./typescript/webpack-configuration.md)
+
 - [_Type Annotations_](./typescript/type-annotations.md)
 
 - [Tipo `Enum`](./typescript/enum-type.md)
