@@ -82,6 +82,7 @@ Geralmente, os atributos vem na abertura da tag.
 
 * HTML é case insensitive
 
+<!-- markdown-link-check-disable-next-line -->
 * Site para validação do código HTML: [clique aqui](https://validator.w3.org/)
 
 > ## **Semântica**
