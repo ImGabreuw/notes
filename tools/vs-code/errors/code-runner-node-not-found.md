@@ -28,4 +28,5 @@ A extensão *Code Runner*, ao executar um script JavaScript, não estava achando
 
 ### Referências
 
+<!-- markdown-link-check-disable-next-line -->
 * https://stackoverflow.com/questions/44983472/how-to-run-javascript-code-in-visual-studio-code-bin-sh-1-node-not-found

@@ -17,6 +17,7 @@
 
 ### Solução (no Ubuntu)
 
+<!-- markdown-link-check-disable-next-line -->
 > Referência: [stackoverflow](https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-in-path-when-trying-go-build)
 
 * **Comando**
