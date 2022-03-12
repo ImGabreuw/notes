@@ -12,3 +12,8 @@ https://dev.to/yenyih/10-useful-git-tips-to-improve-your-workflow-kf1
 
 <!-- markdown-link-check-disable-next-line -->
 https://dev.to/render/git-organized-a-better-git-flow-56go
+
+### How to Write Better Git Commit Messages – A Step-By-Step Guide
+
+<!-- markdown-link-check-disable-next-line -->
+https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/amp/
