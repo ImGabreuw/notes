@@ -42,6 +42,10 @@
 
 - [Tipos literais](./typescript/literal-types.md)
 
+- Programação Orientada a Objetos (POO)
+
+  - [Classes](./typescript/poo/classes.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
