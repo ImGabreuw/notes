@@ -46,6 +46,8 @@
 
   - [Classes](./typescript/poo/classes.md)
 
+  - [Os pilares da programação orientada a objetos](./typescript/poo/the-pillars-of-object-oriented-programming.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
