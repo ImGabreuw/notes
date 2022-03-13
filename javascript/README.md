@@ -24,6 +24,8 @@
 
 - [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
 
+- [Configuração do Webpack](./typescript/webpack-configuration.md)
+
 - [_Type Annotations_](./typescript/type-annotations.md)
 
 - [Tipo `Enum`](./typescript/enum-type.md)
@@ -39,6 +41,12 @@
 - [Funções como tipo](./typescript/function-as-type.md)
 
 - [Tipos literais](./typescript/literal-types.md)
+
+- Programação Orientada a Objetos (POO)
+
+  - [Classes](./typescript/poo/classes.md)
+
+  - [Os pilares da programação orientada a objetos](./typescript/poo/the-pillars-of-object-oriented-programming.md)
 
 ### Nest.js
 
