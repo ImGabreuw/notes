@@ -17,3 +17,9 @@ https://github.com/xylo/intellij-postfix-templates
 
 <!-- markdown-link-check-disable-next-line -->
 https://dev.to/alexomeyer/10-jetbrains-extensions-to-fight-technical-debt-5gg6
+
+### 7 Must Have IntelliJ IDEA Plugins For Java Developers
+
+<!-- markdown-link-check-disable-next-line -->
+https://www.geeksforgeeks.org/7-must-have-intellij-idea-plugins-for-java-developers/
+
