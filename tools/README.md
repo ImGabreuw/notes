@@ -4,6 +4,8 @@
 
 ### Intellij IDEA
 
+* [Extensões](./intellij-idea/extentions.md)
+
 ### VS Code
 
 * [Introdução](./vs-code/introducao.md)
