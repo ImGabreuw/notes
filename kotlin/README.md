@@ -110,6 +110,12 @@
 
     - [Funções _single-line_](./functions/function-types/single-line-function.md)
 
+### Frameworks
+
+- Validação
+
+  - [Konform](./frameworks/konform.md)
+
 > ## **Referências**
 
 - [Kotlin](./references.md)
