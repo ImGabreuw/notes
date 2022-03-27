@@ -10,8 +10,11 @@ Também é open-source, se você quiser executar o seu próprio.
 
 > **Documentação**
 
+<!-- markdown-link-check-disable-next-line -->
 - [Instalação](https://ntfy.sh/docs/install/)
 
+<!-- markdown-link-check-disable-next-line -->
 - [Primeiros passos](https://ntfy.sh/docs/)
 
+<!-- markdown-link-check-disable-next-line -->
 - [Publicação de mensagens](https://ntfy.sh/docs/publish/)
