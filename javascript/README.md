@@ -32,6 +32,8 @@
 
 - [Modificadores](./typescript/modifiers.md)
 
+- [Modificadores de acesso](./typescript/access-modifiers.md)
+
 - [_Type Alias_](./typescript/type-alias.md)
 
 - [_Union Types_](./typescript/union-types.md)
