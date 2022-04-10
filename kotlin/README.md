@@ -116,6 +116,10 @@
 
   - [Konform](./frameworks/konform.md)
 
+- Kotlin Multiplatform (KMP)
+
+  - [KustomExport](./frameworks/kustom-export.md)
+
 > ## **Referências**
 
 - [Kotlin](./references.md)
