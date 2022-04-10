@@ -34,7 +34,7 @@ Esse arquivo é similar ao `jsconfig.json` (arquivo de configuração para proje
 
 > ## **Opções do compilador**
 
-- `target`: versão do JavaScript, por padrão é utilizado o `ES5` (`es2016`), pois é a versão que possui maior suporte
+- `target`: versão do JavaScript que será utilizado no _bundle_, por padrão é utilizado o `ES5` (`es2016`), pois é a versão que possui maior suporte
 
 - `lib`: especificar as bibliotecas utilizadas no projeto
 
@@ -50,8 +50,25 @@ Esse arquivo é similar ao `jsconfig.json` (arquivo de configuração para proje
 
 - `esModuleInterop` : habilitar o suporte de `import` e `export` nos módulos
 
+- `sourceMap`: gerar um arquivo `.map` com as correspondências de linhas entre o _bundle_ e o código fonte
+
+- `rootDir`: indicar o diretório do arquivo de entrada do projeto (**diretório raiz**)
+
+- `removeComments`: remover os comentários do código fonte ao compilá-lo para o _bundle_
+
+- `noEmit`: não emitir os arquivos de saída (arquivos compilados), ou seja, não gerar o _bundle_
+
+- `noEmitOnError`: o evento de `noEmit` só será disparando quando o código apresentar algum erro de compilação
+
+- `strict`: realizar as validações no código. Geralmente essa opção é desabilitada em processos de migração de código JavaScript para TypeScript.
+
+  > Alguns exemplos de validações que o TypeScript realiza é **não permitir tipos _any_**, **_null checks_**, **checagem de tipos de função**, entre outros
+
+- `experimentalDecorators` e `emitDecoratorMetadata`: habilitar uma funcionalidade experimental no TypeScript, os **decorators** (são como as _Annotations_ no Java).
+
+
 > ## **Outras configurações**
 
 - `include`: especificar os arquivos que devem ser compilados pelo `tsc`
 
-- `exclude`: especificar os arquivos que devem ser id]ignoradas pelo compilador
+- `exclude`: especificar os arquivos que devem ser ignoradas pelo compilador

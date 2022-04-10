@@ -32,6 +32,8 @@
 
 - [Modificadores](./typescript/modifiers.md)
 
+- [Modificadores de acesso](./typescript/access-modifiers.md)
+
 - [_Type Alias_](./typescript/type-alias.md)
 
 - [_Union Types_](./typescript/union-types.md)
@@ -47,6 +49,8 @@
   - [Classes](./typescript/poo/classes.md)
 
   - [Os pilares da programação orientada a objetos](./typescript/poo/the-pillars-of-object-oriented-programming.md)
+
+  - [Herança](./typescript/poo/inheritance.md)
 
 ### Nest.js
 
