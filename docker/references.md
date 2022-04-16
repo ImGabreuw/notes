@@ -39,3 +39,8 @@ https://github.com/ImGabreuw/esquenta-imersao-fullstack-e-fullcycle/blob/master/
 
 <!-- markdown-link-check-disable-next-line -->
 https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security/
+
+### Mastering the Docker cache
+
+<!-- markdown-link-check-disable-next-line -->
+https://contains.dev/blog/mastering-docker-cache
