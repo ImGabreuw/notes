@@ -10,6 +10,7 @@
 
   ![](./assets/pr-retargeting-diagram1.png)
 
+<!-- markdown-link-check-disable-next-line -->
 * A junção de 2 branches é feita através de um [*pull request*](https://docs.github.com/pt/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
   ![](./assets/pr-retargeting-diagram2.png)
