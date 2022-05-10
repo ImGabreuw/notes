@@ -52,6 +52,8 @@
 
   - [Herança](./typescript/poo/inheritance.md)
 
+  - [_Super class_ e _Sub class_](./typescript/poo/super-class-and-sub-class.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
