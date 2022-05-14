@@ -10,10 +10,7 @@ O modificador `public` pode ser utilizado em métodos e atributos, e com isso to
 
 ```ts
 class Collaborator {
-  constructor(
-    public readonly name: string,
-    public readonly lastName: string
-  ) {}
+  constructor(public readonly name: string, public readonly lastName: string) {}
 }
 ```
 
@@ -48,18 +45,51 @@ class Company {
     }
   }
 }
+```
 
-const company = new Company('Udemy', '11.111.111/0001-11');
+> ## **`protected`**
 
-const collaborator1 = new Collaborator('Luiz', 'Otávio');
-const collaborator2 = new Collaborator('Maria', 'Miranda');
-const collaborator3 = new Collaborator('João', 'Vieira');
+### **Definição**
 
-company.addCollaborator(collaborator1);
-company.addCollaborator(collaborator2);
-company.addCollaborator(collaborator3);
+O modificador de acesso `protected` deixa a visibilidade de uma propriedade ou atributo para a class na qual foi definida e também nas subclasses.
 
-console.log(company);
+### **Exemplo**
 
-company.showCollaborators();
+```ts
+class Collaborator {
+  constructor(public readonly name: string, public readonly lastName: string) {}
+}
+
+class Company {
+  readonly name: string;
+  protected readonly collaborators: Collaborator[] = [];
+  private readonly cnpj: string;
+
+  constructor(name: string, cnpj: string) {
+    this.name = name;
+    this.cnpj = cnpj;
+  }
+
+  public addCollaborator(collaborator: Collaborator): void {
+    this.collaborators.push(collaborator);
+  }
+
+  showCollaborators(): void {
+    for (const collaborator of this.collaborators) {
+      console.log(collaborator);
+    }
+  }
+}
+
+class Udemy extends Company {
+  constructor() {
+    super("Udemy", "11.111.111/0001-11");
+  }
+
+  popCollaborator(): Collaborator | null {
+    const collaborator = this.collaborators.pop();
+
+    return collaborator ? collaborator : null;
+  }
+}
 ```
