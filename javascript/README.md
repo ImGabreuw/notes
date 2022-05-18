@@ -54,6 +54,10 @@
 
   - [_Super class_ e _Sub class_](./typescript/poo/super-class-and-sub-class.md)
 
+  - [_Getter_ e _Setter_](./typescript/poo/getter-and-setter.md)
+
+  - [Membros estáticos](./typescript/poo/static-members.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
