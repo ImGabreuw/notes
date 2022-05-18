@@ -56,6 +56,8 @@
 
   - [_Getter_ e _Setter_](./typescript/poo/getter-and-setter.md)
 
+  - [Membros estáticos](./typescript/poo/static-members.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
