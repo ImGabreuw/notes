@@ -58,6 +58,8 @@
 
   - [Membros estáticos](./typescript/poo/static-members.md)
 
+  - [Construtor](./typescript/poo/constructor.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
