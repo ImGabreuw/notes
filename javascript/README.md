@@ -59,6 +59,8 @@
   - [Membros estáticos](./typescript/poo/static-members.md)
 
   - [Construtor](./typescript/poo/constructor.md)
+  
+  - [Classes e membros abstratos](./typescript/poo/abstract-classes-and-members.md)
 
 ### Nest.js
 
