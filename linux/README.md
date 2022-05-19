@@ -17,3 +17,7 @@
   * [Clean Linux Project](./distributions/clear-linux-project/references.md)
 
   * [NixOS](./distributions/NixOS/references.md)
+  
+  * Ubuntu
+
+    * [Setup](./distributions/ubuntu/setup.md)
