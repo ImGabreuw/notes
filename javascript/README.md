@@ -62,6 +62,10 @@
   
   - [Classes e membros abstratos](./typescript/poo/abstract-classes-and-members.md)
 
+  - Tipos de relacionamento entre objetos
+
+    - [Associação](./typescript/poo/object-relationship-types/association.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
