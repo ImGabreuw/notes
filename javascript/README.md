@@ -66,6 +66,8 @@
 
     - [Associação](./typescript/poo/object-relationship-types/association.md)
 
+    - [Agregação](./typescript/poo/object-relationship-types/aggregation.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
