@@ -66,6 +66,8 @@
 
     - [Associação](./typescript/poo/object-relationship-types/association.md)
 
+    - [Agregação](./typescript/poo/object-relationship-types/aggregation.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introducao.md)
@@ -73,6 +75,12 @@
 ### Next.js
 
 - [Introdução](./frameworks/nextjs/introduction.md)
+
+### PuppeteerJS
+
+- [Introdução](./frameworks/puppeteerjs/introduction.md)
+
+- [Principais funções](./frameworks/puppeteerjs/functions.md)
 
 > ## **Referências**
 
