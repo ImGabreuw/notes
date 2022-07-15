@@ -76,6 +76,10 @@
 
 - [Introdução](./frameworks/nextjs/introduction.md)
 
+### PuppeteerJS
+
+- [Introdução](./frameworks/puppeteerjs/introduction.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
