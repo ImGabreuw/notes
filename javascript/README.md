@@ -80,6 +80,8 @@
 
 - [Introdução](./frameworks/puppeteerjs/introduction.md)
 
+- [Principais funções](./frameworks/puppeteerjs/functions.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
