@@ -55,7 +55,7 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
    ```js
    module.exports = {
      env: {
-       browser: true,
+       browser: false,
        es6: true,
        node: true,
      },
@@ -63,7 +63,6 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
        "eslint:recommended",
        "plugin:@typescript-eslint/eslint-recommended",
        "plugin:@typescript-eslint/recommended",
-       "plugin:prettier/recommended",
      ],
      globals: {
        Atomics: "readonly",
@@ -71,8 +70,8 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
      },
      parser: "@typescript-eslint/parser",
      parserOptions: {
-       ecmaVersion: 11,
        sourceType: "module",
+       project: "./tsconfig.json",
      },
      plugins: ["@typescript-eslint"],
      rules: {},
@@ -92,7 +91,7 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
    ```js
    module.exports = {
      env: {
-       browser: true,
+       browser: false,
        es6: true,
        node: true,
      },
@@ -100,7 +99,7 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
        "eslint:recommended",
        "plugin:@typescript-eslint/eslint-recommended",
        "plugin:@typescript-eslint/recommended",
-       "plugin:prettier/recommended",
+       "plugin:prettier/recommended", // <---
      ],
      globals: {
        Atomics: "readonly",
@@ -108,8 +107,8 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
      },
      parser: "@typescript-eslint/parser",
      parserOptions: {
-       ecmaVersion: 11,
        sourceType: "module",
+       project: "./tsconfig.json",
      },
      plugins: ["@typescript-eslint"],
      rules: {},
@@ -123,33 +122,27 @@ O `tsc` tem a função de compilar o código fonte em TypeScript para JavaScript
      semi: true,
      trailingComma: "all",
      singleQuote: true,
-     printWidth: 80,
+     printWidth: 120,
      tabWidth: 2,
    };
    ```
 
-> ## **Code Runner e `ts-node`**
+> ## **`ts-node-dev`**
 
-> `ts-node` é um pacote que permite o usuário executar arquivos `.ts` diretamente, sem a necessidade de pré-compilar usando o `tsc`.
+> `ts-node-dev` é uma ferramenta que compila seus projetos com Typescript e reinicia o projeto quando o arquivo é modificado.
 
-1. Instalar o pacote `ts-node` como dependência de desenvolvimento:
+1. Instalar o pacote `ts-node-dev` como dependência de desenvolvimento:
 
    ```shell
-   $ npm i ts-node -D
+   $ npm i ts-node-dev -D
    ```
 
-2. Criar um diretório `.vscode/` na raiz do projeto:
-
-3. Adicionar nesse diretório um arquivo `settings.json` e inserir as seguintes configurações:
+2. Adicionar um _script_ para executar o projeto com o `ts-node-dev`:
 
    ```json
    {
-     "code-runner.executorMap": {
-       "typescript": "npx ts-node --files"
+     "scripts": {
+       "dev": "ts-node-dev --respawn --exit-child ./src/server.ts"
      }
    }
    ```
-
-   - `npx ts-node`: executar o arquivo binário do `ts-node` sem precisar instala-lo localmente
-
-   - `--files`: indicar ao `ts-node` para utilizar os arquivos especificados nos campos `includes` e `excludes` do `tsconfig.json`
