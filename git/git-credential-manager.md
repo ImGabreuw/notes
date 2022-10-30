@@ -9,10 +9,8 @@
 ### **`curl`**
 
 ```shell
-GCM_FILENAME=gcm.deb
-
-curl $(curl -s https://api.github.com/repos/GitCredentialManager/git-credential-manager/releases/latest | grep "browser_download_url.*deb" | cut -d '"' -f 4) -o $GCM_FILENAME
-sudo dpkg -i $GCM_FILENAME
+curl -LO https://aka.ms/gcm/linux-install-source.sh &&
+sh ./linux-install-source.sh &&
 git-credential-manager-core configure
 ```
 
