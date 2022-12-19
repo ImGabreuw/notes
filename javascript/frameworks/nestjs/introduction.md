@@ -1,59 +1,77 @@
 # Introdução ao Nest.js
 
-> ## **Nest.js**
+> ## **Definição**
 
-### **Definição**
+É uma framework opinativo, ou seja, o Nest fornece aos desenvolvedores alguns padrões de projetos para facilitar a tomada de decisão no desenvolvimento e obter uma maior produtividade.
+
+> ## **Características**
 
 Baseado na arquitetura MVC (arquitetura de camadas):
 
-![](../../assets/arquitetura-nest.png)
+<div align="center">
+  <img src="../../assets/arquitetura-nest.png"/>
+</div>
 
-Typescript em ambiente de desenvolvimento. Benefícios dessa abordagem:
+- **Controller** (`@Controller`): responsável pelo controle de fluxo dos dados (entrada e saída) da aplicação
 
-  * Linguagem fortemente tipada
-  
-  * Aparição de erros durante o desenvolvimento
-  
-  * Mais recursos/funcionalidades do que o JavaScript puro
+- **Service** (`@Service`): engloba todo o resto
 
-Baseado nas ideais arquiteturais do AngularJS. Benefícios dessa abordagem: 
+- **Module** (`@Module`): responsável pela configuração do módulo, ou seja, definir _imports_, _controllers_ e _providers_ para a injeção de dependência
 
-  * Modularidade
-  
-  * Injeção de dependência
-  
-  * Padrão de nomenclatura de arquivos e diretórios
+Typescript em ambiente de desenvolvimento.
 
-### **Vantagens**
+Baseado nas ideais arquiteturais do Angular.
 
-* CoC (*Convention Over Configuration*)
+Arquitetura fornecido pelo NestJS respeitando os princípios do SOLID
+
+- [**Inversão de dependência**](../../../design-pattern/dependency-inversion/dependency-inversion.md)
+
+- [**Injeção de dependência**](#injeção-de-dependência)
+
+> ## **Vantagens**
+
+- CoC (_Convention Over Configuration_)
 
   > Sugestão de padrão de nomenclatura de arquivos/diretórios.
 
-* Typescript
+- Typescript
 
-* Arquitetura escalável (baseada no Angular)
+  - Linguagem fortemente tipada
 
-* Integração fácil com vários tipos de banco de dados
+  - Aparição de erros durante o desenvolvimento
 
-* Suporte a microsserviços
+  - Mais recursos/funcionalidades do que o JavaScript puro
 
-* Suporte à criação de *API Rest*, *GraphQL*
+  - Decorators
 
-### **"O que o Nest.js não é?"**
+- Arquitetura escalável (baseada no Angular)
 
-* Angular
+  - Modularidade
 
-* React
+  - Injeção de dependência
 
-* Vue
+  - Padrão de nomenclatura de arquivos e diretórios
 
-* Um framework de front-end
+- Integração fácil com vários tipos de banco de dados
 
-### **"Conselhos ao utilizar o Nest.js"**
+- Suporte a microsserviços
 
-* Não depender exclusivamente a um framework
+- Suporte à criação de _API Rest_, _GraphQL_
 
-* Não pular etapas (estudar e fixar os fundamentos da linguagem, no caso JavaScript)
+> ## **"O que o Nest.js não é?"**
+
+- Angular
+
+- React
+
+- Vue
+
+- Um framework de front-end
+
+> ## **"Conselhos ao utilizar o Nest.js"**
+
+- Não depender exclusivamente a um framework
+
+- Não pular etapas (estudar e fixar os fundamentos da linguagem, no caso JavaScript)
 
   ![](../../assets/nao-pular-etapas.png)

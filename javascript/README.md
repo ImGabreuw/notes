@@ -72,6 +72,8 @@
 
 - [Introdução](./frameworks/nestjs/introduction.md)
 
+- [Validação de dados](./frameworks/nestjs//data-validation.md)
+
 ### Next.js
 
 - [Introdução](./frameworks/nextjs/introduction.md)
@@ -81,6 +83,14 @@
 - [Introdução](./frameworks/puppeteerjs/introduction.md)
 
 - [Principais funções](./frameworks/puppeteerjs/functions.md)
+
+### Prisma
+
+- [Introdução](./frameworks/prisma/introduction.md)
+
+- [Tabelas](./frameworks/prisma/tables.md)
+
+- [_Schemas_](./frameworks/prisma/schemas.md)
 
 > ## **Referências**
 
