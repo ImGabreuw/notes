@@ -8,8 +8,6 @@
 
 - [Conceitos](./conceitos.md)
 
-- [Inversão de dependência](./dependency-inversion.md)
-
 ### Arquitetura Limpa
 
 - [Introdução](./clean-architecture/introducao.md)
