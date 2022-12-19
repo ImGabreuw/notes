@@ -2,6 +2,12 @@
 
 > ## **Conteúdo**
 
+### Design de software
+
+- [Introdução](./software-design/introduction.md)
+
+- [Entidades](./software-design/entities.md)
+
 ### Arquitetura de software
 
 - [Introdução](./introducao.md)
