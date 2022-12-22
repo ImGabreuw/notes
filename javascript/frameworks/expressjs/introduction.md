@@ -50,3 +50,53 @@ O Express.js é um dos frameworks mais populares no ambiente web com o Node.js e
    ```shell
    $ npm i @types/express -D
    ```
+
+> ## **Exemplo: Hello World**
+
+1. Pré-requisito: concluir as [etapas de instalação](#instalação)
+
+2. Configuração do arquivo `package.json`
+
+   ```json
+   {
+     "name": "hello-world-expressjs",
+     "version": "1.0.0",
+     "description": "Um simples exemplo de uma aplicação emm JavaScript com Express.js",
+     "type": "module",
+     "main": "app.js",
+     "scripts": {
+       "dev": "node app.js"
+     },
+     "keywords": [],
+     "author": "ImGabreuw",
+     "license": "ISC",
+     "dependencies": {
+       "express": "^4.18.2"
+     }
+   }
+   ```
+
+3. Criar o arquivo `app.js` e inserir o seguinte código
+
+   ```js
+   import express from "express";
+
+   const app = express();
+   const port = 3000;
+
+   app.listen(port, () => {
+     console.log(`App running on port ${port}`);
+   });
+
+   app.get("/", (request, response) => {
+     response.send("Hello world!");
+   });
+   ```
+
+4. Iniciar a aplicação com o script **dev** definido no `package.json`
+
+   ```shell
+   $ npm run dev
+   ```
+
+5. Acessar a URL: http://localhost:3000/ e ver o resultado `Hello world!` na tela do navegador
