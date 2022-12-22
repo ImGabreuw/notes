@@ -4,20 +4,24 @@
 
 ### Linux
 
-* [Comandos](./comandos.md)
+- [Comandos](./comandos.md)
+
+- [Processos]
+
+  - [Interromper processos](./kill-process.md)
 
 ### Distribution
 
 > ## **Referências**
 
-* [Linux](./references.md)
+- [Linux](./references.md)
 
-* Distribuições
+- Distribuições
 
-  * [Clean Linux Project](./distributions/clear-linux-project/references.md)
+  - [Clean Linux Project](./distributions/clear-linux-project/references.md)
 
-  * [NixOS](./distributions/NixOS/references.md)
-  
-  * Ubuntu
+  - [NixOS](./distributions/NixOS/references.md)
 
-    * [Setup](./distributions/ubuntu/setup.md)
+  - Ubuntu
+
+    - [Setup](./distributions/ubuntu/setup.md)
