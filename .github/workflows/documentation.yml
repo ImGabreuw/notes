@@ -19,4 +19,4 @@ jobs:
           use-quiet-mode: "yes"
           use-verbose-mode: "yes"
           check-modified-files-only: "yes"
-          config-file: "../../md-link-check-config.json"
+          config-file: md-link-check-config.json
