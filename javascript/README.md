@@ -78,6 +78,8 @@
 
   - [Introdução](./frameworks/expressjs/routing-introduction.md)
 
+  - [Métodos de roteamento](./frameworks/expressjs/routing-methods.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introduction.md)
