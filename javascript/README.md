@@ -74,6 +74,10 @@
 
 - [_Express Generator_](./frameworks/expressjs/express.generator.md)
 
+- **Roteamento**
+
+  - [Introdução](./frameworks/expressjs/routing-introduction.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introduction.md)
