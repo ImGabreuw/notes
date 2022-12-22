@@ -72,6 +72,8 @@
 
 - [Introdução](./frameworks/expressjs/introduction.md)
 
+- [_Express Generator_](./frameworks/expressjs/express.generator.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introduction.md)
