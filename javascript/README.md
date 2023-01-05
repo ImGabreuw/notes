@@ -84,6 +84,8 @@
 
   - [Introdução](./frameworks/expressjs/middlewares-introduction.md)
 
+  - [Tipos de middlewares](./frameworks/expressjs/middleware-types.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introduction.md)
