@@ -143,3 +143,21 @@ router.get(
   }
 );
 ```
+
+## Middleware de manipulação de erros
+
+### **Definição**
+
+**IMPORTANTE**: middleware de manipulação de erros possuem 4 argumentos (`err`, `req`, `res`, `next`) e essa assinatura deve ser mantida rigorosamente para que o Express interprete que essa função seja uma função middleware de manipulação de erros.
+
+> Mais detalhes sobre [manipulação de erros](https://expressjs.com/pt-br/guide/error-handling.html)
+
+### **Exemplo**
+
+```ts
+app.use(function (err, req, res, next) {
+  console.error(err.stack);
+
+  res.status(500).send("Something broke!");
+});
+```
