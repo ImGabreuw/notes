@@ -72,6 +72,8 @@
 
 - [Introdução](./frameworks/eslint/introduction.md)
 
+- [Configuração](./frameworks/eslint/configuration.md)
+
 ### Express.js
 
 - [Introdução](./frameworks/expressjs/introduction.md)
