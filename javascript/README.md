@@ -124,6 +124,10 @@
 
 - [Configuração](./frameworks/nodemon/configuration.md)
 
+### Sucrase
+
+- [Configuração](./frameworks/nodemon/configuration.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
