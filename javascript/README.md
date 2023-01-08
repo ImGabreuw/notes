@@ -6,6 +6,10 @@
 
 - [Introdução](./introducao.md)
 
+- **Configuração**
+
+  - [Editorconfig](./editorconfig.md)
+
 - [Meios de exibir dados para o usuário](./core/meios-de-exibir-dados-para-o-usuario.md)
 
 - [Variáveis](./core/variaveis.md)
