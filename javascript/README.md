@@ -120,6 +120,10 @@
 
 - [_Schemas_](./frameworks/prisma/schemas.md)
 
+### Nodemon
+
+- [Configuração](./frameworks/nodemon/configuration.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
