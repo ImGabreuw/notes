@@ -33,3 +33,16 @@
    - `What format do you want your config file to be in?` = `JavaScript`
 
    - `Would you like to install them now with npm?` = `npm`
+
+> ## Integração com o VS Code
+
+A configuração de `eslint.autoFixOnSave` foi depreciada no VS Code, ou seja, o ESLint não faz mais correções no código automaticamente após salvar o arquivo.
+
+Utilize a seguinte configuração ao invés de "eslint.autoFixOnSave":
+
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+},
+```
