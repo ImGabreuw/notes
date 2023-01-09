@@ -142,6 +142,12 @@
 
 - [Configuração](./frameworks/sequelize/configuration.md)
 
+### JWT (Json Web Token)
+
+- [Introdução](./frameworks/jwt/introduction.md)
+
+- [Configuração](./frameworks/jwt/configuration.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
