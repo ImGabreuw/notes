@@ -51,3 +51,27 @@
    ```shell
    $ sudo apt install docker-ce docker-ce-cli containerd.io -y
    ```
+
+   > ## **Configuração**
+
+### **Criação do banco de dados localmente**
+
+```shell
+docker run --restart always -d \
+   --name [nome banco de dados]
+   -p [porta máquina]:[porta container] \
+   -e MYSQL_ROOT_PASSWORD=[senha] \
+   mariadb
+```
+
+**Exemplo**:
+
+```shell
+docker run --restart always -d \
+   --name users
+   -p 3306:3306 \
+   -e MYSQL_ROOT_PASSWORD=admin \
+   mariadb
+```
+
+> **OBS**: `3306` é a porta padrão disponível para criar uma conexão com o banco de dados
