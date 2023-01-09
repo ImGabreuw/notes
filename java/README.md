@@ -158,6 +158,8 @@
 
 > ## **Referências**
 
+- [**Exemplos de projetos**](./project-examples.md)
+
 - [Java](./references.md)
 
 - [Concurrency](./concurrency/references.md)
