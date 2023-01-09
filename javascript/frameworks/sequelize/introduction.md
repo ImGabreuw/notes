@@ -6,15 +6,15 @@
 
 > ## **Migration**
 
-1. Criar uma migration (seed):
+Criar uma migration (seed):
 
-   ```shell
-   $ npx sequelize seed:generate --name [nome seed]
-   ```
+```shell
+$ npx sequelize seed:generate --name [nome seed]
+```
 
-   ```shell
-   $ npx sequelize seed:generate --name create-users
-   ```
+```shell
+$ npx sequelize seed:generate --name create-users
+```
 
 > ## **Padrão de nomenclatura de métodos em Controllers**
 
