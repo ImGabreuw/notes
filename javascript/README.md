@@ -132,6 +132,12 @@
 
 - [Introdução](./frameworks/mariadb/introduction.md)
 
+### Sequelize
+
+- [Introdução](./frameworks/sequelize/introduction.md)
+
+- [Configuração](./frameworks/sequelize/configuration.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
