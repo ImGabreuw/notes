@@ -23,7 +23,7 @@ O módulo `multer` é um _middleware_ para manipular com arquivos no Node.js (_m
    ```js
    {
      storage: multer.diskStorage({
-       // função para filter as extensões de arquivo permitidas,
+       // função para filter as extensões de arquivo permitidas (opcional),
        // função para salvar o arquivo,
        // função para normalizar o nome do arquivo,
      });
