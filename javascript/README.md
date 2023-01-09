@@ -128,7 +128,7 @@
 
 - [Configuração](./frameworks/nodemon/configuration.md)
 
-### Maria DB
+### MariaDB
 
 - [Introdução](./frameworks/mariadb/introduction.md)
 

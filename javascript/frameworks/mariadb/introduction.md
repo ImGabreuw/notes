@@ -2,11 +2,11 @@
 
 > ## **Definição**
 
-É um banco de dados SQL muito parecido com o MySQL.
+Cliente dos bancos de dados MariaDB e MySQL, 100% JavaScript, com definição TypeScript e com a _Promise API_.
 
 > ## **Instalação**
 
-1. Instalar o pacote mariadb com NPM:Instalar o pacote mariadb com NPM:
+1. Instalar o pacote `mariadb` com NPM:
 
    ```shell
    $ npm i mariadb
