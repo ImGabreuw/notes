@@ -18,6 +18,10 @@
 
 - [Tipo de dados "string"](./core/string.md)
 
+- **Arrays**
+
+  - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
