@@ -1,4 +1,4 @@
-# Método de Array: `slice`
+# Método de Array: `splice`
 
 > ## **Definição**
 
