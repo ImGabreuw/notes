@@ -22,9 +22,11 @@
 
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
+  - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
+
   - [Função callback: `filter`](./core/arrays/filter-callback-function.md)
 
-  - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
+  - [Função callback: `map`](./core/arrays/map-callback-function.md)
 
 - **Node**
 
