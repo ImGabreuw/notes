@@ -20,6 +20,8 @@
 
 - **Arrays**
 
+  - [Introdução](./core/arrays/introduction.md)
+
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
   - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
