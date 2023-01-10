@@ -4,12 +4,16 @@
 
 ### Git
 
-* [Branches](./branches.md)
+- [Branches](./branches.md)
 
-* [Lista de comandos do Git](./comandos.md)
+- **Comandos**
 
-* [Git Credential Manager](./git-credential-manager.md)
+  - [Lista de comandos](./comandos.md)
+
+  - [Comando: `git init`](./commands/git-init.md)
+
+- [Git Credential Manager](./git-credential-manager.md)
 
 > ## **Referências**
 
-* [Git](./references.md)
+- [Git](./references.md)
