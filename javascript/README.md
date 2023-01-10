@@ -22,13 +22,15 @@
 
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
+  - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
+
   - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
 
   - [Função callback: `filter`](./core/arrays/filter-callback-function.md)
 
   - [Função callback: `map`](./core/arrays/map-callback-function.md)
 
-  - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
+  - [Função callback: `reduce`](./core/arrays/reduce-callback-function.md)
 
 - **Node**
 
