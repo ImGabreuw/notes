@@ -28,6 +28,8 @@
 
   - [Função callback: `map`](./core/arrays/map-callback-function.md)
 
+  - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
