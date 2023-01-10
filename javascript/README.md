@@ -22,6 +22,8 @@
 
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
+  - [Função callback: `filter`](./core/arrays/filter-callback-function.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
