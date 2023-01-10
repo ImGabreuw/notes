@@ -152,6 +152,8 @@
 
 - [Introdução](./frameworks/pm2/introduction.md)
 
+- [Configuração](./frameworks/pm2/configuration.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
