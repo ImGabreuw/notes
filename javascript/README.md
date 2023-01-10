@@ -24,6 +24,8 @@
 
   - [Função callback: `filter`](./core/arrays/filter-callback-function.md)
 
+  - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
