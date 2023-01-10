@@ -148,6 +148,10 @@
 
 - [Configuração](./frameworks/jwt/configuration.md)
 
+### PM2
+
+- [Introdução](./frameworks/pm2/introduction.md)
+
 > ## **Referências**
 
 - [JavaScript](./references.md)
