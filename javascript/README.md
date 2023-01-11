@@ -38,6 +38,8 @@
 
   - [Promises](./core/asynchronous/promises.md)
 
+  - [`Async` e `Await`](./core/asynchronous/async-and-await.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
