@@ -8,6 +8,235 @@
 
 - `rejected`: representação de um promessa que teve um error ao longo do processamento (rejeitada)
 
+> ## **Principais métodos**
+
+### **Método `Promise.all()`**
+
+- **Definição**: esse método executa um `array` de `Promises` e retorna uma `Promise` resolvida, caso todas as promessas forem resolvidas ou retorna apenas a `Promise` rejeitada (e não executará as outras `Promises`), caso alguma promessa seja rejeitada
+
+- **Exemplos**
+
+  ```js
+  function randomTime(min, max) {
+    min *= 1000;
+    max *= 1000;
+
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function wait(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof message !== "string") {
+        reject("Valor inválido");
+        return;
+      }
+
+      setTimeout(() => {
+        resolve(message);
+      }, randomTime(1, 3));
+    });
+  }
+
+  const promises = [
+    "Primeiro valor",
+    wait("Promise 1"),
+    wait("Promise 2"),
+    wait("Promise 3"),
+    "Segundo valor",
+  ];
+
+  Promise.all(promises)
+    .then(function (value) {
+      console.log(value);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+  /*
+  [
+    'Primeiro valor',
+    'Segundo valor'  
+    'Promise 1',     
+    'Promise 2',     
+    'Promise 3',     
+  ]
+  */
+  ```
+
+### **Método `Promise.race()`**
+
+- **Definição**: esse método retorna a primeira `Promise` resolvida em um `array` de `Promises`
+
+- **Exemplos**
+
+  ```js
+  function randomTime(min, max) {
+    min *= 1000;
+    max *= 1000;
+
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function wait(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof message !== "string") {
+        reject("Valor inválido");
+        return;
+      }
+
+      setTimeout(() => {
+        resolve(message);
+      }, randomTime(1, 3));
+    });
+  }
+
+  const promises = [
+    "Primeiro valor",
+    wait("Promise 1"),
+    wait("Promise 2"),
+    wait("Promise 3"),
+  ];
+
+  Promise.race(promises)
+    .then(function (value) {
+      console.log(value);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+  // "Primeiro valor"
+  ```
+
+  > No exemplo acima, `"Primeiro valor"` será retornado todas as vezes, uma vez que ela já é um `Promise` resolvida ou rejeitada.
+
+  ```js
+  function randomTime(min, max) {
+    min *= 1000;
+    max *= 1000;
+
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function wait(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof message !== "string") {
+        reject("Valor inválido");
+        return;
+      }
+
+      setTimeout(() => {
+        resolve(message);
+      }, randomTime(1, 3));
+    });
+  }
+
+  const promises = [wait("Promise 1"), wait("Promise 2"), wait("Promise 3")];
+
+  Promise.race(promises)
+    .then(function (value) {
+      console.log(value);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+  // Promise 2
+  ```
+
+### **Método `Promise.resolve()`**
+
+- **Definição**: esse método retorna uma `Promise` já resolvida.
+
+- **Exemplos**
+
+  ```js
+  function randomTime(min, max) {
+    min *= 1000;
+    max *= 1000;
+
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function wait(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof message !== "string") {
+        reject("Valor inválido");
+        return;
+      }
+
+      setTimeout(() => {
+        resolve(message);
+      }, randomTime(1, 3));
+    });
+  }
+
+  function downloadPage() {
+    const isCache = true;
+
+    if (isCache) {
+      return Promise.resolve("Página em cache");
+    }
+
+    return wait("Página baixada");
+  }
+
+  downloadPage()
+    .then((pageData) => {
+      console.log(pageData);
+    })
+    .catch((error) => console.log(error));
+
+  // Página em cache
+  ```
+
+### **Método `Promise.reject()`**
+
+- **Definição**: esse método retorna uma `Promise` já rejeitada.
+
+- **Exemplo**
+
+  ```js
+  function randomTime(min, max) {
+    min *= 1000;
+    max *= 1000;
+
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function wait(message) {
+    return new Promise((resolve, reject) => {
+      if (typeof message !== "string") {
+        reject("Valor inválido");
+        return;
+      }
+
+      setTimeout(() => {
+        resolve(message);
+      }, randomTime(1, 3));
+    });
+  }
+
+  function downloadPage() {
+    const isCache = true;
+
+    if (isCache) {
+      return Promise.reject("Página em cache");
+    }
+
+    return wait("Página baixada");
+  }
+
+  downloadPage()
+    .then((pageData) => {
+      console.log(pageData);
+    })
+    .catch((error) => console.log("ERRO:", error));
+
+  // ERRO: Página em cache
+  ```
+
 > ## **Tratamento de `promises` rejeitadas**
 
 Utilizar `try-catch`:
