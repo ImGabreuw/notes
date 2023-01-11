@@ -1,5 +1,28 @@
 # Fetch API e Axios
 
+> ## **Fetch API**
+
+### **Definição**
+
+O método `fetch()` já abstrai toda verbosidade da AJAX (`XMLHttpRequest`) em uma única chamada de método.
+
+Esse método retorna uma `promise`.
+
+### **Exemplo**
+
+```js
+fetch("home.html")
+  .then((response) => {
+    if (response.status !== 200) {
+      throw new Error();
+    }
+
+    return response.text();
+  })
+  .then((html) => console.log(html))
+  .catch((error) => console.error(error));
+```
+
 > ## **Axios**
 
 ### **Definição**
