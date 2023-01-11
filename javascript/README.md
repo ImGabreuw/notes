@@ -40,6 +40,8 @@
 
   - [`Async` e `Await`](./core/asynchronous/async-and-await.md)
 
+  - [Fetch API e AXIOS](./core/asynchronous/fetch-api-and-axios.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
