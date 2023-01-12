@@ -76,7 +76,9 @@
 
 - **Descrevem a aplicação a ser implantada**
 
-### **Problemas que os containers ainda não resolvem**
+### **OBS**
+
+Os _containers_ proporciona uma séria de benefícios, porém ainda possuem pontos de melhoria e que outras ferramentas, como o Kubernetes, fazem de forma mais eficiente. Como por exemplo:
 
 - **Para DevOps**
 
