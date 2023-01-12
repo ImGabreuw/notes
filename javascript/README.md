@@ -42,6 +42,8 @@
 
   - [Fetch API e AXIOS](./core/asynchronous/fetch-api-and-axios.md)
 
+  - [AJAX](./core/asynchronous/ajax.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
