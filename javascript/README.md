@@ -24,7 +24,7 @@
 
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
-  - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
+  - [Métodos de Array](./core/arrays/array-methods.md)
 
   - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
 
@@ -43,6 +43,10 @@
   - [Fetch API e AXIOS](./core/asynchronous/fetch-api-and-axios.md)
 
   - [AJAX](./core/asynchronous/ajax.md)
+
+- **Navegador**
+
+  - [Métodos de navegador](./core/browser/browser-methods.md)
 
 - **Node**
 

@@ -4,9 +4,9 @@
 
 É uma estrutura de dados que serve para armazenar dados e organizá-los.
 
-Cada índice do array armazena a referência do seu respectivo elemento (valor) na memória.
+Cada índice do Array armazena a referência do seu respectivo elemento (valor) na memória.
 
-O array pode ser criado de 2 formas:
+O Array pode ser criado de 2 formas:
 
 - **Literal**: declarar um array a partir da notação de colchetes (`[]`)
 
@@ -22,59 +22,42 @@ O array pode ser criado de 2 formas:
 
 > ## **Métodos**
 
-- `pop()`: remover o último elemento
+- `pop()`
 
-- `shift()`: remover o primeiro elemento
+- `shift()`
 
-- `length()`: obter o tamanho (número de elementos)
+- `length()`
 
-- `push()`: adicionar um elemento no final
+- `push()`
 
-- `unshift()`: adicionar um elemento no começo
+- `unshift()`
 
-- `slice()`: recortar um intervalo de valores
+- `slice()`
 
-  > **OBS**: o parâmetro `end` do método não pertence ao intervalo a ser "fatiado"
+- `split()`
 
-  ```js
-  const names = ["Eduardo", "Maria", "Joana", "Wallace", "Rosana"];
-  const first3Names = names.slice(0, 3);
+- `spread operador`
 
-  console.log(first3Names);
-  // [ 'Eduardo', 'Maria', 'Joana' ]
-  ```
+> Para informações mais detalhadas sobre cada método, acessar: [métodos de Array](array-methods.md)
 
-  ```js
-  const names = ["Eduardo", "Maria", "Joana", "Wallace", "Rosana"];
-  const first3Names = names.slice(0, -2);
+> ## **Dimensões de Array**
 
-  console.log(first3Names);
-  // [ 'Eduardo', 'Maria', 'Joana' ]
-  ```
+### **Array unidimensional**
 
-- `split()`: separar uma `string` em um `array` a partir de um delimitador (argumento do método)
+> Também chamado de **vetor**
 
-  ```js
-  const name = "João da Silva";
-  const names = name.split(" ");
+```js
+const vector = [1, 2, 3];
+```
 
-  console.log(names);
-  // [ 'joão', 'da', 'Silva' ]
-  ```
+### **Array bidimensional**
 
-  > No código acima, o delimitador passado no método é o **espaço**.
+> Também chamado de **matriz**
 
-- `spread operador`: copiar os valores de um array para outro
-
-  ```js
-  const names = ["Eduardo", "Maria", "Joana"];
-  const clone = [...names];
-
-  names.pop();
-
-  console.log(names);
-  // [ 'Eduardo', 'Maria' ]
-
-  console.log(clone);
-  // [ 'Eduardo', 'Maria', 'Joana' ]
-  ```
+```js
+const matrix = [
+  [1, 2, 3],
+  [1, 2, 3],
+  [1, 2, 3],
+];
+```
