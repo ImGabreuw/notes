@@ -20,6 +20,10 @@
 
 - [Tipo de dados "string"](./core/string.md)
 
+- **Funções**
+
+  - [Introdução](./core/functions/introduction.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
