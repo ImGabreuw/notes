@@ -44,6 +44,10 @@
 
   - [AJAX](./core/asynchronous/ajax.md)
 
+- **Navegador**
+
+  - [Métodos de navegador](./core/browser/browser-methods.md)
+
 - **Node**
 
   - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
