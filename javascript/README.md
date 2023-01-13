@@ -24,7 +24,7 @@
 
   - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
 
-  - [Método de Array: `splice`](./core/arrays/array-method-splice.md)
+  - [Métodos de Array](./core/arrays/array-methods.md)
 
   - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
 
