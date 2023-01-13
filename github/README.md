@@ -4,18 +4,20 @@
 
 ### GitHub
 
-* [Aba Issues do Github](./issues.md)
+- [Aba Issues do Github](./issues.md)
 
 ### GitHub Actions
 
-* Heroku
+- Heroku
 
-   * [Implantação de uma aplicação no Heroku](./github-actions/heroku/deploy-application-in-heroku.md)
+  - [Implantação de uma aplicação no Heroku](./github-actions/heroku/deploy-application-in-heroku.md)
 
 > ## **Referências**
 
-* [GitHub](./references.md)
+- [GitHub](./references.md)
 
-* [GitHub Actions](./github-actions/references.md)
+- [GitHub Actions](./github-actions/references.md)
 
-  * [Heroku](./github-actions/heroku/references.md)
+  - [Heroku](./github-actions/heroku/references.md)
+
+- [Revisão de código](./code-review/references.md)
