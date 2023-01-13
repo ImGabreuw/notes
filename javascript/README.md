@@ -14,11 +14,15 @@
 
 - [Meios de exibir dados para o usuário](./core/meios-de-exibir-dados-para-o-usuario.md)
 
-- [Variáveis](./core/variaveis.md)
+- [Variáveis](./core/variables.md)
 
 - [Tipo de dados "number"](./core/number.md)
 
 - [Tipo de dados "string"](./core/string.md)
+
+- **Funções**
+
+  - [Introdução](./core/functions/introduction.md)
 
 - **Arrays**
 
