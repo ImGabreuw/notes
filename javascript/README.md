@@ -16,9 +16,11 @@
 
 - [Variáveis](./core/variables.md)
 
-- [Tipo de dados "number"](./core/number.md)
+- [Tipo de dados `number`](./core/number.md)
 
-- [Tipo de dados "string"](./core/string.md)
+- [Métodos do tipo de dados `number`](./core/number-methods.md)
+
+- [Tipo de dados `string`](./core/string.md)
 
 - **Funções**
 
