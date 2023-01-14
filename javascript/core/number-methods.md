@@ -1,4 +1,4 @@
-# Métodos de número
+# Métodos de `number`
 
 > ## **Método: `toString()`**
 

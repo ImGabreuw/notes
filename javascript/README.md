@@ -22,6 +22,8 @@
 
 - [Tipo de dados `string`](./core/string.md)
 
+- [Métodos do tipo de dados `string`](./core/string-methods.md)
+
 - **Funções**
 
   - [Introdução](./core/functions/introduction.md)
