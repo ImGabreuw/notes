@@ -6,6 +6,10 @@
 
 - [Introdução](./software-architecture/introduction.md)
 
+### **_C4 model_**
+
+- [Introdução](./software-architecture/c4-model/introduction.md)
+
 > ## **Referências**
 
 - [Documentação de arquitetura de software](./software-architecture/references.md)
