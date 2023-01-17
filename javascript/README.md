@@ -52,6 +52,8 @@
 
   - [Introdução](./core/objects/introduction.md)
 
+  - [Métodos de objetos](./core/objects/object-methods.md)
+
 - **JavaScript assíncrono**
 
   - [Promises](./core/asynchronous/promises.md)
