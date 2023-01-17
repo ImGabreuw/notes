@@ -24,6 +24,8 @@
 
 - [Métodos do tipo de dados `string`](./core/string-methods.md)
 
+- [Operadores](./core/operators.md)
+
 - [Objeto `Math`](./core/math.md)
 
 - [Métodos do objeto `Math`](./core/math-methods.md)
@@ -47,6 +49,12 @@
   - [Função callback: `map`](./core/arrays/map-callback-function.md)
 
   - [Função callback: `reduce`](./core/arrays/reduce-callback-function.md)
+
+- **Objetos**
+
+  - [Introdução](./core/objects/introduction.md)
+
+  - [Métodos de objetos](./core/objects/object-methods.md)
 
 - **JavaScript assíncrono**
 
