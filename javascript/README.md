@@ -16,6 +16,8 @@
 
 - [Variáveis](./core/variables.md)
 
+- [Tipos de dados primitivo](./core/primitive-data-types.md)
+
 - [Tipo de dados `number`](./core/number.md)
 
 - [Métodos do tipo de dados `number`](./core/number-methods.md)
