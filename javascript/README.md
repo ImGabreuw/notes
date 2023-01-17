@@ -24,6 +24,8 @@
 
 - [Métodos do tipo de dados `string`](./core/string-methods.md)
 
+- [Operadores](./core/operators.md)
+
 - [Objeto `Math`](./core/math.md)
 
 - [Métodos do objeto `Math`](./core/math-methods.md)
