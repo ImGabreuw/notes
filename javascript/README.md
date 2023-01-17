@@ -48,6 +48,10 @@
 
   - [Função callback: `reduce`](./core/arrays/reduce-callback-function.md)
 
+- **Objetos**
+
+  - [Introdução](./core/objects/introduction.md)
+
 - **JavaScript assíncrono**
 
   - [Promises](./core/asynchronous/promises.md)
