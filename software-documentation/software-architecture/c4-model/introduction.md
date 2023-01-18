@@ -25,3 +25,9 @@ O nível de detalhes e informações aumentam em ordem crescente:
 > ## **Casos de uso**
 
 A utilização do **C4 model é recomendado em todos os cenários**, visto que tal ferramenta proporciona uma visão clara do projeto, tanto a nível técnico quanto de negócio, pois um bom software é baseado em um **boa arquitetura e sua respectiva documentação**.
+
+> ## **Ferramentas**
+
+É recomendado a utilização de ferramentas que garantem todos os benefícios do versionamento, ou seja, um ferramenta que converta os diagramas em código (também conhecido como **_docs as code_**).
+
+- [C4-builder](https://adrianvlupu.github.io/C4-Builder/#/)
