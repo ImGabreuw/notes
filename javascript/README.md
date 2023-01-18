@@ -68,6 +68,8 @@
 
   - [Classes](./core/poo/classes.md)
 
+  - [Herança](./core/poo/inheritance.md)
+
 - **JavaScript assíncrono**
 
   - [Promises](./core/asynchronous/promises.md)
