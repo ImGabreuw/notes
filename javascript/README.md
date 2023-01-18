@@ -68,6 +68,8 @@
 
   - [Classes](./core/poo/classes.md)
 
+  - [Métodos de instância e Métodos estáticos](./core/poo/instance-and-static-methods.md)
+
   - [Herança](./core/poo/inheritance.md)
 
 - **JavaScript assíncrono**
