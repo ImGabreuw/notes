@@ -19,3 +19,5 @@ O nível de detalhes e informações aumentam em ordem crescente:
 3. Componente
 
 4. Código
+
+> "Uma melhor alusão seria com um Google Maps, no qual se pode dar um zoom para diminuir ou ampliar o desenho arquitetural. Se em um mapa, por exemplo, temos Continente, País, Estado e Cidade" - [Zup](https://www.zup.com.br/blog/c4-model)
