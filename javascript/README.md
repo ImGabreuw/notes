@@ -58,9 +58,9 @@
 
   - **Objetos**
 
-    - [Introdução](./core/objects/introduction.md)
+    - [Introdução](./core/poo/objects/introduction.md)
 
-    - [Métodos de objetos](./core/objects/object-methods.md)
+    - [Métodos de objetos](./core/poo/objects/object-methods.md)
 
   - [Classes](./core/poo/objects/classes.md)
 
