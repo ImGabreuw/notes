@@ -21,3 +21,7 @@ O nível de detalhes e informações aumentam em ordem crescente:
 4. Código
 
 > "Uma melhor alusão seria com um Google Maps, no qual se pode dar um zoom para diminuir ou ampliar o desenho arquitetural. Se em um mapa, por exemplo, temos Continente, País, Estado e Cidade" - [Zup](https://www.zup.com.br/blog/c4-model)
+
+> ## **Casos de uso**
+
+A utilização do **C4 model é recomendado em todos os cenários**, visto que tal ferramenta proporciona uma visão clara do projeto, tanto a nível técnico quanto de negócio, pois um bom software é baseado em um **boa arquitetura e sua respectiva documentação**.
