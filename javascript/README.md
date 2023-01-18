@@ -28,6 +28,8 @@
 
 - [Métodos do tipo de dados `string`](./core/string-methods.md)
 
+- [Tipos dados `symbol`](./core/symbol.md)
+
 - [Operadores](./core/operators.md)
 
 - [Objeto `Math`](./core/math.md)
@@ -61,6 +63,8 @@
     - [Introdução](./core/poo/objects/introduction.md)
 
     - [Métodos de objetos](./core/poo/objects/object-methods.md)
+
+  - [Métodos acessores](./core/poo/accessor-methods.md)
 
   - [Classes](./core/poo/classes.md)
 
