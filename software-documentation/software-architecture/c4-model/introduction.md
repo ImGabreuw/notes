@@ -31,3 +31,15 @@ A utilização do **C4 model é recomendado em todos os cenários**, visto que t
 É recomendado a utilização de ferramentas que garantem todos os benefícios do versionamento, ou seja, um ferramenta que converta os diagramas em código (também conhecido como **_docs as code_**).
 
 - [C4-builder](https://adrianvlupu.github.io/C4-Builder/#/)
+
+> ## **Projetos que utilizam C4 model**
+
+É um boa prática, disponibilizar a documentação C4 model online via site.
+
+- [Charles CD](https://docs.charlescd.io/c4model/en/#/)
+
+- [Horusec](https://docs.ritchiecli.io/v2.11/)
+
+- [Ritchie CLI](https://docs.ritchiecli.io/v2.11/)
+
+- [Beagle](https://docs.horusec.io/c4model/en/#/)
