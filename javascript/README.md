@@ -54,11 +54,15 @@
 
   - [Função callback: `reduce`](./core/arrays/reduce-callback-function.md)
 
-- **Objetos**
+- **Programação Orientada à Objetos**
 
-  - [Introdução](./core/objects/introduction.md)
+  - **Objetos**
 
-  - [Métodos de objetos](./core/objects/object-methods.md)
+    - [Introdução](./core/objects/introduction.md)
+
+    - [Métodos de objetos](./core/objects/object-methods.md)
+
+  - [Classes](./core/poo/objects/classes.md)
 
 - **JavaScript assíncrono**
 
