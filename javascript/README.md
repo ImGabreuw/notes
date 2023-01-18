@@ -62,7 +62,7 @@
 
     - [Métodos de objetos](./core/poo/objects/object-methods.md)
 
-  - [Classes](./core/poo/objects/classes.md)
+  - [Classes](./core/poo/classes.md)
 
 - **JavaScript assíncrono**
 
