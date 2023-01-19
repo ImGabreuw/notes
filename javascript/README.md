@@ -42,6 +42,8 @@
 
   - [Closures](./core/functions/closures.md)
 
+  - [Escopo léxico](./core/functions/lexical-scope.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
