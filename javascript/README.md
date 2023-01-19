@@ -40,6 +40,8 @@
 
   - [Introdução](./core/functions/introduction.md)
 
+  - [Closures](./core/functions/closures.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
