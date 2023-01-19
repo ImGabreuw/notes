@@ -50,6 +50,8 @@
 
   - [Função _callback_](./core/functions/callback-function.md)
 
+  - [Função geradora](./core/functions/generator-function.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
