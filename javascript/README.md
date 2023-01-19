@@ -46,6 +46,8 @@
 
   - [Função construtora](./core/functions/constructor-function.md)
 
+  - [Função _callback_](./core/functions/callback-function.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
