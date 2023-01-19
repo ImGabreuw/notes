@@ -44,6 +44,8 @@
 
   - [Escopo léxico](./core/functions/lexical-scope.md)
 
+  - [Função construtora](./core/functions/constructor-function.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
