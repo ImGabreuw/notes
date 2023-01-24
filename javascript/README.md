@@ -44,6 +44,8 @@
 
   - [Escopo léxico](./core/functions/lexical-scope.md)
 
+  - [Parâmetros](./core/functions/function-parameters.md)
+
   - [Função construtora](./core/functions/constructor-function.md)
 
   - [Função: Objeto de primeira classe](./core/functions/function-first-class-object.md)
