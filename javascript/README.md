@@ -54,6 +54,8 @@
 
   - [Função imediata](./core/functions/immediate-function.md)
 
+  - [Função recursivas](./core/functions/recursive-functions.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
