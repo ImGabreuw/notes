@@ -56,6 +56,8 @@
 
   - [Função recursivas](./core/functions/recursive-functions.md)
 
+  - [_Hoisting Function_](./core/functions/hoisting-function.md)
+
 - **Arrays**
 
   - [Introdução](./core/arrays/introduction.md)
