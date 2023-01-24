@@ -46,6 +46,10 @@
 
   - [Função construtora](./core/functions/constructor-function.md)
 
+  - [Função: Objeto de primeira classe](./core/functions/function-first-class-object.md)
+
+  - [Função anônima](./core/functions/arrow-function.md)
+
   - [Função fábrica](./core/functions/factory-function.md)
 
   - [Função _callback_](./core/functions/callback-function.md)
@@ -55,6 +59,8 @@
   - [Função imediata](./core/functions/immediate-function.md)
 
   - [Função recursivas](./core/functions/recursive-functions.md)
+
+  - [_Hoisting Function_](./core/functions/hoisting-function.md)
 
 - **Arrays**
 
