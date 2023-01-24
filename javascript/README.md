@@ -48,6 +48,8 @@
 
   - [Função: Objeto de primeira classe](./core/functions/function-first-class-object.md)
 
+  - [Função anônima](./core/functions/arrow-function.md)
+
   - [Função fábrica](./core/functions/factory-function.md)
 
   - [Função _callback_](./core/functions/callback-function.md)
