@@ -190,6 +190,8 @@
 
 - [_Express Generator_](./frameworks/expressjs/express.generator.md)
 
+- [Arquivos estáticos](./frameworks/expressjs/static-files.md)
+
 - **Roteamento**
 
   - [Introdução](./frameworks/expressjs/routing-introduction.md)
