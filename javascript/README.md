@@ -110,11 +110,19 @@
 
   - [Métodos de navegador](./core/browser/browser-methods.md)
 
-- **Node**
+### **Node**
 
-  - [Introdução](./node/introduction.md)
+- [Introdução](./node/introduction.md)
 
-  - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
+- [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
+
+- **Módulos**
+
+  - **File System**
+
+    - [Método: `readFile()`](./node/file-system/read-file-method.md)
+
+    - [Método: `writeFile()`](./node/file-system/write-file-method.md)
 
 ### TypeScript
 
