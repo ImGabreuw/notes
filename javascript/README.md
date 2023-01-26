@@ -190,6 +190,8 @@
 
 - [_Express Generator_](./frameworks/expressjs/express.generator.md)
 
+- [Arquivos estáticos](./frameworks/expressjs/static-files.md)
+
 - **Roteamento**
 
   - [Introdução](./frameworks/expressjs/routing-introduction.md)
@@ -227,6 +229,8 @@
 - [_Schemas_](./frameworks/prisma/schemas.md)
 
 ### Nodemon
+
+- [Introdução](./frameworks/nodemon/introduction.md)
 
 - [Configuração](./frameworks/nodemon/configuration.md)
 
