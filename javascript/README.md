@@ -192,6 +192,8 @@
 
 - [Arquivos estáticos](./frameworks/expressjs/static-files.md)
 
+- [Objeto: `Request`](./frameworks/expressjs/request-object.md)
+
 - **Roteamento**
 
   - [Introdução](./frameworks/expressjs/routing-introduction.md)
