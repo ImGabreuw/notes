@@ -208,6 +208,8 @@
 
   - [Tipos de middlewares](./frameworks/expressjs/middleware-types.md)
 
+- [Sessão](./frameworks/expressjs/express-session.md)
+
 ### Nest.js
 
 - [Introdução](./frameworks/nestjs/introduction.md)
