@@ -200,6 +200,8 @@
 
   - [Métodos de roteamento](./frameworks/expressjs/routing-methods.md)
 
+  - [Objeto: `Router`](./frameworks/expressjs/router-object.md)
+
 - **Middleware**
 
   - [Introdução](./frameworks/expressjs/middlewares-introduction.md)
