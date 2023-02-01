@@ -208,6 +208,12 @@
 
   - [Tipos de middlewares](./frameworks/expressjs/middleware-types.md)
 
+- **Views**
+
+  - [Introdução](./frameworks/expressjs/express-views-introduction.md)
+
+  - [EJS](./frameworks/expressjs/ejs-express-views.md)
+
 - [Sessão](./frameworks/expressjs/express-session.md)
 
 ### Nest.js
