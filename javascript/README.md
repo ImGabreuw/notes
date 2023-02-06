@@ -120,9 +120,17 @@
 
   - **File System**
 
+    - [Introdução](./node/file-system/introduction.md)
+
     - [Método: `readFile()`](./node/file-system/read-file-method.md)
 
     - [Método: `writeFile()`](./node/file-system/write-file-method.md)
+
+    - [Método: `readdir()`](./node/file-system/readdir-method.md)
+
+    - [Método: `stat()`](./node/file-system/stat-method.md)
+
+    - [Recursão mútua](./node/file-system/mutual-recursion.md)
 
 ### TypeScript
 
