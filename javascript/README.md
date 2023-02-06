@@ -120,9 +120,19 @@
 
 - **Módulos**
 
+  - **Path**
+
+    - [Introdução](./node/path/introduction.md)
+
+    - [Método: `resolve()`](./node/path/resolve-method.md)
+
   - **File System**
 
     - [Introdução](./node/file-system/introduction.md)
+
+    - [Objeto: `__dirname`](./node/file-system/dirname-object.md)
+
+    - [Objeto: `__filename`](./node/file-system/filename.object.md)
 
     - [Método: `readFile()`](./node/file-system/read-file-method.md)
 

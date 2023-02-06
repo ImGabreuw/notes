@@ -109,6 +109,16 @@ A partir dele é possível obter várias informações sobre o módulo:
   */
   ```
 
+### **Executar uma função exportada**
+
+```js
+module.exports = function (x, y) {
+  return x * y;
+};
+
+console.log(module.exports(2, 2)); // 4
+```
+
 > ## **Método: `require()`**
 
 ### **Definição**
