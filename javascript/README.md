@@ -36,6 +36,8 @@
 
 - [Métodos do objeto `Math`](./core/math-methods.md)
 
+- [Módulo](./core/module.md)
+
 - **Funções**
 
   - [Introdução](./core/functions/introduction.md)
