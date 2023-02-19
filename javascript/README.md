@@ -280,6 +280,12 @@
 
 - [Configuração](./frameworks/sequelize/configuration.md)
 
+### Mongoose
+
+- [Introdução](./frameworks/mongoose/introduction.md)
+
+- [Configuração](./frameworks/mongoose/configuration.md)
+
 ### JWT (Json Web Token)
 
 - [Introdução](./frameworks/jwt/introduction.md)
@@ -295,6 +301,10 @@
 ### CSURF
 
 - [Introdução](./frameworks/csurf/introduction.md)
+
+### Dotenv
+
+- [Introdução](./frameworks/dotenv/introduction.md)
 
 > ## **Referências**
 
