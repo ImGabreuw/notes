@@ -116,6 +116,8 @@
 
 - [Introdução](./node/introduction.md)
 
+- [Node Package Manager](./node/node-package-manager.md)
+
 - [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
 
 - **Módulos**
