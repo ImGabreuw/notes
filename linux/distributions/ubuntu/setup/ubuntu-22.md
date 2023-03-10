@@ -141,17 +141,15 @@
 
 8. Adicionar o plugin de syntax highlighting
 
-   1. Clonar o repositório
+   ```shell
+   $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   ```
 
-      ```shell
-      $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-      ```
+   > **OBS**: o plugin `zsh-syntax-highlighting` deve ser o último plugin a ser carregado no `~/.zshrc`
 
-   2. Adicionar as configuração de `syntax highlighting` no arquivo de configuração ZSH (`~/.zshrc`)
-
-      ```shell
-      $ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-      ```
+   ```shell
+   plugins=( [plugins...] zsh-syntax-highlighting)
+   ```
 
 9. Arquivo de configuração (`~/.zshrc`)
 
@@ -243,6 +241,7 @@
       pip
       python
       zsh-autosuggestions
+      zsh-syntax-highlighting
    )
 
    source $ZSH/oh-my-zsh.sh
@@ -279,7 +278,8 @@
    # ASDF Configuration
    fpath=(${ASDF_DIR}/completions $fpath)
    autoload -Uz compinit && compinit
-   source /home/gabriel/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+   # . ~/.asdf/plugins/java/set-java-home.zsh
    ```
 
 > ## **ASDF**
@@ -318,6 +318,30 @@
    ```shell
    plugins=(asdf)
    ```
+
+6. Adicionar os plugins de linguagens
+
+   1. Python
+
+      ```shell
+      $ sudo apt install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+      $ asdf plugin-add python
+      ```
+
+   2. Java
+
+      ```shell
+      $ asdf plugin-add java https://github.com/halcyon/asdf-java.git
+
+      # Adicionar o JAVA_HOME no arquivo de configuração do ZSH (`~/.zshrc`)
+      . ~/.asdf/plugins/java/set-java-home.zsh
+      ```
+
+   3. NodeJS
+
+      ```shell
+      $ asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+      ```
 
 > ## **Discord**
 
