@@ -26,6 +26,8 @@
 
   - [`float`](./core/data-types/float-type.md)
 
+  - [`bool`](./core/data-types/bool-type.md)
+
 - **Funções**
 
   - [`print()`](./core/functions/print-function.md)
