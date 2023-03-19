@@ -2,11 +2,11 @@
 
 > ## **Conteúdo**
 
-### **Python**
-
-- [Introdução](./introducao.md)
+- [Introdução](./introduction.md)
 
 - [Instalação no Ubuntu 22.04](./instalation-ubuntu.md)
+
+- [Módulo](./module.md)
 
 - [Python no terminal](./python-no-terminal.md)
 
