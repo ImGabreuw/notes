@@ -8,6 +8,8 @@
 
 - [Módulo](./module.md)
 
+- [Comentário](./comments.md)
+
 - [Python no terminal](./python-no-terminal.md)
 
 - [Sintaxe básico](./sintaxe-basica.md)
