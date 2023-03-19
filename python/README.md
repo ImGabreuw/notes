@@ -8,7 +8,7 @@
 
 - [Módulo](./module.md)
 
-- [Comentário](./comments.md)
+- [Comentários e DocStrings](./comments-and-docstrings.md)
 
 - [Python no terminal](./python-no-terminal.md)
 
