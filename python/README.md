@@ -28,6 +28,8 @@
 
   - [`bool`](./core/data-types/bool-type.md)
 
+  - [Conversão de tipos](./core/data-types/typecasting.md)
+
 - **Funções**
 
   - [`print()`](./core/functions/print-function.md)
