@@ -16,6 +16,10 @@
 
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
+- **Tipo de dados**
+
+  - [`str`](./core/data-types/str-type.md)
+
 - **Funções**
 
   - [`print()`](./core/functions/print-function.md)
