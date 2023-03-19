@@ -1,4 +1,4 @@
-# Tipo: `str` (String)
+# Tipo de dado: `str` (String)
 
 O tipo de dado string (texto) é representado no Python a partir da classe `str`.
 

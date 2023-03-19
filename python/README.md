@@ -18,7 +18,13 @@
 
 - **Tipo de dados**
 
+  - [Classe `type`](./core/data-types/class-type.md)
+
   - [`str`](./core/data-types/str-type.md)
+
+  - [`int`](./core/data-types/int-type.md)
+
+  - [`float`](./core/data-types/float-type.md)
 
 - **Funções**
 
