@@ -6,6 +6,10 @@
 
 - [Aba Issues do Github](./issues.md)
 
+### Segurança
+
+- [Configurar chave SSH no Ubuntu](./security/configure-ssh-key.md)
+
 ### GitHub Actions
 
 - Heroku
