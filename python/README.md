@@ -14,6 +14,8 @@
 
 - [Sintaxe básico](./sintaxe-basica.md)
 
+- [Variáveis](./core/variables.md)
+
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
 - **Tipo de dados**
