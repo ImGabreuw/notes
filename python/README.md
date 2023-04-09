@@ -18,6 +18,8 @@
 
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
+- [Operadores aritméticos](./core/arithmetics-operators.md)
+
 - **Tipo de dados**
 
   - [Classe `type`](./core/data-types/class-type.md)
