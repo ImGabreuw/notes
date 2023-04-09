@@ -18,6 +18,8 @@
 
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
+- [Formatação de strings com `f-strings`](./core/f-strings.md)
+
 - **Operadores**
 
   - [Operadores aritméticos](./core/operators/arithmetics-operators.md)
