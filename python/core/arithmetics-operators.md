@@ -1,5 +1,7 @@
 # Operadores aritméticos
 
+> ## **Visão geral**
+
 |             Nome              | Operador |   Código    |   Resultado   |
 | :---------------------------: | :------: | :---------: | :-----------: |
 |            Adição             |   `+`    |  `10 + 10`  |     `10`      |
@@ -10,6 +12,20 @@
 | Divisão truncada (com float)  |   `//`   | `10 // 2.2` |     `4.0`     |
 |         Exponenciação         |   `**`   |  `2 ** 10`  |    `1024`     |
 |            Módulo             |   `%`    |  `10 % 3`   |      `1`      |
+
+> ## **Ordem de precedência**
+
+| Precedência |                    Símbolos                    |
+| :---------: | :--------------------------------------------: |
+|     1º      |                      `()`                      |
+|     2º      |                      `**`                      |
+|     3º      |              `*`, `/`, `//`, `%`               |
+|     4º      |                    `+`, `-`                    |
+|     5º      | `==`, `!=`, `>`, `<`, `>=`, `<=` (relacionais) |
+|     6º      |                 `not` (lógico)                 |
+|     7º      |                 `and` (lógico)                 |
+|     8º      |                 `or` (lógico)                  |
+|     9º      |                `=` (atribuição)                |
 
 > ## **Concatenação**
 
