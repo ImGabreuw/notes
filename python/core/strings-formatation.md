@@ -34,6 +34,25 @@ print(f"{nome} tem {altura:,.2f} metros de altura.")
 # Luiz Otávio tem um salário de R$ 10,000.0.
 ```
 
+Há um atalho do Python para inserir o nome da variável e o seu valor utilizando o `f-strings`:
+
+```python
+nome = input("Qual é o seu nome? ")
+print(f"O seu nome é {nome=}")
+```
+
+Ao invés de utilizar:
+
+```python
+nome = input("Qual é o seu nome? ")
+print(f"O seu nome é nome={nome}")
+```
+
+```bash
+$ Qual é o seu nome? João
+> O seu nome é nome=João
+```
+
 > ## **Método: `format()`**
 
 A string é um objeto no Python, logo ela possui atributos e métodos, como por exemplo o método `format()`.
