@@ -18,7 +18,7 @@
 
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
-- [Formatação de strings com `f-strings`](./core/f-strings.md)
+- [Formatação de strings](./core/strings-formatation.md)
 
 - **Operadores**
 
