@@ -40,9 +40,13 @@
 
   - [Conversão de tipos](./core/data-types/typecasting.md)
 
+- [Estrutura condicional](./core/conditional-structure.md)
+
 - **Funções**
 
   - [`print()`](./core/functions/print-function.md)
+
+  - [`input()`](./core/functions/input-function.md)
 
 > ## **Referências**
 
