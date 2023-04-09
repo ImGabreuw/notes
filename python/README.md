@@ -24,6 +24,8 @@
 
   - [Operadores aritméticos](./core/operators/arithmetics-operators.md)
 
+  - [Pass](./core/operators/pass-operator.md)
+
   - [Ellipsis](./core/operators/ellipsis-operator.md)
 
 - **Tipo de dados**
