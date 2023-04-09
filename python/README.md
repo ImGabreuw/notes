@@ -18,7 +18,11 @@
 
 - [Manipulação de Strings](./manipulacao-de-strings.md)
 
-- [Operadores aritméticos](./core/arithmetics-operators.md)
+- **Operadores**
+
+  - [Operadores aritméticos](./core/operators/arithmetics-operators.md)
+
+  - [Ellipsis](./core/operators/ellipsis-operator.md)
 
 - **Tipo de dados**
 
