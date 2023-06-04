@@ -2,7 +2,9 @@
 
 > ## **Conteúdo**
 
-- [Introdução](./introduction.md)
+- [Introdução à programação](../programming-language/programming-introduction.md)
+
+- [Introdução ao Python](./introduction.md)
 
 - [Instalação no Ubuntu 22.04](./instalation-ubuntu.md)
 
