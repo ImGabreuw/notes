@@ -34,6 +34,8 @@
 
   - [Classe `type`](./core/data-types/class-type.md)
 
+  - [Literais](./core/data-types/literals.md)
+
   - [`str`](./core/data-types/str-type.md)
 
   - [`int`](./core/data-types/int-type.md)
