@@ -90,6 +90,10 @@
 
       - [Função `scatter_matrix`](./library/plotly/functions/scatter_matrix.md)
 
+      - [Função `treemap`](./library/plotly/functions/treemap.md)
+
+      - [Função `parallel_categories`](./library/plotly/functions/parallel_categories.md)
+
   - SeaBorn
 
     - Funções
@@ -97,6 +101,20 @@
       - [Função `histplot`](./library/seaborn/functions/histplot.md)
 
       - [Função `countplot`](./library/seaborn/functions/countplot.md)
+
+  - Sklean
+
+    - [Introdução](./library/sklearn/introduction.md)
+
+    - _Standard Scaler_
+
+      - Funções
+
+        - [Função `fit_transform`](./library/sklearn/standard-scaler/functions/fit_transform.md)
+
+    - _Label Encoder_
+
+        - [Função `fit_transform`](./library/sklearn/label-enconder/functions/fit_transform.md)
 
 > ## **Referências**
 
