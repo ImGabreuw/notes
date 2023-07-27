@@ -98,6 +98,16 @@
 
       - [Função `countplot`](./library/seaborn/functions/countplot.md)
 
+  - Sklean
+
+    - [Introdução](./library/sklearn/introduction.md)
+
+    - _Standard Scaler_
+
+      - Funções
+
+        - [Função `fit_transform`](./library/sklearn/standard-scaler/functions/fit_transform.md)
+
 > ## **Referências**
 
 - [Python](./references.md)

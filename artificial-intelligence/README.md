@@ -21,3 +21,5 @@
         - [Tipos de variáveis](./machine-learning/data-pre-processing/variable-types.md)
 
         - [Tratamento de dados](./machine-learning/data-pre-processing/data-treatment.md)
+
+        - [Escalonamento de atributos](./machine-learning/data-pre-processing/attribute-scaling.md)
