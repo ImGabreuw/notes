@@ -112,6 +112,10 @@
 
         - [Função `fit_transform`](./library/sklearn/standard-scaler/functions/fit_transform.md)
 
+    - _Label Encoder_
+
+        - [Função `fit_transform`](./library/sklearn/label-enconder/functions/fit_transform.md)
+
 > ## **Referências**
 
 - [Python](./references.md)
