@@ -54,6 +54,50 @@
 
   - [`input()`](./core/functions/input-function.md)
 
+- Bibliotecas
+
+  - NumPy
+
+    - Funções
+
+      - [Função `unique`](./library/numpy/functions/unique.md)
+
+  - Pandas
+
+    - [Filtro de registros](./library/pandas/registry_filter.md)
+
+    - Funções
+
+      - [Função `head`](./library/pandas/functions/head.md)
+
+      - [Função `tail`](./library/pandas/functions/tail.md)
+
+      - [Função `describe`](./library/pandas/functions/describe.md)
+
+      - [Função `loc`](./library/pandas/functions/loc.md)
+
+      - [Função `drop`](./library/pandas/functions/drop.md)
+
+      - [Função `isnull`](./library/pandas/functions/isnull.md)
+
+      - [Função `fillna`](./library/pandas/functions/fillna.md)
+
+      - [Função `iloc`](./library/pandas/functions/iloc.md)
+
+  - Plotly
+
+    - Funções
+
+      - [Função `scatter_matrix`](./library/plotly/functions/scatter_matrix.md)
+
+  - SeaBorn
+
+    - Funções
+
+      - [Função `histplot`](./library/seaborn/functions/histplot.md)
+
+      - [Função `countplot`](./library/seaborn/functions/countplot.md)
+
 > ## **Referências**
 
 - [Python](./references.md)
