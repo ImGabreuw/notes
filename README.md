@@ -12,6 +12,8 @@
 
 - [Ciência da computação](./computer-science/README.md)
 
+- [Inteligência artificial](./artificial-intelligence/README.md)
+
 - [Banco de dados](./database/README.md)
 
 - [Serviços de implantação](./deployment-services/README.md)
