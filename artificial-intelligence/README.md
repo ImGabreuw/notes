@@ -23,3 +23,13 @@
         - [Tratamento de dados](./machine-learning/data-pre-processing/data-treatment.md)
 
         - [Escalonamento de atributos](./machine-learning/data-pre-processing/attribute-scaling.md)
+
+- _Data Science_
+
+    - Tipos de gráficos
+
+        - [Gráfico de Histograma](./data-science/grafic-types/histograms.md)
+
+        - [Gráfico _treemap_](./data-science/grafic-types/treemap.md)
+
+        - [Gráfico de categorias paralelas](./data-science/grafic-types/parallel_categories.md)
