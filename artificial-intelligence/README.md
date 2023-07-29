@@ -24,6 +24,8 @@
 
         - [Escalonamento de atributos](./machine-learning/data-pre-processing/attribute-scaling.md)
 
+            - [_One-Hot Encoding_](./machine-learning/data-pre-processing/one-hot-encoder.md)
+
         - [Conversão de atributos categóricos](./machine-learning/data-pre-processing/converting-categorical-attributes.md)
 
 - _Data Science_

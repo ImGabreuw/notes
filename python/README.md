@@ -114,7 +114,15 @@
 
     - _Label Encoder_
 
+      - Funções
+
         - [Função `fit_transform`](./library/sklearn/label-enconder/functions/fit_transform.md)
+
+    - _One-Hot Encoder_
+
+      - Funções
+
+        - [Função `fit_transform`](./library/sklearn/one-hot-encoder/functions/fit_transform.md)
 
 > ## **Referências**
 
