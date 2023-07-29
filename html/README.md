@@ -2,11 +2,9 @@
 
 > ## **Conteúdo**
 
-### HTML
-
 - [Introdução](/html/introduction.md)
 
-- **Tags**
+- Tags
 
   - [Tag `<heading>`](/html/tags/heading.md)
 

@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Apache Kafka
-
 - [Introdução ao Apache Kafka](/apache-kafka/introduction.md)
 
 - [Conceitos e dinâmica básica de funcionamento](/apache-kafka/concepts.md)

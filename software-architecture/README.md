@@ -2,47 +2,47 @@
 
 > ## **Conteúdo**
 
-### Design de software
+- Design de software
 
-- [Introdução](/software-architecture/software-design/introduction.md)
+  - [Introdução](/software-architecture/software-design/introduction.md)
 
-- [Entidades](/software-architecture/software-design/entities.md)
+  - [Entidades](/software-architecture/software-design/entities.md)
 
-### Arquitetura de software
+- Arquitetura de software
 
-- [Introdução](/software-architecture/introducao.md)
+  - [Introdução](/software-architecture/introducao.md)
 
-- [Conceitos](/software-architecture/conceitos.md)
+  - [Conceitos](/software-architecture/conceitos.md)
 
-### Arquitetura Limpa
+- Arquitetura Limpa
 
-- [Introdução](/software-architecture/clean-architecture/introducao.md)
+  - [Introdução](/software-architecture/clean-architecture/introducao.md)
 
-- [Exemplos](/software-architecture/clean-architecture/exemples.md)
+  - [Exemplos](/software-architecture/clean-architecture/exemples.md)
 
-### Arquitetura Hexagonal
+- Arquitetura Hexagonal
 
-- [Conceitos da Arquitetura Hexagonal](/software-architecture/hexagonal-architecture/conceitos.md)
+  - [Conceitos da Arquitetura Hexagonal](/software-architecture/hexagonal-architecture/conceitos.md)
 
-### Arquitetura de Microsserviços
+- Arquitetura de Microsserviços
 
-- [Introdução](/software-architecture/microservices-architecture/introduction.md)
+  - [Introdução](/software-architecture/microservices-architecture/introduction.md)
 
-- [Monolito VS Microsserviços](/software-architecture/microservices-architecture/monolito-vs-microsservico.md)
+  - [Monolito VS Microsserviços](/software-architecture/microservices-architecture/monolito-vs-microsservico.md)
 
-- [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](/software-architecture/microservices-architecture/conceitos.md)
+  - [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](/software-architecture/microservices-architecture/conceitos.md)
 
-### Monolito
+- Monolito
 
-- [Introdução](/software-architecture/monolith/introduction.md)
+  - [Introdução](/software-architecture/monolith/introduction.md)
 
-### REST
+- REST
 
-- [Introdução](/software-architecture/rest/introducao.md)
+  - [Introdução](/software-architecture/rest/introducao.md)
 
-- [Sub-recursos](/software-architecture/rest/sub-recursos.md)
+  - [Sub-recursos](/software-architecture/rest/sub-recursos.md)
 
-- [Boas práticas](/software-architecture/rest/boas-praticas.md)
+  - [Boas práticas](/software-architecture/rest/boas-praticas.md)
 
 > ## **Referências**
 

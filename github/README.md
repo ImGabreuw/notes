@@ -2,19 +2,17 @@
 
 > ## **Conteúdo**
 
-### GitHub
-
 - [Aba Issues do Github](/github/issues.md)
 
-### Segurança
+- Segurança
 
 - [Configurar chave SSH no Ubuntu](/github/security/configure-ssh-key.md)
 
-### GitHub Actions
+- GitHub Actions
 
-- Heroku
+  - Heroku
 
-  - [Implantação de uma aplicação no Heroku](/github/github-actions/heroku/deploy-application-in-heroku.md)
+    - [Implantação de uma aplicação no Heroku](/github/github-actions/heroku/deploy-application-in-heroku.md)
 
 > ## **Referências**
 

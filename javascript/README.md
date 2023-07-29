@@ -2,11 +2,9 @@
 
 > ## **Conteúdo**
 
-### JavaScript
-
 - [Introdução](/javascript/introducao.md)
 
-- **Configuração**
+- Configuração
 
   - [Editorconfig](/javascript/editorconfig.md)
 
@@ -38,7 +36,7 @@
 
 - [Módulo](/javascript/core/module.md)
 
-- **Funções**
+- Funções
 
   - [Introdução](/javascript/core/functions/introduction.md)
 
@@ -66,7 +64,7 @@
 
   - [_Hoisting Function_](/javascript/core/functions/hoisting-function.md)
 
-- **Arrays**
+- Arrays
 
   - [Introdução](/javascript/core/arrays/introduction.md)
 
@@ -82,9 +80,9 @@
 
   - [Função callback: `reduce`](/javascript/core/arrays/reduce-callback-function.md)
 
-- **Programação Orientada à Objetos**
+- Programação Orientada à Objetos
 
-  - **Objetos**
+  - Objetos
 
     - [Introdução](/javascript/core/poo/objects/introduction.md)
 
@@ -98,7 +96,7 @@
 
   - [Herança](/javascript/core/poo/inheritance.md)
 
-- **JavaScript assíncrono**
+- JavaScript assíncrono
 
   - [Promises](/javascript/core/asynchronous/promises.md)
 
@@ -108,205 +106,205 @@
 
   - [AJAX](/javascript/core/asynchronous/ajax.md)
 
-- **Navegador**
+- Navegador
 
   - [Métodos de navegador](/javascript/core/browser/browser-methods.md)
 
-### **Node**
+- Node
 
-- [Introdução](/javascript/node/introduction.md)
+  - [Introdução](/javascript/node/introduction.md)
 
-- [Node Package Manager](/javascript/node/node-package-manager.md)
+  - [Node Package Manager](/javascript/node/node-package-manager.md)
 
-- [Tratamento de arquivo com _Multer_](/javascript/node/file-handling-multer.md)
+  - [Tratamento de arquivo com _Multer_](/javascript/node/file-handling-multer.md)
 
-- **Módulos**
+  - Módulos
 
-  - **Path**
+    - Path
 
-    - [Introdução](/javascript/node/path/introduction.md)
+      - [Introdução](/javascript/node/path/introduction.md)
 
-    - [Método: `resolve()`](/javascript/node/path/resolve-method.md)
+      - [Método: `resolve()`](/javascript/node/path/resolve-method.md)
 
-  - **File System**
+    - File System
 
-    - [Introdução](/javascript/node/file-system/introduction.md)
+      - [Introdução](/javascript/node/file-system/introduction.md)
 
-    - [Objeto: `__dirname`](/javascript/node/file-system/dirname-object.md)
+      - [Objeto: `__dirname`](/javascript/node/file-system/dirname-object.md)
 
-    - [Objeto: `__filename`](/javascript/node/file-system/filename.object.md)
+      - [Objeto: `__filename`](/javascript/node/file-system/filename.object.md)
 
-    - [Método: `readFile()`](/javascript/node/file-system/read-file-method.md)
+      - [Método: `readFile()`](/javascript/node/file-system/read-file-method.md)
 
-    - [Método: `writeFile()`](/javascript/node/file-system/write-file-method.md)
+      - [Método: `writeFile()`](/javascript/node/file-system/write-file-method.md)
 
-    - [Método: `readdir()`](/javascript/node/file-system/readdir-method.md)
+      - [Método: `readdir()`](/javascript/node/file-system/readdir-method.md)
 
-    - [Método: `stat()`](/javascript/node/file-system/stat-method.md)
+      - [Método: `stat()`](/javascript/node/file-system/stat-method.md)
 
-    - [Recursão mútua](/javascript/node/file-system/mutual-recursion.md)
+      - [Recursão mútua](/javascript/node/file-system/mutual-recursion.md)
 
-### TypeScript
+- TypeScript
 
-- [Introdução](/javascript/typescript/introduction.md)
+  - [Introdução](/javascript/typescript/introduction.md)
 
-- [Configuração do ambiente](/javascript/typescript/environment-configuration.md)
+  - [Configuração do ambiente](/javascript/typescript/environment-configuration.md)
 
-- ["Script mode" e "Module mode"](/javascript/typescript/script-mode-e-module-mode.md)
+  - ["Script mode" e "Module mode"](/javascript/typescript/script-mode-e-module-mode.md)
 
-- [Arquivo de configuração `ts-config`](/javascript/typescript/tsconfig.md)
+  - [Arquivo de configuração `ts-config`](/javascript/typescript/tsconfig.md)
 
-- [Configuração do Webpack](/javascript/typescript/webpack-configuration.md)
+  - [Configuração do Webpack](/javascript/typescript/webpack-configuration.md)
 
-- [_Type Annotations_](/javascript/typescript/type-annotations.md)
+  - [_Type Annotations_](/javascript/typescript/type-annotations.md)
 
-- [Tipo `Enum`](/javascript/typescript/enum-type.md)
+  - [Tipo `Enum`](/javascript/typescript/enum-type.md)
 
-- [Modificadores](/javascript/typescript/modifiers.md)
+  - [Modificadores](/javascript/typescript/modifiers.md)
 
-- [Modificadores de acesso](/javascript/typescript/access-modifiers.md)
+  - [Modificadores de acesso](/javascript/typescript/access-modifiers.md)
 
-- [_Type Alias_](/javascript/typescript/type-alias.md)
+  - [_Type Alias_](/javascript/typescript/type-alias.md)
 
-- [_Union Types_](/javascript/typescript/union-types.md)
+  - [_Union Types_](/javascript/typescript/union-types.md)
 
-- [_Intersection Types_](/javascript/typescript/intersection-types.md)
+  - [_Intersection Types_](/javascript/typescript/intersection-types.md)
 
-- [Funções como tipo](/javascript/typescript/function-as-type.md)
+  - [Funções como tipo](/javascript/typescript/function-as-type.md)
 
-- [Tipos literais](/javascript/typescript/literal-types.md)
+  - [Tipos literais](/javascript/typescript/literal-types.md)
 
-- Programação Orientada a Objetos (POO)
+  - Programação Orientada a Objetos (POO)
 
-  - [Classes](/javascript/typescript/poo/classes.md)
+    - [Classes](/javascript/typescript/poo/classes.md)
 
-  - [Os pilares da programação orientada a objetos](/javascript/typescript/poo/the-pillars-of-object-oriented-programming.md)
+    - [Os pilares da programação orientada a objetos](/javascript/typescript/poo/the-pillars-of-object-oriented-programming.md)
 
-  - [Herança](/javascript/typescript/poo/inheritance.md)
+    - [Herança](/javascript/typescript/poo/inheritance.md)
 
-  - [_Super class_ e _Sub class_](/javascript/typescript/poo/super-class-and-sub-class.md)
+    - [_Super class_ e _Sub class_](/javascript/typescript/poo/super-class-and-sub-class.md)
 
-  - [_Getter_ e _Setter_](/javascript/typescript/poo/getter-and-setter.md)
+    - [_Getter_ e _Setter_](/javascript/typescript/poo/getter-and-setter.md)
 
-  - [Membros estáticos](/javascript/typescript/poo/static-members.md)
+    - [Membros estáticos](/javascript/typescript/poo/static-members.md)
 
-  - [Construtor](/javascript/typescript/poo/constructor.md)
+    - [Construtor](/javascript/typescript/poo/constructor.md)
 
-  - [Classes e membros abstratos](/javascript/typescript/poo/abstract-classes-and-members.md)
+    - [Classes e membros abstratos](/javascript/typescript/poo/abstract-classes-and-members.md)
 
-  - Tipos de relacionamento entre objetos
+    - Tipos de relacionamento entre objetos
 
-    - [Associação](/javascript/typescript/poo/object-relationship-types/association.md)
+      - [Associação](/javascript/typescript/poo/object-relationship-types/association.md)
 
-    - [Agregação](/javascript/typescript/poo/object-relationship-types/aggregation.md)
+      - [Agregação](/javascript/typescript/poo/object-relationship-types/aggregation.md)
 
-### ESLint
+- ESLint
 
-- [Introdução](/javascript/frameworks/eslint/introduction.md)
+  - [Introdução](/javascript/frameworks/eslint/introduction.md)
 
-- [Configuração](/javascript/frameworks/eslint/configuration.md)
+  - [Configuração](/javascript/frameworks/eslint/configuration.md)
 
-### Express.js
+- Express.js
 
-- [Introdução](/javascript/frameworks/expressjs/introduction.md)
+  - [Introdução](/javascript/frameworks/expressjs/introduction.md)
 
-- [_Express Generator_](/javascript/frameworks/expressjs/express.generator.md)
+  - [_Express Generator_](/javascript/frameworks/expressjs/express.generator.md)
 
-- [Arquivos estáticos](/javascript/frameworks/expressjs/static-files.md)
+  - [Arquivos estáticos](/javascript/frameworks/expressjs/static-files.md)
 
-- [Objeto: `Request`](/javascript/frameworks/expressjs/request-object.md)
+  - [Objeto: `Request`](/javascript/frameworks/expressjs/request-object.md)
 
-- **Roteamento**
+  - **Roteamento**
 
-  - [Introdução](/javascript/frameworks/expressjs/routing-introduction.md)
+    - [Introdução](/javascript/frameworks/expressjs/routing-introduction.md)
 
-  - [Métodos de roteamento](/javascript/frameworks/expressjs/routing-methods.md)
+    - [Métodos de roteamento](/javascript/frameworks/expressjs/routing-methods.md)
 
-  - [Objeto: `Router`](/javascript/frameworks/expressjs/router-object.md)
+    - [Objeto: `Router`](/javascript/frameworks/expressjs/router-object.md)
 
-- **Middleware**
+  - **Middleware**
 
-  - [Introdução](/javascript/frameworks/expressjs/middlewares-introduction.md)
+    - [Introdução](/javascript/frameworks/expressjs/middlewares-introduction.md)
 
-  - [Tipos de middlewares](/javascript/frameworks/expressjs/middleware-types.md)
+    - [Tipos de middlewares](/javascript/frameworks/expressjs/middleware-types.md)
 
-- **Views**
+  - **Views**
 
-  - [Introdução](/javascript/frameworks/expressjs/express-views-introduction.md)
+    - [Introdução](/javascript/frameworks/expressjs/express-views-introduction.md)
 
-  - [EJS](/javascript/frameworks/expressjs/ejs-express-views.md)
+    - [EJS](/javascript/frameworks/expressjs/ejs-express-views.md)
 
-- [Sessão](/javascript/frameworks/expressjs/express-session.md)
+  - [Sessão](/javascript/frameworks/expressjs/express-session.md)
 
-### Nest.js
+- Nest.js
 
-- [Introdução](/javascript/frameworks/nestjs/introduction.md)
+  - [Introdução](/javascript/frameworks/nestjs/introduction.md)
 
-- [Validação de dados](/javascript/frameworks/nestjs//data-validation.md)
+  - [Validação de dados](/javascript/frameworks/nestjs//data-validation.md)
 
-### Next.js
+- Next.js
 
-- [Introdução](/javascript/frameworks/nextjs/introduction.md)
+  - [Introdução](/javascript/frameworks/nextjs/introduction.md)
 
-### PuppeteerJS
+- PuppeteerJS
 
-- [Introdução](/javascript/frameworks/puppeteerjs/introduction.md)
+  - [Introdução](/javascript/frameworks/puppeteerjs/introduction.md)
 
-- [Principais funções](/javascript/frameworks/puppeteerjs/functions.md)
+  - [Principais funções](/javascript/frameworks/puppeteerjs/functions.md)
 
-### Prisma
+- Prisma
 
-- [Introdução](/javascript/frameworks/prisma/introduction.md)
+  - [Introdução](/javascript/frameworks/prisma/introduction.md)
 
-- [Tabelas](/javascript/frameworks/prisma/tables.md)
+  - [Tabelas](/javascript/frameworks/prisma/tables.md)
 
-- [_Schemas_](/javascript/frameworks/prisma/schemas.md)
+  - [_Schemas_](/javascript/frameworks/prisma/schemas.md)
 
-### Nodemon
+- Nodemon
 
-- [Introdução](/javascript/frameworks/nodemon/introduction.md)
+  - [Introdução](/javascript/frameworks/nodemon/introduction.md)
 
-- [Configuração](/javascript/frameworks/nodemon/configuration.md)
+  - [Configuração](/javascript/frameworks/nodemon/configuration.md)
 
-### Sucrase
+- Sucrase
 
-- [Configuração](/javascript/frameworks/nodemon/configuration.md)
+  - [Configuração](/javascript/frameworks/nodemon/configuration.md)
 
-### MariaDB
+- MariaDB
 
-- [Introdução](/javascript/frameworks/mariadb/introduction.md)
+  - [Introdução](/javascript/frameworks/mariadb/introduction.md)
 
-### Sequelize
+- Sequelize
 
-- [Introdução](/javascript/frameworks/sequelize/introduction.md)
+  - [Introdução](/javascript/frameworks/sequelize/introduction.md)
 
-- [Configuração](/javascript/frameworks/sequelize/configuration.md)
+  - [Configuração](/javascript/frameworks/sequelize/configuration.md)
 
-### Mongoose
+- Mongoose
 
-- [Introdução](/javascript/frameworks/mongoose/introduction.md)
+  - [Introdução](/javascript/frameworks/mongoose/introduction.md)
 
-- [Configuração](/javascript/frameworks/mongoose/configuration.md)
+  - [Configuração](/javascript/frameworks/mongoose/configuration.md)
 
-### JWT (Json Web Token)
+- JWT (Json Web Token)
 
-- [Introdução](/javascript/frameworks/jwt/introduction.md)
+  - [Introdução](/javascript/frameworks/jwt/introduction.md)
 
-- [Configuração](/javascript/frameworks/jwt/configuration.md)
+  - [Configuração](/javascript/frameworks/jwt/configuration.md)
 
-### PM2
+- PM2
 
-- [Introdução](/javascript/frameworks/pm2/introduction.md)
+  - [Introdução](/javascript/frameworks/pm2/introduction.md)
 
-- [Configuração](/javascript/frameworks/pm2/configuration.md)
+  - [Configuração](/javascript/frameworks/pm2/configuration.md)
 
-### CSURF
+- CSURF
 
-- [Introdução](/javascript/frameworks/csurf/introduction.md)
+  - [Introdução](/javascript/frameworks/csurf/introduction.md)
 
-### Dotenv
+- Dotenv
 
-- [Introdução](/javascript/frameworks/dotenv/introduction.md)
+  - [Introdução](/javascript/frameworks/dotenv/introduction.md)
 
 > ## **Referências**
 

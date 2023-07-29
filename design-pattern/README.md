@@ -2,39 +2,39 @@
 
 > ## **Conteúdo**
 
-### Código Limpo
+- Código Limpo
 
-### Injeção de dependência
+- Injeção de dependência
 
-- [Injeção de dependência](/design-pattern/dependency-injection/dependency-injection.md)
+  - [Injeção de dependência](/design-pattern/dependency-injection/dependency-injection.md)
 
-- **Exemplos**
+  - **Exemplos**
 
-  - [TypeScript com NestJS](/design-pattern/dependency-injection/examples/example-ts-nest-1.md)
+    - [TypeScript com NestJS](/design-pattern/dependency-injection/examples/example-ts-nest-1.md)
 
-### Inversão de dependência
+- Inversão de dependência
 
-- [Inversão de dependência](/design-pattern/dependency-inversion/dependency-inversion.md)
+  - [Inversão de dependência](/design-pattern/dependency-inversion/dependency-inversion.md)
 
-- **Exemplos**
+  - **Exemplos**
 
-  - [TypeScript](/design-pattern/dependency-inversion/examples/example-ts-1.md)
+    - [TypeScript](/design-pattern/dependency-inversion/examples/example-ts-1.md)
 
-  - [TypeScript com NestJS](/design-pattern/dependency-inversion/examples/example-ts-nestjs-1.md)
+    - [TypeScript com NestJS](/design-pattern/dependency-inversion/examples/example-ts-nestjs-1.md)
 
-### Domain Driven Design
+- Domain Driven Design
 
-- [Entidades](/design-pattern/domain-driven-design/entities.md)
+  - [Entidades](/design-pattern/domain-driven-design/entities.md)
 
-- [Objetos de valor](/design-pattern/domain-driven-design/value-objects.md)
+  - [Objetos de valor](/design-pattern/domain-driven-design/value-objects.md)
 
-- [Agregados](/design-pattern/domain-driven-design/aggregates.md)
+  - [Agregados](/design-pattern/domain-driven-design/aggregates.md)
 
-### Facade
+- Facade
 
-### Factory
+- Factory
 
-### SOLID
+- SOLID
 
 > ## **Referências**
 

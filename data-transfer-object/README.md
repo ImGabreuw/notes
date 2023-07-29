@@ -2,10 +2,8 @@
 
 > ## **Conteúdo**
 
-### JSON
-
-* [Introdução](/data-transfer-object/json/introducao.md)
+- [Introdução](/data-transfer-object/json/introducao.md)
 
 > ## **Referências**
 
-* [JSON](/data-transfer-object/json/references.md)
+- [JSON](/data-transfer-object/json/references.md)

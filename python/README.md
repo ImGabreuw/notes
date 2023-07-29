@@ -22,7 +22,7 @@
 
 - [Formatação de strings](/python/core/strings-formatation.md)
 
-- **Operadores**
+- Operadores
 
   - [Operadores aritméticos](/python/core/operators/arithmetics-operators.md)
 
@@ -30,7 +30,7 @@
 
   - [Ellipsis](/python/core/operators/ellipsis-operator.md)
 
-- **Tipo de dados**
+- Tipo de dados
 
   - [Classe `type`](/python/core/data-types/class-type.md)
 
@@ -48,7 +48,7 @@
 
 - [Estrutura condicional](/python/core/conditional-structure.md)
 
-- **Funções**
+- Funções
 
   - [`print()`](/python/core/functions/print-function.md)
 

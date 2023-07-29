@@ -2,12 +2,12 @@
 
 > ## **Conteúdo**
 
-### Android
+- Android
 
-* [Introdução](/android/introducao.md)
+  - [Introdução](/android/introducao.md)
 
-### Kotlin
+- Kotlin
 
-* [Java VS Kotlin](/android/kotlin/java-vs-kotlin.md)
+  - [Java VS Kotlin](/android/kotlin/java-vs-kotlin.md)
 
 > ## **Referências**
