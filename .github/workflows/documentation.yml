@@ -18,6 +18,6 @@ jobs:
         with:
           use-quiet-mode: "yes"
           use-verbose-mode: "yes"
-          folder-path: ${GITHUB_WORKSPACE}
+          folder-path: "${{ github.workspace }}"
           check-modified-files-only: "yes"
           config-file: md-link-check-config.json
