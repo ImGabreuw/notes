@@ -5,7 +5,7 @@
 </p>
 
 > ## **Conteúdo**
-- [Android](android/README.md)
+- [Android]()
 
     
     - Android
@@ -16,80 +16,14 @@
     
       - [Java VS Kotlin](/android/kotlin/java-vs-kotlin.md)
 
-- [Apache Kafka](apache-kafka/README.md)
-
-    
-    - [Introdução ao Apache Kafka](/apache-kafka/introduction.md)
-    
-    - [Conceitos e dinâmica básica de funcionamento](/apache-kafka/concepts.md)
-    
-    - _Kafka Connect_
-    
-      - [Introdução](/apache-kafka/kafka-connect/introduction.md)
-    
-      - [Twitter Source Connector](/apache-kafka/kafka-connect/twitter-source-connector.md)
-      
-
-- [Inteligência artificial](artificial-intelligence/README.md)
-
-    
-    - [Introdução](/artificial-intelligence/introduction.md)
-    
-    - _Machine Learning_
-    
-        - [Introdução](/artificial-intelligence/machine-learning/introduction.md)
-    
-        - [Métodos preditivos](/artificial-intelligence/machine-learning/preditive_methods.md)
-    
-        - [Métodos descritivos](/artificial-intelligence/machine-learning/descritive_methods.md)
-    
-        - [Tipos de aprendizagem de máquina](/artificial-intelligence/machine-learning/type-of-machine-learning.md)
-    
-        - [Classificação](/artificial-intelligence/machine-learning/classifications.md)
-    
-        - Pré processamento de dados
-    
-            - [Tipos de variáveis](/artificial-intelligence/machine-learning/data-pre-processing/variable-types.md)
-    
-            - [Tratamento de dados](/artificial-intelligence/machine-learning/data-pre-processing/data-treatment.md)
-    
-            - [Escalonamento de atributos](/artificial-intelligence/machine-learning/data-pre-processing/attribute-scaling.md)
-    
-                - [_One-Hot Encoding_](/artificial-intelligence/machine-learning/data-pre-processing/one-hot-encoder.md)
-    
-            - [Conversão de atributos categóricos](/artificial-intelligence/machine-learning/data-pre-processing/converting-categorical-attributes.md)
-    
-        - Avaliação de algoritmos
-    
-            - [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
-    
-    - _Data Science_
-    
-        - Tipos de gráficos
-    
-            - [Gráfico de Histograma](/artificial-intelligence/data-science/grafic-types/histograms.md)
-    
-            - [Gráfico _treemap_](/artificial-intelligence/data-science/grafic-types/treemap.md)
-    
-            - [Gráfico de categorias paralelas](/artificial-intelligence/data-science/grafic-types/parallel_categories.md)
-
-- [Carreira](career/README.md)
+- [Carreira]()
 
     
     - Currículo
     
       - [resume.io](/career/resume/resume-io.md)
 
-- [Ciência da computação](computer-science/README.md)
-
-    
-    - **Algoritmo**
-    
-      - [Introdução](/computer-science/algorithm/introduction.md)
-    
-      - [Lógica de programação](/computer-science/algorithm/programming-logic.md)
-
-- [CSS](css/README.md)
+- [CSS]()
 
     
     - [Introdução](/css/introduction.md)
@@ -110,90 +44,12 @@
     
     - Materialize CSS
 
-- [Banco de dados](database/README.md)
-
-    
-    - MySQL
-    
-      - [InnoDB](/database/mysql/innodb-engine.md)
-    
-    - MongoDB
-    
-      - **Serviços Cloud**
-    
-        - [MongoDB Atlas](/database/mongodb/mongodb-atlas.md)
-    
-    - MariaDB
-    
-      - [Configuração](/database/mariadb/configuration.md)
-
-- [Objeto de transferência de dado](data-transfer-object/README.md)
-
-    
-    - [Introdução](/data-transfer-object/json/introducao.md)
-
-- [Serviços de implantação](deployment-services/README.md)
-
-    
-    - [Timeline](/deployment-services/timeline.md)
-    
-    * Heroku
-    
-      - [Geração de API Key](/deployment-services/heroku/generate-api-key.md)
-    
-      - [URL de conexão do PostgreSQL](/deployment-services/heroku/postgres-connection-url.md)
-    
-    - Google Cloud Platform
-    
-      - [Deploy de aplicação no GCP](/deployment-services/gcp/deploy-de-aplicacao.md)
-    
-    - Confluent Cloud
-    
-      - [Deploy de aplicação no Confluent Cloud](/deployment-services/confluent-cloud/deploy-de-aplicacao.md)
-
-- [Padrões de projeto](design-pattern/README.md)
-
-    
-    - Código Limpo
-    
-    - Injeção de dependência
-    
-      - [Injeção de dependência](/design-pattern/dependency-injection/dependency-injection.md)
-    
-      - **Exemplos**
-    
-        - [TypeScript com NestJS](/design-pattern/dependency-injection/examples/example-ts-nest-1.md)
-    
-    - Inversão de dependência
-    
-      - [Inversão de dependência](/design-pattern/dependency-inversion/dependency-inversion.md)
-    
-      - **Exemplos**
-    
-        - [TypeScript](/design-pattern/dependency-inversion/examples/example-ts-1.md)
-    
-        - [TypeScript com NestJS](/design-pattern/dependency-inversion/examples/example-ts-nestjs-1.md)
-    
-    - Domain Driven Design
-    
-      - [Entidades](/design-pattern/domain-driven-design/entities.md)
-    
-      - [Objetos de valor](/design-pattern/domain-driven-design/value-objects.md)
-    
-      - [Agregados](/design-pattern/domain-driven-design/aggregates.md)
-    
-    - Facade
-    
-    - Factory
-    
-    - SOLID
-
-- [DevOps](devops/README.md)
+- [DevOps]()
 
     
     - DevOps
 
-- [Docker](docker/README.md)
+- [Docker]()
 
     
     - [Introdução](/docker/introduction.md)
@@ -218,7 +74,49 @@
     
     - [Boas práticas no Dockerfile](/docker/good-practice/boas-praticas-dockerfile.md)
 
-- [GitHub](github/README.md)
+- [Ferramentas]()
+
+    
+    - Intellij IDEA
+    
+      - [Extensões](/tools/intellij-idea/extentions.md)
+    
+    - VS Code
+    
+      - [Introdução](/tools/vs-code/introducao.md)
+    
+      - [Instalação Ubuntu 22.04](/tools/vs-code/instalation-ubuntu.md)
+    
+      - [Extensões](/tools/vs-code/extensoes.md)
+    
+    - WSL 2
+    
+      - [Introdução](/tools/wsl-2/introducao.md)
+    
+      - [Zsh no WSl 2](/tools/wsl-2/zsh-no-wsl-2.md)
+    
+    - Windows Terminal
+    
+      - [Introdução](/tools/windows-terminal/introducao.md)
+    
+    - PowerToys
+    
+      - [Introdução](/tools/powertoys/introducao.md)
+
+- [Git]()
+
+    
+    - [Branches](/git/branches.md)
+    
+    - Comandos
+    
+      - [Lista de comandos](/git/comandos.md)
+    
+      - [Comando: `git init`](/git/commands/git-init.md)
+    
+    - [Git Credential Manager](/git/git-credential-manager.md)
+
+- [GitHub]()
 
     
     - [Aba Issues do Github](/github/issues.md)
@@ -233,20 +131,7 @@
     
         - [Implantação de uma aplicação no Heroku](/github/github-actions/heroku/deploy-application-in-heroku.md)
 
-- [Git](git/README.md)
-
-    
-    - [Branches](/git/branches.md)
-    
-    - Comandos
-    
-      - [Lista de comandos](/git/comandos.md)
-    
-      - [Comando: `git init`](/git/commands/git-init.md)
-    
-    - [Git Credential Manager](/git/git-credential-manager.md)
-
-- [Go](go/README.md)
+- [Go]()
 
     
     - [Introdução](/go/introducao.md)
@@ -275,11 +160,11 @@
     
         - [Introdução](/go/frameworks/ntfy/introduction.md)
 
-- [Gradle](gradle/README.md)
+- [Gradle]()
 
     
 
-- [HTML](html/README.md)
+- [HTML]()
 
     
     - [Introdução](/html/introduction.md)
@@ -326,7 +211,7 @@
     
       - [Tag `<i>`](/html/tags/i.md)
 
-- [Java](java/README.md)
+- [Java]()
 
     
     - Versões
@@ -481,7 +366,7 @@
     
       - [Teste unitário ingênuo](/java/testing/teste-unitario-ingenuo.md)
 
-- [JavaScript](javascript/README.md)
+- [JavaScript]()
 
     
     - [Introdução](/javascript/introducao.md)
@@ -788,7 +673,7 @@
     
       - [Introdução](/javascript/frameworks/dotenv/introduction.md)
 
-- [Kotlin](kotlin/README.md)
+- [Kotlin]()
 
     
     - [Introdução](/kotlin/introduction.md)
@@ -907,7 +792,7 @@
     
         - [KustomExport](/kotlin/frameworks/kustom-export.md)
 
-- [Kubernetes](kubernetes/README.md)
+- [Kubernetes]()
 
     
     - [Introdução](/kubernetes/introducao.md)
@@ -936,7 +821,7 @@
     
       - [Comandos](/kubernetes/kubectl/comandos.md)
 
-- [Linux](linux/README.md)
+- [Linux]()
 
     
     - [Comandos](/linux/comandos.md)
@@ -947,7 +832,7 @@
     
     - Distribuições
 
-- [Make](make/README.md)
+- [Make]()
 
     
     - [Introdução](/make/introducao-ao-make.md)
@@ -974,20 +859,11 @@
     
     - [Funções](/make/funcao.md)
 
-- [Maven](maven/README.md)
+- [Maven]()
 
     
 
-- [Linguagem de programação](programming-language/README.md)
-
-    
-    - [Introdução à programação](/programming-language/programming-introduction.md)
-
-- [Paradigma de programação](programming-paradigm/README.md)
-
-    
-
-- [Protocolos](protocols/README.md)
+- [Protocolos]()
 
     
     - HTTP/1
@@ -1016,7 +892,7 @@
     
       - [Diferenças entre REST e gRPC](/protocols/grpc/differences-between-reste-grpc.md)
 
-- [Python](python/README.md)
+- [Python]()
 
     
     - [Introdução à programação](./python/programming-language/programming-introduction.md)
@@ -1153,11 +1029,11 @@
     
           - [Função `dump`](/python/library/pickle/functions/dump.md)
 
-- [RabbitMQ](rabbitmq/README.md)
+- [RabbitMQ]()
 
     
 
-- [Shell](shell/README.md)
+- [Shell]()
 
     
     - [O que é terminal](/shell/o-que-e-terminal.md)
@@ -1200,96 +1076,7 @@
     
           - [powerlevel10k](/shell/zsh/customization/themes/powerlevel10k.sh)
 
-- [Arquitetura de software](software-architecture/README.md)
-
-    
-    - Design de software
-    
-      - [Introdução](/software-architecture/software-design/introduction.md)
-    
-      - [Entidades](/software-architecture/software-design/entities.md)
-    
-    - Arquitetura de software
-    
-      - [Introdução](/software-architecture/introducao.md)
-    
-      - [Conceitos](/software-architecture/conceitos.md)
-    
-    - Arquitetura Limpa
-    
-      - [Introdução](/software-architecture/clean-architecture/introducao.md)
-    
-      - [Exemplos](/software-architecture/clean-architecture/exemples.md)
-    
-    - Arquitetura Hexagonal
-    
-      - [Conceitos da Arquitetura Hexagonal](/software-architecture/hexagonal-architecture/conceitos.md)
-    
-    - Arquitetura de Microsserviços
-    
-      - [Introdução](/software-architecture/microservices-architecture/introduction.md)
-    
-      - [Monolito VS Microsserviços](/software-architecture/microservices-architecture/monolito-vs-microsservico.md)
-    
-      - [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](/software-architecture/microservices-architecture/conceitos.md)
-    
-    - Monolito
-    
-      - [Introdução](/software-architecture/monolith/introduction.md)
-    
-    - REST
-    
-      - [Introdução](/software-architecture/rest/introducao.md)
-    
-      - [Sub-recursos](/software-architecture/rest/sub-recursos.md)
-    
-      - [Boas práticas](/software-architecture/rest/boas-praticas.md)
-
-- [Documentação de software](software-documentation/README.md)
-
-    
-    - [Introdução](/software-documentation/software-architecture/introduction.md)
-    
-    - C4 model
-    
-      - [Introdução](/software-documentation/software-architecture/c4-model/introduction.md)
-    
-      - [Camadas](/software-documentation/software-architecture/c4-model/layers.md)
-    
-    - UML
-    
-      - [Diagram de classes](/software-documentation/uml-diagram/class-diagram.md)
-
-- [Ferramentas](tools/README.md)
-
-    
-    - Intellij IDEA
-    
-      - [Extensões](/tools/intellij-idea/extentions.md)
-    
-    - VS Code
-    
-      - [Introdução](/tools/vs-code/introducao.md)
-    
-      - [Instalação Ubuntu 22.04](/tools/vs-code/instalation-ubuntu.md)
-    
-      - [Extensões](/tools/vs-code/extensoes.md)
-    
-    - WSL 2
-    
-      - [Introdução](/tools/wsl-2/introducao.md)
-    
-      - [Zsh no WSl 2](/tools/wsl-2/zsh-no-wsl-2.md)
-    
-    - Windows Terminal
-    
-      - [Introdução](/tools/windows-terminal/introducao.md)
-    
-    - PowerToys
-    
-      - [Introdução](/tools/powertoys/introducao.md)
-
-- [Web](web/README.md)
+- [Web]()
 
     
     - Conceitos básicos
