@@ -4,32 +4,32 @@
 
 ### Docker
 
-- [Introdução](./introduction.md)
+- [Introdução](/docker/introduction.md)
 
-- [Importância de Container e Kubernetes](./importância-containers-e-kubernetes.md)
+- [Importância de Container e Kubernetes](/docker/importância-containers-e-kubernetes.md)
 
-- [Comparativo VM e container](./vm-e-container.md)
+- [Comparativo VM e container](/docker/vm-e-container.md)
 
-- [Dockerfile templates](./dockerfile-templates.md)
+- [Dockerfile templates](/docker/dockerfile-templates.md)
 
-- [Arquitetura do Docker](./arquitetura-docker.md)
+- [Arquitetura do Docker](/docker/arquitetura-docker.md)
 
-- [Imagem](./imagem.md)
+- [Imagem](/docker/imagem.md)
 
-- [Container](./container.md)
+- [Container](/docker/container.md)
 
-- [Dockerfile](./dockerfiles.md)
+- [Dockerfile](/docker/dockerfiles.md)
 
-- [Docker registry](./docker-registry.md)
+- [Docker registry](/docker/docker-registry.md)
 
-- [Comandos](./comandos.md)
+- [Comandos](/docker/comandos.md)
 
-- [Boas práticas no Dockerfile](./good-practice/boas-praticas-dockerfile.md)
+- [Boas práticas no Dockerfile](/docker/good-practice/boas-praticas-dockerfile.md)
 
 > ## **Referências**
 
-- [Docker](./references.md)
+- [Docker](/docker/references.md)
 
-- [Boas práticas](./good-practice/references.md)
+- [Boas práticas](/docker/good-practice/references.md)
 
-- [Java](./java/references.md)
+- [Java](/docker/java/references.md)

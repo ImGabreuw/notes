@@ -4,32 +4,32 @@
 
 ### Kubernetes
 
-* [Introdução](./introducao.md)
+* [Introdução](/kubernetes/introducao.md)
 
-* [Pods](./pods.md)
+* [Pods](/kubernetes/pods.md)
 
-* [Deployment](./deployment.md)
+* [Deployment](/kubernetes/deployment.md)
 
-* [Controller](./controller.md)
+* [Controller](/kubernetes/controller.md)
 
-* [Declaração imperativa e declarativa](./imperativo-declarativo.md)
+* [Declaração imperativa e declarativa](/kubernetes/imperativo-declarativo.md)
 
-* [Recursos](./recursos.md)
+* [Recursos](/kubernetes/recursos.md)
 
-* [Papel do IT](./papel-do-it.md)
+* [Papel do IT](/kubernetes/papel-do-it.md)
 
 ### Minikube
 
-* [Introdução](./minikube/introducao.md)
+* [Introdução](/kubernetes/minikube/introducao.md)
 
-* [Comandos](./minikube/comandos.md)
+* [Comandos](/kubernetes/minikube/comandos.md)
 
 ### Kubectl
 
-* [Introdução](./kubectl/introducao.md)
+* [Introdução](/kubernetes/kubectl/introducao.md)
 
-* [**Comandos**](./kubectl/comandos.md)
+* [**Comandos**](/kubernetes/kubectl/comandos.md)
 
 > ## **Referências**
 
-* [Kubernetes](./references.md)
+* [Kubernetes](/kubernetes/references.md)

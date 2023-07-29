@@ -6,4 +6,4 @@
 
 > ## **Referências**
 
-* [DevOps](./references.md)
+* [DevOps](/devops/references.md)

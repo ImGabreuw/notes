@@ -4,50 +4,50 @@
 
 ### HTML
 
-- [Introdução](./introduction.md)
+- [Introdução](/html/introduction.md)
 
 - **Tags**
 
-  - [Tag `<heading>`](./tags/heading.md)
+  - [Tag `<heading>`](/html/tags/heading.md)
 
-  - [Tag `<a>`](./tags/a.md)
+  - [Tag `<a>`](/html/tags/a.md)
 
-  - [Tag `<form>`](./tags/form.md)
+  - [Tag `<form>`](/html/tags/form.md)
 
-  - [Tag `<img>`](./tags/img.md)
+  - [Tag `<img>`](/html/tags/img.md)
 
-  - [Tag `<input>`](./tags/input.md)
+  - [Tag `<input>`](/html/tags/input.md)
 
-  - [Tag `<ol>`](./tags/ol.md)
+  - [Tag `<ol>`](/html/tags/ol.md)
 
-  - [Tag `<script>`](./tags/script.md)
+  - [Tag `<script>`](/html/tags/script.md)
 
-  - [Tag `<table>`](./tags/table.md)
+  - [Tag `<table>`](/html/tags/table.md)
 
-  - [Tag `<ul>`](./tags/ul.md)
+  - [Tag `<ul>`](/html/tags/ul.md)
 
-  - [Tag `<DOCTYPE>`](./tags/doctype.md)
+  - [Tag `<DOCTYPE>`](/html/tags/doctype.md)
 
-  - [Tag `<html>`](./tags/html.md)
+  - [Tag `<html>`](/html/tags/html.md)
 
-  - [Tag `<head>`](./tags/head.md)
+  - [Tag `<head>`](/html/tags/head.md)
 
-  - [Tag `<meta>`](./tags/meta.md)
+  - [Tag `<meta>`](/html/tags/meta.md)
 
-  - [Tag `<title>`](./tags/title.md)
+  - [Tag `<title>`](/html/tags/title.md)
 
-  - [Tag `<body>`](./tags/body.md)
+  - [Tag `<body>`](/html/tags/body.md)
 
-  - [Tag `<br>`](./tags/br.md)
+  - [Tag `<br>`](/html/tags/br.md)
 
-  - [Tag `<b>`](./tags/b.md)
+  - [Tag `<b>`](/html/tags/b.md)
 
-  - [Tag `<strong>`](./tags/strong.md)
+  - [Tag `<strong>`](/html/tags/strong.md)
 
-  - [Tag `<em>`](./tags/em.md)
+  - [Tag `<em>`](/html/tags/em.md)
 
-  - [Tag `<i>`](./tags/i.md)
+  - [Tag `<i>`](/html/tags/i.md)
 
 > ## **Referências**
 
-- [HTML](./references.md)
+- [HTML](/html/references.md)

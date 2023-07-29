@@ -2,57 +2,57 @@
 
 > ## **Conteúdo**
 
-- [Introdução à programação](../programming-language/programming-introduction.md)
+- [Introdução à programação](./python/programming-language/programming-introduction.md)
 
-- [Introdução ao Python](./introduction.md)
+- [Introdução ao Python](/python/introduction.md)
 
-- [Instalação no Ubuntu 22.04](./instalation-ubuntu.md)
+- [Instalação no Ubuntu 22.04](/python/instalation-ubuntu.md)
 
-- [Python no terminal](./python-no-terminal.md)
+- [Python no terminal](/python/python-no-terminal.md)
 
-- [Módulo](./core/module.md)
+- [Módulo](/python/core/module.md)
 
-- [Comentários e DocStrings](./core/comments-and-docstrings.md)
+- [Comentários e DocStrings](/python/core/comments-and-docstrings.md)
 
-- [Sintaxe básico](./sintaxe-basica.md)
+- [Sintaxe básico](/python/sintaxe-basica.md)
 
-- [Variáveis](./core/variables.md)
+- [Variáveis](/python/core/variables.md)
 
-- [Manipulação de Strings](./manipulacao-de-strings.md)
+- [Manipulação de Strings](/python/manipulacao-de-strings.md)
 
-- [Formatação de strings](./core/strings-formatation.md)
+- [Formatação de strings](/python/core/strings-formatation.md)
 
 - **Operadores**
 
-  - [Operadores aritméticos](./core/operators/arithmetics-operators.md)
+  - [Operadores aritméticos](/python/core/operators/arithmetics-operators.md)
 
-  - [Pass](./core/operators/pass-operator.md)
+  - [Pass](/python/core/operators/pass-operator.md)
 
-  - [Ellipsis](./core/operators/ellipsis-operator.md)
+  - [Ellipsis](/python/core/operators/ellipsis-operator.md)
 
 - **Tipo de dados**
 
-  - [Classe `type`](./core/data-types/class-type.md)
+  - [Classe `type`](/python/core/data-types/class-type.md)
 
-  - [Literais](./core/data-types/literals.md)
+  - [Literais](/python/core/data-types/literals.md)
 
-  - [`str`](./core/data-types/str-type.md)
+  - [`str`](/python/core/data-types/str-type.md)
 
-  - [`int`](./core/data-types/int-type.md)
+  - [`int`](/python/core/data-types/int-type.md)
 
-  - [`float`](./core/data-types/float-type.md)
+  - [`float`](/python/core/data-types/float-type.md)
 
-  - [`bool`](./core/data-types/bool-type.md)
+  - [`bool`](/python/core/data-types/bool-type.md)
 
-  - [Conversão de tipos](./core/data-types/typecasting.md)
+  - [Conversão de tipos](/python/core/data-types/typecasting.md)
 
-- [Estrutura condicional](./core/conditional-structure.md)
+- [Estrutura condicional](/python/core/conditional-structure.md)
 
 - **Funções**
 
-  - [`print()`](./core/functions/print-function.md)
+  - [`print()`](/python/core/functions/print-function.md)
 
-  - [`input()`](./core/functions/input-function.md)
+  - [`input()`](/python/core/functions/input-function.md)
 
 - Bibliotecas
 
@@ -60,82 +60,82 @@
 
     - Funções
 
-      - [Função `unique`](./library/numpy/functions/unique.md)
+      - [Função `unique`](/python/library/numpy/functions/unique.md)
 
   - Pandas
 
-    - [Filtro de registros](./library/pandas/registry_filter.md)
+    - [Filtro de registros](/python/library/pandas/registry_filter.md)
 
     - Funções
 
-      - [Função `head`](./library/pandas/functions/head.md)
+      - [Função `head`](/python/library/pandas/functions/head.md)
 
-      - [Função `tail`](./library/pandas/functions/tail.md)
+      - [Função `tail`](/python/library/pandas/functions/tail.md)
 
-      - [Função `describe`](./library/pandas/functions/describe.md)
+      - [Função `describe`](/python/library/pandas/functions/describe.md)
 
-      - [Função `loc`](./library/pandas/functions/loc.md)
+      - [Função `loc`](/python/library/pandas/functions/loc.md)
 
-      - [Função `drop`](./library/pandas/functions/drop.md)
+      - [Função `drop`](/python/library/pandas/functions/drop.md)
 
-      - [Função `isnull`](./library/pandas/functions/isnull.md)
+      - [Função `isnull`](/python/library/pandas/functions/isnull.md)
 
-      - [Função `fillna`](./library/pandas/functions/fillna.md)
+      - [Função `fillna`](/python/library/pandas/functions/fillna.md)
 
-      - [Função `iloc`](./library/pandas/functions/iloc.md)
+      - [Função `iloc`](/python/library/pandas/functions/iloc.md)
 
   - Plotly
 
     - Funções
 
-      - [Função `scatter_matrix`](./library/plotly/functions/scatter_matrix.md)
+      - [Função `scatter_matrix`](/python/library/plotly/functions/scatter_matrix.md)
 
-      - [Função `treemap`](./library/plotly/functions/treemap.md)
+      - [Função `treemap`](/python/library/plotly/functions/treemap.md)
 
-      - [Função `parallel_categories`](./library/plotly/functions/parallel_categories.md)
+      - [Função `parallel_categories`](/python/library/plotly/functions/parallel_categories.md)
 
   - SeaBorn
 
     - Funções
 
-      - [Função `histplot`](./library/seaborn/functions/histplot.md)
+      - [Função `histplot`](/python/library/seaborn/functions/histplot.md)
 
-      - [Função `countplot`](./library/seaborn/functions/countplot.md)
+      - [Função `countplot`](/python/library/seaborn/functions/countplot.md)
 
   - Sklean
 
-    - [Introdução](./library/sklearn/introduction.md)
+    - [Introdução](/python/library/sklearn/introduction.md)
 
     - _Model Selection_
 
       - Funções
 
-        - [Função `train_test_split`](./library/sklearn/model-selection/functions/train-test-split.md)
+        - [Função `train_test_split`](/python/library/sklearn/model-selection/functions/train-test-split.md)
 
     - _Standard Scaler_
 
       - Funções
 
-        - [Função `fit_transform`](./library/sklearn/standard-scaler/functions/fit_transform.md)
+        - [Função `fit_transform`](/python/library/sklearn/standard-scaler/functions/fit_transform.md)
 
     - _Label Encoder_
 
       - Funções
 
-        - [Função `fit_transform`](./library/sklearn/label-enconder/functions/fit_transform.md)
+        - [Função `fit_transform`](/python/library/sklearn/label-enconder/functions/fit_transform.md)
 
     - _One-Hot Encoder_
 
       - Funções
 
-        - [Função `fit_transform`](./library/sklearn/one-hot-encoder/functions/fit_transform.md)
+        - [Função `fit_transform`](/python/library/sklearn/one-hot-encoder/functions/fit_transform.md)
 
   - Pickle
 
     - Funções
 
-      - [Função `dump`](./library/pickle/functions/dump.md)
+      - [Função `dump`](/python/library/pickle/functions/dump.md)
 
 > ## **Referências**
 
-- [Python](./references.md)
+- [Python](/python/references.md)

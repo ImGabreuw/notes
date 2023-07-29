@@ -4,15 +4,15 @@
 
 ### CSS
 
-- [Introdução](./introduction.md)
+- [Introdução](/css/introduction.md)
 
-- [Metodologias para criar CSS](./methodologies.md)
+- [Metodologias para criar CSS](/css/methodologies.md)
 
-- [Pré e pós processadores](./pre-and-post-processors.md)
+- [Pré e pós processadores](/css/pre-and-post-processors.md)
 
 ### Tailwind CSS
 
-- [Introdução](./frameworks/tailwind-css/introduction.md)
+- [Introdução](/css/frameworks/tailwind-css/introduction.md)
 
 ### Bootstrap
 
@@ -24,4 +24,4 @@
 
 > ## **Referências**
 
-- [CSS](./references.md)
+- [CSS](/css/references.md)

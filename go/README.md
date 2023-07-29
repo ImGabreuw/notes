@@ -4,32 +4,32 @@
 
 ### Go
 
-* [Introdução](./introducao.md)
+* [Introdução](/go/introducao.md)
 
-* [Lista de comandos](./comandos.md)
+* [Lista de comandos](/go/comandos.md)
 
-* [Imports](./imports.md)
+* [Imports](/go/imports.md)
 
-* [Variáveis](./variaveis.md)
+* [Variáveis](/go/variaveis.md)
 
-* [Funções](./funcoes.md)
+* [Funções](/go/funcoes.md)
 
-* [Visibilidade de funções e variáveis](./visibilidade.md)
+* [Visibilidade de funções e variáveis](/go/visibilidade.md)
 
-* [Erros e Tratamento de erros](./erros.md)
+* [Erros e Tratamento de erros](/go/erros.md)
 
-* [Ponteiros](./ponteiros.md)
+* [Ponteiros](/go/ponteiros.md)
 
-* [Tipos de dados](./types.md)
+* [Tipos de dados](/go/types.md)
 
-* [Multithreading](./multithreading.md)
+* [Multithreading](/go/multithreading.md)
 
 ### Frameworks
 
 - ntfy.sh
 
-  - [Introdução](./frameworks/ntfy/introduction.md)
+  - [Introdução](/go/frameworks/ntfy/introduction.md)
 
 > ## **Referências**
 
-* [Go](./references.md)
+* [Go](/go/references.md)

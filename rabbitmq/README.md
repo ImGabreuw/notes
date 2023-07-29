@@ -4,4 +4,4 @@
 
 > ## **Referências**
 
-* [RabbitMQ](./references.md)
+* [RabbitMQ](/rabbitmq/references.md)

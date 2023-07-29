@@ -4,60 +4,60 @@
 
 ### Design de software
 
-- [Introdução](./software-design/introduction.md)
+- [Introdução](/software-architecture/software-design/introduction.md)
 
-- [Entidades](./software-design/entities.md)
+- [Entidades](/software-architecture/software-design/entities.md)
 
 ### Arquitetura de software
 
-- [Introdução](./introducao.md)
+- [Introdução](/software-architecture/introducao.md)
 
-- [Conceitos](./conceitos.md)
+- [Conceitos](/software-architecture/conceitos.md)
 
 ### Arquitetura Limpa
 
-- [Introdução](./clean-architecture/introducao.md)
+- [Introdução](/software-architecture/clean-architecture/introducao.md)
 
-- [Exemplos](./clean-architecture/exemples.md)
+- [Exemplos](/software-architecture/clean-architecture/exemples.md)
 
 ### Arquitetura Hexagonal
 
-- [Conceitos da Arquitetura Hexagonal](./hexagonal-architecture/conceitos.md)
+- [Conceitos da Arquitetura Hexagonal](/software-architecture/hexagonal-architecture/conceitos.md)
 
 ### Arquitetura de Microsserviços
 
-- [Introdução](./microservices-architecture/introduction.md)
+- [Introdução](/software-architecture/microservices-architecture/introduction.md)
 
-- [Monolito VS Microsserviços](./microservices-architecture/monolito-vs-microsservico.md)
+- [Monolito VS Microsserviços](/software-architecture/microservices-architecture/monolito-vs-microsservico.md)
 
-- [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](./microservices-architecture/conceitos.md)
+- [Conceitos e dinâmica de funcionamento da Arquitetura de Microsserviços](/software-architecture/microservices-architecture/conceitos.md)
 
 ### Monolito
 
-- [Introdução](./monolith/introduction.md)
+- [Introdução](/software-architecture/monolith/introduction.md)
 
 ### REST
 
-- [Introdução](./rest/introducao.md)
+- [Introdução](/software-architecture/rest/introducao.md)
 
-- [Sub-recursos](./rest/sub-recursos.md)
+- [Sub-recursos](/software-architecture/rest/sub-recursos.md)
 
-- [Boas práticas](./rest/boas-praticas.md)
+- [Boas práticas](/software-architecture/rest/boas-praticas.md)
 
 > ## **Referências**
 
-- [Arquitetura de software](./references.md)
+- [Arquitetura de software](/software-architecture/references.md)
 
-- [Arquitetura Limpa](./clean-architecture/references.md)
+- [Arquitetura Limpa](/software-architecture/clean-architecture/references.md)
 
-- [Arquitetura Hexagonal](./hexagonal-architecture/references.md)
+- [Arquitetura Hexagonal](/software-architecture/hexagonal-architecture/references.md)
 
-- [Arquitetura de Microsserviços](./microservices-architecture/references.md)
+- [Arquitetura de Microsserviços](/software-architecture/microservices-architecture/references.md)
 
   - Exemplos
 
-    - [Java](./microservices-architecture/examples/java/references.md)
+    - [Java](/software-architecture/microservices-architecture/examples/java/references.md)
 
-- [REST](./rest/references.md)
+- [REST](/software-architecture/rest/references.md)
 
-- [Monolito](./monolith/references.md)
+- [Monolito](/software-architecture/monolith/references.md)

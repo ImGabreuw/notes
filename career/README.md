@@ -4,8 +4,8 @@
 
 ### Currículo
 
-- [resume.io](./resume/resume-io.md)
+- [resume.io](/career/resume/resume-io.md)
 
 > ## **Referências**
 
-- [Carreira](./references.md)
+- [Carreira](/career/references.md)

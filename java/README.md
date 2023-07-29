@@ -6,11 +6,11 @@
 
 - Versões
 
-  - [Java 17](./core/version/java-17.md)
+  - [Java 17](/java/core/version/java-17.md)
 
-- [JVM](./core/jvm.md)
+- [JVM](/java/core/jvm.md)
 
-- [Tipos de JAR](./core/tipos-de-jar.md)
+- [Tipos de JAR](/java/core/tipos-de-jar.md)
 
 ### Concurrency
 
@@ -18,9 +18,9 @@
 
 - Flyway
 
-  - [Introdução](./frameworks/flyway/introduction.md)
+  - [Introdução](/java/frameworks/flyway/introduction.md)
 
-  - [Criação de migrations](./frameworks/flyway/creating-migrations.md)
+  - [Criação de migrations](/java/frameworks/flyway/creating-migrations.md)
 
 - Google Guava
 
@@ -28,11 +28,11 @@
 
 - Jackson
 
-  - [Introdução](./frameworks/jackson/introduction.md)
+  - [Introdução](/java/frameworks/jackson/introduction.md)
 
-  - [Anotações](./frameworks/jackson/annotations.md)
+  - [Anotações](/java/frameworks/jackson/annotations.md)
 
-  - [_ObjectMapper_](./frameworks/jackson/object-mapper.md)
+  - [_ObjectMapper_](/java/frameworks/jackson/object-mapper.md)
 
 - JMeter
 
@@ -44,99 +44,99 @@
 
 - Selenium
 
-  - [Configurações inciais](./frameworks/selenium/configuracoes-iniciais.md)
+  - [Configurações inciais](/java/frameworks/selenium/configuracoes-iniciais.md)
 
-  - [Principais métodos](./frameworks/selenium/principais-metodos.md)
+  - [Principais métodos](/java/frameworks/selenium/principais-metodos.md)
 
 - Spring
 
-  - [Introdução](./frameworks/spring/introducao.md)
+  - [Introdução](/java/frameworks/spring/introducao.md)
 
-  - [Classe SpringUtils](./frameworks/spring/spring-utils.md)
+  - [Classe SpringUtils](/java/frameworks/spring/spring-utils.md)
 
   - Anotações
 
-    - [@Transactional](./frameworks/spring/annotations/transactional-annotation.md)
+    - [@Transactional](/java/frameworks/spring/annotations/transactional-annotation.md)
 
-    - [@RequestParam](./frameworks/spring/annotations/requestparam-annotation.md)
+    - [@RequestParam](/java/frameworks/spring/annotations/requestparam-annotation.md)
 
-    - [@ExceptionHandler](./frameworks/spring/annotations/exceptionhandler-annotation.md)
+    - [@ExceptionHandler](/java/frameworks/spring/annotations/exceptionhandler-annotation.md)
 
-    - [@ResponseStatus](./frameworks/spring/annotations/responsestatus-annotation.md)
+    - [@ResponseStatus](/java/frameworks/spring/annotations/responsestatus-annotation.md)
 
-    - [@ControllerAdvice](./frameworks/spring/annotations/controlleradvice-annotation.md)
+    - [@ControllerAdvice](/java/frameworks/spring/annotations/controlleradvice-annotation.md)
 
   - Spring Actuator
 
-    - [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
+    - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
 
-    - [Endpoint "Health"](./frameworks/spring/spring-actuator/endpoint-health.md)
+    - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
 
   - Spring Data
 
-    - [Anotações](./frameworks/spring/spring-data/annotations.md)
+    - [Anotações](/java/frameworks/spring/spring-data/annotations.md)
 
     - MySQL
 
-      - [Configurações do banco de dados](./frameworks/spring/spring-data/mysql/database-configuration.md)
+      - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mysql/database-configuration.md)
 
-      - [URL de conexão](./frameworks/spring/spring-data/mysql/connection-url.md)
+      - [URL de conexão](/java/frameworks/spring/spring-data/mysql/connection-url.md)
 
     - MongoDB
 
-      - [Configurações do banco de dados](./frameworks/spring/spring-data/mongodb/database-configuration.md)
+      - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mongodb/database-configuration.md)
 
-      - [Anotações](./frameworks/spring/spring-data/mongodb/annotations.md)
+      - [Anotações](/java/frameworks/spring/spring-data/mongodb/annotations.md)
 
-      - [Repositório JPA do MongoDB](./frameworks/spring/spring-data/mongodb/repository.md)
+      - [Repositório JPA do MongoDB](/java/frameworks/spring/spring-data/mongodb/repository.md)
 
   - Spring Fu
 
-    - [Introdução](./frameworks/spring/spring-fu/introducao.md)
+    - [Introdução](/java/frameworks/spring/spring-fu/introducao.md)
 
   - Spring Native
 
-    - [Introdução](./frameworks/spring/spring-native/introducao.md)
+    - [Introdução](/java/frameworks/spring/spring-native/introducao.md)
 
   - Spring Retrosocket
 
-    - [Introdução](./frameworks/spring/spring-retrosocket/introducao.md)
+    - [Introdução](/java/frameworks/spring/spring-retrosocket/introducao.md)
 
   - Spring Security
 
-    - [JWT](./frameworks/spring/spring-security/jwt.md)
+    - [JWT](/java/frameworks/spring/spring-security/jwt.md)
 
   - Spring WebFlux
 
-    - [Events Stream](./frameworks/spring/spring-webflux/events-stream.md)
+    - [Events Stream](/java/frameworks/spring/spring-webflux/events-stream.md)
 
-    - [Functional Endpoints](./frameworks/spring/spring-webflux/functional-end-points.md)
+    - [Functional Endpoints](/java/frameworks/spring/spring-webflux/functional-end-points.md)
 
   - Spring Bean Validation
 
-    - [Introdução](./frameworks/spring/spring-bean-validation/introduction.md)
+    - [Introdução](/java/frameworks/spring/spring-bean-validation/introduction.md)
 
-    - [Criando uma anotação de validação customizada utilizando anotações já existentes](./frameworks/spring/spring-bean-validation/creating-custom-validation-annotation-using-builtin-annotations.md)
+    - [Criando uma anotação de validação customizada utilizando anotações já existentes](/java/frameworks/spring/spring-bean-validation/creating-custom-validation-annotation-using-builtin-annotations.md)
 
     - Anotações
 
-      - [@NotBlank](./frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
+      - [@NotBlank](/java/frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
 
-      - [@Size](./frameworks/spring/spring-bean-validation/annotations/size-annotation.md)
+      - [@Size](/java/frameworks/spring/spring-bean-validation/annotations/size-annotation.md)
 
-      - [@Email](./frameworks/spring/spring-bean-validation/annotations/email-annotation.md)
+      - [@Email](/java/frameworks/spring/spring-bean-validation/annotations/email-annotation.md)
 
-      - [@Valid](./frameworks/spring/spring-bean-validation/annotations/valid-annotation.md)
+      - [@Valid](/java/frameworks/spring/spring-bean-validation/annotations/valid-annotation.md)
 
-    - [Validação em cascata e Validação de grupos](./frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
+    - [Validação em cascata e Validação de grupos](/java/frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
 
 - Test Containers
 
 - ModelMapper
 
-  - [Introdução](./frameworks/modelmapper/introduction.md)
+  - [Introdução](/java/frameworks/modelmapper/introduction.md)
 
-  - [Configuração](./frameworks/modelmapper/configuration.md)
+  - [Configuração](/java/frameworks/modelmapper/configuration.md)
 
 ### Boas práticas
 
@@ -152,76 +152,76 @@
 
 ### Testing
 
-- [Framework de testes](./testing/framework-de-testes.md)
+- [Framework de testes](/java/testing/framework-de-testes.md)
 
-- [Teste unitário ingênuo](./testing/teste-unitario-ingenuo.md)
+- [Teste unitário ingênuo](/java/testing/teste-unitario-ingenuo.md)
 
 > ## **Referências**
 
-- [**Exemplos de projetos**](./project-examples.md)
+- [**Exemplos de projetos**](/java/project-examples.md)
 
-- [Java](./references.md)
+- [Java](/java/references.md)
 
-- [Concurrency](./concurrency/references.md)
+- [Concurrency](/java/concurrency/references.md)
 
-- [Núcleo do Java](./core/references.md)
+- [Núcleo do Java](/java/core/references.md)
 
 - Frameworks
 
-  - [Flyway](./frameworks/flyway/references.md)
+  - [Flyway](/java/frameworks/flyway/references.md)
 
-  - [Google Guava](./frameworks/google-guava/references.md)
+  - [Google Guava](/java/frameworks/google-guava/references.md)
 
-  - [Hibernate](./frameworks/hibernate/references.md)
+  - [Hibernate](/java/frameworks/hibernate/references.md)
 
-  - [Jackson](./frameworks/jackson/references.md)
+  - [Jackson](/java/frameworks/jackson/references.md)
 
-  - [JMeter](./frameworks/jmeter/references.md)
+  - [JMeter](/java/frameworks/jmeter/references.md)
 
-  - [JUnit](./frameworks/junit/references.md)
+  - [JUnit](/java/frameworks/junit/references.md)
 
-  - [MapStruct](./frameworks/mapstruct/references.md)
+  - [MapStruct](/java/frameworks/mapstruct/references.md)
 
-  - [Mockito](./frameworks/mockito/references.md)
+  - [Mockito](/java/frameworks/mockito/references.md)
 
-  - [Selenium](./frameworks/selenium/references.md)
+  - [Selenium](/java/frameworks/selenium/references.md)
 
-  - [Spring](./frameworks/spring/references.md)
+  - [Spring](/java/frameworks/spring/references.md)
 
-    - [Anotações](./frameworks/spring/annotations/references.md)
+    - [Anotações](/java/frameworks/spring/annotations/references.md)
 
-    - [Exemplos](./frameworks/spring/examples/references.md)
+    - [Exemplos](/java/frameworks/spring/examples/references.md)
 
-    - [Spring Boot](./frameworks/spring/spring-boot/references.md)
+    - [Spring Boot](/java/frameworks/spring/spring-boot/references.md)
 
-    - [Spring Cloud](./frameworks/spring/spring-cloud/references.md)
+    - [Spring Cloud](/java/frameworks/spring/spring-cloud/references.md)
 
-    - [Spring Cloud Stream](./frameworks/spring/spring-cloud-stream/references.md)
+    - [Spring Cloud Stream](/java/frameworks/spring/spring-cloud-stream/references.md)
 
-    - [Spring Security](./frameworks/spring/spring-security/references.md)
+    - [Spring Security](/java/frameworks/spring/spring-security/references.md)
 
-    - [Spring Validation](./frameworks/spring/spring-bean-validation/references.md)
+    - [Spring Validation](/java/frameworks/spring/spring-bean-validation/references.md)
 
-    - [Spring WebFlux](./frameworks/spring/spring-webflux/references.md)
+    - [Spring WebFlux](/java/frameworks/spring/spring-webflux/references.md)
 
-    - [Spring Data Rest](./frameworks/spring/spring-data-rest/references.md)
+    - [Spring Data Rest](/java/frameworks/spring/spring-data-rest/references.md)
 
-  - [Test Containers](./frameworks/test-containers/references.md)
+  - [Test Containers](/java/frameworks/test-containers/references.md)
 
-  - [ModelMapper](./frameworks/modelmapper/references.md)
+  - [ModelMapper](/java/frameworks/modelmapper/references.md)
 
-- [Boas práticas](./good-practice/references.md)
+- [Boas práticas](/java/good-practice/references.md)
 
-- [I/O API](./io-api/references.md)
+- [I/O API](/java/io-api/references.md)
 
-- [JavaFX](./javafx/references.md)
+- [JavaFX](/java/javafx/references.md)
 
-- [Logging](./logging/references.md)
+- [Logging](/java/logging/references.md)
 
-- [Monads](./monads/references.md)
+- [Monads](/java/monads/references.md)
 
-- [Stream API](./stream-api/references.md)
+- [Stream API](/java/stream-api/references.md)
 
-- [Testing](./testing/references.md)
+- [Testing](/java/testing/references.md)
 
-  - [Spring](./testing/spring/references.md)
+  - [Spring](/java/testing/spring/references.md)

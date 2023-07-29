@@ -1,9 +1,0 @@
-{
-  "ignorePatterns": [
-    {
-      "pattern": "^(?:http|https)://"
-    }
-  ],
-  "timeout": "20s",
-  "aliveStatusCodes": [200, 206]
-}
