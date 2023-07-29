@@ -33,12 +33,6 @@ titulos_ordenados=($(printf "%s\n" "${titulos[@]}" | sort))
 # Nome do arquivo _sidebar.md
 sidebar="_sidebar.md"
 
-# Cria um novo _sidebar.md, caso não exista
-echo -e "# Notes\n" > "$sidebar"
-echo -e '<p align="center">\n    <img src="https://repository-images.githubusercontent.com/416103377/187144b4-4f33-4119-9ec2-ba80651e9fb6" width="80%">' >> "$sidebar"
-echo -e '</p>\n' >> "$sidebar"
-echo "> ## **Conteúdo**" >> "$sidebar"
-
 # Adicionar os conteúdos extraídos ordenados ao arquivo _sidebar.md
 for titulo_ordenado in "${titulos_ordenados[@]}"; do
     for ((i = 0; i < ${#titulos[@]}; i++)); do
