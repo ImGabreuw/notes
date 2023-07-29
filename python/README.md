@@ -106,6 +106,12 @@
 
     - [Introdução](./library/sklearn/introduction.md)
 
+    - _Model Selection_
+
+      - Funções
+
+        - [Função `train_test_split`](./library/sklearn/model-selection/functions/train-test-split.md)
+
     - _Standard Scaler_
 
       - Funções
@@ -114,7 +120,21 @@
 
     - _Label Encoder_
 
+      - Funções
+
         - [Função `fit_transform`](./library/sklearn/label-enconder/functions/fit_transform.md)
+
+    - _One-Hot Encoder_
+
+      - Funções
+
+        - [Função `fit_transform`](./library/sklearn/one-hot-encoder/functions/fit_transform.md)
+
+  - Pickle
+
+    - Funções
+
+      - [Função `dump`](./library/pickle/functions/dump.md)
 
 > ## **Referências**
 
