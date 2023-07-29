@@ -16,13 +16,6 @@
     
       - [Java VS Kotlin](/android/kotlin/java-vs-kotlin.md)
 
-- [Carreira]()
-
-    
-    - Currículo
-    
-      - [resume.io](/career/resume/resume-io.md)
-
 - [CSS]()
 
     
@@ -43,6 +36,13 @@
     - Bulma
     
     - Materialize CSS
+
+- [Carreira]()
+
+    
+    - Currículo
+    
+      - [resume.io](/career/resume/resume-io.md)
 
 - [DevOps]()
 
