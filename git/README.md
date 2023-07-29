@@ -6,7 +6,7 @@
 
 - [Branches](/git/branches.md)
 
-- **Comandos**
+- Comandos
 
   - [Lista de comandos](/git/comandos.md)
 

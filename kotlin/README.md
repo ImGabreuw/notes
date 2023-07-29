@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Kotlin
-
 - [Introdução](/kotlin/introduction.md)
 
 - [Tipos de dados](/kotlin/data-types.md)
@@ -110,15 +108,15 @@
 
     - [Funções _single-line_](/kotlin/functions/function-types/single-line-function.md)
 
-### Frameworks
+- Frameworks
 
-- Validação
+  - Validação
 
-  - [Konform](/kotlin/frameworks/konform.md)
+    - [Konform](/kotlin/frameworks/konform.md)
 
-- Kotlin Multiplatform (KMP)
+  - Kotlin Multiplatform (KMP)
 
-  - [KustomExport](/kotlin/frameworks/kustom-export.md)
+    - [KustomExport](/kotlin/frameworks/kustom-export.md)
 
 > ## **Referências**
 

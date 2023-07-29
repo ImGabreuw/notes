@@ -2,9 +2,9 @@
 
 > ## **Conteúdo**
 
-### Currículo
+- Currículo
 
-- [resume.io](/career/resume/resume-io.md)
+  - [resume.io](/career/resume/resume-io.md)
 
 > ## **Referências**
 

@@ -2,18 +2,18 @@
 
 > ## **Conteúdo**
 
-### MySQL
+- MySQL
 
-- [InnoDB](/database/mysql/innodb-engine.md)
+  - [InnoDB](/database/mysql/innodb-engine.md)
 
-### **MongoDB**
+- MongoDB
 
-- **Serviços Cloud**
+  - **Serviços Cloud**
 
-  - [MongoDB Atlas](/database/mongodb/mongodb-atlas.md)
+    - [MongoDB Atlas](/database/mongodb/mongodb-atlas.md)
 
-### **MariaDB**
+- MariaDB
 
-- [Configuração](/database/mariadb/configuration.md)
+  - [Configuração](/database/mariadb/configuration.md)
 
 > ## **Referências**

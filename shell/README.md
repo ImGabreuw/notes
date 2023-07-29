@@ -2,52 +2,50 @@
 
 > ## **Conteúdo**
 
-### Shell
+- [O que é terminal](/shell/o-que-e-terminal.md)
 
-* [O que é terminal](/shell/o-que-e-terminal.md)
+- [O que é Shell](/shell/o-que-e-shell.md)
 
-* [O que é Shell](/shell/o-que-e-shell.md)
+- [O que é Shell Script](/shell/o-que-e-shell-script.md)
 
-* [O que é Shell Script](/shell/o-que-e-shell-script.md)
+- Comandos
 
-* Comandos
+  - [Comando "basename" ou "dirname"](/shell/commands/basename-e-dirname.md)
 
-  * [Comando "basename" ou "dirname"](/shell/commands/basename-e-dirname.md)
+  - [Comando "cd"](/shell/commands/cd.md)
 
-  * [Comando "cd"](/shell/commands/cd.md)
+  - [Comando "chmod"](/shell/commands/chmod.md)
 
-  * [Comando "chmod"](/shell/commands/chmod.md)
+  - [Comandos "clear" e "reset"](/shell/commands/clear-e-reset.md)
 
-  * [Comandos "clear" e "reset"](/shell/commands/clear-e-reset.md)
+  - [Comando "echo"](/shell/commands/echo.md)
 
-  * [Comando "echo"](/shell/commands/echo.md)
+  - [Comando "history"](/shell/commands/history.md)
 
-  * [Comando "history"](/shell/commands/history.md)
+  - [Comando "ls"](/shell/commands/ls.md)
 
-  * [Comando "ls"](/shell/commands/ls.md)
+  - [Comando "mkdir"](/shell/commands/mkdir.md)
 
-  * [Comando "mkdir"](/shell/commands/mkdir.md)
+  - [Comando "mktemp"](/shell/commands/mktemp.md)
 
-  * [Comando "mktemp"](/shell/commands/mktemp.md)
+  - [Comando "pwd"](/shell/commands/pwd.md)
 
-  * [Comando "pwd"](/shell/commands/pwd.md)
+  - [Comando "base64"](/shell/commands/base64.md)
 
-  * [Comando "base64"](/shell/commands/base64.md)
+- [Estrutura de diretórios](/shell/estrutura-de-diretorios.md)
 
-* [Estrutura de diretórios](/shell/estrutura-de-diretorios.md)
+- Zsh
 
-### Zsh
+  - Customização
 
-* Customização
+    - Temas
 
-  * Temas
-
-    * [powerlevel10k](/shell/zsh/customization/themes/powerlevel10k.sh)
+      - [powerlevel10k](/shell/zsh/customization/themes/powerlevel10k.sh)
 
 > ## **Referências**
 
-* [Shell](/shell/references.md)
+- [Shell](/shell/references.md)
 
-* Zsh
+- Zsh
 
-  * [Customização](/shell/zsh/customization/references.md)
+  - [Customização](/shell/zsh/customization/references.md)

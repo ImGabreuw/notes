@@ -2,11 +2,11 @@
 
 > ## **Conteúdo**
 
-### **Algoritmo**
+- **Algoritmo**
 
-- [Introdução](/computer-science/algorithm/introduction.md)
+  - [Introdução](/computer-science/algorithm/introduction.md)
 
-- [Lógica de programação](/computer-science/algorithm/programming-logic.md)
+  - [Lógica de programação](/computer-science/algorithm/programming-logic.md)
 
 > ## **Referências**
 

@@ -2,15 +2,13 @@
 
 > ## **Conteúdo**
 
-### Linux
-
 - [Comandos](/linux/comandos.md)
 
 - [Processos]
 
   - [Interromper processos](/linux/kill-process.md)
 
-### Distribution
+- Distribuições
 
 > ## **Referências**
 

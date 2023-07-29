@@ -2,33 +2,31 @@
 
 > ## **Conteúdo**
 
-### Intellij IDEA
+- Intellij IDEA
 
-- [Extensões](/tools/intellij-idea/extentions.md)
+  - [Extensões](/tools/intellij-idea/extentions.md)
 
-### VS Code
+- VS Code
 
-- [Introdução](/tools/vs-code/introducao.md)
+  - [Introdução](/tools/vs-code/introducao.md)
 
-- [Instalação Ubuntu 22.04](/tools/vs-code/instalation-ubuntu.md)
+  - [Instalação Ubuntu 22.04](/tools/vs-code/instalation-ubuntu.md)
 
-- [Extensões](/tools/vs-code/extensoes.md)
+  - [Extensões](/tools/vs-code/extensoes.md)
 
-### Webstorm
+- WSL 2
 
-### WSL 2
+  - [Introdução](/tools/wsl-2/introducao.md)
 
-- [Introdução](/tools/wsl-2/introducao.md)
+  - [Zsh no WSl 2](/tools/wsl-2/zsh-no-wsl-2.md)
 
-- [Zsh no WSl 2](/tools/wsl-2/zsh-no-wsl-2.md)
+- Windows Terminal
 
-### Windows Terminal
+  - [Introdução](/tools/windows-terminal/introducao.md)
 
-- [Introdução](/tools/windows-terminal/introducao.md)
+- PowerToys
 
-### PowerToys
-
-- [Introdução](/tools/powertoys/introducao.md)
+  - [Introdução](/tools/powertoys/introducao.md)
 
 > ## **Referências**
 

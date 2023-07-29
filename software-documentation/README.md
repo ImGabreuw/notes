@@ -2,15 +2,13 @@
 
 > ## **Conteúdo**
 
-### **Documentação de arquitetura de software**
-
 - [Introdução](/software-documentation/software-architecture/introduction.md)
 
-### **_C4 model_**
+- C4 model
 
-- [Introdução](/software-documentation/software-architecture/c4-model/introduction.md)
+  - [Introdução](/software-documentation/software-architecture/c4-model/introduction.md)
 
-- [Camadas](/software-documentation/software-architecture/c4-model/layers.md)
+  - [Camadas](/software-documentation/software-architecture/c4-model/layers.md)
 
 > ## **Referências**
 

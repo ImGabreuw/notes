@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Núcleo
-
 - Versões
 
   - [Java 17](/java/core/version/java-17.md)
@@ -12,149 +10,149 @@
 
 - [Tipos de JAR](/java/core/tipos-de-jar.md)
 
-### Concurrency
+- Concurrency
 
-### Frameworks
+- Frameworks
 
-- Flyway
+  - Flyway
 
-  - [Introdução](/java/frameworks/flyway/introduction.md)
+    - [Introdução](/java/frameworks/flyway/introduction.md)
 
-  - [Criação de migrations](/java/frameworks/flyway/creating-migrations.md)
+    - [Criação de migrations](/java/frameworks/flyway/creating-migrations.md)
 
-- Google Guava
+  - Google Guava
 
-- Hibernate
+  - Hibernate
 
-- Jackson
+  - Jackson
 
-  - [Introdução](/java/frameworks/jackson/introduction.md)
+    - [Introdução](/java/frameworks/jackson/introduction.md)
 
-  - [Anotações](/java/frameworks/jackson/annotations.md)
+    - [Anotações](/java/frameworks/jackson/annotations.md)
 
-  - [_ObjectMapper_](/java/frameworks/jackson/object-mapper.md)
+    - [_ObjectMapper_](/java/frameworks/jackson/object-mapper.md)
 
-- JMeter
+  - JMeter
 
-- JUnit
+  - JUnit
 
-- MapStruct
+  - MapStruct
 
-- Mockito
+  - Mockito
 
-- Selenium
+  - Selenium
 
-  - [Configurações inciais](/java/frameworks/selenium/configuracoes-iniciais.md)
+    - [Configurações inciais](/java/frameworks/selenium/configuracoes-iniciais.md)
 
-  - [Principais métodos](/java/frameworks/selenium/principais-metodos.md)
+    - [Principais métodos](/java/frameworks/selenium/principais-metodos.md)
 
-- Spring
+  - Spring
 
-  - [Introdução](/java/frameworks/spring/introducao.md)
+    - [Introdução](/java/frameworks/spring/introducao.md)
 
-  - [Classe SpringUtils](/java/frameworks/spring/spring-utils.md)
-
-  - Anotações
-
-    - [@Transactional](/java/frameworks/spring/annotations/transactional-annotation.md)
-
-    - [@RequestParam](/java/frameworks/spring/annotations/requestparam-annotation.md)
-
-    - [@ExceptionHandler](/java/frameworks/spring/annotations/exceptionhandler-annotation.md)
-
-    - [@ResponseStatus](/java/frameworks/spring/annotations/responsestatus-annotation.md)
-
-    - [@ControllerAdvice](/java/frameworks/spring/annotations/controlleradvice-annotation.md)
-
-  - Spring Actuator
-
-    - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
-
-    - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
-
-  - Spring Data
-
-    - [Anotações](/java/frameworks/spring/spring-data/annotations.md)
-
-    - MySQL
-
-      - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mysql/database-configuration.md)
-
-      - [URL de conexão](/java/frameworks/spring/spring-data/mysql/connection-url.md)
-
-    - MongoDB
-
-      - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mongodb/database-configuration.md)
-
-      - [Anotações](/java/frameworks/spring/spring-data/mongodb/annotations.md)
-
-      - [Repositório JPA do MongoDB](/java/frameworks/spring/spring-data/mongodb/repository.md)
-
-  - Spring Fu
-
-    - [Introdução](/java/frameworks/spring/spring-fu/introducao.md)
-
-  - Spring Native
-
-    - [Introdução](/java/frameworks/spring/spring-native/introducao.md)
-
-  - Spring Retrosocket
-
-    - [Introdução](/java/frameworks/spring/spring-retrosocket/introducao.md)
-
-  - Spring Security
-
-    - [JWT](/java/frameworks/spring/spring-security/jwt.md)
-
-  - Spring WebFlux
-
-    - [Events Stream](/java/frameworks/spring/spring-webflux/events-stream.md)
-
-    - [Functional Endpoints](/java/frameworks/spring/spring-webflux/functional-end-points.md)
-
-  - Spring Bean Validation
-
-    - [Introdução](/java/frameworks/spring/spring-bean-validation/introduction.md)
-
-    - [Criando uma anotação de validação customizada utilizando anotações já existentes](/java/frameworks/spring/spring-bean-validation/creating-custom-validation-annotation-using-builtin-annotations.md)
+    - [Classe SpringUtils](/java/frameworks/spring/spring-utils.md)
 
     - Anotações
 
-      - [@NotBlank](/java/frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
+      - [@Transactional](/java/frameworks/spring/annotations/transactional-annotation.md)
 
-      - [@Size](/java/frameworks/spring/spring-bean-validation/annotations/size-annotation.md)
+      - [@RequestParam](/java/frameworks/spring/annotations/requestparam-annotation.md)
 
-      - [@Email](/java/frameworks/spring/spring-bean-validation/annotations/email-annotation.md)
+      - [@ExceptionHandler](/java/frameworks/spring/annotations/exceptionhandler-annotation.md)
 
-      - [@Valid](/java/frameworks/spring/spring-bean-validation/annotations/valid-annotation.md)
+      - [@ResponseStatus](/java/frameworks/spring/annotations/responsestatus-annotation.md)
 
-    - [Validação em cascata e Validação de grupos](/java/frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
+      - [@ControllerAdvice](/java/frameworks/spring/annotations/controlleradvice-annotation.md)
 
-- Test Containers
+    - Spring Actuator
 
-- ModelMapper
+      - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
 
-  - [Introdução](/java/frameworks/modelmapper/introduction.md)
+      - [Endpoint "Health"](/java/frameworks/spring/spring-actuator/endpoint-health.md)
 
-  - [Configuração](/java/frameworks/modelmapper/configuration.md)
+    - Spring Data
 
-### Boas práticas
+      - [Anotações](/java/frameworks/spring/spring-data/annotations.md)
 
-### I/O API
+      - MySQL
 
-### JavaFX
+        - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mysql/database-configuration.md)
 
-### Logging
+        - [URL de conexão](/java/frameworks/spring/spring-data/mysql/connection-url.md)
 
-### Monads
+      - MongoDB
 
-### Stream API
+        - [Configurações do banco de dados](/java/frameworks/spring/spring-data/mongodb/database-configuration.md)
 
-### Testing
+        - [Anotações](/java/frameworks/spring/spring-data/mongodb/annotations.md)
 
-- [Framework de testes](/java/testing/framework-de-testes.md)
+        - [Repositório JPA do MongoDB](/java/frameworks/spring/spring-data/mongodb/repository.md)
 
-- [Teste unitário ingênuo](/java/testing/teste-unitario-ingenuo.md)
+    - Spring Fu
+
+      - [Introdução](/java/frameworks/spring/spring-fu/introducao.md)
+
+    - Spring Native
+
+      - [Introdução](/java/frameworks/spring/spring-native/introducao.md)
+
+    - Spring Retrosocket
+
+      - [Introdução](/java/frameworks/spring/spring-retrosocket/introducao.md)
+
+    - Spring Security
+
+      - [JWT](/java/frameworks/spring/spring-security/jwt.md)
+
+    - Spring WebFlux
+
+      - [Events Stream](/java/frameworks/spring/spring-webflux/events-stream.md)
+
+      - [Functional Endpoints](/java/frameworks/spring/spring-webflux/functional-end-points.md)
+
+    - Spring Bean Validation
+
+      - [Introdução](/java/frameworks/spring/spring-bean-validation/introduction.md)
+
+      - [Criando uma anotação de validação customizada utilizando anotações já existentes](/java/frameworks/spring/spring-bean-validation/creating-custom-validation-annotation-using-builtin-annotations.md)
+
+      - Anotações
+
+        - [@NotBlank](/java/frameworks/spring/spring-bean-validation/annotations/notblank-annotation.md)
+
+        - [@Size](/java/frameworks/spring/spring-bean-validation/annotations/size-annotation.md)
+
+        - [@Email](/java/frameworks/spring/spring-bean-validation/annotations/email-annotation.md)
+
+        - [@Valid](/java/frameworks/spring/spring-bean-validation/annotations/valid-annotation.md)
+
+      - [Validação em cascata e Validação de grupos](/java/frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
+
+  - Test Containers
+
+  - ModelMapper
+
+    - [Introdução](/java/frameworks/modelmapper/introduction.md)
+
+    - [Configuração](/java/frameworks/modelmapper/configuration.md)
+
+- Boas práticas
+
+- I/O API
+
+- JavaFX
+
+- Logging
+
+- Monads
+
+- Stream API
+
+- Testing
+
+  - [Framework de testes](/java/testing/framework-de-testes.md)
+
+  - [Teste unitário ingênuo](/java/testing/teste-unitario-ingenuo.md)
 
 > ## **Referências**
 

@@ -30,20 +30,30 @@
         themeColor: "#729EF1",
         name: "Notes",
         repo: "https://github.com/ImGabreuw/notes",
+
+        auto2top: true,
         loadSidebar: true,
+        alias: {
+          '/.*/_sidebar.md': '/_sidebar.md'
+        },
+
         notFoundPage: true,
-        supportSearch: true,
+        
         mermaidConfig: {
           querySelector: ".mermaid",
         },
+        
+        supportSearch: true,
         search: {
           placeholder: "Digite para pesquisar",
           noData: "Nenhum resultado encontrado",
         },
-        progress: {
-          position: "top",
-          color: "var(--theme-color)",
-          height: "3px",
+
+        pagination: {
+          previousText: "Anterior",
+          nextText: "Próximo",
+          crossChapter: true,
+          crossChapterText: true,
         },
       };
     </script>
@@ -62,9 +72,7 @@
     <!-- Search Bar -->
 
     <!-- Mermaid -->
-    <!-- Import D3.js -->
     <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
-    <!-- Import Mermaid -->
     <script type="module">
       import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
       mermaid.initialize({ startOnLoad: true });
@@ -98,5 +106,9 @@
     <!-- Sidebar Collapse -->
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
     <!-- Sidebar Collapse -->
+
+    <!-- Pagination -->
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- Pagination -->
   </body>
 </html>
