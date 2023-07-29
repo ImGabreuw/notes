@@ -106,6 +106,12 @@
 
     - [Introdução](./library/sklearn/introduction.md)
 
+    - _Model Selection_
+
+      - Funções
+
+        - [Função `train_test_split`](./library/sklearn/model-selection/functions/train-test-split.md)
+
     - _Standard Scaler_
 
       - Funções
