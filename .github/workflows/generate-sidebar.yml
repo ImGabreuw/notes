@@ -26,7 +26,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add _sidebar.md
+        git add -A "_sidebar.md"
         git diff-index --quiet HEAD || git commit -m "Auto-generated _sidebar.md" --author "GitHub Action <action@github.com>"
 
     - name: Push changes
