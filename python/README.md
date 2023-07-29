@@ -130,6 +130,12 @@
 
         - [Função `fit_transform`](./library/sklearn/one-hot-encoder/functions/fit_transform.md)
 
+  - Pickle
+
+    - Funções
+
+      - [Função `dump`](./library/pickle/functions/dump.md)
+
 > ## **Referências**
 
 - [Python](./references.md)
