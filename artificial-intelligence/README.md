@@ -28,6 +28,10 @@
 
         - [Conversão de atributos categóricos](./machine-learning/data-pre-processing/converting-categorical-attributes.md)
 
+    - Avaliação de algoritmos
+
+        - [Base de Treinamento e Base de Teste](./machine-learning/algorithm-evaluation/train-and-test-base.md)
+
 - _Data Science_
 
     - Tipos de gráficos
