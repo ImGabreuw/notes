@@ -19,5 +19,4 @@ jobs:
           use-quiet-mode: "yes"
           use-verbose-mode: "yes"
           check-modified-files-only: "yes"
-          folder-path: "/"
           config-file: md-link-check-config.json
