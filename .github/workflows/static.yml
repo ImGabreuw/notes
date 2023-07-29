@@ -32,6 +32,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git pull origin master
         git add _sidebar.md
         git diff-index --quiet HEAD || git commit -m "Auto-generated _sidebar.md" --author "GitHub Action <action@github.com>"
 
