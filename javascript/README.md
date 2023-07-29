@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### JavaScript
-
 - [Introdução](/javascript/introducao.md)
 
 - Configuração

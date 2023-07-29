@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Make
-
 - [Introdução](/make/introducao-ao-make.md)
 
 - [Comando silencioso](/make/comando-silencioso.md)

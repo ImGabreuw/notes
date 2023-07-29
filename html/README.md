@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### HTML
-
 - [Introdução](/html/introduction.md)
 
 - Tags

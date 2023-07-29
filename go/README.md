@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Go
-
 - [Introdução](/go/introducao.md)
 
 - [Lista de comandos](/go/comandos.md)

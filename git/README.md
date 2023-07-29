@@ -2,8 +2,6 @@
 
 > ## **Conteúdo**
 
-### Git
-
 - [Branches](/git/branches.md)
 
 - Comandos
