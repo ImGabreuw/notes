@@ -4,4 +4,4 @@
 
 > ## **Referências**
 
-* [Gradle](./references.md)
+* [Gradle](/gradle/references.md)

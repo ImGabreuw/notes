@@ -4,314 +4,314 @@
 
 ### JavaScript
 
-- [Introdução](./introducao.md)
+- [Introdução](/javascript/introducao.md)
 
 - **Configuração**
 
-  - [Editorconfig](./editorconfig.md)
+  - [Editorconfig](/javascript/editorconfig.md)
 
-- [Comentário de código](./core/code-comments.md)
+- [Comentário de código](/javascript/core/code-comments.md)
 
-- [Meios de exibir dados para o usuário](./core/meios-de-exibir-dados-para-o-usuario.md)
+- [Meios de exibir dados para o usuário](/javascript/core/meios-de-exibir-dados-para-o-usuario.md)
 
-- [Variáveis](./core/variables.md)
+- [Variáveis](/javascript/core/variables.md)
 
-- [Tipos de dados primitivo](./core/primitive-data-types.md)
+- [Tipos de dados primitivo](/javascript/core/primitive-data-types.md)
 
-- [Valores primitivos e Valores por referência](./core/primitive-and-reference-values.md)
+- [Valores primitivos e Valores por referência](/javascript/core/primitive-and-reference-values.md)
 
-- [Tipo de dados `number`](./core/number.md)
+- [Tipo de dados `number`](/javascript/core/number.md)
 
-- [Métodos do tipo de dados `number`](./core/number-methods.md)
+- [Métodos do tipo de dados `number`](/javascript/core/number-methods.md)
 
-- [Tipo de dados `string`](./core/string.md)
+- [Tipo de dados `string`](/javascript/core/string.md)
 
-- [Métodos do tipo de dados `string`](./core/string-methods.md)
+- [Métodos do tipo de dados `string`](/javascript/core/string-methods.md)
 
-- [Tipos dados `symbol`](./core/symbol.md)
+- [Tipos dados `symbol`](/javascript/core/symbol.md)
 
-- [Operadores](./core/operators.md)
+- [Operadores](/javascript/core/operators.md)
 
-- [Objeto `Math`](./core/math.md)
+- [Objeto `Math`](/javascript/core/math.md)
 
-- [Métodos do objeto `Math`](./core/math-methods.md)
+- [Métodos do objeto `Math`](/javascript/core/math-methods.md)
 
-- [Módulo](./core/module.md)
+- [Módulo](/javascript/core/module.md)
 
 - **Funções**
 
-  - [Introdução](./core/functions/introduction.md)
+  - [Introdução](/javascript/core/functions/introduction.md)
 
-  - [Closures](./core/functions/closures.md)
+  - [Closures](/javascript/core/functions/closures.md)
 
-  - [Escopo léxico](./core/functions/lexical-scope.md)
+  - [Escopo léxico](/javascript/core/functions/lexical-scope.md)
 
-  - [Parâmetros](./core/functions/function-parameters.md)
+  - [Parâmetros](/javascript/core/functions/function-parameters.md)
 
-  - [Função construtora](./core/functions/constructor-function.md)
+  - [Função construtora](/javascript/core/functions/constructor-function.md)
 
-  - [Função: Objeto de primeira classe](./core/functions/function-first-class-object.md)
+  - [Função: Objeto de primeira classe](/javascript/core/functions/function-first-class-object.md)
 
-  - [Função anônima](./core/functions/arrow-function.md)
+  - [Função anônima](/javascript/core/functions/arrow-function.md)
 
-  - [Função fábrica](./core/functions/factory-function.md)
+  - [Função fábrica](/javascript/core/functions/factory-function.md)
 
-  - [Função _callback_](./core/functions/callback-function.md)
+  - [Função _callback_](/javascript/core/functions/callback-function.md)
 
-  - [Função geradora](./core/functions/generator-function.md)
+  - [Função geradora](/javascript/core/functions/generator-function.md)
 
-  - [Função imediata](./core/functions/immediate-function.md)
+  - [Função imediata](/javascript/core/functions/immediate-function.md)
 
-  - [Função recursivas](./core/functions/recursive-functions.md)
+  - [Função recursivas](/javascript/core/functions/recursive-functions.md)
 
-  - [_Hoisting Function_](./core/functions/hoisting-function.md)
+  - [_Hoisting Function_](/javascript/core/functions/hoisting-function.md)
 
 - **Arrays**
 
-  - [Introdução](./core/arrays/introduction.md)
+  - [Introdução](/javascript/core/arrays/introduction.md)
 
-  - [Concatenação de Arrays](./core/arrays/arrays-concatenation.md)
+  - [Concatenação de Arrays](/javascript/core/arrays/arrays-concatenation.md)
 
-  - [Métodos de Array](./core/arrays/array-methods.md)
+  - [Métodos de Array](/javascript/core/arrays/array-methods.md)
 
-  - [Função callback: `forEach`](./core/arrays/foreach-callback-function.md)
+  - [Função callback: `forEach`](/javascript/core/arrays/foreach-callback-function.md)
 
-  - [Função callback: `filter`](./core/arrays/filter-callback-function.md)
+  - [Função callback: `filter`](/javascript/core/arrays/filter-callback-function.md)
 
-  - [Função callback: `map`](./core/arrays/map-callback-function.md)
+  - [Função callback: `map`](/javascript/core/arrays/map-callback-function.md)
 
-  - [Função callback: `reduce`](./core/arrays/reduce-callback-function.md)
+  - [Função callback: `reduce`](/javascript/core/arrays/reduce-callback-function.md)
 
 - **Programação Orientada à Objetos**
 
   - **Objetos**
 
-    - [Introdução](./core/poo/objects/introduction.md)
+    - [Introdução](/javascript/core/poo/objects/introduction.md)
 
-    - [Métodos de objetos](./core/poo/objects/object-methods.md)
+    - [Métodos de objetos](/javascript/core/poo/objects/object-methods.md)
 
-  - [Métodos acessores](./core/poo/accessor-methods.md)
+  - [Métodos acessores](/javascript/core/poo/accessor-methods.md)
 
-  - [Classes](./core/poo/classes.md)
+  - [Classes](/javascript/core/poo/classes.md)
 
-  - [Métodos de instância e Métodos estáticos](./core/poo/instance-and-static-methods.md)
+  - [Métodos de instância e Métodos estáticos](/javascript/core/poo/instance-and-static-methods.md)
 
-  - [Herança](./core/poo/inheritance.md)
+  - [Herança](/javascript/core/poo/inheritance.md)
 
 - **JavaScript assíncrono**
 
-  - [Promises](./core/asynchronous/promises.md)
+  - [Promises](/javascript/core/asynchronous/promises.md)
 
-  - [`Async` e `Await`](./core/asynchronous/async-and-await.md)
+  - [`Async` e `Await`](/javascript/core/asynchronous/async-and-await.md)
 
-  - [Fetch API e AXIOS](./core/asynchronous/fetch-api-and-axios.md)
+  - [Fetch API e AXIOS](/javascript/core/asynchronous/fetch-api-and-axios.md)
 
-  - [AJAX](./core/asynchronous/ajax.md)
+  - [AJAX](/javascript/core/asynchronous/ajax.md)
 
 - **Navegador**
 
-  - [Métodos de navegador](./core/browser/browser-methods.md)
+  - [Métodos de navegador](/javascript/core/browser/browser-methods.md)
 
 ### **Node**
 
-- [Introdução](./node/introduction.md)
+- [Introdução](/javascript/node/introduction.md)
 
-- [Node Package Manager](./node/node-package-manager.md)
+- [Node Package Manager](/javascript/node/node-package-manager.md)
 
-- [Tratamento de arquivo com _Multer_](./node/file-handling-multer.md)
+- [Tratamento de arquivo com _Multer_](/javascript/node/file-handling-multer.md)
 
 - **Módulos**
 
   - **Path**
 
-    - [Introdução](./node/path/introduction.md)
+    - [Introdução](/javascript/node/path/introduction.md)
 
-    - [Método: `resolve()`](./node/path/resolve-method.md)
+    - [Método: `resolve()`](/javascript/node/path/resolve-method.md)
 
   - **File System**
 
-    - [Introdução](./node/file-system/introduction.md)
+    - [Introdução](/javascript/node/file-system/introduction.md)
 
-    - [Objeto: `__dirname`](./node/file-system/dirname-object.md)
+    - [Objeto: `__dirname`](/javascript/node/file-system/dirname-object.md)
 
-    - [Objeto: `__filename`](./node/file-system/filename.object.md)
+    - [Objeto: `__filename`](/javascript/node/file-system/filename.object.md)
 
-    - [Método: `readFile()`](./node/file-system/read-file-method.md)
+    - [Método: `readFile()`](/javascript/node/file-system/read-file-method.md)
 
-    - [Método: `writeFile()`](./node/file-system/write-file-method.md)
+    - [Método: `writeFile()`](/javascript/node/file-system/write-file-method.md)
 
-    - [Método: `readdir()`](./node/file-system/readdir-method.md)
+    - [Método: `readdir()`](/javascript/node/file-system/readdir-method.md)
 
-    - [Método: `stat()`](./node/file-system/stat-method.md)
+    - [Método: `stat()`](/javascript/node/file-system/stat-method.md)
 
-    - [Recursão mútua](./node/file-system/mutual-recursion.md)
+    - [Recursão mútua](/javascript/node/file-system/mutual-recursion.md)
 
 ### TypeScript
 
-- [Introdução](./typescript/introduction.md)
+- [Introdução](/javascript/typescript/introduction.md)
 
-- [Configuração do ambiente](./typescript/environment-configuration.md)
+- [Configuração do ambiente](/javascript/typescript/environment-configuration.md)
 
-- ["Script mode" e "Module mode"](./typescript/script-mode-e-module-mode.md)
+- ["Script mode" e "Module mode"](/javascript/typescript/script-mode-e-module-mode.md)
 
-- [Arquivo de configuração `ts-config`](./typescript/tsconfig.md)
+- [Arquivo de configuração `ts-config`](/javascript/typescript/tsconfig.md)
 
-- [Configuração do Webpack](./typescript/webpack-configuration.md)
+- [Configuração do Webpack](/javascript/typescript/webpack-configuration.md)
 
-- [_Type Annotations_](./typescript/type-annotations.md)
+- [_Type Annotations_](/javascript/typescript/type-annotations.md)
 
-- [Tipo `Enum`](./typescript/enum-type.md)
+- [Tipo `Enum`](/javascript/typescript/enum-type.md)
 
-- [Modificadores](./typescript/modifiers.md)
+- [Modificadores](/javascript/typescript/modifiers.md)
 
-- [Modificadores de acesso](./typescript/access-modifiers.md)
+- [Modificadores de acesso](/javascript/typescript/access-modifiers.md)
 
-- [_Type Alias_](./typescript/type-alias.md)
+- [_Type Alias_](/javascript/typescript/type-alias.md)
 
-- [_Union Types_](./typescript/union-types.md)
+- [_Union Types_](/javascript/typescript/union-types.md)
 
-- [_Intersection Types_](./typescript/intersection-types.md)
+- [_Intersection Types_](/javascript/typescript/intersection-types.md)
 
-- [Funções como tipo](./typescript/function-as-type.md)
+- [Funções como tipo](/javascript/typescript/function-as-type.md)
 
-- [Tipos literais](./typescript/literal-types.md)
+- [Tipos literais](/javascript/typescript/literal-types.md)
 
 - Programação Orientada a Objetos (POO)
 
-  - [Classes](./typescript/poo/classes.md)
+  - [Classes](/javascript/typescript/poo/classes.md)
 
-  - [Os pilares da programação orientada a objetos](./typescript/poo/the-pillars-of-object-oriented-programming.md)
+  - [Os pilares da programação orientada a objetos](/javascript/typescript/poo/the-pillars-of-object-oriented-programming.md)
 
-  - [Herança](./typescript/poo/inheritance.md)
+  - [Herança](/javascript/typescript/poo/inheritance.md)
 
-  - [_Super class_ e _Sub class_](./typescript/poo/super-class-and-sub-class.md)
+  - [_Super class_ e _Sub class_](/javascript/typescript/poo/super-class-and-sub-class.md)
 
-  - [_Getter_ e _Setter_](./typescript/poo/getter-and-setter.md)
+  - [_Getter_ e _Setter_](/javascript/typescript/poo/getter-and-setter.md)
 
-  - [Membros estáticos](./typescript/poo/static-members.md)
+  - [Membros estáticos](/javascript/typescript/poo/static-members.md)
 
-  - [Construtor](./typescript/poo/constructor.md)
+  - [Construtor](/javascript/typescript/poo/constructor.md)
 
-  - [Classes e membros abstratos](./typescript/poo/abstract-classes-and-members.md)
+  - [Classes e membros abstratos](/javascript/typescript/poo/abstract-classes-and-members.md)
 
   - Tipos de relacionamento entre objetos
 
-    - [Associação](./typescript/poo/object-relationship-types/association.md)
+    - [Associação](/javascript/typescript/poo/object-relationship-types/association.md)
 
-    - [Agregação](./typescript/poo/object-relationship-types/aggregation.md)
+    - [Agregação](/javascript/typescript/poo/object-relationship-types/aggregation.md)
 
 ### ESLint
 
-- [Introdução](./frameworks/eslint/introduction.md)
+- [Introdução](/javascript/frameworks/eslint/introduction.md)
 
-- [Configuração](./frameworks/eslint/configuration.md)
+- [Configuração](/javascript/frameworks/eslint/configuration.md)
 
 ### Express.js
 
-- [Introdução](./frameworks/expressjs/introduction.md)
+- [Introdução](/javascript/frameworks/expressjs/introduction.md)
 
-- [_Express Generator_](./frameworks/expressjs/express.generator.md)
+- [_Express Generator_](/javascript/frameworks/expressjs/express.generator.md)
 
-- [Arquivos estáticos](./frameworks/expressjs/static-files.md)
+- [Arquivos estáticos](/javascript/frameworks/expressjs/static-files.md)
 
-- [Objeto: `Request`](./frameworks/expressjs/request-object.md)
+- [Objeto: `Request`](/javascript/frameworks/expressjs/request-object.md)
 
 - **Roteamento**
 
-  - [Introdução](./frameworks/expressjs/routing-introduction.md)
+  - [Introdução](/javascript/frameworks/expressjs/routing-introduction.md)
 
-  - [Métodos de roteamento](./frameworks/expressjs/routing-methods.md)
+  - [Métodos de roteamento](/javascript/frameworks/expressjs/routing-methods.md)
 
-  - [Objeto: `Router`](./frameworks/expressjs/router-object.md)
+  - [Objeto: `Router`](/javascript/frameworks/expressjs/router-object.md)
 
 - **Middleware**
 
-  - [Introdução](./frameworks/expressjs/middlewares-introduction.md)
+  - [Introdução](/javascript/frameworks/expressjs/middlewares-introduction.md)
 
-  - [Tipos de middlewares](./frameworks/expressjs/middleware-types.md)
+  - [Tipos de middlewares](/javascript/frameworks/expressjs/middleware-types.md)
 
 - **Views**
 
-  - [Introdução](./frameworks/expressjs/express-views-introduction.md)
+  - [Introdução](/javascript/frameworks/expressjs/express-views-introduction.md)
 
-  - [EJS](./frameworks/expressjs/ejs-express-views.md)
+  - [EJS](/javascript/frameworks/expressjs/ejs-express-views.md)
 
-- [Sessão](./frameworks/expressjs/express-session.md)
+- [Sessão](/javascript/frameworks/expressjs/express-session.md)
 
 ### Nest.js
 
-- [Introdução](./frameworks/nestjs/introduction.md)
+- [Introdução](/javascript/frameworks/nestjs/introduction.md)
 
-- [Validação de dados](./frameworks/nestjs//data-validation.md)
+- [Validação de dados](/javascript/frameworks/nestjs//data-validation.md)
 
 ### Next.js
 
-- [Introdução](./frameworks/nextjs/introduction.md)
+- [Introdução](/javascript/frameworks/nextjs/introduction.md)
 
 ### PuppeteerJS
 
-- [Introdução](./frameworks/puppeteerjs/introduction.md)
+- [Introdução](/javascript/frameworks/puppeteerjs/introduction.md)
 
-- [Principais funções](./frameworks/puppeteerjs/functions.md)
+- [Principais funções](/javascript/frameworks/puppeteerjs/functions.md)
 
 ### Prisma
 
-- [Introdução](./frameworks/prisma/introduction.md)
+- [Introdução](/javascript/frameworks/prisma/introduction.md)
 
-- [Tabelas](./frameworks/prisma/tables.md)
+- [Tabelas](/javascript/frameworks/prisma/tables.md)
 
-- [_Schemas_](./frameworks/prisma/schemas.md)
+- [_Schemas_](/javascript/frameworks/prisma/schemas.md)
 
 ### Nodemon
 
-- [Introdução](./frameworks/nodemon/introduction.md)
+- [Introdução](/javascript/frameworks/nodemon/introduction.md)
 
-- [Configuração](./frameworks/nodemon/configuration.md)
+- [Configuração](/javascript/frameworks/nodemon/configuration.md)
 
 ### Sucrase
 
-- [Configuração](./frameworks/nodemon/configuration.md)
+- [Configuração](/javascript/frameworks/nodemon/configuration.md)
 
 ### MariaDB
 
-- [Introdução](./frameworks/mariadb/introduction.md)
+- [Introdução](/javascript/frameworks/mariadb/introduction.md)
 
 ### Sequelize
 
-- [Introdução](./frameworks/sequelize/introduction.md)
+- [Introdução](/javascript/frameworks/sequelize/introduction.md)
 
-- [Configuração](./frameworks/sequelize/configuration.md)
+- [Configuração](/javascript/frameworks/sequelize/configuration.md)
 
 ### Mongoose
 
-- [Introdução](./frameworks/mongoose/introduction.md)
+- [Introdução](/javascript/frameworks/mongoose/introduction.md)
 
-- [Configuração](./frameworks/mongoose/configuration.md)
+- [Configuração](/javascript/frameworks/mongoose/configuration.md)
 
 ### JWT (Json Web Token)
 
-- [Introdução](./frameworks/jwt/introduction.md)
+- [Introdução](/javascript/frameworks/jwt/introduction.md)
 
-- [Configuração](./frameworks/jwt/configuration.md)
+- [Configuração](/javascript/frameworks/jwt/configuration.md)
 
 ### PM2
 
-- [Introdução](./frameworks/pm2/introduction.md)
+- [Introdução](/javascript/frameworks/pm2/introduction.md)
 
-- [Configuração](./frameworks/pm2/configuration.md)
+- [Configuração](/javascript/frameworks/pm2/configuration.md)
 
 ### CSURF
 
-- [Introdução](./frameworks/csurf/introduction.md)
+- [Introdução](/javascript/frameworks/csurf/introduction.md)
 
 ### Dotenv
 
-- [Introdução](./frameworks/dotenv/introduction.md)
+- [Introdução](/javascript/frameworks/dotenv/introduction.md)
 
 > ## **Referências**
 
-- [JavaScript](./references.md)
+- [JavaScript](/javascript/references.md)
 
-- [Nest.js](./frameworks/nestjs/references.md)
+- [Nest.js](/javascript/frameworks/nestjs/references.md)
 
-- [Next.js](./frameworks/nextjs/references.md)
+- [Next.js](/javascript/frameworks/nextjs/references.md)

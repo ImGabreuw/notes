@@ -4,36 +4,36 @@
 
 ### HTTP/1
 
-* [Introdução](./http-1/introducao.md)
+* [Introdução](/protocols/http-1/introducao.md)
 
-* [Estrutura da requisição e reposta](./http-1/estrutura-requisicao-resposta.md)
+* [Estrutura da requisição e reposta](/protocols/http-1/estrutura-requisicao-resposta.md)
 
-* [Cabeçalhos HTTP](./http-1/cabecalhos.md)
+* [Cabeçalhos HTTP](/protocols/http-1/cabecalhos.md)
 
-* [Verbos HTTP](./http-1/verbos-http.md)
+* [Verbos HTTP](/protocols/http-1/verbos-http.md)
 
-* [Códigos de status de respostas HTTP](./http-1/codigos-de-status-de-respostas.md)
+* [Códigos de status de respostas HTTP](/protocols/http-1/codigos-de-status-de-respostas.md)
 
 ### HTTP/2
 
-* [Introdução](./http-2/introduction.md)
+* [Introdução](/protocols/http-2/introduction.md)
 
 ### gRPC
 
-* [Introdução](./grpc/introduction.md)
+* [Introdução](/protocols/grpc/introduction.md)
 
-* [Protocol Buffers](./grpc/protocol-buffers.md)
+* [Protocol Buffers](/protocols/grpc/protocol-buffers.md)
 
-* [Tipos de comunicação no gRPC](./grpc/grpc-communication-types.md)
+* [Tipos de comunicação no gRPC](/protocols/grpc/grpc-communication-types.md)
 
-* [Diferenças entre REST e gRPC](./grpc/differences-between-reste-grpc.md)
-
-> ## **Referências**
-
-* [gRPC](./grpc/references.md)
+* [Diferenças entre REST e gRPC](/protocols/grpc/differences-between-reste-grpc.md)
 
 > ## **Referências**
 
-* [WebSocket](./websocket/references.md)
+* [gRPC](/protocols/grpc/references.md)
 
-* [HTTP](./http-1/references.md)
+> ## **Referências**
+
+* [WebSocket](/protocols/websocket/references.md)
+
+* [HTTP](/protocols/http-1/references.md)

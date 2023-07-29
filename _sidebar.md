@@ -1,11 +1,3 @@
-# Notes
-
-<p align="center">
-    <img src="https://repository-images.githubusercontent.com/416103377/187144b4-4f33-4119-9ec2-ba80651e9fb6" width="80%">
-</p>
-
-> ## **Conteúdo**
-
 - [Android](./android/README.md)
 
 - [Carreira](./career/README.md)
@@ -49,8 +41,6 @@
 - [Protocolos](./protocols/README.md)
 
 - [Linguagem de programação](./programming-language/README.md)
-
-- [Paradigmas de programação](./programming-paradigm/README.md)
 
 - [Python](./python/README.md)
 

@@ -4,37 +4,37 @@
 
 ### Shell
 
-* [O que é terminal](./o-que-e-terminal.md)
+* [O que é terminal](/shell/o-que-e-terminal.md)
 
-* [O que é Shell](./o-que-e-shell.md)
+* [O que é Shell](/shell/o-que-e-shell.md)
 
-* [O que é Shell Script](./o-que-e-shell-script.md)
+* [O que é Shell Script](/shell/o-que-e-shell-script.md)
 
 * Comandos
 
-  * [Comando "basename" ou "dirname"](./commands/basename-e-dirname.md)
+  * [Comando "basename" ou "dirname"](/shell/commands/basename-e-dirname.md)
 
-  * [Comando "cd"](./commands/cd.md)
+  * [Comando "cd"](/shell/commands/cd.md)
 
-  * [Comando "chmod"](./commands/chmod.md)
+  * [Comando "chmod"](/shell/commands/chmod.md)
 
-  * [Comandos "clear" e "reset"](./commands/clear-e-reset.md)
+  * [Comandos "clear" e "reset"](/shell/commands/clear-e-reset.md)
 
-  * [Comando "echo"](./commands/echo.md)
+  * [Comando "echo"](/shell/commands/echo.md)
 
-  * [Comando "history"](./commands/history.md)
+  * [Comando "history"](/shell/commands/history.md)
 
-  * [Comando "ls"](./commands/ls.md)
+  * [Comando "ls"](/shell/commands/ls.md)
 
-  * [Comando "mkdir"](./commands/mkdir.md)
+  * [Comando "mkdir"](/shell/commands/mkdir.md)
 
-  * [Comando "mktemp"](./commands/mktemp.md)
+  * [Comando "mktemp"](/shell/commands/mktemp.md)
 
-  * [Comando "pwd"](./commands/pwd.md)
+  * [Comando "pwd"](/shell/commands/pwd.md)
 
-  * [Comando "base64"](./commands/base64.md)
+  * [Comando "base64"](/shell/commands/base64.md)
 
-* [Estrutura de diretórios](./estrutura-de-diretorios.md)
+* [Estrutura de diretórios](/shell/estrutura-de-diretorios.md)
 
 ### Zsh
 
@@ -42,12 +42,12 @@
 
   * Temas
 
-    * [powerlevel10k](./zsh/customization/themes/powerlevel10k.sh)
+    * [powerlevel10k](/shell/zsh/customization/themes/powerlevel10k.sh)
 
 > ## **Referências**
 
-* [Shell](./references.md)
+* [Shell](/shell/references.md)
 
 * Zsh
 
-  * [Customização](./zsh/customization/references.md)
+  * [Customização](/shell/zsh/customization/references.md)

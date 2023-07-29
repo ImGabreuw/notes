@@ -4,24 +4,24 @@
 
 ### GitHub
 
-- [Aba Issues do Github](./issues.md)
+- [Aba Issues do Github](/github/issues.md)
 
 ### Segurança
 
-- [Configurar chave SSH no Ubuntu](./security/configure-ssh-key.md)
+- [Configurar chave SSH no Ubuntu](/github/security/configure-ssh-key.md)
 
 ### GitHub Actions
 
 - Heroku
 
-  - [Implantação de uma aplicação no Heroku](./github-actions/heroku/deploy-application-in-heroku.md)
+  - [Implantação de uma aplicação no Heroku](/github/github-actions/heroku/deploy-application-in-heroku.md)
 
 > ## **Referências**
 
-- [GitHub](./references.md)
+- [GitHub](/github/references.md)
 
-- [GitHub Actions](./github-actions/references.md)
+- [GitHub Actions](/github/github-actions/references.md)
 
-  - [Heroku](./github-actions/heroku/references.md)
+  - [Heroku](/github/github-actions/heroku/references.md)
 
-- [Revisão de código](./code-review/references.md)
+- [Revisão de código](/github/code-review/references.md)

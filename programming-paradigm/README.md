@@ -4,6 +4,6 @@
 
 > ## **Referências**
 
-- [Programação funcional](./funcional-programming/references.md)
+- [Programação funcional](/programming-paradigm/funcional-programming/references.md)
 
-- [Programação dinâmica](./dynamic-programming/references.md)
+- [Programação dinâmica](/programming-paradigm/dynamic-programming/references.md)
