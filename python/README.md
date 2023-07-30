@@ -18,6 +18,8 @@
 
 - [Variáveis](/python/core/variables.md)
 
+- [Constantes](/python/core/constants.md)
+
 - [Formatação de strings](/python/core/strings-formatting.md)
 
 - [Fatiamento de strings](/python/core/string-slicing.md)
