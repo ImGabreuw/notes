@@ -20,7 +20,7 @@
 
 - [Manipulação de Strings](/python/manipulacao-de-strings.md)
 
-- [Formatação de strings](/python/core/strings-formatation.md)
+- [Formatação de strings](/python/core/strings-formatting.md)
 
 - Operadores
 

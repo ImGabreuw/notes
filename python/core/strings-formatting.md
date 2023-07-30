@@ -53,7 +53,7 @@ $ Qual é o seu nome? João
 > O seu nome é nome=João
 ```
 
-> ## **Método: `format()`**
+> ## **Função: `format`**
 
 A string é um objeto no Python, logo ela possui atributos e métodos, como por exemplo o método `format()`.
 
@@ -127,3 +127,48 @@ Há outras formas de referenciar os valores na formatação, além da ordem dos 
 
   print(formato) # Error
   ```
+
+> ## **Interpolação de strings com "%"**
+
+A interpolação de string com o operador `%` em Python é uma das formas mais antigas de formatar strings. Ela permite inserir valores em uma string usando _placeholders_ `%` que serão substituídos pelos valores fornecidos posteriormente.
+
+A sintaxe da interpolação de string com `%` é a seguinte:
+
+```python
+"<placeholder 1> <placeholder 2>" % (<valor 1>, <valor 2>)
+```
+
+Aqui está uma explicação dos _placeholders_ mais comuns:
+
+- `%s`: É usado para substituir uma string.
+
+- `%d` ou `%i`: São usados para substituir números inteiros.
+
+- `%.<número de casas decimais>f`: É usado para substituir números de ponto flutuante com o número especificado de casas decimais.
+
+- `%<número de dígitos>x`: É usado para substituir valores inteiros em formato hexadecimal, com letras minúsculas (`abcdef0123456789`).
+
+- `%<número de dígitos>X`: É usado para substituir valores inteiros em formato hexadecimal, com letras maiúsculas (`ABCDEF0123456789`).
+
+**Exemplos**:
+
+```python
+nome = "Luiz"
+preco = 1000.95897643
+
+print("%s, o preço é R$%.2f" % (nome, preco))
+# Saída: Luiz, o preço é R$1000.96
+```
+
+Neste exemplo, a string `"%s, o preço é R$%.2f"` contém dois _placeholders_: `%s` para a string `nome` e `%.2f` para o valor de ponto flutuante `preco`. O valor `%s` é substituído por "Luiz" e o valor `%.2f` é substituído por "1000.96" (o número formatado com duas casas decimais).
+
+```python
+num = 15
+
+print("O hexadecimal de %d é %04x" % (num, num))
+# Saída: O hexadecimal de 15 é 000f
+```
+
+Neste exemplo, temos dois _placeholders_ na string: `%d` para o número inteiro `num` e `%04x` para a representação hexadecimal do número inteiro `num`. O valor `%d` é substituído por "15" e o valor `%04x` é substituído por "000f" (formato hexadecimal com 4 dígitos, preenchido com zeros à esquerda).
+
+Apesar de funcional, a interpolação com `%` tem algumas limitações e desvantagens. Ela não é tão legível quanto outras formas de formatação de strings, como as f-strings ou o método `.format()`. Portanto, é recomendado utilizar as f-strings ou `.format()` para formatar strings, pois elas oferecem mais recursos e são mais fáceis de ler e manter. A interpolação com `%` ainda é suportada por questões de compatibilidade com versões anteriores do Python, mas seu uso está sendo gradualmente substituído pelas f-strings e `.format()`.
