@@ -1031,7 +1031,7 @@
     
     - [Instalação no Ubuntu 22.04](/python/instalation-ubuntu.md)
     
-    - [Python no terminal](/python/python-no-terminal.md)
+    - [Comandos no terminal](/python/commands.md)
     
     - [Módulo](/python/core/module.md)
     
@@ -1041,17 +1041,31 @@
     
     - [Variáveis](/python/core/variables.md)
     
-    - [Manipulação de Strings](/python/manipulacao-de-strings.md)
+    - [Constantes](/python/core/constants.md)
     
-    - [Formatação de strings](/python/core/strings-formatation.md)
+    - [Formatação de strings](/python/core/strings-formatting.md)
+    
+    - [Fatiamento de strings](/python/core/string-slicing.md)
     
     - Operadores
     
       - [Operadores aritméticos](/python/core/operators/arithmetics-operators.md)
     
+      - [Operadores relacionais](/python/core/operators/relational-operators.md)
+    
+      - [Operador lógico "and"](/python/core/operators/and-operator.md)
+    
+      - [Operador lógico "or"](/python/core/operators/or-operator.md)
+    
+      - [Operador lógico "not"](/python/core/operators/not-operator.md)
+    
       - [Pass](/python/core/operators/pass-operator.md)
     
       - [Ellipsis](/python/core/operators/ellipsis-operator.md)
+    
+      - [Operador "in"](/python/core/operators/in-operator.md)
+    
+      - [Operador "is"](/python/core/operators/is-operador.md)
     
     - Tipo de dados
     
@@ -1067,15 +1081,29 @@
     
       - [`bool`](/python/core/data-types/bool-type.md)
     
+      - [`None`](/python/core/data-types/none-type.md)
+    
       - [Conversão de tipos](/python/core/data-types/typecasting.md)
     
     - [Estrutura condicional](/python/core/conditional-structure.md)
+    
+    - [Debugging no VS Code](/python/debugging-vscode.md)
+    
+      - [Flags](/python/flags.md)
+    
+    - Tratamento de exceções
+    
+      - [Introdução ao bloco `try-except`](/python/core/exception-handling/try-except-introduction.md)
+    
+      - [Operador `as` no bloco `except``](/python/core/exception-handling/as-operator-in-except.md)
     
     - Funções
     
       - [`print()`](/python/core/functions/print-function.md)
     
       - [`input()`](/python/core/functions/input-function.md)
+    
+      - [`id()`](/python/core/functions/id-function.md)
     
     - Bibliotecas
     
