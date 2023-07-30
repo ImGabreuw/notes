@@ -38,6 +38,8 @@
 
   - [Ellipsis](/python/core/operators/ellipsis-operator.md)
 
+  - [Operador "in"](/python/core/operators/in-operator.md)
+
 - Tipo de dados
 
   - [Classe `type`](/python/core/data-types/class-type.md)
