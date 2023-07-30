@@ -1025,8 +1025,6 @@
 - [Python](python/README.md)
 
     
-    - [Introdução à programação](./python/programming-language/programming-introduction.md)
-    
     - [Introdução ao Python](/python/introduction.md)
     
     - [Instalação no Ubuntu 22.04](/python/instalation-ubuntu.md)
