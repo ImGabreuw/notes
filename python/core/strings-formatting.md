@@ -2,56 +2,82 @@
 
 > ## **f-strings**
 
-A `f-string` é uma string que tem um `f` antes dela. Com isso é possível adicionar o valor de variáveis dentro da string a partir da notação `{}`.
+A formatação de strings com f-strings em Python é uma maneira moderna e poderosa de criar strings formatadas. As f-strings permitem que você insira valores de variáveis diretamente em uma string, facilitando a leitura e a manutenção do código.
+
+Para criar uma f-string, coloque um `f` ou `F` antes das aspas de abertura da string. Em seguida, coloque as variáveis desejadas entre chaves `{}` dentro da string. As variáveis serão substituídas pelos seus valores correspondentes durante a execução.
+
+**Padding em strings**:
+O _padding_ em strings permite adicionar espaços em branco ou caracteres específicos para manter a string com um tamanho fixo.
+
+- `>`: Adiciona espaços à esquerda.
+- `<`: Adiciona espaços à direita.
+- `^`: Adiciona espaços ao centro.
+
+Exemplo:
 
 ```python
-nome = "Luiz Otávio"
-altura = 1.8
+var = "ABC"
 
-print(f"{nome} tem {altura} metros de altura.")
-# Luiz Otávio tem 1.8 metros de altura
+print(f"{var}")       # "ABC"
+print(f"{var: >10}")  # "       ABC"
+print(f"{var: <10}")  # "ABC       "
+print(f"{var: ^10}")  # "   ABC    "
 ```
 
-Além disso, é possível formatar números flutuantes utilizando `:` seguido do número de casas decimais desejados na formatação `.<casas decimais>f`.
+**Formatação de números**:
+Para formatar números com f-strings, você pode especificar o número de casas decimais para números de ponto flutuante usando `:.nf`, onde `n` é o número de casas decimais desejado.
+
+Exemplo:
 
 ```python
-nome = "Luiz Otávio"
-altura = 1.8
-
-print(f"{nome} tem {altura:.2f} metros de altura.")
-# Luiz Otávio tem 1.80 metros de altura
+print(f"{3.1415:.2f}") # 3.14
 ```
 
-> `.2f` = número formatado com 2 casas decimais
+Além disso, você pode usar o separador de milhar em números inteiros adicionando `,` após o `:`.
 
-**OBS**: é possível formatar um números com separador de milhar (`,`) ao inserir uma `,` antes da formatação de casas decimais:
+Exemplo:
 
 ```python
-nome = "Luiz Otávio"
-salario = 10_000.0
-
-print(f"{nome} tem {altura:,.2f} metros de altura.")
-# Luiz Otávio tem um salário de R$ 10,000.0.
+print(f"{100_000_000:,}") # 100,000,000
 ```
 
-Há um atalho do Python para inserir o nome da variável e o seu valor utilizando o `f-strings`:
+**Mostrar o sinal de números**:
+Você pode forçar o sinal de números a ser exibido usando `:+` antes do `f`.
+
+Exemplo:
 
 ```python
-nome = input("Qual é o seu nome? ")
-print(f"O seu nome é {nome=}")
+print(f"{10:+}") # +10
 ```
 
-Ao invés de utilizar:
+**Conversão de decimal para hexadecimal**:
+Você pode converter números decimais para hexadecimal usando `:x` ou `:X` após o `f`. `:x` produzirá letras minúsculas em hexadecimal e `:X` produzirá letras maiúsculas.
+
+Exemplo:
 
 ```python
-nome = input("Qual é o seu nome? ")
-print(f"O seu nome é nome={nome}")
+print(f"1500 em hexadecimal é {1500:08x}") # 1500 em hexadecimal é 000005dc
+print(f"1500 em hexadecimal é {1500:08X}") # 1500 em hexadecimal é 000005DC
 ```
 
-```bash
-$ Qual é o seu nome? João
-> O seu nome é nome=João
+**Conversion flags**:
+Você pode usar os _conversion flags_ para invocar métodos especiais para formatar os valores:
+
+- `!r`: Utiliza o método `__repr__()` para obter a representação do objeto.
+- `!s`: Utiliza o método `__str__()` para obter a representação do objeto em formato de string.
+- `!a`: Utiliza o método `ascii()` para obter a representação do objeto com escape de caracteres não ASCII.
+
+Exemplo:
+
+```python
+valor = "Olá mundo"
+
+print(f"{valor!r}") # 'Olá mundo'
+print(f"{valor!s}") # Olá mundo
+print(f"{valor!a}") # 'Ol\\xe1 mundo'
 ```
+
+As f-strings são uma maneira poderosa de formatar strings de forma mais legível e flexível em Python, e geralmente são preferíveis em relação à interpolação com `%` ou ao método `.format()`. Elas tornam a escrita de strings formatadas mais eficiente e menos propensa a erros.
 
 > ## **Função: `format`**
 
