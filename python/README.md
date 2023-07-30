@@ -74,6 +74,8 @@
 
   - [`input()`](/python/core/functions/input-function.md)
 
+  - [`id()`](/python/core/functions/id-function.md)
+
 - Bibliotecas
 
   - NumPy
