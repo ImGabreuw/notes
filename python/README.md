@@ -42,6 +42,8 @@
 
   - [Operador "in"](/python/core/operators/in-operator.md)
 
+  - [Operador "is"](/python/core/operators/is-operador.md)
+
 - Tipo de dados
 
   - [Classe `type`](/python/core/data-types/class-type.md)
@@ -56,11 +58,15 @@
 
   - [`bool`](/python/core/data-types/bool-type.md)
 
+  - [`None`](/python/core/data-types/none-type.md)
+
   - [Conversão de tipos](/python/core/data-types/typecasting.md)
 
 - [Estrutura condicional](/python/core/conditional-structure.md)
 
 - [Debugging no VS Code](/python/debugging-vscode.md)
+
+  - [Flags](/python/flags.md)
 
 - Tratamento de exceções
 
