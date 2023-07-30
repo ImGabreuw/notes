@@ -40,6 +40,8 @@
 
             - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/naive-bayes/learning-steps.md)
 
+            - [Correção Laplaciana](/artificial-intelligence/machine-learning/algorithms/naive-bayes/laplacian-correction.md)
+
 - _Data Science_
 
     - Tipos de gráficos
