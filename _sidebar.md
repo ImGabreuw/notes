@@ -104,6 +104,11 @@
     
     - Materialize CSS
 
+- [Objeto de transferência de dado](data-transfer-object/README.md)
+
+    
+    - [Introdução](/data-transfer-object/json/introducao.md)
+
 - [Banco de dados](database/README.md)
 
     
@@ -120,11 +125,6 @@
     - MariaDB
     
       - [Configuração](/database/mariadb/configuration.md)
-
-- [Objeto de transferência de dado](data-transfer-object/README.md)
-
-    
-    - [Introdução](/data-transfer-object/json/introducao.md)
 
 - [Serviços de implantação](deployment-services/README.md)
 
@@ -212,6 +212,19 @@
     
     - [Boas práticas no Dockerfile](/docker/good-practice/boas-praticas-dockerfile.md)
 
+- [Git](git/README.md)
+
+    
+    - [Branches](/git/branches.md)
+    
+    - Comandos
+    
+      - [Lista de comandos](/git/comandos.md)
+    
+      - [Comando: `git init`](/git/commands/git-init.md)
+    
+    - [Git Credential Manager](/git/git-credential-manager.md)
+
 - [GitHub](github/README.md)
 
     
@@ -226,19 +239,6 @@
       - Heroku
     
         - [Implantação de uma aplicação no Heroku](/github/github-actions/heroku/deploy-application-in-heroku.md)
-
-- [Git](git/README.md)
-
-    
-    - [Branches](/git/branches.md)
-    
-    - Comandos
-    
-      - [Lista de comandos](/git/comandos.md)
-    
-      - [Comando: `git init`](/git/commands/git-init.md)
-    
-    - [Git Credential Manager](/git/git-credential-manager.md)
 
 - [Go](go/README.md)
 
