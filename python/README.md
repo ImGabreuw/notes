@@ -48,6 +48,8 @@
 
 - [Estrutura condicional](/python/core/conditional-structure.md)
 
+- [Debugging no VS Code](/python/debugging-vscode.md)
+
 - Funções
 
   - [`print()`](/python/core/functions/print-function.md)
