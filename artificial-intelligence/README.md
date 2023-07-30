@@ -32,6 +32,10 @@
 
         - [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
 
+    - Algoritmos
+
+        - [Algoritmo de _Naive Bayes_](/artificial-intelligence/machine-learning/algorithms/naive-bayes/introduction.md)
+
 - _Data Science_
 
     - Tipos de gráficos
