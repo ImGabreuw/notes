@@ -30,6 +30,8 @@
 
   - [Operador lógico "and"](/python/core/operators/and-operator.md)
 
+  - [Operador lógico "or"](/python/core/operators/or-operator.md)
+
   - [Pass](/python/core/operators/pass-operator.md)
 
   - [Ellipsis](/python/core/operators/ellipsis-operator.md)
