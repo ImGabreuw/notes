@@ -2,13 +2,15 @@
 
 # Diretório contendo os arquivos README.md
 diretorio=$(pwd)
-readmes=$(find . -type f -name "README.md")
+readmes=$(find . -type f -name "README.md" -printf "%h/%f\n" | sort)
 
-# Arrays para armazenar os títulos e conteúdos dos arquivos README.md
-titulos=()
-conteudos=()
+# Nome do arquivo _sidebar.md
+sidebar="_sidebar.md"
 
-# Iterar sobre todos os arquivos README.md no diretório
+# Cria um novo _sidebar.md
+echo -e "" > "$sidebar"
+
+# Processar cada arquivo README.md listado
 for arquivo in $readmes; do
     # Verificar se o arquivo é diferente de ./README.md
     if [ "$arquivo" != "./README.md" ]; then
@@ -20,29 +22,9 @@ for arquivo in $readmes; do
             # Extrair o conteúdo entre as linhas "> ## **Conteúdo**" e "> ## **Referências**"
             conteudo=$(awk '/> ## \*\*Conteúdo\*\*/,/> ## \*\*Referências\*\*/{if(!/^(> ## \*\*Conteúdo\*\*|> ## \*\*Referências\*\*)/){print}}' "$arquivo")
 
-            # Armazenar o título e o conteúdo no array
-            titulos+=("$titulo")
-            conteudos+=("$conteudo")
-        fi
-    fi
-done
-
-# Ordenar o array de títulos alfabeticamente
-titulos_ordenados=($(printf "%s\n" "${titulos[@]}" | sort))
-
-# Nome do arquivo _sidebar.md
-sidebar="_sidebar.md"
-
-# Adicionar os conteúdos extraídos ordenados ao arquivo _sidebar.md
-for titulo_ordenado in "${titulos_ordenados[@]}"; do
-    for ((i = 0; i < ${#titulos[@]}; i++)); do
-        if [ "${titulos[i]}" = "$titulo_ordenado" ]; then
-            conteudo="${conteudos[i]}"
-            arquivo="${readmes[i]}"
-
             # Formatar a linha de título e caminho com / em vez de ./
             caminho=$(sed 's|^\./||' <<< "$arquivo")
-            linha="- [$titulo_ordenado]($caminho)"
+            linha="- [$titulo]($caminho)"
 
             # Adicionar o conteúdo extraído após a linha de título e caminho
             conteudo_formatado=$(awk '{print "    "$0}' <<< "$conteudo")
@@ -51,5 +33,5 @@ for titulo_ordenado in "${titulos_ordenados[@]}"; do
             # Adicionar a linha formatada ao arquivo _sidebar.md
             echo -e "$linha\n" >> "$sidebar"
         fi
-    done
+    fi
 done
