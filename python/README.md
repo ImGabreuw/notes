@@ -28,6 +28,8 @@
 
   - [Operadores relacionais](/python/core/operators/relational-operators.md)
 
+  - [Operador lógico "and"](/python/core/operators/and-operator.md)
+
   - [Pass](/python/core/operators/pass-operator.md)
 
   - [Ellipsis](/python/core/operators/ellipsis-operator.md)
