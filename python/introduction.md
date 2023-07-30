@@ -174,6 +174,8 @@ Há várias discussões sobre a superioridade de um desses três sobre os outros
 
 1. Criar um aquivo com a extensão `.py`
 
+   > Todo arquivo com a extensão `.py` é considerado um módulo Python.
+
 2. Inserir o seguinte código no arquivo
 
    ```python
@@ -182,11 +184,11 @@ Há várias discussões sobre a superioridade de um desses três sobre os outros
 
 3. Executar o arquivo:
 
-   ```shell
+   ```bash
    $ python [nome do arquivo]
    ```
 
-   ```shell
+   ```bash
    $ python main.py
-   # Hello World!
+   > Hello World!
    ```
