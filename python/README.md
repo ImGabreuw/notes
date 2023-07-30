@@ -72,7 +72,7 @@
 
   - [Introdução ao bloco `try-except`](/python/core/exception-handling/try-except-introduction.md)
 
-  - [Operador `as` no bloco `except``](/python/core/exception-handling/as-operator-in-except.md)
+  - [Operador `as` no bloco `except`](/python/core/exception-handling/as-operator-in-except.md)
 
 - Funções
 
