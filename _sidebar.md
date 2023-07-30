@@ -57,6 +57,18 @@
     
             - [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
     
+        - Algoritmos
+    
+            - Algoritmo de _Naive Bayes_
+    
+                - [Introdução](/artificial-intelligence/machine-learning/algorithms/naive-bayes/introduction.md)
+    
+                - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/naive-bayes/learning-steps.md)
+    
+                - [Correção Laplaciana](/artificial-intelligence/machine-learning/algorithms/naive-bayes/laplacian-correction.md)
+    
+                - [Parâmetro "radius"](/artificial-intelligence/machine-learning/algorithms/naive-bayes/radius-parameter.md)
+    
     - _Data Science_
     
         - Tipos de gráficos
