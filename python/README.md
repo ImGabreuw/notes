@@ -8,7 +8,7 @@
 
 - [Instalação no Ubuntu 22.04](/python/instalation-ubuntu.md)
 
-- [Python no terminal](/python/python-no-terminal.md)
+- [Comandos no terminal](/python/commands.md)
 
 - [Módulo](/python/core/module.md)
 
@@ -25,6 +25,8 @@
 - Operadores
 
   - [Operadores aritméticos](/python/core/operators/arithmetics-operators.md)
+
+  - [Operadores relacionais](/python/core/operators/relational-operators.md)
 
   - [Pass](/python/core/operators/pass-operator.md)
 
