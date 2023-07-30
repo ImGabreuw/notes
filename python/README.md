@@ -18,9 +18,9 @@
 
 - [Variáveis](/python/core/variables.md)
 
-- [Manipulação de Strings](/python/manipulacao-de-strings.md)
-
 - [Formatação de strings](/python/core/strings-formatting.md)
+
+- [Fatiamento de strings](/python/core/string-slicing.md)
 
 - Operadores
 
