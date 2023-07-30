@@ -35,3 +35,17 @@ A abordagem do Naive Bayes é eficiente e funciona bem em muitos cenários, mesm
 O algoritmo de Naive Bayes utiliza o Teorema de Bayes para calcular as probabilidades de uma instância pertencer a cada classe com base nas características observadas. Em um problema de classificação, o algoritmo estima a probabilidade de pertencimento a cada classe e **classifica a instância na classe com a maior probabilidade**.
 
 Apesar da suposição simplificada de independência condicional, o Naive Bayes muitas vezes apresenta resultados surpreendentemente bons em muitos cenários e é uma escolha popular para tarefas de classificação, especialmente quando se trabalha com dados de texto.
+
+**Vantagens:**
+
+- Rápido
+
+- Simplicidade de interpretação
+
+- Bom desempenho em análises com altas dimensões
+
+- Boas previsões em bases pequenas (por exemplo 200 registros)
+
+**Desvantagens:**
+
+- Combinação de características (atributos independentes): cada par de características são independentes

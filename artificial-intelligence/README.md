@@ -42,6 +42,8 @@
 
             - [Correção Laplaciana](/artificial-intelligence/machine-learning/algorithms/naive-bayes/laplacian-correction.md)
 
+            - [Parâmetro "radius"](/artificial-intelligence/machine-learning/algorithms/naive-bayes/radius-parameter.md)
+
 - _Data Science_
 
     - Tipos de gráficos
