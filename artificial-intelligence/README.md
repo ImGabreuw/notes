@@ -34,7 +34,11 @@
 
     - Algoritmos
 
-        - [Algoritmo de _Naive Bayes_](/artificial-intelligence/machine-learning/algorithms/naive-bayes/introduction.md)
+        - Algoritmo de _Naive Bayes_
+
+            - [Introdução](/artificial-intelligence/machine-learning/algorithms/naive-bayes/introduction.md)
+
+            - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/naive-bayes/learning-steps.md)
 
 - _Data Science_
 
