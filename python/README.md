@@ -60,6 +60,12 @@
 
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
+- Tratamento de exceções
+
+  - [Introdução ao bloco `try-except`](/python/core/exception-handling/try-except-introduction.md)
+
+  - [Operador `as` no bloco `except``](/python/core/exception-handling/as-operator-in-except.md)
+
 - Funções
 
   - [`print()`](/python/core/functions/print-function.md)
