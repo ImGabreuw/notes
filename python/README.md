@@ -170,11 +170,29 @@
 
           - [`predict`](/python/library/sklearn/gaussian-nb/functions/predict.md)
 
+    - Módulo "metrics"
+
+        - Funções
+
+          - [`accurancy_score`](/python/library/sklearn/metrics/functions/accurancy-score.md)
+
+          - [`confusion_matrix`](/python/library/sklearn/metrics/functions/confusion_matrix.md)
+
+          - [`classification_report`](/python/library/sklearn/metrics/functions/classification_report.md)
+
   - Pickle
 
     - Funções
 
       - [`dump`](/python/library/pickle/functions/dump.md)
+
+      - [`load`](/python/library/pickle/functions/load.md)
+
+  - Yellowbrick
+
+    - Módulo "classifier"
+
+      - [Matrix de confusão](/python/library/yellowbrick/classifier/confusion-matrix.md)
 
 > ## **Referências**
 

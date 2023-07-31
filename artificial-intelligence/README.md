@@ -36,6 +36,10 @@
 
         - [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
 
+        - [Acurácia](/artificial-intelligence/machine-learning/algorithm-evaluation/accuracy.md)
+
+        - [Matrix de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
+
     - Algoritmos
 
         - Algoritmo de _Naive Bayes_
