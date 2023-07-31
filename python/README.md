@@ -86,7 +86,7 @@
 
     - Funções
 
-      - [Função `unique`](/python/library/numpy/functions/unique.md)
+      - [`unique`](/python/library/numpy/functions/unique.md)
 
   - Pandas
 
@@ -94,73 +94,87 @@
 
     - Funções
 
-      - [Função `head`](/python/library/pandas/functions/head.md)
+      - [`head`](/python/library/pandas/functions/head.md)
 
-      - [Função `tail`](/python/library/pandas/functions/tail.md)
+      - [`tail`](/python/library/pandas/functions/tail.md)
 
-      - [Função `describe`](/python/library/pandas/functions/describe.md)
+      - [`describe`](/python/library/pandas/functions/describe.md)
 
-      - [Função `loc`](/python/library/pandas/functions/loc.md)
+      - [`loc`](/python/library/pandas/functions/loc.md)
 
-      - [Função `drop`](/python/library/pandas/functions/drop.md)
+      - [`drop`](/python/library/pandas/functions/drop.md)
 
-      - [Função `isnull`](/python/library/pandas/functions/isnull.md)
+      - [`isnull`](/python/library/pandas/functions/isnull.md)
 
-      - [Função `fillna`](/python/library/pandas/functions/fillna.md)
+      - [`fillna`](/python/library/pandas/functions/fillna.md)
 
-      - [Função `iloc`](/python/library/pandas/functions/iloc.md)
+      - [`iloc`](/python/library/pandas/functions/iloc.md)
 
   - Plotly
 
     - Funções
 
-      - [Função `scatter_matrix`](/python/library/plotly/functions/scatter_matrix.md)
+      - [`scatter_matrix`](/python/library/plotly/functions/scatter_matrix.md)
 
-      - [Função `treemap`](/python/library/plotly/functions/treemap.md)
+      - [`treemap`](/python/library/plotly/functions/treemap.md)
 
-      - [Função `parallel_categories`](/python/library/plotly/functions/parallel_categories.md)
+      - [`parallel_categories`](/python/library/plotly/functions/parallel_categories.md)
 
   - SeaBorn
 
     - Funções
 
-      - [Função `histplot`](/python/library/seaborn/functions/histplot.md)
+      - [`histplot`](/python/library/seaborn/functions/histplot.md)
 
-      - [Função `countplot`](/python/library/seaborn/functions/countplot.md)
+      - [`countplot`](/python/library/seaborn/functions/countplot.md)
 
   - Sklean
 
     - [Introdução](/python/library/sklearn/introduction.md)
 
-    - _Model Selection_
+    - Módulo "model selection
 
       - Funções
 
-        - [Função `train_test_split`](/python/library/sklearn/model-selection/functions/train-test-split.md)
+        - [`train_test_split`](/python/library/sklearn/model-selection/functions/train-test-split.md)
 
-    - _Standard Scaler_
+    - Módulo "pre-processing"
 
-      - Funções
+      - _Standard Scaler_
 
-        - [Função `fit_transform`](/python/library/sklearn/standard-scaler/functions/fit_transform.md)
+        - Funções
 
-    - _Label Encoder_
+          - [`fit_transform`](/python/library/sklearn/standard-scaler/functions/fit_transform.md)
 
-      - Funções
+      - _Label Encoder_
 
-        - [Função `fit_transform`](/python/library/sklearn/label-enconder/functions/fit_transform.md)
+        - Funções
 
-    - _One-Hot Encoder_
+          - [`fit_transform`](/python/library/sklearn/label-enconder/functions/fit_transform.md)
 
-      - Funções
+      - _One-Hot Encoder_
 
-        - [Função `fit_transform`](/python/library/sklearn/one-hot-encoder/functions/fit_transform.md)
+        - Funções
+
+          - [`fit_transform`](/python/library/sklearn/one-hot-encoder/functions/fit_transform.md)
+
+    - Módulo "naive bayes"
+
+      - _GaussianNB_
+
+        - [Principais atributos](/python/library/sklearn/gaussian-nb/main-attributes.md)
+
+        - Funções
+
+          - [`fit`](/python/library/sklearn/gaussian-nb/functions/fit.md)
+
+          - [`predict`](/python/library/sklearn/gaussian-nb/functions/predict.md)
 
   - Pickle
 
     - Funções
 
-      - [Função `dump`](/python/library/pickle/functions/dump.md)
+      - [`dump`](/python/library/pickle/functions/dump.md)
 
 > ## **Referências**
 
