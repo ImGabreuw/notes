@@ -184,6 +184,10 @@
 
         - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
 
+        - Funções
+
+          - [`plot_tree`](/python/library/sklearn/tree/functions/plot_tree.md)
+
   - Pickle
 
     - Funções
@@ -197,6 +201,16 @@
     - Módulo "classifier"
 
       - [Matrix de confusão](/python/library/yellowbrick/classifier/confusion-matrix.md)
+
+  - Matplotlib
+
+    - Módulo "pyplot"
+
+      - Funções
+
+        - [`subplots`](/python/library/matplotlib/pyplot/functions/subplots.md)
+
+        - [`tight_layout`](/python/library/matplotlib/pyplot/functions/tight_layout.md)
 
 > ## **Referências**
 
