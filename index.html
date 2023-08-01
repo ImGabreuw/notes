@@ -18,7 +18,7 @@
       href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
     />
     <style>
-      .content {
+      body:not(.ready) {
         overflow: auto;
       }
     </style>
@@ -34,15 +34,15 @@
         auto2top: true,
         loadSidebar: true,
         alias: {
-          '/.*/_sidebar.md': '/_sidebar.md'
+          "/.*/_sidebar.md": "/_sidebar.md",
         },
 
         notFoundPage: true,
-        
+
         mermaidConfig: {
           querySelector: ".mermaid",
         },
-        
+
         supportSearch: true,
         search: {
           placeholder: "Digite para pesquisar",
