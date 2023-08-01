@@ -62,6 +62,8 @@
 
             - [Parametrização](/artificial-intelligence/machine-learning/algorithms/decision-tree/parametrization.md)
 
+            - [Poda](/artificial-intelligence/machine-learning/algorithms/decision-tree/pruning.md)
+
 - _Data Science_
 
     - Tipos de gráficos

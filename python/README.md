@@ -180,6 +180,10 @@
 
           - [`classification_report`](/python/library/sklearn/metrics/functions/classification_report.md)
 
+    - Módulo "tree"
+
+        - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
+
   - Pickle
 
     - Funções
