@@ -54,6 +54,10 @@
 
             - [Gaussian _Naive Bayes_](/artificial-intelligence/machine-learning/algorithms/naive-bayes/gaussian-naive-bayes.md)
 
+        - Árvore de decisão
+
+            - [Introdução](/artificial-intelligence/machine-learning/algorithms/decision-tree/introduction.md)
+
 - _Data Science_
 
     - Tipos de gráficos
