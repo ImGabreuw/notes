@@ -60,6 +60,8 @@
 
             - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/decision-tree/learning-steps.md)
 
+            - [Parametrização](/artificial-intelligence/machine-learning/algorithms/decision-tree/parametrization.md)
+
 - _Data Science_
 
     - Tipos de gráficos
