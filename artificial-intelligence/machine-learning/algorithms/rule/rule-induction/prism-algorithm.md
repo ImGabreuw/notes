@@ -2,6 +2,8 @@
 
 O algoritmo PRISM é uma abordagem de aprendizado de máquina utilizada para a geração de regras de classificação. Ele foi desenvolvido especialmente para lidar com conjuntos de dados contendo variáveis categóricas, onde a maioria dos algoritmos tradicionais de aprendizado de regras enfrentam dificuldades.
 
+### **Funcionamento**
+
 O funcionamento do algoritmo PRISM é baseado em uma estratégia chamada de **indução de regras parcial**. Em vez de tentar criar regras que cubram todo o conjunto de dados, o PRISM foca em criar regras específicas para partes específicas dos dados, levando em conta a ordem dos atributos. Essa abordagem permite lidar de forma mais eficiente com a natureza categórica dos atributos e extrair regras mais precisas para a classificação.
 
 Os passos principais do algoritmo PRISM são:
