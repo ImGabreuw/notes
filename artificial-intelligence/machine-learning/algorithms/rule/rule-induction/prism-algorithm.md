@@ -79,4 +79,6 @@ O algoritmo PRISM é especialmente útil para conjuntos de dados com muitas vari
 
 ### **Casos de uso**
 
-O PRISM é recomendado quando lidamos com conjuntos de dados que possuem muitas variáveis categóricas e para problemas onde a interpretabilidade das regras geradas é crucial. Ele é especialmente útil em problemas de classificação onde se deseja compreender claramente as relações entre as variáveis categóricas e a classe de destino. No entanto, em situações com muitas variáveis contínuas ou atributos altamente correlacionados, ou quando se requer maior complexidade no modelo, outros algoritmos como árvores de decisão, random forest ou algoritmos de aprendizado profundo podem ser mais adequados.
+O PRISM é recomendado quando lidamos com conjuntos de dados que possuem muitas variáveis categóricas e para problemas onde a interpretabilidade das regras geradas é crucial. Ele é especialmente útil em problemas de classificação onde se deseja compreender claramente as relações entre as variáveis categóricas e a classe de destino. 
+
+No entanto, em situações com muitas variáveis contínuas ou atributos altamente correlacionados, ou quando se requer maior complexidade no modelo, outros algoritmos como árvores de decisão, random forest ou algoritmos de aprendizado profundo podem ser mais adequados.

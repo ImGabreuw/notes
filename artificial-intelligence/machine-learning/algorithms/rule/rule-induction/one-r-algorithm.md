@@ -114,4 +114,6 @@ Considerando o conjunto de dados abaixo, o algoritmo segue os seguintes passos:
 
 ### **Casos de uso**
 
-O algoritmo One-R é recomendado quando se deseja uma análise rápida e simples dos dados para entender a importância dos atributos na tarefa de classificação. Ele é especialmente útil em problemas com poucos atributos categóricos e onde a interpretabilidade das regras é crucial. No entanto, para problemas mais complexos ou com dados de natureza contínua, é aconselhável considerar o uso de algoritmos mais avançados, como árvores de decisão, random forest ou algoritmos de aprendizado profundo. O One-R pode ser um ponto de partida útil para uma exploração inicial, mas em situações mais desafiadoras, modelos mais robustos e adaptáveis são mais indicados.
+O algoritmo One-R é recomendado quando se deseja uma análise rápida e simples dos dados para entender a importância dos atributos na tarefa de classificação. Ele é especialmente útil em problemas com poucos atributos categóricos e onde a interpretabilidade das regras é crucial. 
+
+No entanto, para problemas mais complexos ou com dados de natureza contínua, é aconselhável considerar o uso de algoritmos mais avançados, como árvores de decisão, random forest ou algoritmos de aprendizado profundo. O One-R pode ser um ponto de partida útil para uma exploração inicial, mas em situações mais desafiadoras, modelos mais robustos e adaptáveis são mais indicados.
