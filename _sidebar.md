@@ -101,6 +101,10 @@
     
                     - [Algoritmo OneR](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/one-r-algorithm.md)
     
+                    - [Algoritmo PRISM](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/prism-algorithm.md)
+    
+                - [Majority Learner](/artificial-intelligence/machine-learning/algorithms/rule/majority-learn.md)
+    
     - _Data Science_
     
         - Tipos de gráficos
