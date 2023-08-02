@@ -64,6 +64,14 @@
 
             - [Poda](/artificial-intelligence/machine-learning/algorithms/decision-tree/pruning.md)
 
+        - Regras
+
+            - Indução de regras
+
+                - [Introdução](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/introducion.md)
+
+                - [Algoritmo OneR](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/one-r-algorithm.md)
+
 - _Data Science_
 
     - Tipos de gráficos
