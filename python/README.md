@@ -188,6 +188,10 @@
 
           - [`plot_tree`](/python/library/sklearn/tree/functions/plot_tree.md)
 
+    - Módulo "ensemble"
+
+      - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
+
   - Pickle
 
     - Funções
