@@ -89,6 +89,18 @@
     
                 - [Poda](/artificial-intelligence/machine-learning/algorithms/decision-tree/pruning.md)
     
+            - Floresta Randômica
+    
+                - [Introdução](/artificial-intelligence/machine-learning/algorithms/random-forest/introduction.md)
+    
+            - Aprendizagem por regras
+    
+                - Indução de regras
+    
+                    - [Introdução](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/introducion.md)
+    
+                    - [Algoritmo OneR](/artificial-intelligence/machine-learning/algorithms/rule/rule-induction/one-r-algorithm.md)
+    
     - _Data Science_
     
         - Tipos de gráficos
@@ -1230,6 +1242,10 @@
             - Funções
     
               - [`plot_tree`](/python/library/sklearn/tree/functions/plot_tree.md)
+    
+        - Módulo "ensemble"
+    
+          - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
     
       - Pickle
     
