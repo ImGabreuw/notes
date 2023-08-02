@@ -64,7 +64,11 @@
 
             - [Poda](/artificial-intelligence/machine-learning/algorithms/decision-tree/pruning.md)
 
-        - Regras
+        - Floresta Randômica
+
+            - [Introdução](/artificial-intelligence/machine-learning/algorithms/random-forest/introduction.md)
+
+        - Aprendizagem por regras
 
             - Indução de regras
 

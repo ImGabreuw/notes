@@ -1,4 +1,4 @@
-# Indução de regras
+# Introdução a indução de regras
 
 A aprendizagem por regras via indução de regras é um método de aprendizado de máquina que busca extrair regras e padrões a partir de conjuntos de dados. Esse tipo de abordagem é particularmente útil em tarefas de classificação, onde o objetivo é atribuir uma classe ou rótulo a um conjunto de atributos.
 
