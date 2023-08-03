@@ -988,6 +988,12 @@
       - [Interromper processos](/linux/kill-process.md)
     
     - Distribuições
+    
+      - Ubuntu
+    
+        - Ubuntu 22.04
+    
+          - [Guia pós instalação](/linux/distributions/ubuntu/ubuntu-22-04/after-instalation-guide.md)
 
 - [Make](make/README.md)
 
