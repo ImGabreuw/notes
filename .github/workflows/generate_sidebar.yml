@@ -3,7 +3,6 @@ name: Generate _sidebar.md file
 on:
   push:
     paths:
-      - ".github/workflows/deploy.yml"
       - "**/README.md"
 
   # Allows you to run this workflow manually from the Actions tab
