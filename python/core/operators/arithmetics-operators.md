@@ -2,6 +2,8 @@
 
 > ## **Visão geral**
 
+A seguir está uma tabela explicativa dos operadores aritméticos:
+
 |             Nome              | Operador |   Código    |   Resultado   |
 | :---------------------------: | :------: | :---------: | :-----------: |
 |            Adição             |   `+`    |  `10 + 10`  |     `10`      |
@@ -12,6 +14,18 @@
 | Divisão truncada (com float)  |   `//`   | `10 // 2.2` |     `4.0`     |
 |         Exponenciação         |   `**`   |  `2 ** 10`  |    `1024`     |
 |            Módulo             |   `%`    |  `10 % 3`   |      `1`      |
+
+
+Abaixo está uma tabela explicativa dos operadores de atribuição com operadores aritméticos:
+
+| Operador de Atribuição | Descrição                             | Exemplo                   | Equivalente a         |
+|------------------------|---------------------------------------|---------------------------|-----------------------|
+| `+=`                   | Adição e atribuição                   | `x += 5`                  | `x = x + 5`           |
+| `-=`                   | Subtração e atribuição                | `y -= 3`                  | `y = y - 3`           |
+| `*=`                   | Multiplicação e atribuição            | `a *= 2`                  | `a = a * 2`           |
+| `/=`                   | Divisão e atribuição                  | `b /= 4`                  | `b = b / 4`           |
+| `//=`                  | Divisão inteira e atribuição          | `c //= 3`                 | `c = c // 3`          |
+| `**=`                  | Exponenciação e atribuição            | `d **= 2`                 | `d = d ** 2`          |
 
 > ## **Ordem de precedência**
 
