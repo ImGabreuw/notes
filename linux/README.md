@@ -10,6 +10,12 @@
 
 - Distribuições
 
+  - Ubuntu
+
+    - Ubuntu 22.04
+
+      - [Guia pós instalação](/linux/distributions/ubuntu/ubuntu-22-04/after-instalation-guide.md)
+
 > ## **Referências**
 
 - [Linux](/linux/references.md)
@@ -22,4 +28,6 @@
 
   - Ubuntu
 
-    - [Setup](/linux/distributions/ubuntu/setup.md)
+    - Ubuntu 22.04
+
+      - [25 Things You MUST DO After Installing Ubuntu 22.04 LTS (Right Now!)](https://youtu.be/lLWiv-pbwvA)
