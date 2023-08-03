@@ -1127,6 +1127,16 @@
     
     - [Estrutura condicional](/python/core/conditional-structure.md)
     
+    - Estrutura de repetição
+    
+      - [`while`](/python/core/while-structure.md)
+    
+      - [Operador `continue`](/python/core/operators/continue.md)
+    
+      - [Alinhamento de `while`](/python/core/while-structure-alignment.md)
+    
+      - [Declaração `else` no `while`](/python/core/else-statement-while-structure.md)
+    
     - [Debugging no VS Code](/python/debugging-vscode.md)
     
       - [Flags](/python/flags.md)
