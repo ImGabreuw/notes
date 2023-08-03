@@ -66,6 +66,8 @@
 
   - [`while`](/python/core/while-structure.md)
 
+  - [Operador `continue`](/python/core/operators/continue.md)
+
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
   - [Flags](/python/flags.md)
