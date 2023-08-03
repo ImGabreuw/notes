@@ -172,21 +172,21 @@
 
     - Módulo "metrics"
 
-        - Funções
+      - Funções
 
-          - [`accurancy_score`](/python/library/sklearn/metrics/functions/accurancy-score.md)
+        - [`accurancy_score`](/python/library/sklearn/metrics/functions/accurancy-score.md)
 
-          - [`confusion_matrix`](/python/library/sklearn/metrics/functions/confusion_matrix.md)
+        - [`confusion_matrix`](/python/library/sklearn/metrics/functions/confusion_matrix.md)
 
-          - [`classification_report`](/python/library/sklearn/metrics/functions/classification_report.md)
+        - [`classification_report`](/python/library/sklearn/metrics/functions/classification_report.md)
 
     - Módulo "tree"
 
-        - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
+      - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
 
-        - Funções
+      - Funções
 
-          - [`plot_tree`](/python/library/sklearn/tree/functions/plot_tree.md)
+        - [`plot_tree`](/python/library/sklearn/tree/functions/plot_tree.md)
 
     - Módulo "ensemble"
 
@@ -215,6 +215,10 @@
         - [`subplots`](/python/library/matplotlib/pyplot/functions/subplots.md)
 
         - [`tight_layout`](/python/library/matplotlib/pyplot/functions/tight_layout.md)
+
+  - yFinance
+
+    - [Introdução](/python/library/yfinance/introduction.md)
 
 > ## **Referências**
 
