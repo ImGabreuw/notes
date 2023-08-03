@@ -62,6 +62,10 @@
 
 - [Estrutura condicional](/python/core/conditional-structure.md)
 
+- Estrutura de repetição
+
+  - [`while`](/python/core/while-structure.md)
+
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
   - [Flags](/python/flags.md)
