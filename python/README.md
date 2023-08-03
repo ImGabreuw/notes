@@ -68,6 +68,8 @@
 
   - [Operador `continue`](/python/core/operators/continue.md)
 
+  - [Alinhamento de `while`](/python/core/while-structure-alignment.md)
+
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
   - [Flags](/python/flags.md)
