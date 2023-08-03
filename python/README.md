@@ -220,6 +220,8 @@
 
     - [Introdução](/python/library/yfinance/introduction.md)
 
+    - [Função](/python/library/yfinance/functions/history.md)
+
 > ## **Referências**
 
 - [Python](/python/references.md)
