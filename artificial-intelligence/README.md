@@ -84,6 +84,8 @@
 
             - [Introdução](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/introduction.md)
 
+            - [Cálculo de distância](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/distance-calculation.md)
+
 - _Data Science_
 
     - Tipos de gráficos
