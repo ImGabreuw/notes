@@ -105,6 +105,14 @@
     
                 - [Majority Learner](/artificial-intelligence/machine-learning/algorithms/rule/majority-learn.md)
     
+            - k-Nearest Neighbors
+    
+                - [Introdução](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/introduction.md)
+    
+                - [Cálculo de distância](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/distance-calculation.md)
+    
+                - [Normalização e padronização de dados](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/normalization-and-standardization.md)
+    
     - _Data Science_
     
         - Tipos de gráficos
@@ -1266,6 +1274,10 @@
         - Módulo "ensemble"
     
           - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
+    
+        - Módulo "neighbors"
+    
+          - [K-Neighbors Classifier](/python/library/sklearn/neighbors/k-neighbors-classifier.md)
     
       - Pickle
     
