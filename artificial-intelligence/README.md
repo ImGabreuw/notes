@@ -80,6 +80,10 @@
 
             - [Majority Learner](/artificial-intelligence/machine-learning/algorithms/rule/majority-learn.md)
 
+        - k-Nearest Neighbors
+
+            - [Introdução](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/introduction.md)
+
 - _Data Science_
 
     - Tipos de gráficos
