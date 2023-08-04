@@ -202,6 +202,10 @@
 
       - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
 
+    - Módulo "neighbors"
+
+      - [K-Neighbors Classifier](/python/library/sklearn/neighbors/k-neighbors-classifier.md)
+
   - Pickle
 
     - Funções
