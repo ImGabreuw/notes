@@ -273,6 +273,10 @@
     
     - [Branches](/git/branches.md)
     
+    - Submódulos
+    
+      - [Introdução](/git/submodules/introduction.md)
+    
     - Comandos
     
       - [Lista de comandos](/git/comandos.md)
