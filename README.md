@@ -75,3 +75,5 @@
 - [HTML](/html/README.md)
 
 - [Paradigma de programação](/programming-paradigm/README.md)
+
+- [Problemas / Erros](/)
