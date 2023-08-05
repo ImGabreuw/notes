@@ -1034,6 +1034,17 @@
 
     
 
+- [Postagens em redes sociais](posts/README.md)
+
+    
+    - LinkedIn
+    
+      - [Certificado Red Hat System Administration I 9.0](/posts/linkedin/2023-07-30_red-hat-system-administration-i-9-certificate.md)
+    
+    - TabNews
+    
+      - [Compartilhando o repositório "Notes"](/posts/tabnews/2023_07_28_sharing-notes-repository.md)
+
 - [Problemas e erros](problems/README.md)
 
     
