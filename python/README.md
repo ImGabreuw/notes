@@ -74,6 +74,8 @@
 
   - [`for`](/python/core/loop-structure/for-structure.md)
 
+  - [Função `range`](/python/core/functions/range.md)
+
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
   - [Flags](/python/flags.md)
