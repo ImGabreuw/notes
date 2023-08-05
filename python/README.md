@@ -62,19 +62,21 @@
 
 - [Estrutura condicional](/python/core/conditional-structure.md)
 
-- Estrutura de repetição
+- Loops
 
-  - [`while`](/python/core/loop-structure/while-structure.md)
+  - [`while`](/python/core/loops/while-structure.md)
 
   - [Operador `continue`](/python/core/operators/continue.md)
 
-  - [Alinhamento de `while`](/python/core/loop-structure/while-structure-alignment.md)
+  - [Alinhamento de `while`](/python/core/loops/while-structure-alignment.md)
 
-  - [Declaração `else` no `while`](/python/core/loop-structure/else-statement-while-structure.md)
+  - [Declaração `else` no `while`](/python/core/loops/else-statement-while-structure.md)
 
-  - [`for`](/python/core/loop-structure/for-structure.md)
+  - [`for`](/python/core/loops/for-structure.md)
 
   - [Função `range`](/python/core/functions/range.md)
+
+  - [Objetos iteráveis](/python/core/loops/iterable-objects.md)
 
 - [Debugging no VS Code](/python/debugging-vscode.md)
 

@@ -1,6 +1,6 @@
 # Estrutura de repetição "for"
 
-A estrutura de repetição `for` é utilizada em Python para iterar sobre uma sequência de elementos, como uma lista, uma string, um dicionário, ou qualquer objeto que seja **"iterável"**.
+A estrutura de repetição `for` é utilizada em Python para iterar sobre uma sequência de elementos, como uma lista, uma string, um dicionário, ou qualquer objeto que seja **"iterável"** (implementa o _dunder method_ `__iter__()`).
 
 A principal vantagem do `for` em relação ao `while` é que ele é mais adequado quando o **número de repetições é conhecido previamente** ou quando se quer iterar sobre todos os elementos de uma coleção.
 
