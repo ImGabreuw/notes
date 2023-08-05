@@ -76,4 +76,6 @@
 
 - [Paradigma de programação](/programming-paradigm/README.md)
 
-- [Problemas / Erros](/)
+- [Problemas / Erros](/problems/README.md)
+
+- [Postagens em redes sociais](/posts/README.md)
