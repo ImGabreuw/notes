@@ -1,6 +1,6 @@
 # Função "history"
 
-A função `history` da biblioteca yFinance é usada para obter o **histórico de preços** e **informações financeiras** (dividendos e desdobramentos) de um ativo financeiro (como ações, índices, moedas, etc.) a partir do Yahoo Finance.
+O método `history` da biblioteca yFinance é usada para obter o **histórico de preços** e **informações financeiras** (dividendos e desdobramentos) de um ativo financeiro (como ações, índices, moedas, etc.) a partir do Yahoo Finance.
 
 ## **Sintaxe**
 
@@ -57,7 +57,7 @@ def history(
 
 **Retorno:**
 
-A função retorna um objeto DataFrame do pandas que contém os dados históricos do ativo financeiro solicitado. O DataFrame terá colunas como "Open", "High", "Low", "Close", "Volume", entre outras, que representam os preços e informações financeiras para cada intervalo de tempo solicitado.
+O método retorna um objeto DataFrame do pandas que contém os dados históricos do ativo financeiro solicitado. O DataFrame terá colunas como "Open", "High", "Low", "Close", "Volume", entre outras, que representam os preços e informações financeiras para cada intervalo de tempo solicitado.
 
 ## **Exemplos**
 
