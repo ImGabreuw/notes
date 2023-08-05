@@ -2,21 +2,42 @@ name: Deploy to Pages
 
 on:
   push:
-    branches: ["master"]
+    paths:
+      - "**/README.md"
 
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
+  generate-sidebar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run script file
+        run: |
+          chmod +x ./generate_sidebar.sh
+          ./generate_sidebar.sh
+        shell: bash
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A "_sidebar.md"
+          git diff-index --quiet HEAD || git commit -m "Auto-generated _sidebar.md" --author "GitHub Action <action@github.com>"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
   deploy:
+    needs: ["generate-sidebar"]
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
