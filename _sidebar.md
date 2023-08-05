@@ -1307,7 +1307,19 @@
     
         - [Introdução](/python/library/yfinance/introduction.md)
     
-        - [Função](/python/library/yfinance/functions/history.md)
+        - Classe `Ticker`
+    
+          - Atributos
+    
+            - [`history_metadata`](/python/library/yfinance/ticker/attributes/history-metadata.md)
+    
+            - [`actions`](/python/library/yfinance/ticker/attributes/actions.md)
+    
+          - Funções
+    
+            - [`history`](/python/library/yfinance/ticker/functions/history.md)
+    
+            - [`get_shares_full`](/python/library/yfinance/ticker/functions/get-shares-full.md)
 
 - [RabbitMQ](rabbitmq/README.md)
 
