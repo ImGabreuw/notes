@@ -78,7 +78,7 @@
 
   - [Objetos iteráveis](/python/core/loops/iterable-objects.md)
 
-  - [Declaração `esle` no `while`](/python/core/loops/else-statement-for-structure.md)
+  - [Declaração `else` no `for`](/python/core/loops/else-statement-for-structure.md)
 
 - [Debugging no VS Code](/python/debugging-vscode.md)
 
