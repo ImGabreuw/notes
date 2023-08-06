@@ -1,7 +1,7 @@
 # Notes
 
 <p align="center">
-    <img src="https://repository-images.githubusercontent.com/416103377/187144b4-4f33-4119-9ec2-ba80651e9fb6" width="80%">
+    <img src="./assets/banner.png" width="80%">
 </p>
 
 > ## **Conteúdo**
