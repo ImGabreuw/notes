@@ -1384,37 +1384,43 @@
 - [Shell](shell/README.md)
 
     
-    - [O que é terminal](/shell/o-que-e-terminal.md)
+    - [Introdução ao Shell](/shell/shell-introduction.md)
     
-    - [O que é Shell](/shell/o-que-e-shell.md)
+    - [Introdução ao terminal](/shell/terminal-introduction.md)
     
-    - [O que é Shell Script](/shell/o-que-e-shell-script.md)
+    - [Introdução ao Shell Script](/shell/shell-script-introduction.md)
     
     - Comandos
     
-      - [Comando "basename" ou "dirname"](/shell/commands/basename-e-dirname.md)
+      - [`basename` ou `dirname`](/shell/commands/basename-e-dirname.md)
     
-      - [Comando "cd"](/shell/commands/cd.md)
+      - [`cd`](/shell/commands/cd.md)
     
-      - [Comando "chmod"](/shell/commands/chmod.md)
+      - [`chmod`](/shell/commands/chmod.md)
     
-      - [Comandos "clear" e "reset"](/shell/commands/clear-e-reset.md)
+      - [`clear` e `reset`](/shell/commands/clear-e-reset.md)
     
-      - [Comando "echo"](/shell/commands/echo.md)
+      - [`echo`](/shell/commands/echo.md)
     
-      - [Comando "history"](/shell/commands/history.md)
+      - [`history`](/shell/commands/history.md)
     
-      - [Comando "ls"](/shell/commands/ls.md)
+      - [`ls`](/shell/commands/ls.md)
     
-      - [Comando "mkdir"](/shell/commands/mkdir.md)
+      - [`mkdir`](/shell/commands/mkdir.md)
     
-      - [Comando "mktemp"](/shell/commands/mktemp.md)
+      - [`mktemp`](/shell/commands/mktemp.md)
     
-      - [Comando "pwd"](/shell/commands/pwd.md)
+      - [`pwd`](/shell/commands/pwd.md)
     
-      - [Comando "base64"](/shell/commands/base64.md)
+      - [`base64`](/shell/commands/base64.md)
     
-    - [Estrutura de diretórios](/shell/estrutura-de-diretorios.md)
+      - [`touch`](/shell/commands/touch.md)
+    
+      - [`cut`](/shell/commands/cut.md)
+    
+      - [`mv`](/shell/commands/mv.md)
+    
+    - [Padrão de hierarquia de sistema de arquivos](/shell/filesystem-hierarchy-standard.md)
     
     - Zsh
     
