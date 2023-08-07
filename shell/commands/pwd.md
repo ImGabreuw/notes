@@ -1,15 +1,19 @@
-# Comando `pwd`
+# pwd
 
-### Função
+O comando `pwd` no Linux é usado para imprimir o diretório de trabalho atual. O diretório de trabalho atual é o diretório em que você está atualmente posicionado dentro da estrutura de diretórios do sistema de arquivos. Em outras palavras, é o diretório no qual você está trabalhando no momento.
 
-* Obter o endereço do diretório atual
+Esse comando é útil para descobrir exatamente onde você está no sistema de arquivos, o que pode ser importante ao navegar entre diretórios ou ao executar comandos que requerem caminhos absolutos para arquivos ou diretórios.
 
-  > **OBS**: diretório atual tem como referência o **diretório raiz** ou **diretório `/`** ou **root** (é o diretório no topo da hierarquia de pastas no Linux)
+## **Sintaxe**
 
-### Sintaxe
+```bash
+pwd
+```
 
-* `$ pwd`
+## **Exemplo**
 
-### Exemplo
+Suponha que você esteja no diretório `/home/usuario/documentos`, que é o seu diretório de trabalho atual. Se você executar o comando `pwd`, o resultado será:
 
-* `$ pwd`
+```
+/home/usuario/documentos
+```
