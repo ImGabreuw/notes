@@ -1,19 +1,20 @@
-# Comando `git init`
+# git init
 
-> ## **Diferença entre `git init` e `git init --bare`**
+O comando `git init` é usado para iniciar um novo repositório Git em um diretório vazio ou existente. Ele cria um novo subdiretório chamado ".git" que contém todos os arquivos necessários para o controle de versão do Git.
 
-O comando `git init --bare` cria um repositório _pushable_, ou seja, geralmente os **repositórios bare** são criados no servidor e são considerados repositórios para armazenamento.
+## **Sintaxe**
 
-Por outro lado, os repositórios que vão nas máquinas dos desenvolvedores (**repositórios non-bare**) que seriam os de desenvolvimento, criados com o comando `git init`.
+```bash
+git init
+```
 
-Apesar do Git ser um sistema de controle de versionamento distribuído, é muito comum que exista um repositório central que facilite a troca de informações entre os desenvolvedores, evitando a necessidade que os computadores dos desenvolvedores se comuniquem diretamente entre si, conforme a imagem a seguir:
+## **Exemplo**
 
-![](../assets/representation-bare-and-nonbare.png)
+```bash
+$ mkdir myproject
+$ cd myproject
+$ git init
+Initialized empty Git repository in /path/to/myproject/.git/
+```
 
-> Onde `bare` pode ser representado como um repositório no GitHub, já os `non-bare` são os desenvolvedores que clonam esse repositório para a máquina local com `git clone`.
-
-Além disso, os repositórios `bare` não possuem _working directory_, uma vez que são responsável apenas em armazenar dados. Com isso, não é possível editar e fazer commits de arquivos por meio desse repositório.
-
-Já os repositórios `non-bare` seguem o seguinte fluxo:
-
-![](../assets/representation-nonbare-repository-workflow.png)
+Neste exemplo, o diretório "myproject" é transformado em um repositório Git usando o comando `git init`. Isso cria o diretório ".git" e configura o repositório para rastrear alterações de arquivos neste diretório.
