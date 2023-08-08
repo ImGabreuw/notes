@@ -256,6 +256,14 @@
 
         - [`get_shares_full`](/python/library/yfinance/ticker/functions/get-shares-full.md)
 
+  - PyPortfolioOpt
+
+    - [Introdução](/python/library/py-portifolio-opt/introduction.md)
+
+  - Riskfolio Lib
+
+    - [Introdução](/python/library/riskfolio-lib/introduction.md)
+
 > ## **Referências**
 
 - [Python](/python/references.md)
