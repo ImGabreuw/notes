@@ -268,6 +268,15 @@
     
     - [Boas práticas no Dockerfile](/docker/good-practice/boas-praticas-dockerfile.md)
 
+- [Mercado financeiro](financial-market/README.md)
+
+    
+    - Otimização de carteira
+    
+      - [Otimização de Markowitz](/financial-market/portifolio-optimization/markowitz-optimization.md)
+    
+      - [Hierarchical Risk Parity](/financial-market/portifolio-optimization/hierarchical-risk-parity.md)
+
 - [Git](git/README.md)
 
     
@@ -1376,6 +1385,14 @@
             - [`history`](/python/library/yfinance/ticker/functions/history.md)
     
             - [`get_shares_full`](/python/library/yfinance/ticker/functions/get-shares-full.md)
+    
+      - PyPortfolioOpt
+    
+        - [Introdução](/python/library/py-portifolio-opt/introduction.md)
+    
+      - Riskfolio Lib
+    
+        - [Introdução](/python/library/riskfolio-lib/introduction.md)
 
 - [RabbitMQ](rabbitmq/README.md)
 
