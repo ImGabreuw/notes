@@ -119,6 +119,14 @@
     
                 - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/logistic-regretion/learning-steps.md)
     
+            - Support Vector Machine
+    
+                - [Introdução](/artificial-intelligence/machine-learning/algorithms/support-vector-machine/introduction.md)
+    
+                - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/support-vector-machine/learning-steps.md)
+    
+                - [Problemas lineares e não lineares](/artificial-intelligence/machine-learning/algorithms/support-vector-machine/linear-and-non-linear-problems.md)
+    
     - _Data Science_
     
         - Tipos de gráficos
@@ -1349,6 +1357,10 @@
         - Módulo "neighbors"
     
           - [K-Neighbors Classifier](/python/library/sklearn/neighbors/k-neighbors-classifier.md)
+    
+        - Módulo "svm"
+    
+          - [SVC](/python/library/sklearn/svm/svc.md)
     
       - Pickle
     
