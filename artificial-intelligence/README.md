@@ -88,6 +88,12 @@
 
             - [Normalização e padronização de dados](/artificial-intelligence/machine-learning/algorithms/k-nearest-neighbors/normalization-and-standardization.md)
 
+        - Regressão logística
+
+            - [Introdução](/artificial-intelligence/machine-learning/algorithms/logistic-regretion/introduction.md)
+
+            - [Etapas de aprendizagem](/artificial-intelligence/machine-learning/algorithms/logistic-regretion/learning-steps.md)
+
 - _Data Science_
 
     - Tipos de gráficos
