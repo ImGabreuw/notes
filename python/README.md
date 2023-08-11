@@ -214,6 +214,10 @@
 
       - [K-Neighbors Classifier](/python/library/sklearn/neighbors/k-neighbors-classifier.md)
 
+    - Módulo "svm"
+
+      - [SVC](/python/library/sklearn/svm/svc.md)
+
   - Pickle
 
     - Funções
