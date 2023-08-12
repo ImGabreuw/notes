@@ -50,6 +50,12 @@
 
   - [`str`](/python/core/data-types/str-type.md)
 
+    - [Método `strip`](/python/core/data-types/str-methods/strip.md)
+
+    - [Método `split`](/python/core/data-types/str/split.md)
+
+    - [Método `join`](/python/core/data-types/str-methods/join.md)
+
   - [`int`](/python/core/data-types/int-type.md)
 
   - [`float`](/python/core/data-types/float-type.md)
