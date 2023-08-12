@@ -1242,6 +1242,18 @@
     
       - [`id()`](/python/core/functions/id-function.md)
     
+      - [`enumerate`](/python/core/functions/enumerate.md)
+    
+    - Estrutura de dados
+    
+      - [`list`](/python/core/data-structure/list.md)
+    
+      - [Empacotamento e desempacotamento](/python/core/packing-and-unpacking.md)
+    
+      - [`tuple`](/python/core/data-structure/tuple.md)
+    
+    - [Problema de imprecisão com número de ponto flutuante](/python/imprecision-problem-with-float-number.md)
+    
     - Bibliotecas
     
       - NumPy
