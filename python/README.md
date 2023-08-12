@@ -98,6 +98,8 @@
 
   - [`id()`](/python/core/functions/id-function.md)
 
+  - [`enumerate`](/python/core/functions/enumerate.md)
+
 - Estrutura de dados
 
   - [`list`](/python/core/data-structure/list.md)
