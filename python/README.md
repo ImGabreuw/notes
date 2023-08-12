@@ -108,6 +108,8 @@
 
   - [`tuple`](/python/core/data-structure/tuple.md)
 
+- [Problema de imprecisão com número de ponto flutuante](/python/imprecision-problem-with-float-number.md)
+
 - Bibliotecas
 
   - NumPy
