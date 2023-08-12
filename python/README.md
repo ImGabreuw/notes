@@ -104,6 +104,8 @@
 
   - [Empacotamento e desempacotamento](/python/core/packing-and-unpacking.md)
 
+  - [`tuple`](/python/core/data-structure/tuple.md)
+
 - Bibliotecas
 
   - NumPy
