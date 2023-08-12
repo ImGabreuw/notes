@@ -135,3 +135,39 @@ print(menor_numero)  # Saída: 1
 soma_numeros = sum(numeros)
 print(soma_numeros)  # Saída: 24
 ```
+
+## **Listas e o Problema de Referência**
+
+Em Python, as listas são consideradas tipos de dados mutáveis, o que significa que seu conteúdo pode ser alterado após a criação. No entanto, isso pode levar a situações em que você pode se deparar com problemas de referência.
+
+### **Problema de Referência**
+
+Quando você atribui uma lista a uma variável, você está, na verdade, criando uma referência a essa lista na memória, em vez de copiar os valores da lista. Isso significa que, se você atribuir essa lista a outra variável, ambas as variáveis estarão apontando para o mesmo local na memória. Como resultado, quaisquer alterações feitas na lista por meio de uma variável serão refletidas nas outras variáveis que referenciam a mesma lista.
+
+```python
+lista_a = ["Luiz", "Maria"]
+lista_b = lista_a
+
+lista_a[0] = "João"
+
+print(lista_b)  # Saída: ["João", "Maria"]
+```
+
+No exemplo acima, `lista_b` está apontando para a mesma lista que `lista_a`. Quando o valor do primeiro elemento da lista é alterado através da variável `lista_a`, essa alteração é refletida na lista referenciada pela variável `lista_b`.
+
+### **Resolução usando o método `copy()`**
+
+Para evitar esse problema, é necessário criar uma cópia independente da lista, em vez de apenas criar uma nova referência para ela. Isso pode ser feito usando o método `copy()`.
+
+```python
+lista_a = ["Luiz", "Maria"]
+lista_b = lista_a.copy()
+
+lista_a[0] = "João"
+
+print(lista_b)  # Saída: ["Luiz", "Maria"]
+```
+
+Nesse caso, ao usar o método `copy()`, você está criando uma cópia completa dos valores da lista original, e a lista referenciada pela variável `lista_b` não será afetada pelas alterações feitas na lista referenciada por `lista_a`.
+
+Em resumo, ao trabalhar com tipos de dados mutáveis como as listas em Python, é importante entender como as referências funcionam e usar métodos apropriados, como o `copy()`, para evitar problemas inesperados de modificação de dados.
