@@ -102,6 +102,8 @@
 
   - [`list`](/python/core/data-structure/list.md)
 
+  - [Empacotamento e desempacotamento](/python/core/packing-and-unpacking.md)
+
 - Bibliotecas
 
   - NumPy
