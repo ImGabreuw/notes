@@ -98,6 +98,10 @@
 
   - [`id()`](/python/core/functions/id-function.md)
 
+- Estrutura de dados
+
+  - [`list`](/python/core/data-structure/list.md)
+
 - Bibliotecas
 
   - NumPy
