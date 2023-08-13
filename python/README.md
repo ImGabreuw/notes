@@ -108,6 +108,8 @@
 
   - [High order functions](/python/core/functions/high-order-functions.md)
 
+  - [Closure](/python/core/functions/closure.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
