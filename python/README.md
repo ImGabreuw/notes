@@ -102,6 +102,8 @@
 
   - [Valor padrão para parâmetros](/python/core/functions/param-default-value.md)
 
+  - [Escopo em funções](/python/core/functions/function-scope.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
