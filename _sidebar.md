@@ -1224,8 +1224,6 @@
     
       - [`for`](/python/core/loops/for-structure.md)
     
-      - [Função `range`](/python/core/functions/range.md)
-    
       - [Objetos iteráveis](/python/core/loops/iterable-objects.md)
     
       - [Declaração `else` no `for`](/python/core/loops/else-statement-for-structure.md)
@@ -1242,13 +1240,25 @@
     
     - Funções
     
-      - [`print()`](/python/core/functions/print-function.md)
+      - [Introdução](/python/core/functions/introduction.md)
     
-      - [`input()`](/python/core/functions/input-function.md)
+      - [Argumentos nomeados e não nomeados (posicional)](/python/core/functions/named-and-positional-args.md)
     
-      - [`id()`](/python/core/functions/id-function.md)
+      - [Valor padrão para parâmetros](/python/core/functions/param-default-value.md)
     
-      - [`enumerate`](/python/core/functions/enumerate.md)
+      - [Escopo em funções](/python/core/functions/function-scope.md)
+    
+      - Funções Build-in
+    
+        - [`print`](/python/core/functions/buildin-functions/print.md)
+    
+        - [`input`](/python/core/functions/buildin-functions/input.md)
+    
+        - [`id`](/python/core/functions/buildin-functions/id.md)
+    
+        - [`range`](/python/core/functions/buildin-functions/range.md)
+    
+        - [`enumerate`](/python/core/functions/buildin-functions/enumerate.md)
     
     - Estrutura de dados
     
