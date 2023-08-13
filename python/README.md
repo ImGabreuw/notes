@@ -100,6 +100,8 @@
 
   - [Argumentos nomeados e não nomeados (posicional)](/python/core/functions/named-and-positional-args.md)
 
+  - [Valor padrão para parâmetros](/python/core/functions/param-default-value.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
