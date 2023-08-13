@@ -98,6 +98,8 @@
 
   - [Introdução](/python/core/functions/introduction.md)
 
+  - [Argumentos nomeados e não nomeados (posicional)](/python/core/functions/named-and-positional-args.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
