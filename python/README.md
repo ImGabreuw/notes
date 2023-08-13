@@ -104,6 +104,8 @@
 
   - [Escopo em funções](/python/core/functions/function-scope.md)
 
+  - [`*args` em funções](/python/core/functions/var-args.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
