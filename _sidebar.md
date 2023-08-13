@@ -1248,6 +1248,12 @@
     
       - [Escopo em funções](/python/core/functions/function-scope.md)
     
+      - [`*args` em funções](/python/core/functions/var-args.md)
+    
+      - [High order functions](/python/core/functions/high-order-functions.md)
+    
+      - [Closure](/python/core/functions/closure.md)
+    
       - Funções Build-in
     
         - [`print`](/python/core/functions/buildin-functions/print.md)
