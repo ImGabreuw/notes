@@ -106,6 +106,8 @@
 
   - [`*args` em funções](/python/core/functions/var-args.md)
 
+  - [High order functions](/python/core/functions/high-order-functions.md)
+
   - Funções Build-in
 
     - [`print`](/python/core/functions/buildin-functions/print.md)
