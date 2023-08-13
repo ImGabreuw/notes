@@ -14,7 +14,35 @@ def nome_da_funcao(parametros):
 
 O nome da função segue as mesmas regras de nomenclatura de variáveis.
 
-**Chamando uma função**
+
+**Retorno de uma função:**
+
+Por padrão toda função retorna **None**, porém é possível alterar o retornar utilizando a palavra reservada `return`.
+
+```python
+var = print("Olá")
+
+print(var) # None
+```
+
+```python
+def soma(x, y):
+  return x + y
+
+print(soma(1, 2)) # 3
+```
+
+Além disso, vale ressaltar que todo o código inserido após o `return` não será executado:
+
+```python
+def soma(x, y):
+  return x + y
+  # print("Alguma coisa") Nunca é executado
+
+print(soma(1, 2)) # 3
+```
+
+**Chamando uma função:**
 
 Para chamar uma função, você usa o nome da função seguido por parênteses, contendo os argumentos (valores) que você deseja passar para a função. Se a função não aceitar argumentos, você ainda precisa usar os parênteses vazios.
 
