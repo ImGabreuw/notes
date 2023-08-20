@@ -132,6 +132,8 @@
 
         - [Gradiente descendente na otimização de redes multicamada](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/gradient-descent.md)
 
+        - [Gradiente descendente estocástico e em lote](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/batch-and-stochastic-gradient-descent.md)
+
         - [Cálculo do delta na camada de saída](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/delta-output-layer.md)
 
         - [Cálculo do delta na camada oculta](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/delta-hidden-layer.md)
