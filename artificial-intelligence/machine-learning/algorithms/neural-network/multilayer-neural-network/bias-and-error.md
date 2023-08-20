@@ -29,7 +29,7 @@ O MSE é uma métrica que calcula a média dos quadrados das diferenças entre a
 A fórmula do MSE para um conjunto de dados com $n$ exemplos é:
 
 $$
-MSE = \frac{1}{n} \sum\_{i=1}^{n} (y_i - \hat{y_i})^2
+MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2
 $$
 
 Onde:
