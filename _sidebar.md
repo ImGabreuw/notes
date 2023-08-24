@@ -1158,6 +1158,10 @@
     - Python
     
       - [Resource punkt not found. Please use the NLTK Downloader to obtain the resource](/problems/python/resource-punkt-not-found.md)
+    
+    - Ubuntu
+    
+      - [GNU GRUB on boot Ubuntu](/problems/ubuntu/gnu-grub-on-boot-ubuntu.md)
 
 - [Linguagem de programação](programming-language/README.md)
 
