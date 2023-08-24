@@ -307,7 +307,9 @@
 - [DevOps](devops/README.md)
 
     
-    - DevOps
+    - [Introdução](/devops/introduction.md)
+    
+    - [Princípios DevOps: CALMS](/devops/calms-principles.md)
 
 - [Docker](docker/README.md)
 
