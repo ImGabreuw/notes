@@ -10,4 +10,12 @@
 
   - [Resource punkt not found. Please use the NLTK Downloader to obtain the resource](/problems/python/resource-punkt-not-found.md)
 
+- Ubuntu
+
+  - [GNU GRUB on boot Ubuntu](/problems/ubuntu/gnu-grub-on-boot-ubuntu.md)
+
 > ## **Referências**
+
+- Ubuntu
+
+  - [How to Fix Minimal BASH Like Line Editing is Supported GRUB Error In Linux?](https://www.geeksforgeeks.org/how-to-fix-minimal-bash-like-line-editing-is-supported-grub-error-in-linux/)
