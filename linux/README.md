@@ -15,6 +15,8 @@
     - Ubuntu 22.04
 
       - [Guia pós instalação](/linux/distributions/ubuntu/ubuntu-22-04/after-instalation-guide.md)
+      
+      - [Script de pós instalação](/linux/distributions/ubuntu/ubuntu-22-04/setup.sh)
 
 > ## **Referências**
 
