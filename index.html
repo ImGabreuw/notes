@@ -1,132 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Notes</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
-    />
-    <style>
-      body:not(.ready) {
-        overflow: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script>
-      window.$docsify = {
-        themeColor: "#729EF1",
-        name: "Notes",
-        repo: "https://github.com/ImGabreuw/notes",
 
-        auto2top: true,
-        loadSidebar: true,
-        alias: {
-          "/.*/_sidebar.md": "/_sidebar.md",
-        },
+<head>
+  <meta charset="UTF-8" />
+  <title>Notes</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <style>
+    body:not(.ready) {
+      overflow-y: auto;
+    }
+  </style>
+</head>
 
-        notFoundPage: true,
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      themeColor: "#729EF1",
+      name: "Notes",
+      repo: "https://github.com/ImGabreuw/notes",
 
-        mermaidConfig: {
-          querySelector: ".mermaid",
-        },
+      auto2top: true,
 
-        supportSearch: true,
-        search: {
-          placeholder: "Digite para pesquisar",
-          noData: "Nenhum resultado encontrado",
-        },
+      loadSidebar: true,
+      alias: {
+        "/.*/_sidebar.md": "/_sidebar.md",
+      },
 
-        pagination: {
-          previousText: "Anterior",
-          nextText: "Próximo",
-          crossChapter: true,
-          crossChapterText: true,
-        },
-      };
-    </script>
+      notFoundPage: true,
 
-    <!-- Docsify v4 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-    <!-- Docsify v4 -->
+      mermaidConfig: {
+        querySelector: ".mermaid",
+      },
 
-    <!-- Zoom image -->
-    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
-    <!-- Zoom image -->
+      supportSearch: true,
+      search: {
+        paths: "/**/*.md",
+        depth: 6,
+        placeholder: "Digite para pesquisar...",
+        noData: "Nenhum resultado encontrado!",
+      },
 
-    <!-- Search Bar -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-    <!-- Search Bar -->
+      pagination: {
+        previousText: "Anterior",
+        nextText: "Próximo",
+        crossChapter: true,
+        crossChapterText: true,
+      },
+    };
+  </script>
 
-    <!-- Mermaid -->
-    <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
-    <script type="module">
-      import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-      mermaid.initialize({ startOnLoad: true });
-      window.mermaid = mermaid;
-    </script>
-    <!-- Mermaid -->
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify v4 -->
 
-    <!-- Import Docsify-mermaid-zoom -->
-    <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
-    <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
-    <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
-    <!-- Import Docsify-mermaid-zoom -->
+  <!-- Zoom image -->
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- Zoom image -->
 
-    <!-- Copy to Clipboard -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-    <!-- Copy to Clipboard -->
+  <!-- Search Bar -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Search Bar -->
 
-    <!-- Kalex -->
-    <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"
-    />
-    <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
-    <!-- Kalex -->
+  <!-- Mermaid -->
+  <script src="//cdn.jsdelivr.net/npm/d3@7"></script>
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
+  </script>
+  <!-- Mermaid -->
 
-    <!-- CDN files for docsify-katex -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-    <!-- CDN files for docsify-katex -->
+  <!-- Import Docsify-mermaid-zoom -->
+  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid-zoom/dist/docsify-mermaid-zoom.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+  <!-- Import Docsify-mermaid-zoom -->
 
-    <!-- Sidebar Collapse -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-    <!-- Sidebar Collapse -->
+  <!-- Copy to Clipboard -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- Copy to Clipboard -->
 
-    <!-- Pagination -->
-    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-    <!-- Pagination -->
+  <!-- Kalex -->
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+  <!-- Kalex -->
 
-    <!-- Code Highlighting -->
-    <!-- Code Highlighting -->
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-makefile.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gradle.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-properties.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-dockerfile.min.js"></script>
-    <!-- Code Highlighting -->
-  </body>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- CDN files for docsify-katex -->
+
+  <!-- Sidebar Collapse -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Sidebar Collapse -->
+
+  <!-- Pagination -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Pagination -->
+
+  <!-- Code Highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-makefile.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gradle.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-properties.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-dockerfile.min.js"></script>
+  <!-- Code Highlighting -->
+</body>
+
 </html>
