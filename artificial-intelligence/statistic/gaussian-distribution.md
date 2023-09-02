@@ -1,7 +1,19 @@
 # Distribuição Gaussiana
 
-A distribuição gaussiana, também conhecida como distribuição normal, é uma das distribuições de probabilidade mais importantes e amplamente encontradas na natureza. Ela é caracterizada por sua forma de sino e é completamente determinada por seus dois parâmetros: a média (µ) e o desvio padrão (σ).
+A distribuição gaussiana, também conhecida como distribuição normal, é uma das distribuições mais fundamentais e amplamente observadas em estatística e probabilidade. Ela é caracterizada por sua forma simétrica em torno da média, com a maioria dos dados concentrados perto da média e diminuindo à medida que se afastam dela. A curva de uma distribuição normal é em forma de sino e é definida pelos seus parâmetros principais: a média ($\mu$) e o desvio padrão ($\sigma$).
 
-A curva de distribuição normal é simétrica em torno da média, e a maioria dos valores se concentra próximo à média, com uma diminuição gradual em direção às caudas da distribuição. A média representa o centro da distribuição, enquanto o desvio padrão mede a dispersão dos valores em relação à média.
+As principais características da distribuição normal incluem:
 
-A distribuição normal é fundamental em estatística e análise de dados devido ao Teorema Central do Limite, que afirma que, para um grande número de amostras aleatórias de uma população, a média das amostras segue uma distribuição normal, independentemente da distribuição original da população. Essa propriedade torna a distribuição normal especialmente útil para modelar muitos fenômenos naturais e artificiais em uma variedade de campos, incluindo ciências, engenharias, finanças e aprendizado de máquina.
+1. **Simetria:** A distribuição normal é simétrica, o que significa que os valores à esquerda da média são espelhados nos valores à direita da média.
+
+2. **Média, Mediana e Moda são iguais:** Na distribuição normal, a média, mediana e moda estão todas no mesmo ponto central da curva, tornando-a uma distribuição de referência para muitas análises estatísticas.
+
+3. **68-95-99.7 Regra:** Cerca de 68% dos dados estão dentro de um desvio padrão da média, 95% estão dentro de dois desvios padrão e 99.7% estão dentro de três desvios padrão.
+
+   [![](./assets/regra-68-95-99-distribuicao-normal.jpg)](https://builtin.com/data-science/empirical-rule)
+
+4. **Curva Assintótica:** A curva da distribuição normal nunca toca o eixo x (eixo horizontal), mas se aproxima infinitamente dele. Isso significa que a probabilidade de encontrar valores extremamente distantes da média é muito baixa, mas não é zero.
+
+5. **Transformações Lineares:** Uma transformação linear de uma ou mais variáveis aleatórias normalmente distribuídas resultará em uma nova variável com distribuição normal.
+
+A distribuição normal é fundamental em muitas áreas da estatística e do aprendizado de máquina, pois muitos métodos estatísticos assumem que os dados seguem uma distribuição normal. Isso ocorre devido a propriedades matemáticas convenientes da distribuição normal, que facilitam o cálculo de probabilidades e a realização de inferências estatísticas. No contexto do aprendizado de máquina, a normalidade dos dados pode ser uma suposição importante em certos modelos, como regressão linear e análise de variância.
