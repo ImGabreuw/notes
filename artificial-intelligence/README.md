@@ -46,6 +46,8 @@
 
     - [Validação cruzada](/artificial-intelligence/machine-learning/algorithm-evaluation/cross-validation.md)
 
+   - [Etapas na avaliação de algoritmos de classificação](/artificial-intelligence/machine-learning/algorithm-evaluation/steps-in-evaluating-classification-algorithm.md)
+
   - Algoritmos
 
     - Algoritmo de _Naive Bayes_
