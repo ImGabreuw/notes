@@ -187,6 +187,8 @@
     - Módulo "model selection"
 
       - [Grid Search CV](/python/library/sklearn/model-selection/grid-search-cv.md)
+      
+      - [K-Fold](/python/library/sklearn/model-selection/k-fold.md)
 
       - Funções
 
