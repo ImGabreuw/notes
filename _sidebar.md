@@ -63,7 +63,31 @@
     
         - [Acurácia](/artificial-intelligence/machine-learning/algorithm-evaluation/accuracy.md)
     
-        - [Matrix de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
+        - [Matriz de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
+    
+        - [Verdadeiro positivo e falso positivo](/artificial-intelligence/machine-learning/algorithm-evaluation/true-positive-and-false-positive.md)
+        
+        - [Precision e recall](/artificial-intelligence/machine-learning/algorithm-evaluation/precision-and-recall.md)
+    
+        - [Validação cruzada](/artificial-intelligence/machine-learning/algorithm-evaluation/cross-validation.md)
+    
+       - [Etapas na avaliação de algoritmos de classificação](/artificial-intelligence/machine-learning/algorithm-evaluation/steps-in-evaluating-classification-algorithm.md)
+    
+        - [Ajuste de parâmetros](/artificial-intelligence/machine-learning/algorithm-evaluation/parameter-adjustment.md)
+        
+        - [Coeficiente de variação](/artificial-intelligence/machine-learning/algorithm-evaluation/coefficient-of-variation.md)
+        
+        - [Análise dos resultados](/artificial-intelligence/machine-learning/algorithm-evaluation/results-analysis.md)
+        
+        - [Teste de hipótese](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test.md)
+        
+        - [Teste de hipótese Z](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test-z.md)
+        
+        - [Teste de normalidade](/artificial-intelligence/machine-learning/algorithm-evaluation/normality-test.md)
+        
+        - [Análise de variância (ANOVA)](/artificial-intelligence/machine-learning/algorithm-evaluation/variance-analysis.md)
+        
+        - [Teste de Tukey](/artificial-intelligence/machine-learning/algorithm-evaluation/tukey-test.md)
     
       - Algoritmos
     
@@ -1388,11 +1412,17 @@
     
         - [Introdução](/python/library/sklearn/introduction.md)
     
-        - Módulo "model selection
+        - Módulo "model selection"
+    
+          - [Grid Search CV](/python/library/sklearn/model-selection/grid-search-cv.md)
+          
+          - [K-Fold](/python/library/sklearn/model-selection/k-fold.md)
     
           - Funções
     
             - [`train_test_split`](/python/library/sklearn/model-selection/functions/train-test-split.md)
+            
+            - [`cross-val-score`](/python/library/sklearn/model-selection/functions/cross-val-score.md)
     
         - Módulo "pre-processing"
     
@@ -1461,6 +1491,8 @@
           - [MLP Classifier](/python/library/sklearn/neural-network/mlp-classifier.md)
     
       - Pickle
+        
+        - [Salvar um classificador treinado](/python/library/pickle/save-trained-classifier.md)
     
         - Funções
     
@@ -1509,6 +1541,24 @@
       - Riskfolio Lib
     
         - [Introdução](/python/library/riskfolio-lib/introduction.md)
+      
+      - Scipy
+    
+        - Módulo "stats"
+          
+          - Funções
+            
+            - [`shapiro`](/python/library/scipy/stats/functions/shapiro.md)
+            
+            - [`f_oneway`](/python/library/scipy/stats/functions/f-oneway.md)
+      
+      - Statsmodels
+        
+        - Módulo "stats"
+          
+          - Módulo "multicamp"
+            
+            - [MultiComparison](/python/library/statsmodels/stats/multicamp/multicomparison.md)
 
 - [RabbitMQ](rabbitmq/README.md)
 
