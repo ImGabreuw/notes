@@ -41,6 +41,8 @@
     - [Matriz de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
 
     - [Verdadeiro positivo e falso positivo](/artificial-intelligence/machine-learning/algorithm-evaluation/true-positive-and-false-positive.md)
+    
+    - [Precision e recall](/artificial-intelligence/machine-learning/algorithm-evaluation/precision-and-recall.md)
 
   - Algoritmos
 
