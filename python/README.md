@@ -319,6 +319,8 @@
       - Funções
         
         - [`shapiro`](/python/library/scipy/stats/functions/shapiro.md)
+        
+        - [`f_oneway`](/python/library/scipy/stats/functions/f-oneway.md)
 
 > ## **Referências**
 
