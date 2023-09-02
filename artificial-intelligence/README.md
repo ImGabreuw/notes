@@ -48,6 +48,8 @@
 
    - [Etapas na avaliação de algoritmos de classificação](/artificial-intelligence/machine-learning/algorithm-evaluation/steps-in-evaluating-classification-algorithm.md)
 
+  - [Ajuste de parâmetros](/artificial-intelligence/machine-learning/algorithm-evaluation/parameter-adjustment.md)
+
   - Algoritmos
 
     - Algoritmo de _Naive Bayes_
