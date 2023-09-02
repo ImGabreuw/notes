@@ -88,6 +88,10 @@
         - [Análise de variância (ANOVA)](/artificial-intelligence/machine-learning/algorithm-evaluation/variance-analysis.md)
         
         - [Teste de Tukey](/artificial-intelligence/machine-learning/algorithm-evaluation/tukey-test.md)
+        
+        - [Combinação de classificador](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-combination.md)
+    
+        - [Rejeição de classificadores](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-rejection.md)
     
       - Algoritmos
     
