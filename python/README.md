@@ -191,6 +191,8 @@
       - Funções
 
         - [`train_test_split`](/python/library/sklearn/model-selection/functions/train-test-split.md)
+        
+        - [`cross-val-score`](/python/library/sklearn/model-selection/functions/cross-val-score.md)
 
     - Módulo "pre-processing"
 
