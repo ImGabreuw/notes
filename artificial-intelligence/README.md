@@ -66,6 +66,8 @@
     
     - [Combinação de classificador](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-combination.md)
 
+    - [Rejeição de classificadores](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-rejection.md)
+
   - Algoritmos
 
     - Algoritmo de _Naive Bayes_
