@@ -55,6 +55,8 @@
     - [Análise dos resultados](/artificial-intelligence/machine-learning/algorithm-evaluation/results-analysis.md)
     
     - [Teste de hipótese](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test.md)
+    
+    - [Teste de hipótese Z](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test-z.md)
 
   - Algoritmos
 
