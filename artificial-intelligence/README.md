@@ -61,6 +61,8 @@
     - [Teste de normalidade](/artificial-intelligence/machine-learning/algorithm-evaluation/normality-test.md)
     
     - [Análise de variância (ANOVA)](/artificial-intelligence/machine-learning/algorithm-evaluation/variance-analysis.md)
+    
+    - [Teste de Tukey](/artificial-intelligence/machine-learning/algorithm-evaluation/tukey-test.md)
 
   - Algoritmos
 
