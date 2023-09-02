@@ -44,6 +44,8 @@
     
     - [Precision e recall](/artificial-intelligence/machine-learning/algorithm-evaluation/precision-and-recall.md)
 
+    - [Validação cruzada](/artificial-intelligence/machine-learning/algorithm-evaluation/cross-validation.md)
+
   - Algoritmos
 
     - Algoritmo de _Naive Bayes_
