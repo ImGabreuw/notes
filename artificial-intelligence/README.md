@@ -53,6 +53,8 @@
     - [Coeficiente de variação](/artificial-intelligence/machine-learning/algorithm-evaluation/coefficient-of-variation.md)
     
     - [Análise dos resultados](/artificial-intelligence/machine-learning/algorithm-evaluation/results-analysis.md)
+    
+    - [Teste de hipótese](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test.md)
 
   - Algoritmos
 
