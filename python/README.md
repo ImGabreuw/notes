@@ -252,6 +252,10 @@
 
       - [SVC](/python/library/sklearn/svm/svc.md)
 
+    - Módulo "neural network"
+      
+      - [MLP Classifier](/python/library/sklearn/neural-network/mlp-classifier.md)
+
   - Pickle
 
     - Funções
