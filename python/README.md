@@ -263,6 +263,8 @@
       - [MLP Classifier](/python/library/sklearn/neural-network/mlp-classifier.md)
 
   - Pickle
+    
+    - [Salvar um classificador treinado](/python/library/pickle/save-trained-classifier.md)
 
     - Funções
 
