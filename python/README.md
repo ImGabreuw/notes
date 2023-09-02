@@ -321,6 +321,14 @@
         - [`shapiro`](/python/library/scipy/stats/functions/shapiro.md)
         
         - [`f_oneway`](/python/library/scipy/stats/functions/f-oneway.md)
+  
+  - Statsmodels
+    
+    - Módulo "stats"
+      
+      - Módulo "multicamp"
+        
+        - [MultiComparison](/python/library/statsmodels/stats/multicamp/multicomparison.md)
 
 > ## **Referências**
 
