@@ -38,7 +38,9 @@
 
     - [Acurácia](/artificial-intelligence/machine-learning/algorithm-evaluation/accuracy.md)
 
-    - [Matrix de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
+    - [Matriz de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
+
+    - [Verdadeiro positivo e falso positivo](/artificial-intelligence/machine-learning/algorithm-evaluation/true-positive-and-false-positive.md)
 
   - Algoritmos
 
