@@ -59,6 +59,8 @@
     - [Teste de hipótese Z](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test-z.md)
     
     - [Teste de normalidade](/artificial-intelligence/machine-learning/algorithm-evaluation/normality-test.md)
+    
+    - [Análise de variância (ANOVA)](/artificial-intelligence/machine-learning/algorithm-evaluation/variance-analysis.md)
 
   - Algoritmos
 
