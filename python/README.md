@@ -184,7 +184,9 @@
 
     - [Introdução](/python/library/sklearn/introduction.md)
 
-    - Módulo "model selection
+    - Módulo "model selection"
+
+      - [Grid Search CV](/python/library/sklearn/model-selection/grid-search-cv.md)
 
       - Funções
 
