@@ -311,6 +311,14 @@
   - Riskfolio Lib
 
     - [Introdução](/python/library/riskfolio-lib/introduction.md)
+  
+  - Scipy
+
+    - Módulo "stats"
+      
+      - Funções
+        
+        - [`shapiro`](/python/library/scipy/stats/functions/shapiro.md)
 
 > ## **Referências**
 
