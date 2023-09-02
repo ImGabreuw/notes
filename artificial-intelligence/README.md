@@ -57,6 +57,8 @@
     - [Teste de hipótese](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test.md)
     
     - [Teste de hipótese Z](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test-z.md)
+    
+    - [Teste de normalidade](/artificial-intelligence/machine-learning/algorithm-evaluation/normality-test.md)
 
   - Algoritmos
 
