@@ -66,29 +66,29 @@
         - [Matriz de confusão](/artificial-intelligence/machine-learning/algorithm-evaluation/confusion-matrix.md)
     
         - [Verdadeiro positivo e falso positivo](/artificial-intelligence/machine-learning/algorithm-evaluation/true-positive-and-false-positive.md)
-        
+    
         - [Precision e recall](/artificial-intelligence/machine-learning/algorithm-evaluation/precision-and-recall.md)
     
         - [Validação cruzada](/artificial-intelligence/machine-learning/algorithm-evaluation/cross-validation.md)
     
-       - [Etapas na avaliação de algoritmos de classificação](/artificial-intelligence/machine-learning/algorithm-evaluation/steps-in-evaluating-classification-algorithm.md)
+        - [Etapas na avaliação de algoritmos de classificação](/artificial-intelligence/machine-learning/algorithm-evaluation/steps-in-evaluating-classification-algorithm.md)
     
         - [Ajuste de parâmetros](/artificial-intelligence/machine-learning/algorithm-evaluation/parameter-adjustment.md)
-        
+    
         - [Coeficiente de variação](/artificial-intelligence/machine-learning/algorithm-evaluation/coefficient-of-variation.md)
-        
+    
         - [Análise dos resultados](/artificial-intelligence/machine-learning/algorithm-evaluation/results-analysis.md)
-        
+    
         - [Teste de hipótese](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test.md)
-        
+    
         - [Teste de hipótese Z](/artificial-intelligence/machine-learning/algorithm-evaluation/hypothesis-test-z.md)
-        
+    
         - [Teste de normalidade](/artificial-intelligence/machine-learning/algorithm-evaluation/normality-test.md)
-        
+    
         - [Análise de variância (ANOVA)](/artificial-intelligence/machine-learning/algorithm-evaluation/variance-analysis.md)
-        
+    
         - [Teste de Tukey](/artificial-intelligence/machine-learning/algorithm-evaluation/tukey-test.md)
-        
+    
         - [Combinação de classificador](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-combination.md)
     
         - [Rejeição de classificadores](/artificial-intelligence/machine-learning/algorithm-evaluation/classifier-rejection.md)
