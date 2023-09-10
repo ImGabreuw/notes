@@ -128,6 +128,12 @@
 
       - [Validação em cascata e Validação de grupos](/java/frameworks/spring/spring-bean-validation/cascade-validation-and-group-validation.md)
 
+    - Spring Boot
+
+      - Configurações (`.yaml` ou `.properties`)
+
+        - [server.error](/java/frameworks/spring/spring-boot/configuration/server/error.md)
+
   - Test Containers
 
   - ModelMapper
