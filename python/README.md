@@ -181,6 +181,8 @@
       - [`histplot`](/python/library/seaborn/functions/histplot.md)
 
       - [`countplot`](/python/library/seaborn/functions/countplot.md)
+      
+      - [`heatmap`](/python/library/seaborn/functions/heatmap.md)
 
   - Sklean
 
