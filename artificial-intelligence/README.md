@@ -8,6 +8,8 @@
 
   - [Distribuição Gaussiana](/artificial-intelligence/statistic/gaussian-distribution.md)
 
+  - [Covariância, coeficiente de correlação e determinação](/artificial-intelligence/statistic/covariance-correlation-coefficient-and-determination.md)
+
 - _Machine Learning_
 
   - [Introdução](/artificial-intelligence/machine-learning/introduction.md)
@@ -181,6 +183,12 @@
       - Deep Learning
 
         - [Introdução](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/deep-learning/introduction.md)
+
+    - Regressão Linear
+
+      - [Introdução](/artificial-intelligence/machine-learning/algorithms/linear-regression/introduction.md)
+      
+      - [Design Matrix](/artificial-intelligence/machine-learning/algorithms/linear-regression/design-matrix.md)
 
 - _Data Science_
 
