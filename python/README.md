@@ -265,6 +265,10 @@
     - Módulo "neural network"
       
       - [MLP Classifier](/python/library/sklearn/neural-network/mlp-classifier.md)
+    
+    - Módulo "liner model"
+      
+      - [Linear Regression](/python/library/sklearn/linear_model/linear-regression.md)
 
   - Pickle
     
