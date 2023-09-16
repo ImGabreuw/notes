@@ -210,19 +210,21 @@
 
         - Funções
 
-          - [`fit_transform`](/python/library/sklearn/standard-scaler/functions/fit_transform.md)
+          - [`fit_transform`](/python/library/sklearn/preprocessing/standard-scaler/functions/fit_transform.md)
 
       - _Label Encoder_
 
         - Funções
 
-          - [`fit_transform`](/python/library/sklearn/label-enconder/functions/fit_transform.md)
+          - [`fit_transform`](/python/library/sklearn/preprocessing/label-enconder/functions/fit_transform.md)
 
       - _One-Hot Encoder_
 
         - Funções
 
-          - [`fit_transform`](/python/library/sklearn/one-hot-encoder/functions/fit_transform.md)
+          - [`fit_transform`](/python/library/sklearn/preprocessing/one-hot-encoder/functions/fit_transform.md)
+      
+      - [`PolynomialFeatures`](/python/library/sklearn/preprocessing/polynomial-features.md)
 
     - Módulo "naive bayes"
 
