@@ -189,6 +189,8 @@
       - [Introdução](/artificial-intelligence/machine-learning/algorithms/linear-regression/introduction.md)
       
       - [Design Matrix](/artificial-intelligence/machine-learning/algorithms/linear-regression/design-matrix.md)
+      
+      - [Métricas de erro](/artificial-intelligence/machine-learning/algorithms/linear-regression/error-metrics.md)
 
 - _Data Science_
 
