@@ -141,6 +141,8 @@
       - [`unique`](/python/library/numpy/functions/unique.md)
       
       - [`ravel`](/python/library/numpy/functions/ravel.md)
+      
+      - [`reshape`](/python/library/numpy/functions/reshape.md)
 
   - Pandas
 
