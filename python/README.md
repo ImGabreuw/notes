@@ -139,6 +139,8 @@
     - Funções
 
       - [`unique`](/python/library/numpy/functions/unique.md)
+      
+      - [`ravel`](/python/library/numpy/functions/ravel.md)
 
   - Pandas
 
