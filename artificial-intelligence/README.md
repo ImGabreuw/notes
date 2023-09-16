@@ -195,6 +195,10 @@
     - Regressão Polinomial
       
       - [Introdução](/artificial-intelligence/machine-learning/algorithms/polynomial-regression/introduction.md)
+    
+    - Regressão com árvore de decisão
+      
+      - [Introdução](/artificial-intelligence/machine-learning/algorithms/decision-tree-regression/introduction.md)
 
 - _Data Science_
 
