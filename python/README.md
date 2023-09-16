@@ -161,6 +161,8 @@
       - [`fillna`](/python/library/pandas/functions/fillna.md)
 
       - [`iloc`](/python/library/pandas/functions/iloc.md)
+      
+      - [`corr`](/python/library/pandas/functions/corr.md)
 
   - Plotly
 
