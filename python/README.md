@@ -285,6 +285,10 @@
     - Módulo "classifier"
 
       - [Matrix de confusão](/python/library/yellowbrick/classifier/confusion-matrix.md)
+    
+    - Módulo "regressor"
+      
+      - [`ResidualsPlot`](/python/library/yellowbrick/regressor/residuals-plot.md)
 
   - Matplotlib
 
