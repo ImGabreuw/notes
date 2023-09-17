@@ -204,6 +204,10 @@
       
       - [Introdução](/artificial-intelligence/machine-learning/algorithms/random-forest-regression/introduction.md)
 
+    - Regressão com vetores de suporte
+
+      - [Introdução](/artificial-intelligence/machine-learning/algorithms/support-vector-regression/introduction.md)
+
 - _Data Science_
 
   - Tipos de gráficos
