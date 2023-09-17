@@ -199,6 +199,10 @@
     - Regressão com árvore de decisão
       
       - [Introdução](/artificial-intelligence/machine-learning/algorithms/decision-tree-regression/introduction.md)
+    
+    - Regressão com random forest
+      
+      - [Introdução](/artificial-intelligence/machine-learning/algorithms/random-forest-regression/introduction.md)
 
 - _Data Science_
 
