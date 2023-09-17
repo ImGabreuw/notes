@@ -251,6 +251,8 @@
     - Módulo "tree"
 
       - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
+      
+      - [Decision Tree Regressor](/python/library/sklearn/tree/decision-tree-regressor.md)
 
       - Funções
 
