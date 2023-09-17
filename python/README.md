@@ -261,6 +261,8 @@
     - Módulo "ensemble"
 
       - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
+      
+      - [Random Forest Regressor](/python/library/sklearn/ensemble/random-forest-regressor.md)
 
     - Módulo "neighbors"
 
