@@ -1,4 +1,4 @@
-# Classe `SVM`
+# Classe "SVM"
 
 A classe `SVR` no módulo `sklearn.svm` (Support Vector Regression) é uma implementação do algoritmo de Support Vector Machines (SVM) para tarefas de regressão. Ela é usada quando você deseja realizar tarefas de previsão ou regressão, onde a variável de destino é contínua. O objetivo é encontrar uma função que mapeie os recursos de entrada para os valores de destino de maneira eficaz, especialmente quando há uma relação complexa ou não linear entre os recursos e os valores de destino.
 
