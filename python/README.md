@@ -271,6 +271,8 @@
     - Módulo "svm"
 
       - [SVC](/python/library/sklearn/svm/svc.md)
+      
+      - [SVR](/python/library/sklearn/svm/svr.md)
 
     - Módulo "neural network"
       
