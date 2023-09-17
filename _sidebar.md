@@ -1228,6 +1228,8 @@
     - Ubuntu
     
       - [GNU GRUB on boot Ubuntu](/problems/ubuntu/gnu-grub-on-boot-ubuntu.md)
+      
+      - [Nvidia driver is not working on Ubuntu 22.04](/problems/ubuntu/nvidia-driver-is-not-working.md)
 
 - [Linguagem de programação](programming-language/README.md)
 
