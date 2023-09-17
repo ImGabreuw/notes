@@ -33,6 +33,8 @@
     
       - [Distribuição Gaussiana](/artificial-intelligence/statistic/gaussian-distribution.md)
     
+      - [Covariância, coeficiente de correlação e determinação](/artificial-intelligence/statistic/covariance-correlation-coefficient-and-determination.md)
+    
     - _Machine Learning_
     
       - [Introdução](/artificial-intelligence/machine-learning/introduction.md)
@@ -206,6 +208,30 @@
           - Deep Learning
     
             - [Introdução](/artificial-intelligence/machine-learning/algorithms/neural-network/multilayer-neural-network/deep-learning/introduction.md)
+    
+        - Regressão Linear
+    
+          - [Introdução](/artificial-intelligence/machine-learning/algorithms/linear-regression/introduction.md)
+          
+          - [Design Matrix](/artificial-intelligence/machine-learning/algorithms/linear-regression/design-matrix.md)
+          
+          - [Métricas de erro](/artificial-intelligence/machine-learning/algorithms/linear-regression/error-metrics.md)
+        
+        - Regressão Polinomial
+          
+          - [Introdução](/artificial-intelligence/machine-learning/algorithms/polynomial-regression/introduction.md)
+        
+        - Regressão com árvore de decisão
+          
+          - [Introdução](/artificial-intelligence/machine-learning/algorithms/decision-tree-regression/introduction.md)
+        
+        - Regressão com random forest
+          
+          - [Introdução](/artificial-intelligence/machine-learning/algorithms/random-forest-regression/introduction.md)
+    
+        - Regressão com vetores de suporte
+    
+          - [Introdução](/artificial-intelligence/machine-learning/algorithms/support-vector-regression/introduction.md)
     
     - _Data Science_
     
@@ -1381,6 +1407,10 @@
         - Funções
     
           - [`unique`](/python/library/numpy/functions/unique.md)
+          
+          - [`ravel`](/python/library/numpy/functions/ravel.md)
+          
+          - [`reshape`](/python/library/numpy/functions/reshape.md)
     
       - Pandas
     
@@ -1403,6 +1433,8 @@
           - [`fillna`](/python/library/pandas/functions/fillna.md)
     
           - [`iloc`](/python/library/pandas/functions/iloc.md)
+          
+          - [`corr`](/python/library/pandas/functions/corr.md)
     
       - Plotly
     
@@ -1421,6 +1453,8 @@
           - [`histplot`](/python/library/seaborn/functions/histplot.md)
     
           - [`countplot`](/python/library/seaborn/functions/countplot.md)
+          
+          - [`heatmap`](/python/library/seaborn/functions/heatmap.md)
     
       - Sklean
     
@@ -1444,19 +1478,21 @@
     
             - Funções
     
-              - [`fit_transform`](/python/library/sklearn/standard-scaler/functions/fit_transform.md)
+              - [`fit_transform`](/python/library/sklearn/preprocessing/standard-scaler/functions/fit_transform.md)
     
           - _Label Encoder_
     
             - Funções
     
-              - [`fit_transform`](/python/library/sklearn/label-enconder/functions/fit_transform.md)
+              - [`fit_transform`](/python/library/sklearn/preprocessing/label-enconder/functions/fit_transform.md)
     
           - _One-Hot Encoder_
     
             - Funções
     
-              - [`fit_transform`](/python/library/sklearn/one-hot-encoder/functions/fit_transform.md)
+              - [`fit_transform`](/python/library/sklearn/preprocessing/one-hot-encoder/functions/fit_transform.md)
+          
+          - [`PolynomialFeatures`](/python/library/sklearn/preprocessing/polynomial-features.md)
     
         - Módulo "naive bayes"
     
@@ -1483,6 +1519,8 @@
         - Módulo "tree"
     
           - [Decision Tree Classifier](/python/library/sklearn/tree/decision-tree-classifier.md)
+          
+          - [Decision Tree Regressor](/python/library/sklearn/tree/decision-tree-regressor.md)
     
           - Funções
     
@@ -1491,6 +1529,8 @@
         - Módulo "ensemble"
     
           - [Random Forest Classifier](/python/library/sklearn/ensemble/random-forest-classifier.md)
+          
+          - [Random Forest Regressor](/python/library/sklearn/ensemble/random-forest-regressor.md)
     
         - Módulo "neighbors"
     
@@ -1499,10 +1539,16 @@
         - Módulo "svm"
     
           - [SVC](/python/library/sklearn/svm/svc.md)
+          
+          - [SVR](/python/library/sklearn/svm/svr.md)
     
         - Módulo "neural network"
           
           - [MLP Classifier](/python/library/sklearn/neural-network/mlp-classifier.md)
+        
+        - Módulo "liner model"
+          
+          - [Linear Regression](/python/library/sklearn/linear_model/linear-regression.md)
     
       - Pickle
         
@@ -1519,6 +1565,10 @@
         - Módulo "classifier"
     
           - [Matrix de confusão](/python/library/yellowbrick/classifier/confusion-matrix.md)
+        
+        - Módulo "regressor"
+          
+          - [`ResidualsPlot`](/python/library/yellowbrick/regressor/residuals-plot.md)
     
       - Matplotlib
     
