@@ -37,6 +37,9 @@ install_core_packages() {
 
   install_package apt-transport-https
   log "apt-transport-https installed"
+
+  install_package coreutils
+  log "coreutils installed"
 }
 
 log "Starting installation and configuration..."
@@ -47,7 +50,7 @@ install_core_packages
 read -p "Do you want to install Git? (y/n): " git_install
 if [[ $git_install == "y" ]]; then
     install_package "git"
-    log "Git installed."
+    log "Git '$(git --version)' installed."
 fi
 
 # Zsh and Oh My Zsh Installation
@@ -58,11 +61,15 @@ if [[ $zsh_install == "y" ]]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
     # Plugins Configuration
+    git clone https://github.com/asdf-vm/asdf.git ~/.asdf
     git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
     git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
     git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
-    sed -i "s/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete docker docker-compose kubectl pip python node npm asdf)/g" ~/.zshrc
+
+    new_plugins='plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete docker docker-compose kubectl pip python node npm asdf)'
+    zshrc_path="$HOME/.zshrc"
+    awk -v new_plugins="$new_plugins" '/^plugins=/ {$0 = new_plugins} 1' "$zshrc_path" > "${zshrc_path}.tmp" && mv "${zshrc_path}.tmp" "$zshrc_path"
 
     # Theme (powerlevel 10K) Configuration
     install_package fonts-powerline
@@ -86,24 +93,31 @@ if [[ $vscode_install == "y" ]]; then
 fi
 
 setup_asdf_plugin() {
-  plugin_name = $1
-  plugin_repo = $2
+  local plugin_name=$1
+  local plugin_repo=$2
   shift 2
-  versions = ("$@")
+  local versions=("$@")
 
-  read -p "Do you want to install $(plugin_name) ASDF plugin? (y/n): " asdf_plugin_install
+  read -p "Do you want to install $plugin_name ASDF plugin? (y/n): " asdf_plugin_install
 
   if [[ $asdf_plugin_install == "y" ]]; then
-    asdf plugin add $plugin_name $plugin_repo
+    if [[ $plugin_name == "python" ]]; then
+        sudo apt install -y build-essential libssl-dev zlib1g-dev \
+            libbz2-dev libreadline-dev libsqlite3-dev curl \
+            libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+    fi
 
-    for version in $versions; do
-      asdf install $plugin_name $version
+    asdf plugin add "$plugin_name" "$plugin_repo"
+
+    for version in "${versions[@]}"; do
+      asdf install "$plugin_name" "$version"
+    done
+
+    asdf global "$plugin_name" "${versions[0]}"
+    local current_version=$(asdf current "$plugin_name" | awk '{ print $1, $2 }')
+
+    log "$current_version set as current version."
   fi
-  
-  asdf global $plugin_name ${versions[0]}
-  current_version = $(asdf current nodejs) | awk '{ print $1, $2 }'
-
-  log "$(asdf current nodejs | awk '{ print $1, $2 }') set as current version."
 }
 
 # ASDF Installation
@@ -111,7 +125,9 @@ read -p "Do you want to install ASDF version manager? (y/n): " asdf_install
 if [[ $asdf_install == "y" ]]; then
     git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
-
+    setup_asdf_plugin "java" "https://github.com/halcyon/asdf-java.git" "openjdk-17" "openjdk-21"
+    setup_asdf_plugin "python" "" "3.11.5"
+    setup_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git" "18.12.0"
 
     log "ASDF installed and configured."
 fi
@@ -135,7 +151,7 @@ if [[ $docker_install == "y" ]]; then
     sudo usermod -aG docker $USER
     newgrp docker
 
-    log "Docker installed and user added to the docker group."
+    log "Docker '$(docker --version)' installed and user added to the docker group."
 fi
 
 # Kubernetes Installation (Assuming you're using kubectl)

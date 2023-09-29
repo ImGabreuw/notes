@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  ubuntu:
+    build: .
+    volumes:
+      - "./setup.sh:/root/setup.sh"
