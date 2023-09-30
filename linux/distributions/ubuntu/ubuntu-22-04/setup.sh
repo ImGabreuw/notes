@@ -1,12 +1,8 @@
 #!/bin/bash
 
-log_file="ubuntu-setup.log"
-
 # Function to log messages with timestamps
 log() {
-    local message="$1"
-    echo "$message"
-    echo "$(date '+[%Y-%m-%d %H:%M:%S]') $message" >> "$log_file"
+    echo "$(date '+[%Y-%m-%d %H:%M:%S]') $1"
 }
 
 is_installed() {
@@ -24,11 +20,8 @@ install_package() {
             log "$package is already installed."
         else
             log "Installing $package..."
-            if sudo apt install -y "$package" >> "$log_file" 2>&1; then
-                log "$package installed."
-            else
-                log "Error installing $package. Check $log_file for details."
-            fi
+            sudo apt install -y "$package"
+            log "$package installed."
         fi
     done
 }
@@ -44,13 +37,12 @@ clone_or_update_repository() {
         cd - >/dev/null || return
     else
         log "Cloning $repository_url to $destination_path..."
-        git clone "$repository_url" "$destination_path"
+        git clone $repository_url $destination_path
     fi
 }
 
 log "Starting installation and configuration..."
 install_package build-essential curl wget gpg gnupg ca-certificates apt-transport-https coreutils
-
 
 # Git Installation
 read -p "Do you want to install Git? (y/n): " git_install
@@ -77,11 +69,12 @@ if [[ $zsh_install == "y" ]]; then
     fi
 
     # Plugins Configuration
+    plugin_dir="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins"
     clone_or_update_repository "https://github.com/asdf-vm/asdf.git" "$HOME/.asdf"
-    clone_or_update_repository "https://github.com/zsh-users/zsh-autosuggestions.git" "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
-    clone_or_update_repository "https://github.com/zsh-users/zsh-syntax-highlighting.git" "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
-    clone_or_update_repository "https://github.com/zdharma-continuum/fast-syntax-highlighting.git" "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting"
-    clone_or_update_repository "https://github.com/marlonrichert/zsh-autocomplete.git" "$ZSH_CUSTOM/plugins/zsh-autocomplete"
+    clone_or_update_repository "https://github.com/zsh-users/zsh-autosuggestions.git" $plugin_dir/zsh-autosuggestions
+    clone_or_update_repository "https://github.com/zsh-users/zsh-syntax-highlighting.git" $plugin_dir/zsh-syntax-highlighting
+    clone_or_update_repository "https://github.com/zdharma-continuum/fast-syntax-highlighting.git" $plugin_dir/fast-syntax-highlighting
+    clone_or_update_repository "https://github.com/marlonrichert/zsh-autocomplete.git" $plugin_dir/zsh-autocomplete
 
     zshrc_path="$HOME/.zshrc"
 
@@ -103,9 +96,6 @@ if [[ $zsh_install == "y" ]]; then
     sed -i "s#ZSH_THEME=\"robbyrussell\"#${new_theme}#" $zshrc_path
     source $zshrc_path
 
-    # Source Oh My Zsh
-    source "$HOME/.oh-my-zsh/oh-my-zsh.sh"
-
     p10k configure
 
     log "Zsh and Oh My Zsh installed."
@@ -115,7 +105,7 @@ fi
 read -p "Do you want to install Visual Studio Code? (y/n): " vscode_install
 if [[ $vscode_install == "y" ]]; then
     if is_installed "code"; then
-         log "Code is already installed."
+        log "Code is already installed."
     else
         wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor >packages.microsoft.gpg
         sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
@@ -165,6 +155,46 @@ if [[ $asdf_install == "y" ]]; then
     setup_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git" "18.12.0"
 
     log "ASDF installed and configured."
+fi
+
+# AtroNvim
+read -p "Do you want to install AstroNvim? (y/n): " astronvim_install
+if [[ $astronvim_install == "y" ]]; then
+    if is_installed "neovim"; then
+        log "Neovim is already installed."
+    else
+        neovim_appimage_url="https://github.com/neovim/neovim/releases/latest/download/nvim.appimage"
+
+        neovim_dir="$HOME/.neovim"
+        mkdir -p "$neovim_dir"
+
+        wget -O "$neovim_dir/nvim.appimage" "$neovim_appimage_url"
+        chmod +x "$neovim_dir/nvim.appimage"
+
+        cd $neovim_dir
+        ./nvim.appimage --appimage-extract
+        cd -
+
+        if ! grep -q "alias nvim=" "$HOME/.zshrc"; then
+            echo "alias nvim=\"$neovim_dir/squashfs-root/usr/bin/nvim\"" >>"$HOME/.zshrc"
+        fi
+
+        log "Neovim installed."
+    fi
+
+    nerd_fonts_url="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/3270.zip"
+    install_dir="$HOME/.local/share/fonts"
+    mkdir -p "$install_dir"
+    curl -Lo nerd-fonts.zip "$nerd_fonts_url"
+    install_package unzip
+    unzip -o nerd-fonts.zip -d "$install_dir"
+    rm nerd-fonts.zip
+    fc-cache -f -v
+    log "Nerd Fonts installed."
+
+    # Clone the repository
+    git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+    log "Atrovim installed."
 fi
 
 # Docker Installation
