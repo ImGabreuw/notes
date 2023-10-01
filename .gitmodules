@@ -1,0 +1,3 @@
+[submodule ".obsidian"]
+	path = .obsidian
+	url = git@github.com:ImGabreuw/obsidian-config.git
