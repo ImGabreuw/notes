@@ -4,10 +4,10 @@
 
 - Android
 
-  - [Introdução](/android/introducao.md)
+  - [Introdução](android/introducao.md)
 
 - Kotlin
 
-  - [Java VS Kotlin](/android/kotlin/java-vs-kotlin.md)
+  - [Java VS Kotlin](android/kotlin/java-vs-kotlin.md)
 
 > ## **Referências**
