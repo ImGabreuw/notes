@@ -2,7 +2,7 @@
 
 ![[banner.png]]
 
-> ## **Conteúdo**
+## **Conteúdo**
 
 - [Android](android/README.md)
 
