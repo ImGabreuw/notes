@@ -10,7 +10,7 @@
 
 - [Ciência da computação](computer-science/README.md)
 
-- [Inteligência artificial](artificial-intelligence/README.md)
+- [Inteligência artificial](Inteligência%20artificial.md)
 
 - [Banco de dados](database/README.md)
 
@@ -50,7 +50,7 @@
 
 - [Paradigmas de programação](programming-paradigm/README.md)
 
-- [Python](python/README.md)
+- [Python](Python.md)
 
 - [RabbitMQ](rabbitmq/README.md)
 
