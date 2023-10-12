@@ -1,4 +1,4 @@
-A classe `PCA` ([[Principal Component Analysis]]) no módulo `sklearn.decomposition` do Scikit-Learn é uma implementação da técnica de análise de componentes principais. A PCA é uma técnica de redução de dimensionalidade que é amplamente usada na análise de dados e aprendizado de máquina para simplificar conjuntos de dados complexos, preservando as informações mais importantes e reduzindo a dimensionalidade dos dados.
+A classe `PCA` ([[artificial-intelligence/statistic/Principal Component Analysis]]) no módulo `sklearn.decomposition` do Scikit-Learn é uma implementação da técnica de análise de componentes principais. A PCA é uma técnica de redução de dimensionalidade que é amplamente usada na análise de dados e aprendizado de máquina para simplificar conjuntos de dados complexos, preservando as informações mais importantes e reduzindo a dimensionalidade dos dados.
 ## Sintaxe
 
 ```python

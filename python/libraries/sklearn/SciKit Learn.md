@@ -53,5 +53,8 @@
 	- [[make_blobs]]
 - Módulo "decomposition"
 	- [[PCA]]
+	- [[KernelPCA]]
 - Módulo "feature-selection"
 	- [[VarianceThreshold]]
+- Módulo "discriminant-analysis"
+	- [[LinearDiscriminantAnalysis]]

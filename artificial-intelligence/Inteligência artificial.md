@@ -19,6 +19,11 @@
 	- Seleção de atributos
 		- [[Seleção com Low Variance]]
 		- [[Seleção com Extra Trees]]
+	- [[Redução de dimensionalidade]]
+		- [[Principal Component Analysis]]
+		- [[Linear Discriminant Analysis]]
+		- [[Diferença entre LDA e PCA]]
+		- [[Kernel PCA]]
 - Avaliação de algoritmos
 	- [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
 	- [Acurácia](/artificial-intelligence/machine-learning/algorithm-evaluation/accuracy.md)

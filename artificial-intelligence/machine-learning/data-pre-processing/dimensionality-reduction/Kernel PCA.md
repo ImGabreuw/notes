@@ -1,0 +1,11 @@
+O Kernel PCA (Principal Component Analysis) é uma extensão do método de PCA (Principal Component Analysis) que permite lidar com dados que não são linearmente separáveis no espaço original. O PCA é uma técnica de redução de dimensionalidade que opera encontrando os componentes principais dos dados, que são combinações lineares das características originais que explicam a maior variação nos dados. No entanto, o PCA assume que os dados são linearmente separáveis, o que nem sempre é o caso na prática.
+
+O Kernel PCA resolve esse problema introduzindo uma técnica chamada "kernel trick". Em vez de mapear os dados para um espaço de características de maior dimensão usando funções de kernel, o Kernel PCA aplica o kernel diretamente no cálculo dos componentes principais. Isso permite que o Kernel PCA encontre componentes principais em um espaço de características de maior dimensão, onde os dados podem se tornar linearmente separáveis.
+
+- **Kernel Trick**: O kernel é uma função que mede a similaridade entre dois pontos de dados em um espaço de alta dimensão. O uso de funções de kernel permite que o Kernel PCA encontre componentes principais em um espaço de características de alta dimensão sem a necessidade de calcular explicitamente a transformação de espaço. Alguns exemplos de funções de kernel comuns incluem o kernel RBF (Radial Basis Function) e o kernel polinomial.
+
+- **Componentes Principais no Espaço de Kernel**: O Kernel PCA encontra componentes principais no espaço de kernel, que é uma representação de maior dimensão dos dados. Esses componentes principais são chamados de "autovetores de kernel". Eles podem ser usados da mesma forma que os componentes principais no PCA convencional para redução de dimensionalidade.
+
+- **Seleção de Kernel**: A escolha da função de kernel é crucial no Kernel PCA e pode afetar significativamente o desempenho. A seleção do kernel depende da natureza dos dados e do problema em questão.
+
+O Kernel PCA é útil quando os dados não podem ser adequadamente separados por hiperplanos lineares no espaço de características original. É frequentemente usado em problemas de reconhecimento de padrões, classificação de imagens e análise de dados onde a estrutura dos dados é complexa e não linear.
