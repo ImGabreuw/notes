@@ -46,6 +46,8 @@
 	- [Linear Regression](linear-regression.md)
 - Módulo "cluster"
 	-  [[KMeans]]
+	- [[AgglomerativeClustering]]
+	- [[DBSCAN]]
 - Módulo "datasets"
 	- [[make_blobs]]
 - Módulo "decomposition"

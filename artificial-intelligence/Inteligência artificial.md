@@ -112,11 +112,15 @@
 		- Algoritmo ECLAT
 			- [[Introdução ao algoritmo ECLAT | Introdução]]
 	- Agrupamento
+		- [[Introdução a agrupamento]]
 		- K-means
 			- [[Introdução ao K-means]]
 			- [[Inicialização dos centroides]]
 			- [[Definição do número de clusters]]
 			- [[Cálculo da distância]]
+		- Agrupamento hierárquico
+			- [[Introdução ao agrupamento hierárquico]]
+			- [[Agrupamento hierárquico aglomerativo]]
 - _Data Science_
 	- Tipos de gráficos
 		- [Gráfico de Histograma](/artificial-intelligence/data-science/grafic-types/histograms.md)
