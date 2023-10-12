@@ -144,5 +144,6 @@
 	- [[Riskfolio Lib]]  
 	- [[SciPy]]
 	- [[Stats Models]]
+	- [[Imbalanced Learn]]
 ## Referências
 - [Python](/python/references.md)

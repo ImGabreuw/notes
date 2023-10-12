@@ -15,6 +15,7 @@
 	- [Escalonamento de atributos](/artificial-intelligence/machine-learning/data-pre-processing/attribute-scaling.md)
 	  - [_One-Hot Encoding_](/artificial-intelligence/machine-learning/data-pre-processing/one-hot-encoder.md)
 	- [Conversão de atributos categóricos](/artificial-intelligence/machine-learning/data-pre-processing/converting-categorical-attributes.md)
+	- [[Subamostragem e Sobreamostragem]]
 - Avaliação de algoritmos
 	- [Base de Treinamento e Base de Teste](/artificial-intelligence/machine-learning/algorithm-evaluation/train-and-test-base.md)
 	- [Acurácia](/artificial-intelligence/machine-learning/algorithm-evaluation/accuracy.md)
