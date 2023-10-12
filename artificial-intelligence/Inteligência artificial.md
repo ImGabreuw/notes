@@ -121,6 +121,14 @@
 		- Agrupamento hierárquico
 			- [[Introdução ao agrupamento hierárquico]]
 			- [[Agrupamento hierárquico aglomerativo]]
+	- Aprendizagem por reforço
+		- [[Introdução ao aprendizagem por reforço]]
+		- Q-Learning
+			- [[Introdução ao Q-Learning]]
+			- [[Funcionamento do Q-Learning]]
+			- [[Equação de Bellman]]
+			- [[Markov Decision Process]]
+			- [[OpenAI Gym]]
 - _Data Science_
 	- Tipos de gráficos
 		- [Gráfico de Histograma](/artificial-intelligence/data-science/grafic-types/histograms.md)

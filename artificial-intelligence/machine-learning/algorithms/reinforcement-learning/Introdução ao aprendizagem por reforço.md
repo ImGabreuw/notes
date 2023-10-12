@@ -1,0 +1,4 @@
+O aprendizado por reforço é uma abordagem fundamental no campo da inteligência artificial, na qual um **agente interage com um ambiente e toma decisões** para maximizar uma recompensa cumulativa ao longo do tempo. É inspirado na psicologia comportamental e é amplamente utilizado em tarefas em que o agente deve aprender através da tentativa e erro, **sem a necessidade de supervisão humana**.
+
+O [[Introdução ao Q-Learning|algoritmo Q-Learning]] é uma das técnicas mais proeminentes no aprendizado por reforço. Ele faz parte da família de métodos de aprendizado por reforço conhecidos como **"métodos baseados em valor"**. O Q-Learning visa aprender uma função chamada de **função Q** que **estima o valor esperado de tomar uma determinada ação** em um estado específico e, em seguida, seguir uma política de ação específica para maximizar as recompensas futuras.
+
