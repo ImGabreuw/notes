@@ -105,12 +105,18 @@
 	- Regras de associação
 		- [[Introdução a regras de associação]]
 		- Algoritmo Apriori
-			- [[Introdução ao algoritmo Apriori | Introdução]]
+			- [[Introdução ao algoritmo Apriori]]
 			- [[Suporte]]
 			- [[Confiança]]
 			- [[Lift]]
 		- Algoritmo ECLAT
 			- [[Introdução ao algoritmo ECLAT | Introdução]]
+	- Agrupamento
+		- K-means
+			- [[Introdução ao K-means]]
+			- [[Inicialização dos centroides]]
+			- [[Definição do número de clusters]]
+			- [[Cálculo da distância]]
 - _Data Science_
 	- Tipos de gráficos
 		- [Gráfico de Histograma](/artificial-intelligence/data-science/grafic-types/histograms.md)
