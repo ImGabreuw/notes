@@ -145,6 +145,8 @@
 	- [[SciPy]]
 	- [[Stats Models]]
 	- [[Imbalanced Learn]]
-	- [[[PyOD]]]
+	- [[PyOD]]
+	- [[Pmdarima]]
+	- [[FbProphet]]
 ## Referências
 - [Python](/python/references.md)

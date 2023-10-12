@@ -5,6 +5,9 @@
 	- [Covariância, coeficiente de correlação e determinação](/artificial-intelligence/statistic/covariance-correlation-coefficient-and-determination.md)
 	- [[Outliers]]
 		- [[Detecção de outliers com boxplot]]
+	- Séries temporais
+		- [[Séries temporal|Introdução]]
+		- [[Decomposição de séries temporais]]
 - _Machine Learning_
 	- [Introdução](/artificial-intelligence/machine-learning/introduction.md)
 	- [Métodos preditivos](/artificial-intelligence/machine-learning/preditive_methods.md)
