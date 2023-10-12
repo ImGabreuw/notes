@@ -105,10 +105,12 @@
 	- Regras de associação
 		- [[Introdução a regras de associação]]
 		- Algoritmo Apriori
-			- [[Introdução ao algoritmo Apriori]]
+			- [[Introdução ao algoritmo Apriori | Introdução]]
 			- [[Suporte]]
 			- [[Confiança]]
 			- [[Lift]]
+		- Algoritmo ECLAT
+			- [[Introdução ao algoritmo ECLAT | Introdução]]
 - _Data Science_
 	- Tipos de gráficos
 		- [Gráfico de Histograma](/artificial-intelligence/data-science/grafic-types/histograms.md)
