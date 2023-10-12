@@ -145,5 +145,6 @@
 	- [[SciPy]]
 	- [[Stats Models]]
 	- [[Imbalanced Learn]]
+	- [[[PyOD]]]
 ## Referências
 - [Python](/python/references.md)

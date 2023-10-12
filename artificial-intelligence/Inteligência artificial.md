@@ -3,6 +3,8 @@
 - Estatística
 	- [Distribuição Gaussiana](/artificial-intelligence/statistic/gaussian-distribution.md)
 	- [Covariância, coeficiente de correlação e determinação](/artificial-intelligence/statistic/covariance-correlation-coefficient-and-determination.md)
+	- [[Outliers]]
+		- [[Detecção de outliers com boxplot]]
 - _Machine Learning_
 	- [Introdução](/artificial-intelligence/machine-learning/introduction.md)
 	- [Métodos preditivos](/artificial-intelligence/machine-learning/preditive_methods.md)
