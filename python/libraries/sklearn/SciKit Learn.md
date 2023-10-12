@@ -35,6 +35,7 @@
 - Módulo "ensemble"
 	- [Random Forest Classifier](random-forest-classifier.md)
 	- [Random Forest Regressor](random-forest-regressor.md)
+	- [[ExtraTreesClassifier]]
 - Módulo "neighbors"
 	- [K-Neighbors Classifier](k-neighbors-classifier.md)
 - Módulo "svm"
@@ -52,3 +53,5 @@
 	- [[make_blobs]]
 - Módulo "decomposition"
 	- [[PCA]]
+- Módulo "feature-selection"
+	- [[VarianceThreshold]]
