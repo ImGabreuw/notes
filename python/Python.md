@@ -148,5 +148,6 @@
 	- [[PyOD]]
 	- [[Pmdarima]]
 	- [[FbProphet]]
+	- [[IceCream]]
 ## Referências
 - [Python](/python/references.md)
