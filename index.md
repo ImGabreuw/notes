@@ -6,6 +6,8 @@
 
 - [Android](android/README.md)
 
+- [[Negócio]]
+
 - [Carreira](career/README.md)
 
 - [Ciência da computação](computer-science/README.md)
