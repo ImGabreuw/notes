@@ -1,10 +1,10 @@
-
+#literature-notes #article
 ## Resumo
 
 ## Pontos principais
 
-## Brainstorming
+## Anotações
 
-## Ideias relacionadas
+## Relacionadas
 
 ## Fonte

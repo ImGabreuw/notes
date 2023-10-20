@@ -1,9 +1,10 @@
+#literature-notes #video
 ## Resumo
 
 ## Pontos principais
 
-## Brainstorming
+## Anotações
 
-## Ideias relacionadas
+## Relacionadas
 
 # Fonte

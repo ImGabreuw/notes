@@ -6,10 +6,15 @@ Nesse contexto, os MOCs são utilizados para a organização das [[Permanent Not
 notes
   \---- map-of-content
      |---- python
-        |---- scikit-learn
-        |---- numpy
-         \---- pandas
+        |---- build-in
+        |---- libraries
+	       |---- scikit-learn
+	        \---- pandas
+         \---- Python.md
      \---- java
+	    |---- build-in
+        |---- libraries
+         \---- Java.md
 ```
 
 # Referências
