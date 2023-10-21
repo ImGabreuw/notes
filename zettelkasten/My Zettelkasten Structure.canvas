@@ -3,12 +3,9 @@
 		{"id":"f09739a2bdca1339","type":"text","text":"/fleeting","x":-280,"y":-240,"width":250,"height":60,"color":"5"},
 		{"id":"abb6bf4a0a5d051a","type":"text","text":"/permanent","x":-280,"y":340,"width":250,"height":60,"color":"5"},
 		{"id":"edaee38329843b15","type":"text","text":"/literature","x":-280,"y":880,"width":250,"height":60,"color":"5"},
-		{"id":"9634e9ce6b78a2fc","type":"file","file":"zettelkasten/Permanent Notes.md","x":180,"y":166,"width":460,"height":408},
 		{"id":"c609949dfc3ac6ff","type":"text","text":"/map-of-content","x":-280,"y":1640,"width":250,"height":60,"color":"5"},
-		{"id":"051fc483cd30f5cd","type":"file","file":"zettelkasten/Literature Notes.md","x":180,"y":656,"width":460,"height":508},
 		{"id":"7e527ef383300c70","type":"file","file":"zettelkasten/Fleeting Notes.md","x":180,"y":-475,"width":460,"height":531},
-		{"id":"2258c0228c8ae133","type":"file","file":"zettelkasten/Map Of Content.md","x":180,"y":1325,"width":460,"height":690},
-		{"id":"f6b2a545777ed891","type":"text","text":"/asets","x":-960,"y":-240,"width":250,"height":60,"color":"2"},
+		{"id":"f6b2a545777ed891","type":"text","text":"/assets","x":-960,"y":-240,"width":250,"height":60,"color":"2"},
 		{"id":"fe0cbe257cd617a4","type":"text","text":"Literature Notes","x":-3269,"y":166,"width":250,"height":60,"color":"4"},
 		{"id":"daf4d9d5ebd56a9f","type":"text","text":"Fleeting Notes","x":-2160,"y":166,"width":250,"height":60,"color":"4"},
 		{"id":"965218c068cb7a64","type":"file","file":"templates/Fleeting Notes Template.md","x":-2235,"y":350,"width":400,"height":200},
@@ -21,9 +18,12 @@
 		{"id":"52f97a6050787f91","type":"file","file":"templates/Video Template.md","x":-3344,"y":960,"width":400,"height":376},
 		{"id":"789a694d1cabac2f","type":"text","text":"/portuguese","x":0,"y":2300,"width":250,"height":60,"color":"6"},
 		{"id":"fa86be2cb803a9fa","type":"text","text":"/english","x":0,"y":2440,"width":250,"height":60,"color":"6"},
-		{"id":"083b8f26e4645314","x":860,"y":1640,"width":300,"height":60,"color":"1","type":"text","text":"repositório notes (público)"},
+		{"id":"083b8f26e4645314","type":"text","text":"repositório notes (público)","x":860,"y":1640,"width":300,"height":60,"color":"1"},
 		{"id":"9ca1bfcb3d7ef156","type":"text","text":"[[Zettelkasten]]","x":-600,"y":-750,"width":250,"height":60,"color":"4"},
-		{"id":"26e4128498552af0","type":"text","text":"repositório zettelkasten (privado)","x":-30,"y":-750,"width":350,"height":60,"color":"1"}
+		{"id":"26e4128498552af0","type":"text","text":"repositório zettelkasten (privado)","x":-30,"y":-750,"width":350,"height":60,"color":"1"},
+		{"id":"2258c0228c8ae133","type":"file","file":"zettelkasten/Map Of Content.md","x":180,"y":1313,"width":460,"height":715},
+		{"id":"9634e9ce6b78a2fc","type":"file","file":"zettelkasten/Permanent Notes.md","x":180,"y":193,"width":460,"height":354},
+		{"id":"051fc483cd30f5cd","type":"file","file":"zettelkasten/Literature Notes.md","x":180,"y":678,"width":460,"height":464}
 	],
 	"edges":[
 		{"id":"e4f20eeee3676a97","fromNode":"9ca1bfcb3d7ef156","fromSide":"bottom","toNode":"f09739a2bdca1339","toSide":"left"},
