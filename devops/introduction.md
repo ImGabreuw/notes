@@ -2,7 +2,7 @@
 
 DevOps é uma abordagem revolucionária no mundo do desenvolvimento de software que visa superar as barreiras tradicionais entre as equipes de desenvolvimento (Dev) e operações (Ops). Ao unir essas duas áreas distintas em um processo colaborativo e integrado, DevOps busca criar um ciclo de entrega de software mais eficiente, rápido e confiável.
 
-![](./assets/devops-loop.png)
+![](devops-loop.png)
 
 A palavra "DevOps" é uma junção das palavras "desenvolvimento" e "operações", mas vai além disso. É uma cultura, uma filosofia e uma metodologia que promove a automação, a colaboração e a melhoria contínua em todas as etapas do ciclo de vida de desenvolvimento de software, desde o planejamento e desenvolvimento até a implantação e operações em produção.
 

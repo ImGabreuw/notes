@@ -2,7 +2,7 @@
 
 > ## **Configuração**
 
-1. [Requisitos](./introduction.md#configuração)
+1. [Requisitos](wiki/javascript/frameworks/prisma/introduction.md#configuração)
 
 2. Criação do banco de dados SQLite:
 

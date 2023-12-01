@@ -1,5 +1,5 @@
 
-![](./assets/diferenca-entre-pca-e-lda.png)
+![](diferenca-entre-pca-e-lda.png)
 
 - **Objetivo**: O PCA visa maximizar a variação total dos dados, enquanto o LDA visa maximizar a separação entre múltiplas classes em um problema de classificação. Em outras palavras, o LDA considera a informação de classe durante a redução de dimensionalidade.
 

@@ -6,7 +6,7 @@ Métodos descritivos são técnicas utilizadas na ciência de dados e análise d
 
 O método de associação busca identificar relações e conexões frequentes entre itens em conjuntos de transações ou eventos.
 
-![](./assets/representacao-de-associacao.png)
+![](representacao-de-associacao.png)
 
 Essa técnica pode ser utilizado nos seguintes cenários:
 
@@ -22,7 +22,7 @@ Essa técnica pode ser utilizado nos seguintes cenários:
 
 O agrupamento (ou clustering) é uma técnica de aprendizado não supervisionado que organiza os dados em grupos homogêneos, onde os membros de um grupo são mais similares entre si do que com membros de outros grupos.
 
-![](./assets/representacao-de-agrupamento.png)
+![](representacao-de-agrupamento.png)
 
 Ela pode ser útil para:
 
@@ -42,7 +42,7 @@ Ela pode ser útil para:
 
 Também conhecida como detecção de anomalias (_outliers_), essa técnica busca identificar padrões ou eventos incomuns em um conjunto de dados.
 
-![](./assets/representacao-de-deteccao-de-desvios.png)
+![](representacao-de-deteccao-de-desvios.png)
 
 Essa técnica é aplicado no seguintes cenários:
 
@@ -74,7 +74,7 @@ Ela pode ser aplicado em:
 
 A sumarização envolve a criação de resumos ou representações compactas dos dados, permitindo uma visualização e compreensão mais rápida e fácil das informações contidas no conjunto de dados. A sumarização pode incluir a criação de gráficos, tabelas, estatísticas resumidas e outros métodos de resumo dos dados.
 
-![](./assets/representacao-de-sumarizacao.png)
+![](representacao-de-sumarizacao.png)
 
 Tal técnica pode ser utilizado em:
 

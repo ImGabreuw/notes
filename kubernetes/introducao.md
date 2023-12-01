@@ -1,6 +1,6 @@
 # Introdução ao Kubernetes
 
-![](./assets/kubernetes-aka-k8s.png)
+![](kubernetes-aka-k8s.png)
 
 > ## **Kubernetes**
 
@@ -10,9 +10,9 @@
 
 Orquestrador (gestão e entrega) de aplicações (*containers*):
 
-  ![](./assets/representacao-orquestrador-de-containers.png)
+  ![](representacao-orquestrador-de-containers.png)
 
-É um framework de infraestrutura **para containers** [**declarativo**](./imperativo-declarativo.md) (através de arquivos `.yaml`) e operado de maneira **autónoma** por meio dos *controllers*.
+É um framework de infraestrutura **para containers** [**declarativo**](imperativo-declarativo.md) (através de arquivos `.yaml`) e operado de maneira **autónoma** por meio dos *controllers*.
 
 ### **Origens**
 
@@ -52,25 +52,25 @@ Orquestrador (gestão e entrega) de aplicações (*containers*):
 
 * **Alta disponibilidade**
 
-  ![](./assets/representacao-alta-disponibilidade.png)
+  ![](representacao-alta-disponibilidade.png)
 
-  ![](./assets/representacao-alta-disponibilidade-agendamento.png)
+  ![](representacao-alta-disponibilidade-agendamento.png)
 
-  ![](./assets/representacao-alta-disponibilidade-self-healing.png)
+  ![](representacao-alta-disponibilidade-self-healing.png)
 
   > Auto diagnóstico
-  ![](./assets/representacao-alta-disponibilidade-auto-diagnostico.png)
+  ![](representacao-alta-disponibilidade-auto-diagnostico.png)
 
   > Load Balancer
-  ![](./assets/representacao-alta-disponibilidade-balanceamento-interno.png)
+  ![](representacao-alta-disponibilidade-balanceamento-interno.png)
 
 * **Escalabilidade**
   
-  ![](./assets/escalabilidade-horizontal-pod-autoscaling.png)
+  ![](escalabilidade-horizontal-pod-autoscaling.png)
 
-  ![](./assets/escalabilidade-vertical-pod-autoscaling.png)
+  ![](escalabilidade-vertical-pod-autoscaling.png)
 
-  ![](./assets/escalabilidade-cluster-auto-scaler.png)
+  ![](escalabilidade-cluster-auto-scaler.png)
 
 > ## **Cluster**
 

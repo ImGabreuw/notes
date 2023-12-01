@@ -24,7 +24,7 @@ Baseado nas ideais arquiteturais do Angular.
 
 Arquitetura fornecido pelo NestJS respeitando os princípios do SOLID
 
-- [**Inversão de dependência**](../../../design-pattern/dependency-inversion/dependency-inversion.md)
+- [**Inversão de dependência**](dependency-inversion.md)
 
 - [**Injeção de dependência**](#injeção-de-dependência)
 
@@ -74,4 +74,4 @@ Arquitetura fornecido pelo NestJS respeitando os princípios do SOLID
 
 - Não pular etapas (estudar e fixar os fundamentos da linguagem, no caso JavaScript)
 
-  ![](../../assets/nao-pular-etapas.png)
+  ![](nao-pular-etapas.png)

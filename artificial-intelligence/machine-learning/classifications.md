@@ -6,9 +6,9 @@ Durante o treinamento, o algoritmo analisa as características dos objetos em ca
 
 Uma vez que o algoritmo está treinado, ele pode ser usado para classificar novos dados ou objetos em uma das categorias previamente definidas. Para isso, o algoritmo utiliza as características desses novos dados e aplica o modelo de classificação aprendido durante o treinamento para atribuir a categoria mais apropriada.
 
-![](./assets/representacao-da-classificacao.png)
+![](representacao-da-classificacao.png)
 
-![](./assets/representacao-supervisionada-inducao.png)
+![](representacao-supervisionada-inducao.png)
 
 Existem vários algoritmos de classificação, cada um com suas características e aplicabilidades específicas. Alguns dos algoritmos mais comuns são:
 

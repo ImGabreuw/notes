@@ -2,7 +2,7 @@
 
 Aqui, apresentamos um exemplo de _perceptron_ de uma única camada:
 
-![](./assets/exemplo-perceptron-de-1-camada.png)
+![](exemplo-perceptron-de-1-camada.png)
 
 Inicialmente, realizamos a aplicação da função de soma nas entradas:
 
@@ -25,6 +25,6 @@ A _step function_ é uma fórmula matemática empregada para determinar a ativa�
 
 A visualização gráfica da _step function_ é apresentada abaixo:
 
-![](./assets/representacao-step-function.png)
+![](representacao-step-function.png)
 
 Os pesos desempenham um papel crucial na ativação de um neurônio. Como mencionado anteriormente, eles são equivalentes às sinapses, tendo a capacidade de amplificar ou reduzir o sinal de entrada. Além disso, os pesos podem ser classificados como sinapses excitatórias (com peso positivo) ou inibitórias (com peso negativo). Consequentemente, **o conhecimento da rede neural reside nos pesos**, ou seja, o treinamento envolve encontrar o conjunto ideal de pesos para um conjunto de dados específico.

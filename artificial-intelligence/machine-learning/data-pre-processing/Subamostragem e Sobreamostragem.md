@@ -34,7 +34,7 @@ Existem várias técnicas comuns para subamostragem e sobreamostragem, incluindo
 
 - **Tomek Links**: Identifica e remove pares de exemplos (um da classe majoritária e outro da classe minoritária) que são "ligados", ou seja, têm uma distância pequena entre si.
 
-  ![](./assets/exemplo-tomek-link.png)
+  ![](exemplo-tomek-link.png)
 
 - **SMOTE (Synthetic Minority Over-sampling Technique)**: Gera exemplos sintéticos da classe minoritária interpolando características de exemplos existentes com base no cálculo da distância.
 

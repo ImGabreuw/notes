@@ -18,4 +18,4 @@ Vários frameworks como NestJS e Spring já fornecem ferramentas de injeção de
 
 ### **TypeScript**
 
-- [Exemplo em TypeScript com NestJS](./examples/example-ts-nest-1.md)
+- [Exemplo em TypeScript com NestJS](example-ts-nest-1.md)

@@ -58,4 +58,4 @@
 
 ### **Estrutura de uma requisição**
 
-![](../assets/representacao-estrutura-requisicao.png)
+![](representacao-estrutura-requisicao.png)

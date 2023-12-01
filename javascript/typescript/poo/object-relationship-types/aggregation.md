@@ -6,7 +6,7 @@ Agregação é um tipo de associação, assim como a composição.
 
 A principal diferença entre agregação e composição é a **intensidade** da associação, sendo a **agregação a relação mais forte**.
 
-![](./assets/agregacao-diagrama-uml.png)
+![](agregacao-diagrama-uml.png)
 > Lê-se: 1 "Carrinho de Compras" tem 0 ou vários "Produto"
 
 

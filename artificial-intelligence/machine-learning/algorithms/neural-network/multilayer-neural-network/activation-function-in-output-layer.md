@@ -1,6 +1,6 @@
 # Função de ativação na camada de saída de redes multicamada
 
-![](./assets/ativacao-camada-saida.png)
+![](ativacao-camada-saida.png)
 
 Após calcularmos as saídas dos neurônios na camada oculta, é hora de determinarmos o valor da camada de saída.
 

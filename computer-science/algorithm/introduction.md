@@ -6,7 +6,7 @@ O termo algoritmo serve para indicar **regras de operações aritméticas** usan
 
 No manuscrito _Livro-Compêndio_ sobre Cálculo por Restauração e Balanceamento, mostra exemplos de tais regras (figura abaixo).
 
-![](./assets/foto-livro-compendio.png)
+![](foto-livro-compendio.png)
 
 > O termo algoritmo foi utilizado pela primeira vez no século IX, pelo cientista, astrônomo e matemática _Abū ‘Abd Allāh Muhammad ibn Mūsā al-Khwārizmī_.
 

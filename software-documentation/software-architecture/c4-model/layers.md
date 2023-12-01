@@ -6,7 +6,7 @@ Focado em mostrar de forma sucinta as **interações de forma macro**, dando enf
 
 Um bom termômetro para verificar tais fundamentos é que o diagrama deve ser **compreendido de forma direta** por pessoas, tanto no nível técnico quanto de negócio.
 
-![](./assets/nivel-1-c4model.png)
+![](nivel-1-c4model.png)
 
 > ## **Nível 2: Container**
 
@@ -14,7 +14,7 @@ Tem a finalidade de mostrar um determinado sistema com mais detalhes, descrevend
 
 Neste nível deve-se **aprofundar na arquitetura e tecnologias** utilizadas.
 
-![](./assets/nivel-2-c4model.png)
+![](nivel-2-c4model.png)
 
 > Um container pode ser uma aplicação web, um database, um sistema de arquivos, entre outros.
 
@@ -26,7 +26,7 @@ Nesta camada deve-se apresentar as **informações sobre interações, responsab
 
 > **OBS**: os diagramas dessa camada é recomendado apenas em casos que os mesmos geram valor para a equipe, juntamente com o comprometimento em mantê-los.
 
-![](./assets/nivel-3-c4model.png)
+![](nivel-3-c4model.png)
 
 > ## **Nível 4: Código**
 
@@ -36,4 +36,4 @@ Geralmente, essa camada **não é recomendada**, exceto em situações em que h�
 
 Entretanto, em caso de necessidade de utilizar essa camada, no diagrama UML deve apresentar **apenas as relações entres as entidades** do componente, como se pode ver a seguinte imagem:
 
-![](./assets/nivel-4-c4model.png)
+![](nivel-4-c4model.png)

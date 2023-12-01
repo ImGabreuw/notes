@@ -12,11 +12,11 @@
 
   * Exemplo C/C++
 
-    ![](../assets/processo-de-compilacao-em-linguagens-compadas.jpg)
+    ![](processo-de-compilacao-em-linguagens-compadas.jpg)
 
   * Exemplo Java
 
-    ![](../assets/processo-de-compilacao-em-linguagem-jit.jpg)
+    ![](processo-de-compilacao-em-linguagem-jit.jpg)
 
 ### Função
 

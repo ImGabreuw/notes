@@ -6,4 +6,4 @@
 
 É um tipo de ataque de sites maliciosos que consiste no envio de solicitações desatualizadas de um usuário no qual o website confia.
 
-![](./assets/csrf-representation.png)
+![](csrf-representation.png)

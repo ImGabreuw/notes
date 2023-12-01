@@ -4,4 +4,4 @@
 
 ### **Representação**
 
-![](./assets/representacao-ssr.png)
+![](representacao-ssr.png)

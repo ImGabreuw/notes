@@ -12,4 +12,4 @@ O nome do agregado é dado sempre a partir do **"ponto de entrada"** (***root ag
 
 > ## **Exemplo**
 
-![](./assets/representacao-ddd.png)
+![](representacao-ddd.png)

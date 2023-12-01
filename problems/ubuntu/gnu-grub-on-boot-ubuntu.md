@@ -4,7 +4,7 @@
 
 Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a imagem abaixo:
 
-![](./assets/gnu-grub-image.jpg)
+![](gnu-grub-image.jpg)
 
 ## **Solução**
 
@@ -14,7 +14,7 @@ Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a image
    grub> ls
    ```
 
-   ![](./assets/gnu-grub-etapa-1.png)
+   ![](gnu-grub-etapa-1.png)
 
 2. (Opcional) Caso você não saiba em qual partição está o Ubuntu, basta utilizar o seguinte comando:
 
@@ -24,7 +24,7 @@ Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a image
 
    Onde `X` é o número do disco e `Y` é o nome da partição. Geralmente o nome da partição começa com `msdos` ou `gpt`.
 
-   ![](./assets/gnu-grub-etapa-2.png)
+   ![](gnu-grub-etapa-2.png)
 
    Com base nas informações de tamanho da partição, label (se tiver) e última data de alteração (horário do último log-in) é possível identificar a partição do sistema Linux.
 
@@ -38,7 +38,7 @@ Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a image
    grub> set prefix=(hdX, Y)/boot/grub
    ```
 
-   ![](./assets/gnu-grub-etapa-3.png)
+   ![](gnu-grub-etapa-3.png)
 
 4. Instalar o módulo `normal`:
 
@@ -54,7 +54,7 @@ Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a image
    grub> normal
    ```
 
-   ![](./assets/gnu-grub-etapa-5.png)
+   ![](gnu-grub-etapa-5.png)
 
 6. Após entrar o sistema operacional Ubuntu, faça reinstalação e atualização do GNU GRUB:
 
@@ -67,6 +67,6 @@ Quando é feito o boot do Ubuntu aparece a tela do GNU GRUB, simular com a image
 
    Onde `X` é o número do disco e `Y` é o número da partição da partição EFI. Se você não sabe qual partição é a partição EFI, use o aplicativo "Disks" ou "GParted" para verificar.
 
-   ![](./assets/gnu-grub-etapa-6.png)
+   ![](gnu-grub-etapa-6.png)
 
 7. Por fim, basta reiniciar a máquina é o problema será resolvido.

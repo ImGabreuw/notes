@@ -4,7 +4,7 @@
 
 ### **Representação**
 
-![](./assets/representacao-csr.png)
+![](representacao-csr.png)
 
 ### **Problemas**
 

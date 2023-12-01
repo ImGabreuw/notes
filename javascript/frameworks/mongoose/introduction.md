@@ -8,10 +8,10 @@ Ele fornece validações de propriedade, declaração de _schemas_ a partir de u
 
 > ## **Primeiros passos**
 
-1. [Preparação do ambiente de desenvolvimento](./configuration.md)
+1. [Preparação do ambiente de desenvolvimento](wiki/javascript/frameworks/mongoose/configuration.md)
 
-2. [Criar uma _schema_ no banco de dados](./create-schema.md)
+2. [Criar uma _schema_ no banco de dados](create-schema.md)
 
-3. [Salvar dados no banco de dados](./save-data-in-db.md)
+3. [Salvar dados no banco de dados](save-data-in-db.md)
 
-4. [Listagem de dados do banco de dados](./list-data-from-db.md)
+4. [Listagem de dados do banco de dados](list-data-from-db.md)

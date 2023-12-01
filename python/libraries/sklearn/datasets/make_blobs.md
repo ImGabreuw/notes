@@ -44,6 +44,6 @@ px.scatter(x = X_random[:, 0], y = X_random[:, 1], color=y_random)
 
 Saída:
 
-![](./assets/exemplo-dados-gerados-pela-funcao-make-blobs.png)
+![](exemplo-dados-gerados-pela-funcao-make-blobs.png)
 
 Neste exemplo, a função `make_blobs` foi usada para gerar um conjunto de dados com 200 pontos distribuídos em 5 clusters. Os dados são então plotados com cores diferentes para cada cluster. Isso é útil para visualizar conjuntos de dados de clusters e testar algoritmos de aprendizado de máquina relacionados ao agrupamento.

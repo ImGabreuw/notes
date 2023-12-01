@@ -44,18 +44,18 @@
 
 * **Funcionamento do HPA**
 
-  ![](./assets/representacao-funcionamento-hpa.png)
+  ![](representacao-funcionamento-hpa.png)
 
   * **Target** = alvo de CPU que um Pod deve manter, ou seja, o Kubernetes, então, tenta manter a utilização de CPU em 50% do limite (**target**)
 
-  ![](./assets/representacao-funcionamento-hpa-pod-em-estresse.png)
+  ![](representacao-funcionamento-hpa-pod-em-estresse.png)
 
   * Com a utilização de CPU ultrapassando o alvo de CPU (**target**) especificado no arquivo `deployment.yaml` do K8S, o Kubernetes irá criar novos Pods (**distribuir a carga**) afim de manter a utilização de CPU até no máximo ao **target** em todos os Pods afetados por esse `deployment.yaml`
 
-  ![](./assets/representacao-funcionamento-hpa-pod-com-distribuicao-de-carga.png)
+  ![](representacao-funcionamento-hpa-pod-com-distribuicao-de-carga.png)
 
-  ![](./assets/representacao-funcionamento-hpa-pod-reducao-no-estresse.png)
+  ![](representacao-funcionamento-hpa-pod-reducao-no-estresse.png)
 
   * Com o fim do período de estresse da aplicação (redução no número de requisições), o Kubernetes ao verificar que a soma das percentagens de utilização de CPU for abaixo do **target** de um dos Pods, então ele irá destruir os Pods excedentes
 
-  ![](./assets/representacao-funcionamento-hpa-destruicao-dos-pods-excedentes.png)
+  ![](representacao-funcionamento-hpa-destruicao-dos-pods-excedentes.png)

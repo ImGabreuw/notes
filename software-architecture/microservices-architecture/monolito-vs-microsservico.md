@@ -2,8 +2,8 @@
 
 ### Monolito
 
-![](./assets/representacao-monolito.png)
+![](wiki/software-architecture/microservices-architecture/assets/representacao-monolito.png)
 
 ### Microsserviço
 
-![](./assets/representacao-microsservico.png)
+![](representacao-microsservico.png)

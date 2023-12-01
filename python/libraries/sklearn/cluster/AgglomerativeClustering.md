@@ -58,6 +58,6 @@ graph.show()
 
 **Saída:**
 
-![](./assets/exemplo-labels-agrupamento-hierarquico.png)
+![](exemplo-labels-agrupamento-hierarquico.png)
 
 Neste exemplo, geramos dados aleatórios, criamos uma instância do modelo `AgglomerativeClustering` com 3 clusters e ajustamos o modelo aos dados. O método `fit_predict` retorna os rótulos dos clusters atribuídos a cada amostra.

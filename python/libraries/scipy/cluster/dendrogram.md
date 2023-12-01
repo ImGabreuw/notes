@@ -47,7 +47,7 @@ plt.axhline(y=3.5, color='r', linestyle='--');
 
 Saída:
 
-![](./assets/exemplo-dendrograma.png)
+![](exemplo-dendrograma.png)
 
 > [!note]
 > A linha representa o número ideal de cluster, que no caso é 3, pois a reta da direita não cruza com nenhum ponto na horizontal, com base isso essa reta seria um bom ponto de análise.

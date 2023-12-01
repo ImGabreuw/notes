@@ -1,4 +1,4 @@
-A classe `ExtraTreesClassifier` faz parte do módulo `sklearn.ensemble` da biblioteca scikit-learn e é usada para construir modelos de classificação com base no [[Seleção com Extra Trees|algoritmo "Extremely Randomized Trees" (Extra Trees)]]. O Extra Trees é uma extensão do algoritmo [[artificial-intelligence/machine-learning/algorithms/random-forest/introduction|Random Forest]] e cria árvores de decisão altamente aleatórias para resolver problemas de classificação. Aqui está uma explicação detalhada sobre a classe `ExtraTreesClassifier`:
+A classe `ExtraTreesClassifier` faz parte do módulo `sklearn.ensemble` da biblioteca scikit-learn e é usada para construir modelos de classificação com base no [[Seleção com Extra Trees|algoritmo "Extremely Randomized Trees" (Extra Trees)]]. O Extra Trees é uma extensão do algoritmo [[wiki/artificial-intelligence/machine-learning/algorithms/random-forest/introduction|Random Forest]] e cria árvores de decisão altamente aleatórias para resolver problemas de classificação. Aqui está uma explicação detalhada sobre a classe `ExtraTreesClassifier`:
 
 ## Sintaxe
 

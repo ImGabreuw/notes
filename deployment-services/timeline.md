@@ -1,6 +1,6 @@
 # Timeline de serviços de implantação
 
-![](./assets/timeline-servicos-de-implantacao.png)
+![](timeline-servicos-de-implantacao.png)
 
 ### **2000 - Hardware não virtualizado**
 

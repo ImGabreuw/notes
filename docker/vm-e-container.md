@@ -4,7 +4,7 @@
 
 ### **Caso 1 (1 aplicação = 1 servidor)**
 
-![](./assets/caso-1.png)
+![](caso-1.png)
 
 - **Problemas**
 
@@ -18,7 +18,7 @@
 
 ### **Caso 2 (OS compartilhado)**
 
-![](./assets/caso-2.png)
+![](caso-2.png)
 
 - **Vantagens em relação ao "caso 1"**
 
@@ -34,7 +34,7 @@
 
 ### **Caso 3 (Virtual Server)**
 
-![](./assets/caso-3.png)
+![](caso-3.png)
 
 - **Vantagens**
 
@@ -46,7 +46,7 @@
 
 > ## **Container**
 
-![](./assets/representacao-containerizacao.png)
+![](representacao-containerizacao.png)
 
 ### **Características**
 

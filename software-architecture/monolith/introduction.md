@@ -4,7 +4,7 @@
 
 ### **Representação**
 
-![](./assets/representacao-monolito.png)
+![](wiki/software-architecture/monolith/assets/representacao-monolito.png)
 
 ### **Definição**
 

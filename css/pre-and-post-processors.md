@@ -1,6 +1,6 @@
 # Pré e pós processadores
 
-![](./assets/pre-e-pos-processadores.png)
+![](pre-e-pos-processadores.png)
 
 > ## **SASS**
 

@@ -2,7 +2,7 @@
 
 Algumas implementações do algoritmo Naïve Bayes possuem o parâmetro "radius" ou raio. Esse parâmetro indica ao algoritmo para selecionar alguns pontos dentro desse raio para fazer a estimativa de probabilidade. Na figura abaixo, temos um exemplo que ilustra esse conceito:
 
-![](./assets/parametro-raio-naive-bayes.png)
+![](parametro-raio-naive-bayes.png)
 
 Onde: 
 

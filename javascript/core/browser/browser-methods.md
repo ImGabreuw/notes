@@ -14,7 +14,7 @@ alert([mensagem de alerta]);
 
 ### **Exemplo**
 
-![](./assets/representacao-alert.png)
+![](representacao-alert.png)
 
 > ## **Confirm**
 
@@ -32,7 +32,7 @@ confirm([mensagem de confirmação]);
 
 ### **Exemplo**
 
-![](./assets/representacao-confirm.png)
+![](representacao-confirm.png)
 
 > ## **Prompt**
 
@@ -50,4 +50,4 @@ prompt([mensagem]);
 
 ### **Exemplo**
 
-![](./assets/representacao-prompt.png)
+![](representacao-prompt.png)

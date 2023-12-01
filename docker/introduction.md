@@ -8,9 +8,9 @@ Essa abordagem com containers é muita mais eficiente em relação as VMs, pois 
 
 Os 2 principais conceitos do Docker são:
 
-- [**imagem**](./imagem.md)
+- [**imagem**](imagem.md)
 
-- [**container**](./container.md)
+- [**container**](container.md)
 
 **IMPORTANTE**: o **container** é um conceito antigo do Kernel Linux. Dessa forma, o Docker não criou o container, mas sim um ferramental para facilitar a manipulação de container.
 

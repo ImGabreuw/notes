@@ -22,21 +22,21 @@
 
 * **Header**: algoritmo e tipo
 
-  ![](../assets/jwt-header.png)
+  ![](jwt-header.png)
 
 * **Payload**: contém informações do dono do token (permissões, autorizações, informações do proprietário do token)
 
-  ![](../assets/jwt-payload.png)
+  ![](jwt-payload.png)
 
 * Signature: informações do header e payload encriptadas 
 
-  ![](../assets/jwt-signature.png)
+  ![](jwt-signature.png)
 
-  ![](../assets/jwt-signature-exemplo.png)
+  ![](jwt-signature-exemplo.png)
 
 ### Fluxo de uma requisição com JWT
 
-![](../assets/fluxo-de-requisicao-jwt.png)
+![](fluxo-de-requisicao-jwt.png)
 
 ### Implementação com Spring Security
 

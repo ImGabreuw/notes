@@ -4,7 +4,7 @@ A avaliação de algoritmos de classificação é um processo crucial para deter
 
 Aqui está um resumo das etapas principais envolvidas no processo de avaliação de algoritmos de classificação:
 
-[![](./assets/avaliacao-de-algoritmos.png)](https://tatianaesc.medium.com/machine-learning-conceitos-e-modelos-f0373bf4f445)
+[![](avaliacao-de-algoritmos.png)](https://tatianaesc.medium.com/machine-learning-conceitos-e-modelos-f0373bf4f445)
 
 1. **Coleta e análise de dados:**
 

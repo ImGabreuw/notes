@@ -1,1 +1,1 @@
-- [Introdução](python/libraries/riskfolio-lib/introduction.md)
+- [Introdução](wiki/python/libraries/riskfolio-lib/introduction.md)

@@ -8,7 +8,7 @@ Esses três tipos de aprendizagem de máquina têm aplicações distintas e comp
 
 Na aprendizagem supervisionada, o algoritmo é treinado com um conjunto de dados rotulados por um supervisor, onde as entradas (características) estão associadas a rótulos ou saídas desejadas. O objetivo é aprender uma função que mapeia as entradas para as saídas, permitindo fazer previsões ou classificações em novos dados. O algoritmo é supervisionado pelos rótulos fornecidos nos dados de treinamento, de modo que ele possa ajustar seus parâmetros para fazer previsões precisas em dados não vistos. 
 
-![](./assets/representacao-aprendizagem-supervisionada.png)
+![](representacao-aprendizagem-supervisionada.png)
 
 Exemplos de algoritmos supervisionados incluem regressão linear, regressão logística e máquinas de vetores de suporte (SVM).
 
@@ -16,7 +16,7 @@ Exemplos de algoritmos supervisionados incluem regressão linear, regressão log
 
 Na aprendizagem não supervisionada, o algoritmo é treinado com um conjunto de dados não rotulados, ou seja, não há saídas desejadas fornecidas no treinamento. O objetivo é encontrar padrões e estruturas ocultas nos dados sem saber previamente as classes ou categorias. Os algoritmos de aprendizagem não supervisionada exploram a estrutura dos dados para organizar, agrupar ou reduzir dimensionalidade, revelando informações relevantes e insights úteis. Todos esse processo de análise é feito de forma automática. 
 
-![](./assets/representacao-aprendizagem-nao-supervisionada.png)
+![](representacao-aprendizagem-nao-supervisionada.png)
 
 Exemplos de algoritmos não supervisionados incluem o agrupamento (clustering) com k-médias, análise de componentes principais (PCA) e agrupamento hierárquico.
 

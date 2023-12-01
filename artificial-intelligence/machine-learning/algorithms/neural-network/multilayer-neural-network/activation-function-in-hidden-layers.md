@@ -11,7 +11,7 @@ Para ilustrar um problema não linearmente separável, consideremos a tarefa de 
 
 A nossa meta é identificar a correlação entre os atributos x1 e x2 para prever o valor do atributo meta "Classe". Para essa tarefa, faremos uso de uma rede neural de múltiplas camadas Perceptron com uma camada oculta contendo 3 neurônios, cada um com seus respectivos pesos:
 
-![](./assets/exemplo-ativacao-rede-multicamadas.png)
+![](exemplo-ativacao-rede-multicamadas.png)
 
 O primeiro passo é calcular a soma ponderada para cada neurônio na camada oculta, utilizando a seguinte fórmula:
 

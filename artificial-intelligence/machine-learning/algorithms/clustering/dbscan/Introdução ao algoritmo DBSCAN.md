@@ -4,19 +4,19 @@ O algoritmo DBSCAN, que significa "*Density-based spatial clustering of applicat
 
 1. **Escolha de pontos aleatórios e traçado de raio**: O algoritmo começa selecionando um ponto de dados aleatório no conjunto de dados. A partir desse ponto, ele traça um raio com um limite de distância chamado "threshold distance" (distância limite). Todos os pontos de dados que estão dentro desse raio são considerados parte do mesmo grupo.
 
-   ![](./assets/escolha-ponto-aleatorio.png)
+   ![](escolha-ponto-aleatorio.png)
 
 2. **Expansão para pontos próximos**: O algoritmo então verifica os pontos que estão dentro do raio traçado. Se houver pontos suficientes (mais do que um valor mínimo especificado), o algoritmo expande o grupo para incluir esses pontos. Isso é feito iterativamente até que não haja mais pontos para adicionar ao grupo.
 
-   ![](./assets/agrupamento-de-pontos.png)
+   ![](agrupamento-de-pontos.png)
 
 3. **Repetição para outros pontos**: O processo é repetido para outros pontos que não foram atribuídos a nenhum grupo até que todos os pontos tenham sido considerados.
 
-   ![](./assets/repeticao-do-processo.png)
+   ![](repeticao-do-processo.png)
 
 4. **Agrupamento final**: Após a conclusão do algoritmo, os pontos de dados são atribuídos a grupos com base em sua proximidade uns com os outros. Os pontos que não se encaixam em nenhum grupo são rotulados como outliers ou ruído.
 
-   ![](./assets/agrupamento-final.png)
+   ![](agrupamento-final.png)
 
 ## Vantagens
 

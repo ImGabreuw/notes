@@ -2,7 +2,7 @@
 
 - Funções
 	
-	- [`head`](python/libraries/pandas/functions/head.md)
+	- [`head`](wiki/python/libraries/pandas/functions/head.md)
 	
 	- [`tail`](tail.md)
 	

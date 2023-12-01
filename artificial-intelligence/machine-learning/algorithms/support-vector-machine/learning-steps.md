@@ -10,7 +10,7 @@ Existem duas técnicas proeminentes para criar o hiperplano de separação:
 
 Na abordagem de _Convex Hulls_, cria-se uma envoltória convexa que abrange os vetores de suporte de cada classe. A menor distância entre essas envoltórias é determinada, e o hiperplano é traçado ao longo da mediatriz dessa distância, garantindo uma margem máxima entre as classes.
 
-![Convex Hulls](./assets/convex-hulls.png)
+![Convex Hulls](convex-hulls.png)
 
 ### Produto Escalar (Dot Product)
 
@@ -22,13 +22,13 @@ $$
 \overrightarrow{w} \cdot \overrightarrow{x} + b = 0
 $$
 
-![Dot Product](./assets/dot-product.png)
+![Dot Product](dot-product.png)
 
 ## Considerações sobre Erros e Custos
 
 A compreensão dos conceitos de erros e custos é essencial para analisar o funcionamento do SVM.
 
-![Erros e Custos](./assets/erros-e-custos.png)
+![Erros e Custos](erros-e-custos.png)
 
 Observando a imagem acima, podemos identificar registros classificados incorretamente. O SVM se esforça para minimizar esses erros (expressos como distância $a_i$). Isso é realizado pela formulação da função de custo, que visa encontrar um equilíbrio entre a maximização da margem e a minimização de classificações errôneas. A fórmula para calcular o custo é:
 

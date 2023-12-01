@@ -57,7 +57,7 @@ px.scatter(x=X_credit_card_pca[:, 0], y=X_credit_card_pca[:, 1], color=labels)
 
 **Saída:**
 
-![](./assets/pca-plot.png)
+![](pca-plot.png)
 
 Neste exemplo, usamos o PCA para reduzir a dimensionalidade dos dados para 2 componentes principais, o que nos permite visualizar a distribuição dos clientes em clusters com mais facilidade. A coloração no gráfico representa os clusters identificados pelo algoritmo K-Means. Essa técnica pode ser útil para entender melhor como os clientes estão agrupados com base nas características selecionadas do cartão de crédito. Lembre-se de substituir `base_credit_card` pelos seus próprios dados ao aplicar esse exemplo ao seu problema específico.
 

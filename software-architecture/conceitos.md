@@ -22,7 +22,7 @@
 
 ### Entidade de domínio
 
-![](./assets/representacao-entidade-de-dominio.png)
+![](representacao-entidade-de-dominio.png)
 
 * **Definição**: `dados críticos + regras de negócio = entidade`
 

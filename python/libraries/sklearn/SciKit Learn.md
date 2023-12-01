@@ -1,4 +1,4 @@
-- [Introdução](python/libraries/sklearn/introduction.md)
+- [Introdução](wiki/python/libraries/sklearn/introduction.md)
 - Módulo "model selection"
 	- [Grid Search CV](grid-search-cv.md)
 	- [K-Fold](k-fold.md)
@@ -8,13 +8,13 @@
 - Módulo "pre-processing"
 	- _Standard Scaler_
 		- Funções
-			- [`fit_transform`](python/libraries/sklearn/preprocessing/standard-scaler/functions/fit_transform.md)
+			- [`fit_transform`](wiki/python/libraries/sklearn/preprocessing/standard-scaler/functions/fit_transform.md)
 	- _Label Encoder_
 		- Funções
-			- [`fit_transform`](python/libraries/sklearn/preprocessing/label-enconder/functions/fit_transform.md)
+			- [`fit_transform`](wiki/python/libraries/sklearn/preprocessing/label-enconder/functions/fit_transform.md)
 	- _One-Hot Encoder_
 		- Funções
-			- [`fit_transform`](python/libraries/sklearn/preprocessing/one-hot-encoder/functions/fit_transform.md)
+			- [`fit_transform`](wiki/python/libraries/sklearn/preprocessing/one-hot-encoder/functions/fit_transform.md)
 	- [`PolynomialFeatures`](polynomial-features.md)
 - Módulo "naive bayes"
 	- _GaussianNB_

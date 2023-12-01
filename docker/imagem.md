@@ -4,7 +4,7 @@
 
 * São *templates* (**moldes**) utilizados para a criação e execução de um container
 
-  ![](./assets/representacao-imagem-docker.png)
+  ![](representacao-imagem-docker.png)
 
 * A criação de *imagens Docker* utiliza a tecnologia de **Overlay Filesystem** do Linux
 
@@ -18,17 +18,17 @@
 
 * **Representação**
 
-  ![](./assets/representacao-das-camadas-imagem.png)
+  ![](representacao-das-camadas-imagem.png)
 
 * **Vantagem**: reaproveitamento de espaço
 
   * Em imagens
 
-    ![](./assets/exemplo-reaproveitamento-de-espaco-imagem.png)
+    ![](exemplo-reaproveitamento-de-espaco-imagem.png)
 
   * Em containers
 
-    ![](./assets/exemplo-reaproveitamento-de-espaco-container.png)
+    ![](exemplo-reaproveitamento-de-espaco-container.png)
 
 ### Formas de criação de imagens
 
@@ -52,4 +52,4 @@
 
   * **Função**: **é uma "receita" de criação de imagem**. As instruções especificadas no Dockerfile são executas na ordem, e no final será criado a imagem
 
-> Leitura complementar: [Boas práticas na criação de images](./good-practice/boas-praticas-dockerfile.md)
+> Leitura complementar: [Boas práticas na criação de images](boas-praticas-dockerfile.md)

@@ -1,5 +1,5 @@
 
-- [Introdução](python/libraries/yfinance/introduction.md)
+- [Introdução](wiki/python/libraries/yfinance/introduction.md)
 
 - Classe `Ticker`
 
@@ -11,6 +11,6 @@
 
   - Funções
 
-	- [`history`](python/libraries/yfinance/ticker/functions/history.md)
+	- [`history`](wiki/python/libraries/yfinance/ticker/functions/history.md)
 
 	- [`get_shares_full`](get-shares-full.md)

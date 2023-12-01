@@ -36,6 +36,6 @@ A tarefa de determinar o número ideal de clusters em uma análise de agrupament
 
    **OBS:** A escolha da métrica WCSS é crucial e pode afetar os resultados. Configurar um valor muito alto para WCSS pode resultar em um único cluster, enquanto um valor muito baixo pode levar ao agrupamento de cada ponto de dados como um cluster separado. Portanto, é importante considerar a faixa de valores de $k$ e observar o ponto de cotovelo no gráfico.
 
-   ![Gráfico do Método Elbow](./assets/elbow-point.png)
+   ![Gráfico do Método Elbow](elbow-point.png)
 
 É importante ressaltar que não existe uma abordagem única e definitiva para determinar o número ideal de clusters, e diferentes métodos podem fornecer resultados ligeiramente diferentes. A escolha do método depende do contexto do problema e da qualidade dos resultados obtidos em conjunto com a compreensão do domínio.

@@ -24,7 +24,7 @@ Uma vez que os coeficientes são determinados, é possível utilizar a função 
 
 Veja abaixo um exemplo no formato de gráfico o resultado da regressão logística aplicado a um conjunto de dados com o atributo "Idade" e classe "Pagar" o qual pode assumir um valor binário "S" ou "N":
 
-![](assets/exemplo-funcao-sigmoide.png)
+![](exemplo-funcao-sigmoide.png)
 
 Note que a função sigmoide gera um desenho em formato de "S" (de **S**igmoide)
 

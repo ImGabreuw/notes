@@ -4,13 +4,13 @@
 
 ### **Representação**
 
-![](./assets/representacao-kafka.png)
+![](representacao-kafka.png)
 
 > ## **Conceitos**
 
 ### **Producer**
 
-![](./assets/representacao-consumer.png)
+![](representacao-consumer.png)
 
 Responsável pelo envio de mensagens (eventos) para o Apache Kafka.
 
@@ -28,7 +28,7 @@ Cada partição de um *Topic* está distribuído em diferentes *Brokers*.
 
 ### **Replication Factor**
 
-![](./assets/representacao-replication-factor.png)
+![](representacao-replication-factor.png)
 
 Replicar as partições em *brokers* diferentes.
 
@@ -44,7 +44,7 @@ Responsável pela leitura das mensagens(eventos) armazenadas no Kafka.
 
 ### **Consumer Groups**
 
-![](./assets/representacao-consumer-groups.png)
+![](representacao-consumer-groups.png)
 
 Aumenta a vazão dos dados (mensagens).
 
@@ -52,7 +52,7 @@ Aumenta a vazão dos dados (mensagens).
 
 ### **Topic** 
 
-![](./assets/representacao-topicos.png)
+![](representacao-topicos.png)
   
 É o canal de comunicação (*stream de dados*) responsável por receber e disponibilizar os dados enviados para o Kafka. Todos as mensagens são salvas em um **banco de dados em disco**, ou seja, cada tópico tem seu "local" de armazenamento dos seus dados.
 
@@ -62,19 +62,19 @@ Um tópico possui diversas **partições**.
 
 Cada mensagem possui um índice (**offset**) que será utilizado pelo consumidor para recuperá-lo, como mostrado na imagem a seguir:
 
-![](./assets/exemplo-topicos.png)
+![](exemplo-topicos.png)
 
 Os tópicos são como "logs", pois ficam armazenados em disco além do Kafka fornecer uma **política de retenção** das mensagens.
 
 ### **Registro**
 
-![](./assets/representacao-registro.png)
+![](representacao-registro.png)
 
 Composto por alguns metadados: *headers*, *key*, *value* e *timestamp*
 
 ### **Partições**
 
-![](./assets/representacao-particao.png)
+![](representacao-particao.png)
 
 Cada tópico pode ter uma ou mais partições afim de garantir a **distribuição** e **resiliência** de seus dados (mensagens e suas réplicas).
 
@@ -86,6 +86,6 @@ Não é obrigatório definir a quantidade de partições ao criar um tópico.
 
 ### **Partições distribuídas**
 
-![](./assets/representacao-particoes-distribuidas.png)
+![](representacao-particoes-distribuidas.png)
 
 Cópias de cada partição distribuídas em vários *brokers*, com isso evitando a perda de mensagens.

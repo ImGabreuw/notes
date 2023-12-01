@@ -4,7 +4,7 @@ A **_step function_** (função degrau), como demonstrado anteriormente no model
 
 A **função sigmoide**, por sua vez, produz resultados dentro do intervalo $[0, 1]$, uma característica que a distingue da função degrau, cujos valores se limitam a 0 e 1. A função sigmoide é amplamente aplicável e demonstra um bom desempenho em muitos cenários. Seu gráfico pode ser visualizado abaixo:
 
-![](./assets/grafico-funcao-sigmoid.png)
+![](grafico-funcao-sigmoid.png)
 
 Matematicamente, essa função é expressa como:
 
@@ -24,6 +24,6 @@ $$
 
 O gráfico dessa função é o seguinte:
 
-![](./assets/grafico-tangente-hiperbolica.png)
+![](grafico-tangente-hiperbolica.png)
 
 A escolha da função de ativação depende da natureza do problema e dos resultados desejados, e cada uma dessas funções possui suas próprias vantagens e aplicações específicas.

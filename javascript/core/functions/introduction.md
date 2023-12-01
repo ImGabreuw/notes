@@ -4,7 +4,7 @@
 
 As funções servem para declarar trechos que códigos que podem ser reutilizados ao longo da aplicação.
 
-**Função** é um [objeto de primeira classe](./function-first-class-object.md) no JavaScript, logo ela pode ser atribuído a uma variável (`const` ou `let`).
+**Função** é um [objeto de primeira classe](function-first-class-object.md) no JavaScript, logo ela pode ser atribuído a uma variável (`const` ou `let`).
 
 Toda função, por padrão, retorna `undefined`.
 

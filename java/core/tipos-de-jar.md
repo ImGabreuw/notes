@@ -2,7 +2,7 @@
 
 > ## **Representação**
 
-![](../assets/representacao-fatjar.png)
+![](representacao-fatjar.png)
 
 > ## **Fat JAR**
 

@@ -1,81 +1,73 @@
-# Notes
-
 ![[banner.png]]
 
 ## **Conteúdo**
 
-- [Android](android/README.md)
+- [Android](Android.md)
 
-- [[Negócio]]
-
-- [Carreira](career/README.md)
-
-- [Ciência da computação](computer-science/README.md)
+- [Ciência da computação](Ciência%20da%20computação.md)
 
 - [Inteligência artificial](Inteligência%20artificial.md)
 
-- [Banco de dados](database/README.md)
+- [Banco de dados](Banco%20de%20dados.md)
 
-- [Serviços de implantação](deployment-services/README.md)
+- [Serviços de implantação](Serviços%20de%20implantação.md)
 
-- [Padrões de projeto](design-pattern/README.md)
+- [Padrões de projeto](Padrões%20de%20projeto.md)
 
-- [DevOps](devops/README.md)
+- [DevOps](DevOps.md)
 
-- [Docker](docker/README.md)
+- [Docker](Docker.md)
 
-- [Git](git/README.md)
+- [Git](Git.md)
 
-- [GitHub](github/README.md)
+- [GitHub](GitHub.md)
 
-- [Go](go/README.md)
+- [Go](Go.md)
 
-- [Gradle](gradle/README.md)
+- [Gradle](Gradle.md)
 
-- [Java](java/README.md)
+- [Java](Java.md)
 
-- [JavaScript](javascript/README.md)
+- [JavaScript](JavaScript.md)
 
-- [Kotlin](kotlin/README.md)
+- [Kotlin](Kotlin.md)
 
-- [Kubernetes](kubernetes/README.md)
+- [Kubernetes](Kubernetes.md)
 
-- [Linux](linux/README.md)
+- [Linux](Linux.md)
 
-- [Make](make/README.md)
+- [Make](Make.md)
 
-- [Maven](maven/README.md)
+- [Maven](wiki/maven/README.md)
 
-- [Protocolos](protocols/README.md)
+- [Protocolos](Protocolos.md)
 
-- [Linguagem de programação](programming-language/README.md)
+- [Linguagem de programação](Linguagem%20de%20programação.md)
 
-- [Paradigmas de programação](programming-paradigm/README.md)
+- [Paradigmas de programação](Paradigma%20de%20programação.md)
 
-- [Python](Python.md)
+- [Python](wiki/python/Python.md)
 
-- [RabbitMQ](rabbitmq/README.md)
+- [RabbitMQ](wiki/rabbitmq/README.md)
 
-- [Shell](shell/README.md)
+- [Shell](Shell.md)
 
-- [Arquitetura de software](software-architecture/README.md)
+- [Arquitetura de software](Arquitetura%20de%20software.md)
 
-- [Ferramentas](tools/README.md)
+- [Ferramentas](Ferramentas.md)
 
-- [Documentação de software](software-documentation/README.md)
+- [Documentação de software](wiki/software-documentation/README.md)
 
-- [Web](web/README.md)
+- [Web](Web.md)
 
-- [Apache Kafka](apache-kafka/README.md)
+- [Apache Kafka](Apache%20Kafka.md)
 
-- [Objeto de transferência de dado](data-transfer-object/README.md)
+- [Objeto de transferência de dado](Objeto%20de%20transferência%20de%20dado.md)
 
-- [CSS](css/README.md)
+- [CSS](CSS.md)
 
-- [HTML](html/README.md)
+- [HTML](wiki/html/HTML.md)
 
-- [Paradigma de programação](programming-paradigm/README.md)
+- [Paradigma de programação](Paradigma%20de%20programação.md)
 
-- [Problemas / Erros](problems/README.md)
-
-- [Mercado financeiro](financial-market/README.md)
+- [Problemas / Erros](Problemas%20e%20erros.md)

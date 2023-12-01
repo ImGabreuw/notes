@@ -6,7 +6,7 @@ Enquanto o método (anotado com `@Transactional`) não for processado, não ser�
 
 Recomendado seu uso em casos de métodos que acessam o banco de dados e que podem lançar um erro durante a execução da query.
 
-**IMPORTANTE**: essa anotação só tem suporte para tabelas que possuem o [**InnoDB**](../../../../database/mysql/innodb-engine.md) como *engine*.
+**IMPORTANTE**: essa anotação só tem suporte para tabelas que possuem o [**InnoDB**](innodb-engine.md) como *engine*.
 
 > ## **Vantagens**
 

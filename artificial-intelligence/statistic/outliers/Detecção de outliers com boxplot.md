@@ -21,7 +21,7 @@ Para criar um boxplot, siga estas etapas:
 
 **Interpretação de um boxplot:**
 
-![](./assets/exemplo-boxplot.png)
+![](exemplo-boxplot.png)
 
 - O retângulo central representa o intervalo interquartil (IQR), que contém a maioria dos dados (50%).
 - A linha dentro do retângulo representa a mediana (Q2), que divide o conjunto de dados ao meio.

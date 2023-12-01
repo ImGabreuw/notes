@@ -38,15 +38,15 @@ Aqui estão alguns dos principais marcos e tecnologias que impulsionaram a evolu
 
 Veja abaixo um gráfico que mostra a evolução no custo do disco rígido por gigabyte (em dólar):
 
-![](./assets/evolucao-no-custo-por-gb.png)
+![](evolucao-no-custo-por-gb.png)
 
 A evolução na capacidade de armazenamento tem sido impulsionada por avanços contínuos na miniaturização dos componentes eletrônicos, melhoria das técnicas de fabricação e pesquisa em novas tecnologias de armazenamento. Com o tempo, a capacidade de armazenamento aumentou exponencialmente (como mostra a imagem a seguir), permitindo o armazenamento de volumes enormes de informações que impulsionam a inovação em diversas áreas da ciência e da tecnologia.
 
-![](./assets/evolucao-na-quantidade-de-dados.png)
+![](evolucao-na-quantidade-de-dados.png)
 
 Além disso, em 2021 foi publicado um estudo por cientistas sobre o armazenamento de dados em DNA e a imagem a baixo mostra um comparativo entre outras formas de armazenamento de dados:
 
-![](./assets/limite-de-armazenamento.png)
+![](limite-de-armazenamento.png)
 
 Devido essa evolução exponencial de dados e necessidade de processá-las, nos últimos anos há muito demanda por profissionais das áreas de machine learning e data science, entretanto há um deficit muito grande entre o número de ofertas de emprego e o número de profissionais capacitados.
 

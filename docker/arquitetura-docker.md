@@ -2,7 +2,7 @@
 
 ### Visão geral
 
-![](./assets/representacao-da-arquitetura-do-docker.png)
+![](representacao-da-arquitetura-do-docker.png)
 
 ### Docker daemon
   

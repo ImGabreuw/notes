@@ -64,7 +64,7 @@
 
         * **Saída**
 
-          ![](./assets/exemplo-saida-kubectl-get-pods-flag-n.png)
+          ![](exemplo-saida-kubectl-get-pods-flag-n.png)
 
 * **Subcomando `service`**
     
@@ -104,7 +104,7 @@
 
         * **Saída**
 
-          ![](./assets/exemplo-saida-kubectl-get-services-flag-n.png)
+          ![](exemplo-saida-kubectl-get-services-flag-n.png)
 
 ### apply
 

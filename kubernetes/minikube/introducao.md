@@ -8,7 +8,7 @@
 
 ### Arquitetura
 
-![](./assets/arquitetura-minikube.png)
+![](arquitetura-minikube.png)
 
 ### Addons
 
@@ -16,7 +16,7 @@
 
 * **Definição**: são funcionalidades extras do Kubernetes
 
-* **Comandos**: [clique aqui](./comandos.md)
+* **Comandos**: [clique aqui](wiki/kubernetes/minikube/comandos.md)
 
 * **Exemplos**
 

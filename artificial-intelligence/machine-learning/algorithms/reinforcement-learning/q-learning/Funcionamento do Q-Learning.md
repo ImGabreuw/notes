@@ -1,6 +1,6 @@
 A aprendizagem por reforço é um paradigma de aprendizado de máquina que se baseia na interação de um agente com um ambiente para que o agente aprenda a tomar ações que maximizem uma recompensa cumulativa ao longo do tempo. Essa abordagem é frequentemente aplicada a problemas em que um agente deve tomar sequências de decisões para atingir um objetivo específico. Aqui estão os principais elementos que compõem a aprendizagem por reforço:
 
-![](./assets/representacao-etapas-aprendizagem-de-reforco.png)
+![](representacao-etapas-aprendizagem-de-reforco.png)
 
 **1. Ambiente:**
 	O ambiente é o espaço no qual o agente opera e interage. Ele é definido por um conjunto de estados possíveis e as transições entre esses estados, geralmente representadas por meio de um modelo de probabilidade. Cada estado do ambiente representa uma configuração específica em um ponto no tempo. O ambiente também fornece recompensas ao agente como feedback sobre suas ações.
@@ -25,7 +25,7 @@ A seguir um exemplo para ilustrar o processo de aprendizagem:
 
 Considere um problema no qual o taxi precisa pegar o passageiro em Y e deixá-lo nos destinos R, B e G. Para isso, é necessário seguir algumas regras.
 
-![](./assets/exemplo.png)
+![](exemplo.png)
 
 Os movimentos (ações) permitidos são:
 
@@ -45,7 +45,7 @@ As recompensas são:
 
 A partir do conhecimento dos critérios de aprendizagem, as imagens a seguir mostram o passo a passo de execução do algoritmo.
 
-![](./assets/exemplo-etapas.png)
+![](exemplo-etapas.png)
 
 > Lembrando que o algoritmo percorre sempre o caminho com o menor valor para $V$ que é obtido por $\gamma \cdot V_{anterior}$
 

@@ -38,7 +38,7 @@ Mostrar o fluxo das informações e os elementos envolvidos, evidenciando a sequ
 
 > Problema: Escreva uma sequência de passos para se obter dois números, calcular e apresentar a soma desses valores.
 
-![](./assets/exemplo-fluxograma.png)
+![](exemplo-fluxograma.png)
 
 > ## **Pseudocódigo**
 
@@ -54,7 +54,7 @@ Os pseudocódigos não são muito recomendados, pois podem gerar ambiguidades. D
 
 > Problema: Escreva uma sequência de passos para se obter dois números, calcular e apresentar a soma desses valores.
 
-![](./assets/exemplo-pseudocodigo.png)
+![](exemplo-pseudocodigo.png)
 
 > ## **Linguagem de programação (Python)**
 
@@ -66,4 +66,4 @@ Os pseudocódigos não são muito recomendados, pois podem gerar ambiguidades. D
 
 > Problema: Escreva uma sequência de passos para se obter dois números, calcular e apresentar a soma desses valores.
 
-![](./assets/exemplo-python.png)
+![](exemplo-python.png)

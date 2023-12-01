@@ -10,7 +10,7 @@ Utiliza a mesma conexão *TCP* para enviar e receber dados do cliente e do servi
 
 A comunicação é feita baseado em **Server Push**:
 
-![](./assets/representacao-server-push.jpg)
+![](representacao-server-push.jpg)
 
 > ## **Curiosidade**
 

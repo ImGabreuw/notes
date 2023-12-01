@@ -2,7 +2,7 @@
 
 Embora o modelo Perceptron tenha tido sucesso em resolver problemas linearmente separáveis, ele não é apropriado para lidar com os desafios complexos e atuais da mesma forma. Para enfrentar essa complexidade, surgiu uma evolução: as **redes neurais multicamada**, também conhecidas como **_multilayer perceptron_**. A seguir, apresentamos uma representação desse avançado algoritmo:
 
-![](./assets/algoritmo-multilayer-perceptron.png)
+![](algoritmo-multilayer-perceptron.png)
 
 > O software [WEKA](https://www.cs.waikato.ac.nz/ml/weka/) oferece uma implementação desse algoritmo.
 

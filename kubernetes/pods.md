@@ -4,7 +4,7 @@
 
 ### **Representação**
 
-![](./assets/representacao-pods.png)
+![](representacao-pods.png)
 
 ### Definição
 

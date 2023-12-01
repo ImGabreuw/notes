@@ -4,7 +4,7 @@
 
 ### **Representação**
 
-![](./assets/representacao-microsservico-conceitos.png)
+![](representacao-microsservico-conceitos.png)
 
 ### **Fundamentos**
 
@@ -22,13 +22,13 @@ Não há como garantir alta disponibilidade com consistência forte ao mesmo tem
 
 **Consistência de dados** é a capacidade de garantir a integridade dos dados, sem divergência e nem ambiguidade de dados dentro da aplicação:
 
-  ![](./assets/exemplo-consistencia-de-dados.png)
+  ![](exemplo-consistencia-de-dados.png)
 
 ### **Disponibilidade VS Consistência forte**
 
 > Baseado no **teorema CAP**.
 
-![](./assets/disponibilidade-vs-consistencia-forte.png)
+![](disponibilidade-vs-consistencia-forte.png)
 
 Para garantir a alta disponibilidade em sistemas distribuídos com dados compartilhados é necessário a sincronia de dados de forma assíncrona e não bloqueante, gerando uma **inconsistência eventual**.
 
@@ -52,17 +52,17 @@ São identificadores temporais universalmente exclusivos e essenciais para a sin
 
 **OBS**: no contexto de microsserviços, identificados sequenciais não é considerado uma boa abordagem:
 
-![](./assets/identificaores-uuid.png)
+![](identificaores-uuid.png)
 
 ### **Acoplamento**
 
-![](./assets/exemplo-acoplamento.png)
+![](exemplo-acoplamento.png)
 
 **Não** existe desacoplamento absoluto entre os microsserviços, entretanto é possível ter um **baixo acoplamento**.
 
 ### **Disponibilidade**
 
-![](./assets/disponibilidade.png)
+![](disponibilidade.png)
 
 Não existe 100% de disponibilidade, pois sempre existe alguma dependência entre os serviços da aplicação.
 
@@ -104,7 +104,7 @@ Muito comum na migração de um aplicações monolíticas para microsserviços.
 
   * Geralmente feita via *REST API*
 
-    ![](./assets/comnicacao-sincrona-via-rest-api.png)
+    ![](comnicacao-sincrona-via-rest-api.png)
 
     > Comunicação utilizando o protocolo HTTP/HTTPS.
 
@@ -112,7 +112,7 @@ Muito comum na migração de um aplicações monolíticas para microsserviços.
 
 ### **Services Registry e Service Discovery**
 
-![](./assets/representacao-service-registry.png)
+![](representacao-service-registry.png)
 
 Monitoramento dos endereços/instâncias de cada serviço registrado nele, afim de fornecer essas informações para os serviços que necessitam disso. Além disso, o *Service Registry* faz o balanceamento de carga entre as instâncias de cada serviço, com o objetivo de buscar instância do serviço mais adequado para processar essa requisição.
 
@@ -122,7 +122,7 @@ Monitoramento dos endereços/instâncias de cada serviço registrado nele, afim 
 
 ### **Circuit Beaker**
 
-![](./assets/representacao-circuit-breaker.png)
+![](representacao-circuit-breaker.png)
 
 Prevenir falhas em cascatas na arquitetura.
 
@@ -142,7 +142,7 @@ Também atua na política de retentativa, mais para isso é necessário implemen
 
 ### **API Gateway Pattern**
 
-![](./assets/representacao-api-gateway.png)
+![](representacao-api-gateway.png)
 
 Centraliza as entradas externas, afim de evitar a exposição desnecessário de serviços.
 

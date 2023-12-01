@@ -8,7 +8,7 @@ Os elementos envolvidos são **independentes entre si**.
 
 > ## **Exemplo**
 
-![](./assets/diagrama-de-associacao.png)
+![](diagrama-de-associacao.png)
 
 ```ts
 export class Writer {

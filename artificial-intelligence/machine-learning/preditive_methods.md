@@ -6,7 +6,7 @@ Métodos preditivos são técnicas usadas na ciência de dados e no aprendizado 
 
 A regressão é um método preditivo usado quando queremos prever valores numéricos contínuos. Ele estabelece uma relação entre as variáveis independentes (características) e a variável dependente (valor a ser previsto). O modelo de regressão encontra a melhor linha ou curva que se ajusta aos dados de treinamento para estimar valores desconhecidos com base nessas relações. 
 
-![](./assets/representacao-regressao.png)
+![](representacao-regressao.png)
 
 Alguns exemplos que utilizam a técnica de regressão:
 
@@ -30,7 +30,7 @@ Alguns exemplos que utilizam a técnica de regressão:
 
 A classificação é outro método preditivo usado para atribuir objetos ou dados a diferentes categorias predefinidas com base em suas características. O algoritmo de classificação é treinado com um conjunto de dados rotulados, em que as classes já são conhecidas. O objetivo é aprender padrões a partir dos dados de treinamento para classificar novos dados em uma dessas classes. Alguns algoritmos de classificação comuns são árvores de decisão, máquinas de vetores de suporte (SVM) e k-vizinhos mais próximos (KNN).
 
-![](./assets/representacao-classificacao.png)
+![](representacao-classificacao.png)
 
 Alguns exemplos que utilizam a técnica de classificação:
 

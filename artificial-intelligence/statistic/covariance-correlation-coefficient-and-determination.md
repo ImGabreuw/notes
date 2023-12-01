@@ -71,6 +71,6 @@ Em resumo, a covariância mede a relação linear bruta entre duas variáveis, o
 
 Vale lembrar que a **correlação não é causa**, ou seja, mesmo que duas variáveis estejam correlacionadas isso não quer dizer que não necessariamente uma é a causa da outra e vice versa. Veja a figura abaixo:
 
-![](./assets/exemplo-de-corelacao-nao-e-causa.png)
+![](exemplo-de-corelacao-nao-e-causa.png)
 
 Nesse exemplo, mesmo que as variáveis "afogamento em piscina" e "aparição do Nicolas Cage nos filmes" estejam correlacionados, o número de afogamento em piscina não é explicado pelo número de filmes com a aparição de Nicolas Cade. Dessa forma, é importante realizar uma análise criteriosa antes de tirar alguma conclusão desse tipo.

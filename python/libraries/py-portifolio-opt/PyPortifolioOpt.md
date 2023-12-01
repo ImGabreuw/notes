@@ -1,1 +1,1 @@
-- [Introdução](python/libraries/py-portifolio-opt/introduction.md)
+- [Introdução](wiki/python/libraries/py-portifolio-opt/introduction.md)

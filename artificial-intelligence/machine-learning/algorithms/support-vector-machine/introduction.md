@@ -6,7 +6,7 @@ A ideia central por trás do SVM é encontrar um hiperplano com **margem máxima
 
 Em um cenário bidimensional, imagine um conjunto de pontos de duas classes diferentes em um gráfico. O SVM tenta encontrar uma linha reta (há casos em que pode ser uma superfície hiperplana em espaços de dimensão superior) que divida esses pontos da melhor maneira possível, maximizando a distância entre a linha e os pontos mais próximos de cada classe. Veja a imagem a baixo:
 
-![](./assets/representacao-margem-maxima.png)
+![](representacao-margem-maxima.png)
 
 O SVM pode ser usado para dois tipos principais de problemas:
 

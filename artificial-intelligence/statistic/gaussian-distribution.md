@@ -10,7 +10,7 @@ As principais características da distribuição normal incluem:
 
 3. **68-95-99.7 Regra:** Cerca de 68% dos dados estão dentro de um desvio padrão da média, 95% estão dentro de dois desvios padrão e 99.7% estão dentro de três desvios padrão.
 
-   [![](./assets/regra-68-95-99-distribuicao-normal.jpg)](https://builtin.com/data-science/empirical-rule)
+   [![](regra-68-95-99-distribuicao-normal.jpg)](https://builtin.com/data-science/empirical-rule)
 
 4. **Curva Assintótica:** A curva da distribuição normal nunca toca o eixo x (eixo horizontal), mas se aproxima infinitamente dele. Isso significa que a probabilidade de encontrar valores extremamente distantes da média é muito baixa, mas não é zero.
 

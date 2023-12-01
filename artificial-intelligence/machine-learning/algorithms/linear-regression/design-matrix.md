@@ -15,10 +15,10 @@ Onde:
 
 Por exemplo ao calcular a matriz de design em uma regressão linear simples, ela seguir feita da seguinte forma:
 
-![](./assets/design-matrix-regressao-simples.svg)
+![](design-matrix-regressao-simples.svg)
 
 Já para no caso de uma regressão linear múltipla, o cálculo da matriz de design seria:
 
-![](./assets/design-matrix-regressao-multipla.svg.svg)
+![](design-matrix-regressao-multipla.svg.svg)
 
 A matriz de design facilita o ajuste de parâmetros, pois permite que você reescreva a equação da regressão linear de forma mais eficiente usando álgebra linear. O objetivo é encontrar os valores de $\beta$ que minimizam a soma dos quadrados dos erros, como mencionado anteriormente.

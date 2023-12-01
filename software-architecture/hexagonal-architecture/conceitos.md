@@ -24,7 +24,7 @@
 
 ### Estrutura
 
-![](./assets/hexagonal-architecture.png)
+![](hexagonal-architecture.png)
 
 * **Application core**
 

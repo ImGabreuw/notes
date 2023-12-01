@@ -2,7 +2,7 @@
 
 No Git, os arquivos no seu repositório podem estar em diferentes estados, dependendo de como foram modificados e como você os interage. Existem quatro estados principais em que um arquivo pode estar: untracked, unmodified, modified e staged.
 
-![](./assets/file-state.png)
+![](file-state.png)
 
 ## Untracked
 

@@ -24,6 +24,6 @@ Abstrações não devem depender de detalhes. Detalhes devem depender de abstra�
 
 ### **TypeScript**
 
-- [Exemplo TypeScript](./examples/example-ts-1.md)
+- [Exemplo TypeScript](wiki/design-pattern/dependency-inversion/examples/example-ts-1.md)
 
-- [Exemplo em TypeScript com Nest](./examples/example-ts-nestjs-1.md)
+- [Exemplo em TypeScript com Nest](example-ts-nestjs-1.md)

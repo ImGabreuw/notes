@@ -2,19 +2,19 @@
 
 > ## **Estrutura**
 
-![](./assets/exemplo-diagrama-de-classe.png)
+![](exemplo-diagrama-de-classe.png)
 
 ### **Nome da classe**
 
-![](./assets/nome-da-classe.png)
+![](nome-da-classe.png)
 
 ### **Atributos**
 
-![](./assets/atributos-da-classe.png)
+![](atributos-da-classe.png)
 
 ### **Métodos**
 
-![](./assets/metodos-da-classe.png)
+![](metodos-da-classe.png)
 
 > ## **Modificadores de acesso**
 
@@ -28,11 +28,11 @@
 
 > ## **Relações entre classes**
 
-![](./assets/tipos-de-associacoes.png)
+![](tipos-de-associacoes.png)
 
 ### **Associação**
 
-![](./assets/association.png)
+![](association.png)
 
 ### **Generalização ou Herança**
 
@@ -40,24 +40,24 @@ Relação entre classes concretas e abstratas
 
 **OBS**: classes abstratas são escritas em _itálico_
 
-![](./assets/inheritance.png)
+![](inheritance.png)
 
 ### **Refinamento**
 
 Relação entre classes e interfaces.
 
-![](./assets/realization.png)
+![](realization.png)
 
 ### **Dependência**
 
-![](./assets/dependency.png)
+![](dependency.png)
 
 ### **Agregação**
 
-![](./assets/aggregation.png)
+![](aggregation.png)
 
 ### **Composição**
 
 É um tipo de agregação.
 
-![](./assets/composition.png)
+![](composition.png)

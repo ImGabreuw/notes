@@ -68,7 +68,7 @@ Os passos básicos da ANOVA incluem:
 
    Se $F$ calculado for menor que o valor crítico de $F$, não há evidência estatística para rejeitar a hipótese nula de igualdade das médias dos grupos. Se $F$ calculado for maior que o valor crítico, pode-se concluir que há uma diferença estatisticamente significativa entre pelo menos um par de médias dos grupos.
 
-   ![](./assets/analise-valor-f-critico.png)
+   ![](analise-valor-f-critico.png)
 
 A ANOVA pode ser usada em diversas situações, como comparação de resultados de diferentes tratamentos em experimentos científicos, avaliação da influência de diferentes variáveis independentes em um experimento, entre outros. Ela é uma ferramenta importante na análise estatística, especialmente quando se lida com mais de dois grupos de dados.
 

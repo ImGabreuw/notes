@@ -1,6 +1,6 @@
 # Padrão de hierarquia de sistema de arquivos
 
-![](./assets/linux-filesystem.webp)
+![](linux-filesystem.webp)
 
 A estrutura de diretório no sistema operacional Linux segue uma hierarquia padrão que organiza os arquivos e diretórios de forma lógica e consistente. Essa estrutura é conhecida como "Filesystem Hierarchy Standard" (FHS), e ela ajuda a manter uma organização clara e previsível dos arquivos do sistema. Aqui estão os principais diretórios e suas finalidades na hierarquia do Linux:
 

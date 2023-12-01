@@ -19,4 +19,4 @@ const funcao = criarFuncao();
 console.dir(funcao);
 ```
 
-![](./assets/exemplo-closures.png)
+![](exemplo-closures.png)

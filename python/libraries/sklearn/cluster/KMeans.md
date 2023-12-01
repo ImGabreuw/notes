@@ -77,7 +77,7 @@ graph3.show()
 
 **Saída:**
 
-![](./assets/kmeans-train-result.png)
+![](kmeans-train-result.png)
 
 Neste exemplo, os dados de idade e salário foram padronizados e agrupados em três clusters distintos usando o algoritmo K-Means. O gráfico de dispersão mostra os pontos de dados coloridos de acordo com os clusters atribuídos, e os centroides dos clusters são representados por círculos maiores.
 

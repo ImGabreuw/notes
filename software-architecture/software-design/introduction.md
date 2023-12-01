@@ -24,4 +24,4 @@ As práticas mais comum para design de software são:
 
 ### TypeScript
 
-- [Exemplo de **entidade de domínio**](./examples/example-ts-1.md)
+- [Exemplo de **entidade de domínio**](wiki/software-architecture/software-design/examples/example-ts-1.md)
