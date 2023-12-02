@@ -46,7 +46,7 @@
 
 - [Paradigmas de programação](Paradigma%20de%20programação.md)
 
-- [Python](wiki/python/Python.md)
+- [[Python]]
 
 - [RabbitMQ](wiki/rabbitmq/README.md)
 
