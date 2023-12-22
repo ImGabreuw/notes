@@ -28,7 +28,7 @@
 
 - [Java](Java.md)
 
-- [JavaScript](JavaScript.md)
+- [JavaScript](wiki/javascript/JavaScript.md)
 
 - [Kotlin](Kotlin.md)
 
@@ -64,7 +64,7 @@
 
 - [Objeto de transferência de dado](Objeto%20de%20transferência%20de%20dado.md)
 
-- [CSS](CSS.md)
+- [CSS](wiki/css/CSS.md)
 
 - [HTML](wiki/html/HTML.md)
 
