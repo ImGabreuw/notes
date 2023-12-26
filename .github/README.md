@@ -1,81 +1,42 @@
 # Notes
 
 <p align="center">
-    <img src="./assets/banner.png" width="100%">
+    <img src="banner.png" width="100%">
 </p>
 
-## **Conteúdo**
+Bem-vindo ao repositório "Notes"! Este projeto é uma compilação organizada das minhas anotações elaboradas com base em artigos, vídeos, cursos que consumi durante minha caminhada no vasto universo da programação. Aqui, você encontrará insights, dicas, e informações detalhadas sobre uma variedade de tópicos relacionados ao desenvolvimento de software, abrangendo desde linguagens de programação específicas até conceitos fundamentais da ciência da computação e práticas de desenvolvimento.
 
-- [Android](android/README.md)
+## Objetivo
 
-- [Carreira](career/README.md)
+**Compartilhar conhecimento** é o alicerce central para o meu crescimento pessoal e profissional. Assim, em 11/10/2021, criei este repositório com a intenção de transmitir às outras pessoas o aprendizado valioso que recebi ao longo da minha jornada, proveniente de pessoas extraordinárias. O propósito é repassar aquilo que me foi profundamente útil, buscando impactar positivamente a vida de outros da mesma forma que experimentei em minha própria trajetória. Acredito que o conhecimento compartilhado tem o poder de catalisar o crescimento coletivo e, ao disponibilizar estas notas, espero contribuir para a capacitação e inspiração de outros desenvolvedores.
 
-- [Ciência da computação](computer-science/README.md)
+## Estrutura do Repositório
 
-- [Inteligência artificial](Inteligência%20artificial.md)
+### [Android](android/README.md)
+Notas relacionadas ao desenvolvimento Android.
 
-- [Banco de dados](database/README.md)
+### [Carreira](career/README.md)
+Dicas e insights sobre a carreira no mundo da programação.
 
-- [Serviços de implantação](deployment-services/README.md)
+### [Ciência da Computação](computer-science/README.md)
+Conceitos fundamentais da ciência da computação.
 
-- [Padrões de projeto](design-pattern/README.md)
+### [Inteligência Artificial](Inteligência%20artificial.md)
+Exploração de temas relacionados à inteligência artificial.
 
-- [DevOps](devops/README.md)
+### [Banco de Dados](database/README.md)
+Aprofundamento em sistemas de gerenciamento de banco de dados.
 
-- [Docker](docker/README.md)
+E assim por diante...
 
-- [Git](git/README.md)
+## Como Navegar
 
-- [GitHub](github/README.md)
+Sinta-se à vontade para explorar as pastas e arquivos conforme seus interesses. Cada diretório contém informações específicas sobre o respectivo tópico, proporcionando uma visão abrangente e aprofundada.
 
-- [Go](go/README.md)
+Para uma experiência ainda mais acessível, recomendo explorar a versão web deste projeto. Clique neste [link](https://imgabreuw.github.io/notes-website/) para acessar a interface interativa, que proporciona uma navegação intuitiva e uma visão mais dinâmica das anotações.
 
-- [Gradle](gradle/README.md)
+## Contribuições
 
-- [Java](java/README.md)
+Este repositório está em constante evolução, e contribuições são bem-vindas! Se você identificar algum erro, tiver insights adicionais ou desejar adicionar informações, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-- [JavaScript](javascript/README.md)
-
-- [Kotlin](kotlin/README.md)
-
-- [Kubernetes](kubernetes/README.md)
-
-- [Linux](linux/README.md)
-
-- [Make](make/README.md)
-
-- [Maven](maven/README.md)
-
-- [Protocolos](protocols/README.md)
-
-- [Linguagem de programação](programming-language/README.md)
-
-- [Paradigmas de programação](programming-paradigm/README.md)
-
-- [Python](Python.md)
-
-- [RabbitMQ](rabbitmq/README.md)
-
-- [Shell](shell/README.md)
-
-- [Arquitetura de software](software-architecture/README.md)
-
-- [Ferramentas](tools/README.md)
-
-- [Documentação de software](software-documentation/README.md)
-
-- [Web](web/README.md)
-
-- [Apache Kafka](apache-kafka/README.md)
-
-- [Objeto de transferência de dado](data-transfer-object/README.md)
-
-- [CSS](css/README.md)
-
-- [HTML](html/README.md)
-
-- [Paradigma de programação](programming-paradigm/README.md)
-
-- [Problemas / Erros](problems/README.md)
-
-- [Mercado financeiro](financial-market/README.md)
+Espero que este repositório seja útil e inspire outros desenvolvedores em suas jornadas de aprendizado. Boa leitura e happy coding! 🚀
