@@ -1,9 +1,12 @@
-# Introdução ao ESLint
-
-> ## **Desativar uma regra do ESLint**
-
-### **Via arquivo `.eslintrc.js`**
-
+---
+id: "1703612852152"
+related:
+  - "[[JavaScript]]"
+  - "[[Introdução ao ESLint]]"
+---
+# Desativar regras do ESLint
+---
+### Via arquivo `.eslintrc.js`
 1. Descansar o mouse em cima do aviso do ESLint e após uns segundos aparecerá uma janela informando o erro e sua documentação
 
 2. No final dessa janela, terá algo parecido com `eslint([nome da regra])`
@@ -19,8 +22,7 @@
    };
    ```
 
-### **Via comentário**
-
+### Via comentário
 ```js
 const teste = 22;
 
@@ -33,3 +35,7 @@ const teste = 22;
 
 console.log(teste); // eslint-disable-line
 ```
+
+# Referências
+---
+- [[Curso de React.Js e Next.Js (nível intermediário e avançado)]]
