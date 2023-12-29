@@ -1,4 +1,0 @@
-- Módulo "under-sampling"
-	- [[TomekLinks]]
-- Módulo "over-sampling"
-	- [[SMOTE]]

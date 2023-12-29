@@ -1,7 +1,0 @@
-Os transformadores (*transformers*) são uma arquitetura fundamental em LLMs, como o GPT. Essa arquitetura permite que os modelos **processem texto de maneira eficaz** e **identifiquem relações complexas entre palavras e frases**.
-
-**Attention:** A atenção em LLMs refere-se à capacidade do modelo de enfocar partes específicas do texto de entrada ao realizar tarefas de processamento de linguagem natural. Em vez de tratar todas as palavras igualmente, a atenção permite que o modelo **pondere diferentes partes do texto de forma adaptativa**, com base em sua relevância para a tarefa em questão.
-
-**Self-Attention:** A auto-atenção é uma **forma especializada de atenção** em que o modelo pode considerar as **relações entre palavras dentro da mesma sentença ou contexto**. Em outras palavras, cada palavra em uma sentença pode "olhar" para todas as outras palavras na mesma sentença e avaliar sua importância para a tarefa. Isso é muito útil para capturar dependências de longo alcance e compreender a estrutura das frases.
-
-No contexto de LLMs, a auto-atenção é usada para aprender a estrutura da linguagem e as relações semânticas entre palavras e frases em um texto. Ela é uma das principais razões pelas quais os LLMs, como o GPT, são capazes de gerar texto coerente e relevante com base no contexto fornecido. A atenção e a auto-atenção são conceitos essenciais que impulsionaram avanços significativos em tarefas de NLP e tornaram os LLMs ferramentas úteis para várias aplicações na área de processamento de linguagem natural.
