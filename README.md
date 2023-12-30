@@ -1,7 +1,7 @@
 # Notes
 
 <p align="center">
-    <img src="banner.png" width="100%">
+    <img src="assets/banner.png" width="100%">
 </p>
 
 Bem-vindo ao repositório "Notes"! Este projeto é uma compilação organizada das minhas anotações elaboradas com base em artigos, vídeos, cursos que consumi durante minha caminhada no vasto universo da programação. Aqui, você encontrará insights, dicas, e informações detalhadas sobre uma variedade de tópicos relacionados ao desenvolvimento de software, abrangendo desde linguagens de programação específicas até conceitos fundamentais da ciência da computação e práticas de desenvolvimento.

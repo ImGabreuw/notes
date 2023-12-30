@@ -1,4 +1,4 @@
-name: Deploy Quartz site to GitHub Pages
+name: Deploy site to GitHub Pages
  
 on:
   push:
@@ -17,46 +17,18 @@ concurrency:
   cancel-in-progress: false
  
 jobs:
-  sync:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Update submodules
-        run: |
-          previous_status=$(git status)
-          git submodule update --remote --merge
-          git submodule foreach git pull origin master --recurse-submodules
-          current_status=$(git status)
-
-          if [ "$previous_status" != "$current_status" ]; then
-            echo "has_changed=true" >> $GITHUB_ENV
-          else
-            echo "has_changed=false" >> $GITHUB_ENV
-          fi
-      - name: Commit changes
-        if: ${{ env.has_changed == 'true'}}
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Sync notes [skip actions]" --author "GitHub Action <action@github.com>"
-      - name: Push changes
-        if: ${{ env.has_changed == 'true'}}
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
   build:
-    needs: sync
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
+      - uses: webfactory/ssh-agent@v0.8.0
         with:
-          fetch-depth: 0
-          submodules: 'recursive'
-          token: ${{ secrets.MY_ZETTELKASTEN_ASSETS }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - shell: bash
+        env:
+          MY_ZETTELKASTEN_URL: ${{ secrets.MY_ZETTELKASTEN_URL }}
+        run: |
+          git clone "$MY_ZETTELKASTEN_URL" content
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
