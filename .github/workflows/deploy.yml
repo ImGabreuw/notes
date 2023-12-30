@@ -21,16 +21,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
+      - uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - shell: bash
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           MY_ZETTELKASTEN_URL: ${{ secrets.MY_ZETTELKASTEN_URL }}
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git clone "$MY_ZETTELKASTEN_URL" content
+          git clone "$MY_ZETTELKASTEN_URL"
+          mkdir -p content
+          mv my-zettelkasten/assets content/assets
+          mv my-zettelkasten/wiki/* content
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
