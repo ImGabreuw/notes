@@ -26,7 +26,11 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           MY_ZETTELKASTEN_URL: ${{ secrets.MY_ZETTELKASTEN_URL }}
         run: |
-          ssh-agent sh -c 'echo "$SSH_PRIVATE_KEY" | ssh-add - && git clone "$MY_ZETTELKASTEN_URL" content'
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git clone "$MY_ZETTELKASTEN_URL" content'
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
