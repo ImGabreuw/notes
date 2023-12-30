@@ -21,14 +21,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - uses: webfactory/ssh-agent@v0.8.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - shell: bash
         env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           MY_ZETTELKASTEN_URL: ${{ secrets.MY_ZETTELKASTEN_URL }}
         run: |
-          git clone "$MY_ZETTELKASTEN_URL" content
+          ssh-agent sh -c 'echo "$SSH_PRIVATE_KEY" | ssh-add - && git clone "$MY_ZETTELKASTEN_URL" content'
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
