@@ -30,7 +30,7 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git clone "$MY_ZETTELKASTEN_URL" content'
+          git clone "$MY_ZETTELKASTEN_URL" content
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
