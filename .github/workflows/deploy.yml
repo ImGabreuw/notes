@@ -32,6 +32,7 @@ jobs:
           mkdir -p content
           mv my-zettelkasten/assets content/assets
           mv my-zettelkasten/wiki/* content
+          mkdir content/college
           mv my-zettelkasten/areas/college/* content/college
       - uses: actions/setup-node@v3
         with:
