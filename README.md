@@ -18,7 +18,7 @@ Se você também sente a necessidade de otimizar seu aprendizado, este repositó
 
 ## Como Navegar
 
-Para uma experiência mais completa, explore a versão web deste projeto. Clique neste [link](https://imgabreuw.github.io/notes-website/) para acessar uma interface interativa que facilita a navegação e apresenta as anotações de forma mais dinâmica.
+Para uma experiência mais completa, explore a versão web deste projeto. Clique neste [link](https://imgabreuw.github.io/notes/) para acessar uma interface interativa que facilita a navegação e apresenta as anotações de forma mais dinâmica.
 
 ## Contribuições
 
