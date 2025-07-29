@@ -6,7 +6,7 @@
 
 Bem-vindo ao repositório **Notes**! Aqui, você encontrará uma coleção organizada de anotações sobre ferramentas, tecnologias e boas práticas de desenvolvimento de software. Este repositório é um recurso prático e acessível para quem busca aprendizado e referências rápidas, abrangendo desde fundamentos da programação até tópicos avançados em ciência da computação e engenharia de software.
 
-> Este projeto foi desenvolvido com o framework [Quartz](https://github.com/jackyzha0/quartz).
+> Este projeto foi desenvolvido utilizando o framework [Quartz](https://github.com/jackyzha0/quartz).
 
 ## Objetivo
 
