@@ -8,13 +8,15 @@ document.addEventListener("nav", () => {
   for (let i = 0; i < els.length; i++) {
     const codeBlock = els[i].getElementsByTagName("code")[0]
     if (codeBlock) {
-      const source = codeBlock.innerText.replace(/\n\n/g, "\n")
+      const source = (
+        codeBlock.dataset.clipboard ? JSON.parse(codeBlock.dataset.clipboard) : codeBlock.innerText
+      ).replace(/\n\n/g, "\n")
       const button = document.createElement("button")
       button.className = "clipboard-button"
       button.type = "button"
       button.innerHTML = svgCopy
       button.ariaLabel = "Copy source"
-      button.addEventListener("click", () => {
+      function onClick() {
         navigator.clipboard.writeText(source).then(
           () => {
             button.blur()
@@ -26,7 +28,9 @@ document.addEventListener("nav", () => {
           },
           (error) => console.error(error),
         )
-      })
+      }
+      button.addEventListener("click", onClick)
+      window.addCleanup(() => button.removeEventListener("click", onClick))
       els[i].prepend(button)
     }
   }

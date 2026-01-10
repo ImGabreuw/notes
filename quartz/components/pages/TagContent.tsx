@@ -1,94 +1,133 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { Fragment, jsx, jsxs } from "preact/jsx-runtime"
-import { toJsxRuntime } from "hast-util-to-jsx-runtime"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 import style from "../styles/listPage.scss"
-import { PageList } from "../PageList"
-import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
+import { PageList, SortFn } from "../PageList"
+import { FullSlug, getAllSegmentPrefixes, resolveRelative, simplifySlug } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
-import { pluralize } from "../../util/lang"
+import { htmlToJsx } from "../../util/jsx"
+import { i18n } from "../../i18n"
+import { ComponentChildren } from "preact"
+import { concatenateResources } from "../../util/resources"
 
-const numPages = 10
-function TagContent(props: QuartzComponentProps) {
-  const { tree, fileData, allFiles } = props
-  const slug = fileData.slug
-
-  if (!(slug?.startsWith("tags/") || slug === "tags")) {
-    throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
-  }
-
-  const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
-  const allPagesWithTag = (tag: string) =>
-    allFiles.filter((file) =>
-      (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
-    )
-
-  const content =
-    (tree as Root).children.length === 0
-      ? fileData.description
-      : // @ts-ignore
-        toJsxRuntime(tree, { Fragment, jsx, jsxs, elementAttributeNameCase: "html" })
-
-  if (tag === "") {
-    const tags = [...new Set(allFiles.flatMap((data) => data.frontmatter?.tags ?? []))]
-    const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
-    for (const tag of tags) {
-      tagItemMap.set(tag, allPagesWithTag(tag))
-    }
-
-    return (
-      <div class="popover-hint">
-        <article>
-          <p>{content}</p>
-        </article>
-        <p>Found {tags.length} total tags.</p>
-        <div>
-          {tags.map((tag) => {
-            const pages = tagItemMap.get(tag)!
-            const listProps = {
-              ...props,
-              allFiles: pages,
-            }
-
-            const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0]
-            const content = contentPage?.description
-            return (
-              <div>
-                <h2>
-                  <a class="internal tag-link" href={`./${tag}`}>
-                    #{tag}
-                  </a>
-                </h2>
-                {content && <p>{content}</p>}
-                <p>
-                  {pluralize(pages.length, "item")} with this tag.{" "}
-                  {pages.length > numPages && `Showing first ${numPages}.`}
-                </p>
-                <PageList limit={numPages} {...listProps} />
-              </div>
-            )
-          })}
-        </div>
-      </div>
-    )
-  } else {
-    const pages = allPagesWithTag(tag)
-    const listProps = {
-      ...props,
-      allFiles: pages,
-    }
-
-    return (
-      <div class="popover-hint">
-        <article>{content}</article>
-        <p>{pluralize(pages.length, "item")} with this tag.</p>
-        <div>
-          <PageList {...listProps} />
-        </div>
-      </div>
-    )
-  }
+interface TagContentOptions {
+  sort?: SortFn
+  numPages: number
 }
 
-TagContent.css = style + PageList.css
-export default (() => TagContent) satisfies QuartzComponentConstructor
+const defaultOptions: TagContentOptions = {
+  numPages: 10,
+}
+
+export default ((opts?: Partial<TagContentOptions>) => {
+  const options: TagContentOptions = { ...defaultOptions, ...opts }
+
+  const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
+    const { tree, fileData, allFiles, cfg } = props
+    const slug = fileData.slug
+
+    if (!(slug?.startsWith("tags/") || slug === "tags")) {
+      throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
+    }
+
+    const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
+    const allPagesWithTag = (tag: string) =>
+      allFiles.filter((file) =>
+        (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
+      )
+
+    const content = (
+      (tree as Root).children.length === 0
+        ? fileData.description
+        : htmlToJsx(fileData.filePath!, tree)
+    ) as ComponentChildren
+    const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
+    const classes = cssClasses.join(" ")
+    if (tag === "/") {
+      const tags = [
+        ...new Set(
+          allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+        ),
+      ].sort((a, b) => a.localeCompare(b))
+      const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
+      for (const tag of tags) {
+        tagItemMap.set(tag, allPagesWithTag(tag))
+      }
+      return (
+        <div class="popover-hint">
+          <article class={classes}>
+            <p>{content}</p>
+          </article>
+          <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
+          <div>
+            {tags.map((tag) => {
+              const pages = tagItemMap.get(tag)!
+              const listProps = {
+                ...props,
+                allFiles: pages,
+              }
+
+              const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`).at(0)
+
+              const root = contentPage?.htmlAst
+              const content =
+                !root || root?.children.length === 0
+                  ? contentPage?.description
+                  : htmlToJsx(contentPage.filePath!, root)
+
+              const tagListingPage = `/tags/${tag}` as FullSlug
+              const href = resolveRelative(fileData.slug!, tagListingPage)
+
+              return (
+                <div>
+                  <h2>
+                    <a class="internal tag-link" href={href}>
+                      {tag}
+                    </a>
+                  </h2>
+                  {content && <p>{content}</p>}
+                  <div class="page-listing">
+                    <p>
+                      {i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}
+                      {pages.length > options.numPages && (
+                        <>
+                          {" "}
+                          <span>
+                            {i18n(cfg.locale).pages.tagContent.showingFirst({
+                              count: options.numPages,
+                            })}
+                          </span>
+                        </>
+                      )}
+                    </p>
+                    <PageList limit={options.numPages} {...listProps} sort={options?.sort} />
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )
+    } else {
+      const pages = allPagesWithTag(tag)
+      const listProps = {
+        ...props,
+        allFiles: pages,
+      }
+
+      return (
+        <div class="popover-hint">
+          <article class={classes}>{content}</article>
+          <div class="page-listing">
+            <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
+            <div>
+              <PageList {...listProps} sort={options?.sort} />
+            </div>
+          </div>
+        </div>
+      )
+    }
+  }
+
+  TagContent.css = concatenateResources(style, PageList.css)
+  return TagContent
+}) satisfies QuartzComponentConstructor
